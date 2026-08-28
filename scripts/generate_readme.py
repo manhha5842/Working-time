@@ -72,12 +72,15 @@ def aggregate_named(records: list[dict], key: str) -> dict[str, float]:
     return dict(sorted(totals.items(), key=lambda item: item[1], reverse=True))
 
 
-def top_rows(items: dict[str, float], total: float, limit: int = 8) -> str:
+def top_rows(
+    items: dict[str, float], total: float, limit: int | None = 8
+) -> str:
     if not items:
         return "| No data yet | — | — |"
 
+    selected = list(items.items()) if limit is None else list(items.items())[:limit]
     rows = []
-    for name, seconds in list(items.items())[:limit]:
+    for name, seconds in selected:
         pct = (seconds / total * 100) if total else 0
         rows.append(f"| {name} | {human_duration(seconds)} | {pct:.1f}% |")
     return "\n".join(rows)
@@ -162,6 +165,12 @@ Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 |---|---:|---:|
 {top_rows(projects, total_seconds)}
 
+## All Projects
+
+| Project | Time | Share |
+|---|---:|---:|
+{top_rows(projects, total_seconds, limit=None)}
+
 ## Editors
 
 | Editor | Time | Share |
@@ -189,16 +198,6 @@ README.md
 ```
 
 The workflow refreshes the most recent **7 days** on every run, so a missed or delayed run can recover automatically.
-
-### Required secret
-
-Create this repository secret in **Settings → Secrets and variables → Actions**:
-
-```text
-WAKATIME_API_KEY
-```
-
-Never commit the API key into the repository.
 """
 
     README.write_text(readme, encoding="utf-8")
