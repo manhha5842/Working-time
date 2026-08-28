@@ -2,17 +2,17 @@
 
 Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 
-> Last updated: **2026-08-28 16:15 ICT**
+> Last updated: **2026-08-28 16:16 ICT**
 
 ## Overview
 
 | Metric | Coding time |
 |---|---:|
-| Today | **4h 41m** |
-| This week | **27h 45m** |
-| This month | **123h 40m** |
-| This year | **135h 7m** |
-| All archived time | **135h 7m** |
+| Today | **4h 43m** |
+| This week | **27h 46m** |
+| This month | **123h 41m** |
+| This year | **135h 8m** |
+| All archived time | **135h 8m** |
 | Daily average (active days) | **5h 12m** |
 | Active days | **26** |
 | Best day | **2026-07-30 (8h 30m)** |
@@ -27,7 +27,7 @@ Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 | Tue | 2026-08-25 | 4h 2m |
 | Wed | 2026-08-26 | 4h 59m |
 | Thu | 2026-08-27 | 7h 53m |
-| Fri | 2026-08-28 | 4h 41m |
+| Fri | 2026-08-28 | 4h 43m |
 
 ## Top Languages
 
@@ -37,7 +37,7 @@ Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 | Dart | 23h 37m | 17.5% |
 | Java | 23h 14m | 17.2% |
 | Markdown | 22h 10m | 16.4% |
-| Other | 17h 59m | 13.3% |
+| Other | 18h | 13.3% |
 | SQL | 3h 55m | 2.9% |
 | Bash | 3h 17m | 2.4% |
 | YAML | 2h 57m | 2.2% |
@@ -48,7 +48,7 @@ Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 |---|---:|---:|
 | purchase-portal-be | 44h 54m | 33.2% |
 | hsafe-mobile | 37h 20m | 27.6% |
-| purchase-portal-fe | 30h 35m | 22.6% |
+| purchase-portal-fe | 30h 36m | 22.7% |
 | Zerun-pro-max | 11h 16m | 8.3% |
 | shopee-seeding-bot-develop | 4h 3m | 3.0% |
 | timesheet-claim | 3h 5m | 2.3% |
@@ -61,7 +61,7 @@ Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 |---|---:|---:|
 | purchase-portal-be | 44h 54m | 33.2% |
 | hsafe-mobile | 37h 20m | 27.6% |
-| purchase-portal-fe | 30h 35m | 22.6% |
+| purchase-portal-fe | 30h 36m | 22.7% |
 | Zerun-pro-max | 11h 16m | 8.3% |
 | shopee-seeding-bot-develop | 4h 3m | 3.0% |
 | timesheet-claim | 3h 5m | 2.3% |
@@ -82,8 +82,8 @@ Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 
 | Editor | Time | Share |
 |---|---:|---:|
-| VS Code | 69h 50m | 51.7% |
-| Codex Vscode | 64h 39m | 47.9% |
+| VS Code | 69h 52m | 51.7% |
+| Codex Vscode | 64h 39m | 47.8% |
 | CLI | 21m | 0.3% |
 | Codex CLI | 15m | 0.2% |
 | Android Studio | 0m | 0.0% |
@@ -92,7 +92,7 @@ Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 
 | OS | Time | Share |
 |---|---:|---:|
-| Windows | 135h 7m | 100.0% |
+| Windows | 135h 8m | 100.0% |
 
 ## How it works
 
