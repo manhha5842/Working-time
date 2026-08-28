@@ -10,82 +10,90 @@
 <body>
 <main class="wrap">
   <header>
-    <div class="title">
-      <h1>Working Time</h1>
-      <p>Personal coding analytics synced from archived WakaTime data.</p>
-    </div>
+    <div class="title"><h1>Working Time</h1><p>Personal coding analytics archived from WakaTime.</p></div>
     <div class="sync" id="sync">Loading…</div>
   </header>
 
-  <div class="toolbar">
+  <section class="toolbar panel compact">
     <div class="range" id="rangeButtons">
       <button data-days="7" class="active">7 Days</button>
       <button data-days="14">14 Days</button>
       <button data-days="30">30 Days</button>
-      <button data-days="0">All Time</button>
+      <button data-days="0">All Archived</button>
+    </div>
+    <div class="custom-range">
+      <input type="date" id="customStart" aria-label="Custom start date" />
+      <span>→</span>
+      <input type="date" id="customEnd" aria-label="Custom end date" />
+      <button id="applyCustom">Apply</button>
+    </div>
+    <div class="toolbar-actions">
+      <button id="exportCsv">CSV</button><button id="exportJson">JSON</button>
     </div>
     <div class="period" id="period"></div>
-  </div>
+  </section>
 
   <div class="archive-warning" id="archiveWarning"></div>
-
   <section class="grid4" id="summary"></section>
 
+  <section class="section panel" id="comparisonPanel">
+    <div class="panel-head"><h2>Period Comparison</h2><span class="hint">Selected period vs immediately previous equal period</span></div>
+    <div class="grid5" id="comparison"></div>
+  </section>
+
   <section class="section panel">
-    <div class="panel-head">
-      <h2>Daily Activity by Project</h2>
-      <span class="hint">Stable project colors · hover a day for exact breakdown</span>
+    <div class="panel-head responsive-head">
+      <div><h2>Daily Activity</h2><span class="hint">Switch between project and category breakdown</span></div>
+      <div class="segmented" id="dailyMode"><button data-mode="project" class="active">By Project</button><button data-mode="category">By Category</button></div>
     </div>
     <div class="chart"><canvas id="dailyChart"></canvas></div>
   </section>
 
   <section class="section panel">
-    <div class="panel-head timeline-head">
-      <div>
-        <h2>Hourly Project Timeline</h2>
-        <span class="hint">12am → 12am · hover a block for start time and duration</span>
-      </div>
-      <select id="timelineDay" class="timeline-select" aria-label="Timeline day"></select>
+    <div class="panel-head responsive-head">
+      <div><h2>Hourly Timeline</h2><span class="hint">12am → 12am · hover blocks for exact duration</span></div>
+      <div class="timeline-controls"><button id="timelinePrev">‹</button><select id="timelineSlice"><option value="project">Project</option><option value="language">Language</option><option value="category">Category</option><option value="editor">Editor</option><option value="os">Operating System</option><option value="machine">Machine</option></select><select id="timelineDay"></select><button id="timelineNext">›</button></div>
     </div>
     <div id="timeline" class="timeline"></div>
   </section>
 
-  <section class="section">
-    <div class="panel-head">
-      <h2>Projects</h2>
-      <span class="hint">Coding + AI metrics for selected period</span>
-    </div>
+  <section class="section" id="projectSection">
+    <div class="panel-head"><div><h2>Projects</h2><span class="hint">Click a project for drill-down</span></div></div>
     <div class="projects" id="projects"></div>
-    <details>
-      <summary>Show all projects</summary>
-      <div class="panel" style="margin-top:7px;overflow:auto">
-        <table>
-          <thead><tr><th>Project</th><th>Time</th><th>AI %</th><th>Prompts</th><th>Sessions</th><th>Tokens</th><th>Spend</th></tr></thead>
-          <tbody id="projectTable"></tbody>
-        </table>
-      </div>
-    </details>
+    <details><summary>Show all projects</summary><div class="panel table-scroll"><table><thead><tr><th>Project</th><th>Time</th><th>AI %</th><th>Prompts</th><th>Sessions</th><th>Tokens</th><th>Spend</th></tr></thead><tbody id="projectTable"></tbody></table></div></details>
+  </section>
+
+  <section class="section panel project-detail hidden" id="projectDetail">
+    <div class="panel-head"><div><h2 id="projectDetailTitle">Project Detail</h2><span class="hint" id="projectDetailRange"></span></div><button id="closeProject">Close</button></div>
+    <div class="grid4" id="projectDetailMetrics"></div>
+    <div class="grid2 detail-grid"><div><h3>Daily Time</h3><div class="chart short"><canvas id="projectDailyChart"></canvas></div></div><div><h3>AI vs Human</h3><div class="chart short"><canvas id="projectAiChart"></canvas></div></div></div>
   </section>
 
   <section class="section panel">
-    <div class="panel-head">
-      <h2>Categories</h2>
-      <span class="hint">Fixed semantic colors across every range</span>
-    </div>
-    <div class="category-legend" id="categoryLegend"></div>
-    <div class="category-strip" id="categoryStrip"></div>
-    <div class="chart tall"><canvas id="categoriesChart"></canvas></div>
+    <div class="panel-head"><h2>Categories</h2><span class="hint">Fixed semantic colors</span></div>
+    <div class="category-legend" id="categoryLegend"></div><div class="category-strip" id="categoryStrip"></div><div class="chart tall"><canvas id="categoriesChart"></canvas></div>
+  </section>
+
+  <section class="section panel ai-overview">
+    <div class="panel-head"><div><h2>AI Overview</h2><span class="hint">AI-attributed line changes, prompts, tokens and estimated spend</span></div></div>
+    <div class="ai-hero" id="aiHero"></div>
+    <div class="grid4" id="aiMetrics"></div>
+    <div class="ai-detail-grid" id="aiPromptDetails"></div>
   </section>
 
   <section class="section grid2">
-    <div class="panel">
-      <div class="panel-head"><h2>AI vs Human by Day</h2><span class="hint">Line changes</span></div>
-      <div class="chart"><canvas id="aiHumanChart"></canvas></div>
-    </div>
-    <div class="panel">
-      <div class="panel-head"><h2>Weekdays</h2><span class="hint">Average category time by weekday</span></div>
-      <div class="chart"><canvas id="weekdaysChart"></canvas></div>
-    </div>
+    <div class="panel"><div class="panel-head"><h2>AI vs Human by Day</h2><span class="hint">Additions above zero, deletions below zero</span></div><div class="chart"><canvas id="aiHumanChart"></canvas></div></div>
+    <div class="panel"><div class="panel-head"><h2>Diff Changes</h2><span class="hint">AI/Human additions and deletions</span></div><div class="chart"><canvas id="diffChart"></canvas></div></div>
+  </section>
+
+  <section class="section grid2">
+    <div class="panel"><div class="panel-head"><h2>Top AI-assisted Projects</h2></div><div id="topAiProjects" class="rank-list"></div></div>
+    <div class="panel"><div class="panel-head"><h2>Top Human-edited Projects</h2></div><div id="topHumanProjects" class="rank-list"></div></div>
+  </section>
+
+  <section class="section grid2">
+    <div class="panel"><div class="panel-head"><h2>AI Models</h2></div><div class="chart short"><canvas id="modelsChart"></canvas></div><table><thead><tr><th>Model</th><th>Lines</th><th>Spend</th></tr></thead><tbody id="models"></tbody></table></div>
+    <div class="panel"><div class="panel-head"><h2>Editors</h2></div><div class="chart short"><canvas id="editorsChart"></canvas></div><table><thead><tr><th>Editor</th><th>Time</th></tr></thead><tbody id="editors"></tbody></table></div>
   </section>
 
   <section class="section grid3">
@@ -95,31 +103,16 @@
   </section>
 
   <section class="section grid2">
-    <div class="panel">
-      <div class="panel-head"><h2>Latest Day vs Daily Average</h2></div>
-      <div class="gauge-wrap">
-        <div class="chart short"><canvas id="gaugeChart"></canvas></div>
-        <div class="gauge-text" id="gaugeText"></div>
-      </div>
-    </div>
-    <div class="panel">
-      <div class="panel-head"><h2>AI Coding</h2></div>
-      <div class="grid4" id="aiMetrics"></div>
-    </div>
+    <div class="panel"><div class="panel-head"><h2>Dependencies</h2><span class="hint">Top detected dependencies</span></div><div id="dependencies" class="rank-list"></div></div>
+    <div class="panel"><div class="panel-head"><h2>Weekdays</h2><span class="hint">Average category time by weekday</span></div><div class="chart"><canvas id="weekdaysChart"></canvas></div></div>
   </section>
 
   <section class="section grid2">
-    <div class="panel">
-      <div class="panel-head"><h2>AI Models</h2></div>
-      <table><thead><tr><th>Model</th><th>Lines</th><th>Spend</th></tr></thead><tbody id="models"></tbody></table>
-    </div>
-    <div class="panel">
-      <div class="panel-head"><h2>Editors</h2></div>
-      <table><thead><tr><th>Editor</th><th>Time</th></tr></thead><tbody id="editors"></tbody></table>
-    </div>
+    <div class="panel"><div class="panel-head"><h2>Latest Day vs Daily Average</h2></div><div class="gauge-wrap"><div class="chart short"><canvas id="gaugeChart"></canvas></div><div class="gauge-text" id="gaugeText"></div></div></div>
+    <div class="panel"><div class="panel-head"><h2>Archive Health</h2></div><div id="health" class="health"></div></div>
   </section>
 
-  <div class="foot">Static dashboard · generated from archived WakaTime data · API key is never exposed</div>
+  <div class="foot">Static dashboard · archived data stays in GitHub · API key is never exposed in the site.</div>
 </main>
 <script src="./app.js"></script>
 </body>
