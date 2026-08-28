@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark" />
+  <title>Working Time Dashboard</title>
+  <style>
+    :root {
+      --bg:#08111f; --panel:#0e1a2b; --panel2:#122238; --text:#ecf3ff;
+      --muted:#8fa2bb; --line:#203451; --accent:#66d9a8; --blue:#70a5ff;
+    }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; background:linear-gradient(180deg,#07101d,#0b1422 42%,#08111f); color:var(--text); }
+    .wrap { max-width:1180px; margin:auto; padding:34px 20px 64px; }
+    header { display:flex; justify-content:space-between; gap:20px; align-items:end; margin-bottom:26px; }
+    h1 { margin:0; font-size:clamp(30px,5vw,52px); letter-spacing:-.04em; }
+    h2 { margin:0 0 16px; font-size:20px; }
+    .muted { color:var(--muted); }
+    .updated { text-align:right; font-size:13px; }
+    .grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:14px; }
+    .card,.panel { background:rgba(14,26,43,.92); border:1px solid var(--line); border-radius:18px; box-shadow:0 14px 36px rgba(0,0,0,.15); }
+    .card { padding:18px; min-height:118px; }
+    .label { color:var(--muted); font-size:13px; margin-bottom:14px; }
+    .value { font-size:28px; font-weight:750; letter-spacing:-.03em; }
+    .sub { margin-top:7px; color:var(--muted); font-size:12px; }
+    .section { margin-top:24px; }
+    .panel { padding:20px; }
+    .split { display:grid; grid-template-columns:1.2fr .8fr; gap:14px; }
+    .bars { display:flex; align-items:end; height:220px; gap:7px; padding-top:18px; border-bottom:1px solid var(--line); }
+    .bar-wrap { flex:1; min-width:0; display:flex; flex-direction:column; align-items:center; justify-content:end; height:100%; gap:7px; }
+    .bar { width:100%; min-height:2px; max-width:38px; background:linear-gradient(180deg,var(--blue),#526cff); border-radius:7px 7px 2px 2px; position:relative; }
+    .bar:hover::after { content:attr(data-tip); position:absolute; bottom:calc(100% + 7px); left:50%; transform:translateX(-50%); white-space:nowrap; background:#020811; border:1px solid var(--line); padding:5px 7px; border-radius:7px; font-size:11px; z-index:3; }
+    .day { font-size:10px; color:var(--muted); overflow:hidden; text-overflow:ellipsis; width:100%; text-align:center; }
+    table { width:100%; border-collapse:collapse; font-size:13px; }
+    th,td { text-align:left; padding:11px 8px; border-bottom:1px solid var(--line); }
+    th { color:var(--muted); font-weight:600; }
+    th:last-child, td:last-child { text-align:right; }
+    tr:last-child td { border-bottom:none; }
+    details { margin-top:10px; }
+    summary { cursor:pointer; color:var(--blue); }
+    .pill { display:inline-flex; padding:5px 9px; border:1px solid var(--line); border-radius:999px; color:var(--muted); font-size:11px; }
+    .ai .value { color:var(--accent); }
+    .foot { margin-top:30px; font-size:12px; color:var(--muted); text-align:center; }
+    @media(max-width:900px){ .grid{grid-template-columns:repeat(2,1fr)} .split{grid-template-columns:1fr} }
+    @media(max-width:560px){ header{display:block} .updated{text-align:left;margin-top:8px} .grid{grid-template-columns:1fr 1fr} .card{min-height:100px;padding:14px}.value{font-size:22px}.wrap{padding:24px 13px 50px} }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <div>
+        <span class="pill">WakaTime archive</span>
+        <h1>Working Time</h1>
+        <div class="muted">Coding activity archived daily with GitHub Actions.</div>
+      </div>
+      <div class="updated" id="updated">Loading…</div>
+    </header>
+
+    <section class="grid" id="overview"></section>
+
+    <section class="section split">
+      <div class="panel">
+        <h2>Last 14 days</h2>
+        <div class="bars" id="dailyBars"></div>
+      </div>
+      <div class="panel">
+        <h2>Top projects</h2>
+        <table><thead><tr><th>Project</th><th>Time</th></tr></thead><tbody id="topProjects"></tbody></table>
+        <details><summary>Show all projects</summary><table><tbody id="allProjects"></tbody></table></details>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>🤖 AI Coding</h2>
+      <div class="grid ai" id="aiCards"></div>
+    </section>
+
+    <section class="section split">
+      <div class="panel">
+        <h2>AI models</h2>
+        <table><thead><tr><th>Model</th><th>Lines</th><th>Cost</th></tr></thead><tbody id="models"></tbody></table>
+      </div>
+      <div class="panel">
+        <h2>Languages</h2>
+        <table><thead><tr><th>Language</th><th>Time</th></tr></thead><tbody id="languages"></tbody></table>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div class="panel">
+        <h2>Editors</h2>
+        <table><thead><tr><th>Editor</th><th>Time</th></tr></thead><tbody id="editors"></tbody></table>
+      </div>
+      <div class="panel">
+        <h2>Categories</h2>
+        <table><thead><tr><th>Category</th><th>Time</th></tr></thead><tbody id="categories"></tbody></table>
+      </div>
+    </section>
+
+    <div class="foot">Static HTML · data refreshed by GitHub Actions</div>
+  </main>
+
+<script>
+const fmtTime = s => {
+  s = Number(s || 0); const m = Math.round(s / 60), h = Math.floor(m / 60), mm = m % 60;
+  if (h && mm) return `${h}h ${mm}m`; if (h) return `${h}h`; return `${mm}m`;
+};
+const fmtNum = n => Intl.NumberFormat('en',{notation:'compact',maximumFractionDigits:2}).format(Number(n||0));
+const fmtInt = n => Intl.NumberFormat('en').format(Math.round(Number(n||0)));
+const row = (a,b,c='') => `<tr><td>${escapeHtml(a)}</td>${c!==''?`<td>${b}</td><td>${c}</td>`:`<td>${b}</td>`}</tr>`;
+const escapeHtml = s => String(s ?? '').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+const card = (label,value,sub='') => `<article class="card"><div class="label">${label}</div><div class="value">${value}</div>${sub?`<div class="sub">${sub}</div>`:''}</article>`;
+
+async function load(){
+  const res = await fetch('./dashboard.json',{cache:'no-store'});
+  if(!res.ok) throw new Error('dashboard.json unavailable');
+  const d = await res.json(), o = d.overview, ai = d.ai;
+  document.getElementById('updated').innerHTML = `Last sync<br><strong>${new Date(d.generated_at).toLocaleString()}</strong>`;
+
+  document.getElementById('overview').innerHTML = [
+    card('Today',fmtTime(o.today_seconds)),
+    card('This week',fmtTime(o.week_seconds)),
+    card('This month',fmtTime(o.month_seconds)),
+    card('All archived time',fmtTime(o.all_time_seconds),`${o.active_days} active days · avg ${fmtTime(o.daily_average_seconds)}`)
+  ].join('');
+
+  const days = (d.daily||[]).slice(-14), max = Math.max(1,...days.map(x=>x.seconds));
+  document.getElementById('dailyBars').innerHTML = days.map(x=>{
+    const h = Math.max(1,(x.seconds/max)*100); const label=x.date.slice(5);
+    return `<div class="bar-wrap"><div class="bar" style="height:${h}%" data-tip="${label} · ${fmtTime(x.seconds)}"></div><div class="day">${label}</div></div>`;
+  }).join('');
+
+  const projects=d.projects||[];
+  document.getElementById('topProjects').innerHTML = projects.slice(0,8).map(x=>row(x.name,fmtTime(x.seconds))).join('') || row('No data','—');
+  document.getElementById('allProjects').innerHTML = projects.map(x=>row(x.name,fmtTime(x.seconds))).join('') || row('No data','—');
+
+  const totalLines=(ai.ai_additions||0)+(ai.ai_deletions||0);
+  document.getElementById('aiCards').innerHTML = [
+    card('AI sessions',fmtInt(ai.sessions)),
+    card('Prompt events',fmtInt(ai.prompt_events)),
+    card('AI line changes',fmtInt(totalLines),`${fmtInt(ai.ai_additions)} additions · ${fmtInt(ai.ai_deletions)} deletions`),
+    card('Estimated model cost',`$${Number(ai.cost||0).toFixed(2)}`),
+    card('Input tokens',fmtNum(ai.input_tokens)),
+    card('Cached input tokens',fmtNum(ai.cached_input_tokens)),
+    card('Output tokens',fmtNum(ai.output_tokens)),
+    card('Prompt length total',fmtNum(ai.prompt_length_sum))
+  ].join('');
+
+  const models=ai.models||[];
+  document.getElementById('models').innerHTML = models.map(x=>row(x.name,fmtInt(x.lines),`$${Number(x.cost||0).toFixed(2)}`)).join('') || row('No model data','—','—');
+  document.getElementById('languages').innerHTML = (d.languages||[]).slice(0,12).map(x=>row(x.name,fmtTime(x.seconds))).join('');
+  document.getElementById('editors').innerHTML = (d.editors||[]).map(x=>row(x.name,fmtTime(x.seconds))).join('');
+  document.getElementById('categories').innerHTML = (d.categories||[]).map(x=>row(x.name,fmtTime(x.seconds))).join('');
+}
+load().catch(err=>{ document.getElementById('updated').textContent='Failed to load dashboard'; console.error(err); });
+</script>
+</body>
+</html>
