@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T15:55:28.161030+07:00",
+  "generated_at": "2026-08-28T16:05:46.780455+07:00",
   "timezone": "Asia/Ho_Chi_Minh",
   "overview": {
     "today_seconds": 16336.764,
@@ -18,23 +18,112 @@
     {
       "date": "2026-08-22",
       "seconds": 0.0,
+      "projects": [],
+      "languages": [],
+      "editors": [],
+      "operating_systems": [],
+      "machines": [],
       "categories": [],
       "ai": {
         "ai_additions": 0,
         "ai_deletions": 0,
         "human_additions": 0,
         "human_deletions": 0,
-        "prompt_events": 0,
-        "sessions": 0,
         "input_tokens": 0,
         "cached_input_tokens": 0,
         "output_tokens": 0,
-        "cost": 0.0
+        "prompt_length_sum": 0,
+        "prompt_events": 0,
+        "sessions": 0,
+        "cost": 0.0,
+        "models": []
       }
     },
     {
       "date": "2026-08-23",
       "seconds": 4284.343,
+      "projects": [
+        {
+          "name": "purchase-portal-be",
+          "seconds": 4212.802,
+          "ai_additions": 526,
+          "ai_deletions": 142,
+          "human_additions": 3,
+          "human_deletions": 2,
+          "input_tokens": 794048,
+          "cached_input_tokens": 7541376,
+          "output_tokens": 60809,
+          "tokens": 8396233,
+          "prompt_events": 23,
+          "sessions": 2,
+          "cost": 3.308052,
+          "models": [
+            {
+              "name": "GPT",
+              "lines": 668.0,
+              "cost": 3.308052
+            }
+          ]
+        },
+        {
+          "name": "purchase-portal-fe",
+          "seconds": 71.541,
+          "ai_additions": 45,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 7156,
+          "cached_input_tokens": 135424,
+          "output_tokens": 2473,
+          "tokens": 145053,
+          "prompt_events": 0,
+          "sessions": 1,
+          "cost": 0.071073,
+          "models": [
+            {
+              "name": "GPT",
+              "lines": 45.0,
+              "cost": 0.071073
+            }
+          ]
+        }
+      ],
+      "languages": [
+        {
+          "name": "Java",
+          "seconds": 2746.717
+        },
+        {
+          "name": "Markdown",
+          "seconds": 1537.626
+        },
+        {
+          "name": "YAML",
+          "seconds": 0.0
+        }
+      ],
+      "editors": [
+        {
+          "name": "Codex Vscode",
+          "seconds": 3985.236
+        },
+        {
+          "name": "VS Code",
+          "seconds": 299.107
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "Windows",
+          "seconds": 4284.343
+        }
+      ],
+      "machines": [
+        {
+          "name": "ALEXANDER-II",
+          "seconds": 4284.343
+        }
+      ],
       "categories": [
         {
           "name": "AI Coding",
@@ -54,17 +143,128 @@
         "ai_deletions": 142,
         "human_additions": 3,
         "human_deletions": 2,
-        "prompt_events": 23,
-        "sessions": 2,
         "input_tokens": 801204,
         "cached_input_tokens": 7676800,
         "output_tokens": 63282,
-        "cost": 3.379125
+        "prompt_length_sum": 19972,
+        "prompt_events": 23,
+        "sessions": 2,
+        "cost": 3.379125,
+        "models": [
+          {
+            "name": "GPT",
+            "lines": 713.0,
+            "cost": 3.379125
+          }
+        ]
       }
     },
     {
       "date": "2026-08-24",
       "seconds": 22216.584,
+      "projects": [
+        {
+          "name": "purchase-portal-be",
+          "seconds": 17382.974,
+          "ai_additions": 1618,
+          "ai_deletions": 61,
+          "human_additions": 97,
+          "human_deletions": 11,
+          "input_tokens": 3583100,
+          "cached_input_tokens": 41267456,
+          "output_tokens": 261400,
+          "tokens": 45111956,
+          "prompt_events": 83,
+          "sessions": 5,
+          "cost": 18.463051,
+          "models": [
+            {
+              "name": "GPT",
+              "lines": 1679.0,
+              "cost": 16.947742
+            },
+            {
+              "name": "Codex-Vscode",
+              "lines": 0.0,
+              "cost": 1.515309
+            }
+          ]
+        },
+        {
+          "name": "purchase-portal-fe",
+          "seconds": 4833.61,
+          "ai_additions": 70,
+          "ai_deletions": 36,
+          "human_additions": 17,
+          "human_deletions": 13,
+          "input_tokens": 1567415,
+          "cached_input_tokens": 18519040,
+          "output_tokens": 58859,
+          "tokens": 20145314,
+          "prompt_events": 19,
+          "sessions": 3,
+          "cost": 1.352041,
+          "models": [
+            {
+              "name": "GPT",
+              "lines": 106.0,
+              "cost": 1.352041
+            }
+          ]
+        }
+      ],
+      "languages": [
+        {
+          "name": "Java",
+          "seconds": 9350.479
+        },
+        {
+          "name": "Markdown",
+          "seconds": 6815.471
+        },
+        {
+          "name": "TypeScript",
+          "seconds": 2635.662
+        },
+        {
+          "name": "SQL",
+          "seconds": 1740.011
+        },
+        {
+          "name": "Other",
+          "seconds": 914.529
+        },
+        {
+          "name": "Git",
+          "seconds": 670.655
+        },
+        {
+          "name": "XML",
+          "seconds": 89.777
+        }
+      ],
+      "editors": [
+        {
+          "name": "Codex Vscode",
+          "seconds": 17432.293
+        },
+        {
+          "name": "VS Code",
+          "seconds": 4784.291
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "Windows",
+          "seconds": 22216.584
+        }
+      ],
+      "machines": [
+        {
+          "name": "ALEXANDER-II",
+          "seconds": 22216.584
+        }
+      ],
       "categories": [
         {
           "name": "AI Coding",
@@ -92,17 +292,163 @@
         "ai_deletions": 97,
         "human_additions": 114,
         "human_deletions": 24,
-        "prompt_events": 102,
-        "sessions": 5,
         "input_tokens": 5150515,
         "cached_input_tokens": 59786496,
         "output_tokens": 320259,
-        "cost": 19.815092
+        "prompt_length_sum": 52518,
+        "prompt_events": 102,
+        "sessions": 5,
+        "cost": 19.815092,
+        "models": [
+          {
+            "name": "GPT",
+            "lines": 1785.0,
+            "cost": 18.299783
+          },
+          {
+            "name": "Codex-Vscode",
+            "lines": 0.0,
+            "cost": 1.515309
+          }
+        ]
       }
     },
     {
       "date": "2026-08-25",
       "seconds": 14494.428,
+      "projects": [
+        {
+          "name": "purchase-portal-be",
+          "seconds": 8006.461,
+          "ai_additions": 313,
+          "ai_deletions": 215,
+          "human_additions": 41,
+          "human_deletions": 72,
+          "input_tokens": 2064992,
+          "cached_input_tokens": 29658368,
+          "output_tokens": 114406,
+          "tokens": 31837766,
+          "prompt_events": 37,
+          "sessions": 2,
+          "cost": 6.164521,
+          "models": [
+            {
+              "name": "GPT",
+              "lines": 528.0,
+              "cost": 6.164521
+            }
+          ]
+        },
+        {
+          "name": "purchase-portal-fe",
+          "seconds": 4277.644,
+          "ai_additions": 21,
+          "ai_deletions": 36,
+          "human_additions": 17,
+          "human_deletions": 22,
+          "input_tokens": 2050192,
+          "cached_input_tokens": 5893632,
+          "output_tokens": 32576,
+          "tokens": 7976400,
+          "prompt_events": 18,
+          "sessions": 4,
+          "cost": 2.808825,
+          "models": [
+            {
+              "name": "GPT",
+              "lines": 57.0,
+              "cost": 1.200753
+            },
+            {
+              "name": "Codex-Vscode",
+              "lines": 0.0,
+              "cost": 1.608072
+            }
+          ]
+        },
+        {
+          "name": "website",
+          "seconds": 2210.323,
+          "ai_additions": 0,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 54484,
+          "cached_input_tokens": 248064,
+          "output_tokens": 13190,
+          "tokens": 315738,
+          "prompt_events": 5,
+          "sessions": 1,
+          "cost": 0.31686,
+          "models": [
+            {
+              "name": "GPT",
+              "lines": 0.0,
+              "cost": 0.31686
+            }
+          ]
+        }
+      ],
+      "languages": [
+        {
+          "name": "Java",
+          "seconds": 5878.767
+        },
+        {
+          "name": "TypeScript",
+          "seconds": 2765.697
+        },
+        {
+          "name": "Other",
+          "seconds": 2348.606
+        },
+        {
+          "name": "Markdown",
+          "seconds": 2033.574
+        },
+        {
+          "name": "Docker",
+          "seconds": 1217.829
+        },
+        {
+          "name": "SQL",
+          "seconds": 99.51
+        },
+        {
+          "name": "YAML",
+          "seconds": 96.064
+        },
+        {
+          "name": "HTML",
+          "seconds": 49.987
+        },
+        {
+          "name": "XML",
+          "seconds": 4.394
+        }
+      ],
+      "editors": [
+        {
+          "name": "Codex Vscode",
+          "seconds": 11018.598
+        },
+        {
+          "name": "VS Code",
+          "seconds": 3475.83
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "Windows",
+          "seconds": 14494.428
+        }
+      ],
+      "machines": [
+        {
+          "name": "ALEXANDER-II",
+          "seconds": 14494.428
+        }
+      ],
       "categories": [
         {
           "name": "AI Coding",
@@ -126,17 +472,210 @@
         "ai_deletions": 251,
         "human_additions": 58,
         "human_deletions": 94,
-        "prompt_events": 60,
-        "sessions": 6,
         "input_tokens": 4169668,
         "cached_input_tokens": 35800064,
         "output_tokens": 160172,
-        "cost": 9.290206
+        "prompt_length_sum": 82440,
+        "prompt_events": 60,
+        "sessions": 6,
+        "cost": 9.290206,
+        "models": [
+          {
+            "name": "GPT",
+            "lines": 585.0,
+            "cost": 7.682134
+          },
+          {
+            "name": "Codex-Vscode",
+            "lines": 0.0,
+            "cost": 1.608072
+          }
+        ]
       }
     },
     {
       "date": "2026-08-26",
       "seconds": 17920.424,
+      "projects": [
+        {
+          "name": "purchase-portal-be",
+          "seconds": 6941.262,
+          "ai_additions": 209,
+          "ai_deletions": 3,
+          "human_additions": 60,
+          "human_deletions": 16,
+          "input_tokens": 862991,
+          "cached_input_tokens": 7461504,
+          "output_tokens": 55099,
+          "tokens": 8379594,
+          "prompt_events": 57,
+          "sessions": 8,
+          "cost": 3.420079,
+          "models": [
+            {
+              "name": "GPT",
+              "lines": 212.0,
+              "cost": 3.420079
+            }
+          ]
+        },
+        {
+          "name": "purchase-portal-fe",
+          "seconds": 6153.956,
+          "ai_additions": 80,
+          "ai_deletions": 4,
+          "human_additions": 10,
+          "human_deletions": 65,
+          "input_tokens": 869823,
+          "cached_input_tokens": 7029120,
+          "output_tokens": 34661,
+          "tokens": 7933604,
+          "prompt_events": 22,
+          "sessions": 4,
+          "cost": 1.335743,
+          "models": [
+            {
+              "name": "GPT",
+              "lines": 84.0,
+              "cost": 1.335743
+            }
+          ]
+        },
+        {
+          "name": "website",
+          "seconds": 4480.838,
+          "ai_additions": 1008,
+          "ai_deletions": 0,
+          "human_additions": 36,
+          "human_deletions": 52,
+          "input_tokens": 1005741,
+          "cached_input_tokens": 6982912,
+          "output_tokens": 54418,
+          "tokens": 8043071,
+          "prompt_events": 29,
+          "sessions": 1,
+          "cost": 4.061083,
+          "models": [
+            {
+              "name": "GPT",
+              "lines": 1008.0,
+              "cost": 4.061083
+            }
+          ]
+        },
+        {
+          "name": "hsafe-mobile",
+          "seconds": 202.614,
+          "ai_additions": 0,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 18856,
+          "cached_input_tokens": 15104,
+          "output_tokens": 393,
+          "tokens": 34353,
+          "prompt_events": 1,
+          "sessions": 1,
+          "cost": 0.107775,
+          "models": [
+            {
+              "name": "Codex-Vscode",
+              "lines": 0.0,
+              "cost": 0.107775
+            }
+          ]
+        },
+        {
+          "name": "cho",
+          "seconds": 141.754,
+          "ai_additions": 0,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 48808,
+          "cached_input_tokens": 236160,
+          "output_tokens": 3332,
+          "tokens": 288300,
+          "prompt_events": 8,
+          "sessions": 1,
+          "cost": 0.184833,
+          "models": [
+            {
+              "name": "GPT",
+              "lines": 0.0,
+              "cost": 0.184833
+            }
+          ]
+        }
+      ],
+      "languages": [
+        {
+          "name": "Markdown",
+          "seconds": 5457.928
+        },
+        {
+          "name": "TypeScript",
+          "seconds": 4006.218
+        },
+        {
+          "name": "Other",
+          "seconds": 3442.539
+        },
+        {
+          "name": "SQL",
+          "seconds": 1688.004
+        },
+        {
+          "name": "Bash",
+          "seconds": 1018.942
+        },
+        {
+          "name": "Java",
+          "seconds": 987.337
+        },
+        {
+          "name": "YAML",
+          "seconds": 824.341
+        },
+        {
+          "name": "JSON",
+          "seconds": 458.622
+        },
+        {
+          "name": "Docker",
+          "seconds": 32.862
+        },
+        {
+          "name": "XML",
+          "seconds": 2.522
+        },
+        {
+          "name": "nvmrc",
+          "seconds": 1.109
+        }
+      ],
+      "editors": [
+        {
+          "name": "Codex Vscode",
+          "seconds": 10139.324
+        },
+        {
+          "name": "VS Code",
+          "seconds": 7781.1
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "Windows",
+          "seconds": 17920.424
+        }
+      ],
+      "machines": [
+        {
+          "name": "ALEXANDER-II",
+          "seconds": 17920.424
+        }
+      ],
       "categories": [
         {
           "name": "AI Coding",
@@ -164,17 +703,258 @@
         "ai_deletions": 7,
         "human_additions": 106,
         "human_deletions": 133,
-        "prompt_events": 117,
-        "sessions": 14,
         "input_tokens": 2806219,
         "cached_input_tokens": 21724800,
         "output_tokens": 147903,
-        "cost": 9.109513
+        "prompt_length_sum": 274494,
+        "prompt_events": 117,
+        "sessions": 14,
+        "cost": 9.109513,
+        "models": [
+          {
+            "name": "GPT",
+            "lines": 1304.0,
+            "cost": 9.001738
+          },
+          {
+            "name": "Codex-Vscode",
+            "lines": 0.0,
+            "cost": 0.107775
+          }
+        ]
       }
     },
     {
       "date": "2026-08-27",
       "seconds": 28390.066,
+      "projects": [
+        {
+          "name": "purchase-portal-be",
+          "seconds": 14596.79,
+          "ai_additions": 1497,
+          "ai_deletions": 263,
+          "human_additions": 250,
+          "human_deletions": 358,
+          "input_tokens": 3566517,
+          "cached_input_tokens": 47793992,
+          "output_tokens": 216903,
+          "tokens": 51577412,
+          "prompt_events": 80,
+          "sessions": 14,
+          "cost": 9.736903,
+          "models": [
+            {
+              "name": "GPT",
+              "lines": 937.0,
+              "cost": 7.581168
+            },
+            {
+              "name": "Github-Copilot",
+              "lines": 823.0,
+              "cost": 0.602106
+            },
+            {
+              "name": "Cline",
+              "lines": 0.0,
+              "cost": 1.553629
+            }
+          ]
+        },
+        {
+          "name": "purchase-portal-fe",
+          "seconds": 8426.029,
+          "ai_additions": 0,
+          "ai_deletions": 0,
+          "human_additions": 73,
+          "human_deletions": 306,
+          "input_tokens": 1649842,
+          "cached_input_tokens": 10955963,
+          "output_tokens": 51663,
+          "tokens": 12657468,
+          "prompt_events": 33,
+          "sessions": 7,
+          "cost": 3.32362,
+          "models": [
+            {
+              "name": "GPT",
+              "lines": 0.0,
+              "cost": 1.979669
+            },
+            {
+              "name": "Github-Copilot",
+              "lines": 0.0,
+              "cost": 1.226688
+            },
+            {
+              "name": "Cline",
+              "lines": 0.0,
+              "cost": 0.117263
+            }
+          ]
+        },
+        {
+          "name": "timesheet-claim",
+          "seconds": 2732.199,
+          "ai_additions": 633,
+          "ai_deletions": 99,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 1073870,
+          "cached_input_tokens": 21813760,
+          "output_tokens": 92879,
+          "tokens": 22980509,
+          "prompt_events": 13,
+          "sessions": 3,
+          "cost": 0.762503,
+          "models": [
+            {
+              "name": "GPT",
+              "lines": 732.0,
+              "cost": 0.762503
+            }
+          ]
+        },
+        {
+          "name": "website",
+          "seconds": 2329.48,
+          "ai_additions": 326,
+          "ai_deletions": 0,
+          "human_additions": 1,
+          "human_deletions": 0,
+          "input_tokens": 416637,
+          "cached_input_tokens": 4040064,
+          "output_tokens": 22354,
+          "tokens": 4479055,
+          "prompt_events": 13,
+          "sessions": 3,
+          "cost": 1.909536,
+          "models": [
+            {
+              "name": "GPT",
+              "lines": 326.0,
+              "cost": 1.909536
+            }
+          ]
+        },
+        {
+          "name": "shopee-seeding-bot-develop",
+          "seconds": 286.993,
+          "ai_additions": 0,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 147428,
+          "cached_input_tokens": 3280384,
+          "output_tokens": 10953,
+          "tokens": 3438765,
+          "prompt_events": 2,
+          "sessions": 1,
+          "cost": 0.108237,
+          "models": [
+            {
+              "name": "GPT",
+              "lines": 0.0,
+              "cost": 0.108237
+            }
+          ]
+        },
+        {
+          "name": "org.springframework.web.bind.annotation",
+          "seconds": 18.575,
+          "ai_additions": 0,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 0,
+          "cached_input_tokens": 0,
+          "output_tokens": 0,
+          "tokens": 0,
+          "prompt_events": 0,
+          "sessions": 1,
+          "cost": 0.0,
+          "models": []
+        }
+      ],
+      "languages": [
+        {
+          "name": "Java",
+          "seconds": 9722.219
+        },
+        {
+          "name": "TypeScript",
+          "seconds": 6718.898
+        },
+        {
+          "name": "Markdown",
+          "seconds": 4333.92
+        },
+        {
+          "name": "Other",
+          "seconds": 3177.967
+        },
+        {
+          "name": "JavaScript",
+          "seconds": 1727.587
+        },
+        {
+          "name": "XML",
+          "seconds": 1103.413
+        },
+        {
+          "name": "SQL",
+          "seconds": 1064.882
+        },
+        {
+          "name": "JSON",
+          "seconds": 279.126
+        },
+        {
+          "name": "YAML",
+          "seconds": 175.972
+        },
+        {
+          "name": "Bash",
+          "seconds": 52.083
+        },
+        {
+          "name": "Text",
+          "seconds": 27.971
+        },
+        {
+          "name": "TSConfig",
+          "seconds": 4.261
+        },
+        {
+          "name": "nvmrc",
+          "seconds": 1.767
+        }
+      ],
+      "editors": [
+        {
+          "name": "Codex Vscode",
+          "seconds": 18605.313
+        },
+        {
+          "name": "VS Code",
+          "seconds": 8807.036
+        },
+        {
+          "name": "CLI",
+          "seconds": 977.717
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "Windows",
+          "seconds": 28390.066
+        }
+      ],
+      "machines": [
+        {
+          "name": "ALEXANDER-II",
+          "seconds": 28390.066
+        }
+      ],
       "categories": [
         {
           "name": "AI Coding",
@@ -202,17 +982,185 @@
         "ai_deletions": 362,
         "human_additions": 324,
         "human_deletions": 664,
-        "prompt_events": 141,
-        "sessions": 20,
         "input_tokens": 6854294,
         "cached_input_tokens": 87884163,
         "output_tokens": 394752,
-        "cost": 15.840799
+        "prompt_length_sum": 437742,
+        "prompt_events": 141,
+        "sessions": 20,
+        "cost": 15.840799,
+        "models": [
+          {
+            "name": "GPT",
+            "lines": 1995.0,
+            "cost": 12.341113
+          },
+          {
+            "name": "Github-Copilot",
+            "lines": 823.0,
+            "cost": 1.828794
+          },
+          {
+            "name": "Cline",
+            "lines": 0.0,
+            "cost": 1.670892
+          }
+        ]
       }
     },
     {
       "date": "2026-08-28",
       "seconds": 16336.764,
+      "projects": [
+        {
+          "name": "purchase-portal-be",
+          "seconds": 8729.3,
+          "ai_additions": 489,
+          "ai_deletions": 143,
+          "human_additions": 251,
+          "human_deletions": 255,
+          "input_tokens": 1862757,
+          "cached_input_tokens": 45607552,
+          "output_tokens": 138569,
+          "tokens": 47608878,
+          "prompt_events": 35,
+          "sessions": 10,
+          "cost": 2.347003,
+          "models": [
+            {
+              "name": "GPT",
+              "lines": 632.0,
+              "cost": 2.347003
+            }
+          ]
+        },
+        {
+          "name": "purchase-portal-fe",
+          "seconds": 5275.517,
+          "ai_additions": 0,
+          "ai_deletions": 0,
+          "human_additions": 104,
+          "human_deletions": 176,
+          "input_tokens": 337162,
+          "cached_input_tokens": 14559488,
+          "output_tokens": 56841,
+          "tokens": 14953491,
+          "prompt_events": 24,
+          "sessions": 5,
+          "cost": 0.802828,
+          "models": [
+            {
+              "name": "GPT",
+              "lines": 0.0,
+              "cost": 0.666419
+            },
+            {
+              "name": "Cline",
+              "lines": 0.0,
+              "cost": 0.136409
+            }
+          ]
+        },
+        {
+          "name": "timesheet-claim",
+          "seconds": 2331.947,
+          "ai_additions": 579,
+          "ai_deletions": 26,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 1334717,
+          "cached_input_tokens": 16125696,
+          "output_tokens": 73645,
+          "tokens": 17534058,
+          "prompt_events": 7,
+          "sessions": 4,
+          "cost": 4.59614,
+          "models": [
+            {
+              "name": "GPT",
+              "lines": 605.0,
+              "cost": 3.577136
+            },
+            {
+              "name": "Codex-Vscode",
+              "lines": 0.0,
+              "cost": 1.019004
+            }
+          ]
+        }
+      ],
+      "languages": [
+        {
+          "name": "Java",
+          "seconds": 6798.848
+        },
+        {
+          "name": "TypeScript",
+          "seconds": 5457.83
+        },
+        {
+          "name": "Markdown",
+          "seconds": 1494.921
+        },
+        {
+          "name": "JSON",
+          "seconds": 1037.558
+        },
+        {
+          "name": "XML",
+          "seconds": 539.879
+        },
+        {
+          "name": "Bash",
+          "seconds": 491.004
+        },
+        {
+          "name": "JavaScript",
+          "seconds": 280.523
+        },
+        {
+          "name": "Other",
+          "seconds": 153.765
+        },
+        {
+          "name": "SQL",
+          "seconds": 44.6
+        },
+        {
+          "name": "YAML",
+          "seconds": 37.836
+        },
+        {
+          "name": "Prisma",
+          "seconds": 0.0
+        }
+      ],
+      "editors": [
+        {
+          "name": "Codex Vscode",
+          "seconds": 10059.956
+        },
+        {
+          "name": "VS Code",
+          "seconds": 5964.881
+        },
+        {
+          "name": "CLI",
+          "seconds": 311.927
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "Windows",
+          "seconds": 16336.764
+        }
+      ],
+      "machines": [
+        {
+          "name": "ALEXANDER-II",
+          "seconds": 16336.764
+        }
+      ],
       "categories": [
         {
           "name": "AI Coding",
@@ -232,288 +1180,31 @@
         "ai_deletions": 169,
         "human_additions": 355,
         "human_deletions": 431,
-        "prompt_events": 66,
-        "sessions": 17,
         "input_tokens": 3534636,
         "cached_input_tokens": 76292736,
         "output_tokens": 269055,
-        "cost": 7.745971
+        "prompt_length_sum": 166847,
+        "prompt_events": 66,
+        "sessions": 17,
+        "cost": 7.745971,
+        "models": [
+          {
+            "name": "GPT",
+            "lines": 1237.0,
+            "cost": 6.590558
+          },
+          {
+            "name": "Codex-Vscode",
+            "lines": 0.0,
+            "cost": 1.019004
+          },
+          {
+            "name": "Cline",
+            "lines": 0.0,
+            "cost": 0.136409
+          }
+        ]
       }
     }
-  ],
-  "projects": [
-    {
-      "name": "purchase-portal-be",
-      "seconds": 59869.589,
-      "ai_additions": 4652,
-      "ai_deletions": 827,
-      "human_additions": 702,
-      "human_deletions": 714,
-      "input_tokens": 12734405,
-      "cached_input_tokens": 179330248,
-      "output_tokens": 847186,
-      "tokens": 192911839,
-      "prompt_events": 315,
-      "sessions": 41,
-      "cost": 43.439609
-    },
-    {
-      "name": "purchase-portal-fe",
-      "seconds": 29038.297,
-      "ai_additions": 216,
-      "ai_deletions": 76,
-      "human_additions": 221,
-      "human_deletions": 582,
-      "input_tokens": 6481590,
-      "cached_input_tokens": 57092667,
-      "output_tokens": 237073,
-      "tokens": 63811330,
-      "prompt_events": 116,
-      "sessions": 24,
-      "cost": 9.69413
-    },
-    {
-      "name": "website",
-      "seconds": 9020.641,
-      "ai_additions": 1334,
-      "ai_deletions": 0,
-      "human_additions": 37,
-      "human_deletions": 52,
-      "input_tokens": 1476862,
-      "cached_input_tokens": 11271040,
-      "output_tokens": 89962,
-      "tokens": 12837864,
-      "prompt_events": 47,
-      "sessions": 5,
-      "cost": 6.287479
-    },
-    {
-      "name": "timesheet-claim",
-      "seconds": 5064.146,
-      "ai_additions": 1212,
-      "ai_deletions": 125,
-      "human_additions": 0,
-      "human_deletions": 0,
-      "input_tokens": 2408587,
-      "cached_input_tokens": 37939456,
-      "output_tokens": 166524,
-      "tokens": 40514567,
-      "prompt_events": 20,
-      "sessions": 7,
-      "cost": 5.358643
-    },
-    {
-      "name": "shopee-seeding-bot-develop",
-      "seconds": 286.993,
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 0,
-      "human_deletions": 0,
-      "input_tokens": 147428,
-      "cached_input_tokens": 3280384,
-      "output_tokens": 10953,
-      "tokens": 3438765,
-      "prompt_events": 2,
-      "sessions": 1,
-      "cost": 0.108237
-    },
-    {
-      "name": "hsafe-mobile",
-      "seconds": 202.614,
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 0,
-      "human_deletions": 0,
-      "input_tokens": 18856,
-      "cached_input_tokens": 15104,
-      "output_tokens": 393,
-      "tokens": 34353,
-      "prompt_events": 1,
-      "sessions": 1,
-      "cost": 0.107775
-    },
-    {
-      "name": "cho",
-      "seconds": 141.754,
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 0,
-      "human_deletions": 0,
-      "input_tokens": 48808,
-      "cached_input_tokens": 236160,
-      "output_tokens": 3332,
-      "tokens": 288300,
-      "prompt_events": 8,
-      "sessions": 1,
-      "cost": 0.184833
-    },
-    {
-      "name": "org.springframework.web.bind.annotation",
-      "seconds": 18.575,
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 0,
-      "human_deletions": 0,
-      "input_tokens": 0,
-      "cached_input_tokens": 0,
-      "output_tokens": 0,
-      "tokens": 0,
-      "prompt_events": 0,
-      "sessions": 1,
-      "cost": 0.0
-    }
-  ],
-  "languages": [
-    {
-      "name": "Java",
-      "seconds": 35484.367
-    },
-    {
-      "name": "Markdown",
-      "seconds": 21673.44
-    },
-    {
-      "name": "TypeScript",
-      "seconds": 21584.305
-    },
-    {
-      "name": "Other",
-      "seconds": 10037.406
-    },
-    {
-      "name": "SQL",
-      "seconds": 4637.007
-    },
-    {
-      "name": "JavaScript",
-      "seconds": 2008.11
-    },
-    {
-      "name": "JSON",
-      "seconds": 1775.306
-    },
-    {
-      "name": "XML",
-      "seconds": 1739.985
-    },
-    {
-      "name": "Bash",
-      "seconds": 1562.029
-    },
-    {
-      "name": "Docker",
-      "seconds": 1250.691
-    },
-    {
-      "name": "YAML",
-      "seconds": 1134.213
-    },
-    {
-      "name": "Git",
-      "seconds": 670.655
-    },
-    {
-      "name": "HTML",
-      "seconds": 49.987
-    },
-    {
-      "name": "Text",
-      "seconds": 27.971
-    },
-    {
-      "name": "TSConfig",
-      "seconds": 4.261
-    },
-    {
-      "name": "nvmrc",
-      "seconds": 2.876
-    },
-    {
-      "name": "Prisma",
-      "seconds": 0.0
-    }
-  ],
-  "editors": [
-    {
-      "name": "Codex Vscode",
-      "seconds": 71240.72
-    },
-    {
-      "name": "VS Code",
-      "seconds": 31112.245
-    },
-    {
-      "name": "CLI",
-      "seconds": 1289.644
-    }
-  ],
-  "operating_systems": [
-    {
-      "name": "Windows",
-      "seconds": 103642.609
-    }
-  ],
-  "machines": [
-    {
-      "name": "ALEXANDER-II",
-      "seconds": 103642.609
-    }
-  ],
-  "categories": [
-    {
-      "name": "AI Coding",
-      "seconds": 84877.894
-    },
-    {
-      "name": "Coding",
-      "seconds": 15642.871
-    },
-    {
-      "name": "Writing Docs",
-      "seconds": 1557.1
-    },
-    {
-      "name": "Writing Tests",
-      "seconds": 1358.963
-    },
-    {
-      "name": "Code Reviewing",
-      "seconds": 205.781
-    }
-  ],
-  "ai": {
-    "ai_additions": 7414,
-    "ai_deletions": 1028,
-    "human_additions": 960,
-    "human_deletions": 1348,
-    "input_tokens": 23316536,
-    "cached_input_tokens": 289165059,
-    "output_tokens": 1355423,
-    "prompt_length_sum": 1034013,
-    "prompt_events": 509,
-    "sessions": 64,
-    "cost": 65.180706,
-    "models": [
-      {
-        "name": "GPT",
-        "lines": 7619.0,
-        "cost": 57.294451
-      },
-      {
-        "name": "Github-Copilot",
-        "lines": 823.0,
-        "cost": 1.828794
-      },
-      {
-        "name": "Codex-Vscode",
-        "lines": 0.0,
-        "cost": 4.25016
-      },
-      {
-        "name": "Cline",
-        "lines": 0.0,
-        "cost": 1.807301
-      }
-    ]
-  }
+  ]
 }
