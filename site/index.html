@@ -80,7 +80,8 @@ function projectCard(p,maxSeconds){
 
 function doughnut(canvas,items){
   const filtered=(items||[]).filter(x=>x.seconds>0).slice(0,12); if(!filtered.length)return;
-  new Chart(canvas,{type:'doughnut',data:{labels:filtered.map(x=>x.name),datasets:[{data:filtered.map(x=>x.seconds),backgroundColor:filtered.map((_,i)=>palette[i%palette.length]),borderColor:'#fff',borderWidth:1}]},options:{maintainAspectRatio:false,cutout:'58%',plugins:{legend:{position:'right',labels:{boxWidth:10,font:{size:10},generateLabels(chart){return Chart.defaults.plugins.legend.labels.generateLabels(chart).map((x,i)=>({...x,text:`${x.text} · ${fmtShort(filtered[i].seconds)}`}))}}},tooltip:{...tooltipBase,callbacks:{label(ctx){const total=filtered.reduce((a,x)=>a+x.seconds,0);return ` ${ctx.label}: ${fmtTime(ctx.raw)} (${total?(ctx.raw/total*100).toFixed(1):0}%)`}}}}}});
+  const colors=filtered.map((_,i)=>palette[i%palette.length]);
+  new Chart(canvas,{type:'doughnut',data:{labels:filtered.map(x=>x.name),datasets:[{data:filtered.map(x=>x.seconds),backgroundColor:colors,borderColor:'#fff',borderWidth:1}]},options:{maintainAspectRatio:false,cutout:'58%',plugins:{legend:{position:'right',labels:{boxWidth:10,font:{size:10},generateLabels(chart){const meta=chart.getDatasetMeta(0);return filtered.map((item,i)=>({text:`${item.name} · ${fmtShort(item.seconds)}`,fillStyle:colors[i],strokeStyle:'#fff',lineWidth:1,hidden:meta.data[i]?.hidden===true,index:i}))}}},tooltip:{...tooltipBase,callbacks:{label(ctx){const total=filtered.reduce((a,x)=>a+x.seconds,0);const item=filtered[ctx.dataIndex];return ` ${item?.name||ctx.label||'Unknown'}: ${fmtTime(ctx.raw)} (${total?(ctx.raw/total*100).toFixed(1):0}%)`}}}}}});
 }
 
 async function load(){
