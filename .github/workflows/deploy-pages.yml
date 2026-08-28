@@ -5,11 +5,12 @@ on:
     branches: [main]
     paths:
       - "site/**"
-      - "data/**"
-      - "timeline/**"
       - "scripts/generate_site_data.py"
       - "scripts/smoke_test.py"
       - ".github/workflows/deploy-pages.yml"
+  workflow_run:
+    workflows: ["Sync WakaTime Archive"]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -23,6 +24,7 @@ concurrency:
 
 jobs:
   build:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
