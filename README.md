@@ -2,47 +2,79 @@
 
 Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 
-> Dashboard data will appear after the first successful workflow run.
+> Last updated: **2026-08-28 13:58 ICT**
 
 ## Overview
 
 | Metric | Coding time |
 |---|---:|
-| Today | — |
-| This week | — |
-| This month | — |
-| This year | — |
-| All archived time | — |
-| Daily average (active days) | — |
-| Active days | — |
-| Best day | — |
+| Today | **3h 32m** |
+| This week | **26h 35m** |
+| This month | **27h 47m** |
+| This year | **27h 47m** |
+| All archived time | **27h 47m** |
+| Daily average (active days) | **4h 38m** |
+| Active days | **6** |
+| Best day | **2026-08-27 (7h 53m)** |
 
 ## Last 7 Days
 
-The workflow will populate this section automatically.
+| Day | Date | Coding time |
+|---|---|---:|
+| Sat | 2026-08-22 | 0m |
+| Sun | 2026-08-23 | 1h 11m |
+| Mon | 2026-08-24 | 6h 10m |
+| Tue | 2026-08-25 | 4h 2m |
+| Wed | 2026-08-26 | 4h 59m |
+| Thu | 2026-08-27 | 7h 53m |
+| Fri | 2026-08-28 | 3h 32m |
 
 ## Top Languages
 
-The workflow will populate this section automatically.
+| Language | Time | Share |
+|---|---:|---:|
+| Java | 9h 16m | 33.4% |
+| Markdown | 6h 1m | 21.6% |
+| TypeScript | 5h 52m | 21.1% |
+| Other | 2h 53m | 10.4% |
+| SQL | 1h 17m | 4.6% |
+| JavaScript | 32m | 1.9% |
+| JSON | 25m | 1.5% |
+| Docker | 21m | 1.3% |
 
 ## Top Projects
 
-The workflow will populate this section automatically.
+| Project | Time | Share |
+|---|---:|---:|
+| purchase-portal-be | 16h | 57.6% |
+| purchase-portal-fe | 7h 56m | 28.5% |
+| website | 2h 30m | 9.0% |
+| timesheet-claim | 1h 10m | 4.2% |
+| shopee-seeding-bot-develop | 5m | 0.3% |
+| hsafe-mobile | 3m | 0.2% |
+| cho | 2m | 0.1% |
+| org.springframework.web.bind.annotation | 0m | 0.0% |
 
 ## Editors
 
-The workflow will populate this section automatically.
+| Editor | Time | Share |
+|---|---:|---:|
+| Codex Vscode | 19h 38m | 70.6% |
+| VS Code | 7h 48m | 28.1% |
+| CLI | 21m | 1.3% |
 
 ## Operating Systems
 
-The workflow will populate this section automatically.
+| OS | Time | Share |
+|---|---:|---:|
+| Windows | 27h 47m | 100.0% |
 
 ## How it works
 
 ```text
 WakaTime API
     ↓
-GitHub Actions (daily at 02:10 ICT)
+GitHub Actions (daily)
     ↓
 data/YYYY/MM/YYYY-MM-DD.json
     ↓
@@ -51,16 +83,14 @@ scripts/generate_readme.py
 README.md
 ```
 
-Every run refreshes the most recent **7 days**, helping recover data if a scheduled workflow is skipped or WakaTime data arrives late.
+The workflow refreshes the most recent **7 days** on every run, so a missed or delayed run can recover automatically.
 
-## Setup
+### Required secret
 
-Create a repository secret at **Settings → Secrets and variables → Actions → New repository secret**:
+Create this repository secret in **Settings → Secrets and variables → Actions**:
 
 ```text
 WAKATIME_API_KEY
 ```
 
-Then open **Actions → Backup WakaTime and update dashboard → Run workflow** to trigger the first import manually.
-
-> Never commit your WakaTime API key into this repository.
+Never commit the API key into the repository.
