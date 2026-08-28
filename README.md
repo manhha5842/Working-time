@@ -2,14 +2,14 @@
 
 Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 
-> Last updated: **2026-08-28 13:58 ICT**
+> Last updated: **2026-08-28 14:13 ICT**
 
 ## Overview
 
 | Metric | Coding time |
 |---|---:|
 | Today | **3h 32m** |
-| This week | **26h 35m** |
+| This week | **26h 36m** |
 | This month | **27h 47m** |
 | This year | **27h 47m** |
 | All archived time | **27h 47m** |
@@ -33,7 +33,7 @@ Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 
 | Language | Time | Share |
 |---|---:|---:|
-| Java | 9h 16m | 33.4% |
+| Java | 9h 17m | 33.4% |
 | Markdown | 6h 1m | 21.6% |
 | TypeScript | 5h 52m | 21.1% |
 | Other | 2h 53m | 10.4% |
@@ -46,10 +46,23 @@ Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 
 | Project | Time | Share |
 |---|---:|---:|
-| purchase-portal-be | 16h | 57.6% |
-| purchase-portal-fe | 7h 56m | 28.5% |
+| purchase-portal-be | 16h 1m | 57.6% |
+| purchase-portal-fe | 7h 56m | 28.6% |
 | website | 2h 30m | 9.0% |
-| timesheet-claim | 1h 10m | 4.2% |
+| timesheet-claim | 1h 9m | 4.1% |
+| shopee-seeding-bot-develop | 5m | 0.3% |
+| hsafe-mobile | 3m | 0.2% |
+| cho | 2m | 0.1% |
+| org.springframework.web.bind.annotation | 0m | 0.0% |
+
+## All Projects
+
+| Project | Time | Share |
+|---|---:|---:|
+| purchase-portal-be | 16h 1m | 57.6% |
+| purchase-portal-fe | 7h 56m | 28.6% |
+| website | 2h 30m | 9.0% |
+| timesheet-claim | 1h 9m | 4.1% |
 | shopee-seeding-bot-develop | 5m | 0.3% |
 | hsafe-mobile | 3m | 0.2% |
 | cho | 2m | 0.1% |
@@ -59,8 +72,8 @@ Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 
 | Editor | Time | Share |
 |---|---:|---:|
-| Codex Vscode | 19h 38m | 70.6% |
-| VS Code | 7h 48m | 28.1% |
+| Codex Vscode | 19h 37m | 70.6% |
+| VS Code | 7h 49m | 28.1% |
 | CLI | 21m | 1.3% |
 
 ## Operating Systems
