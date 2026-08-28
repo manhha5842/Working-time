@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate sanitized aggregate JSON for the static dashboard."""
+"""Generate sanitized WakaTime-like dashboard data from archived daily summaries."""
 
 from __future__ import annotations
 
@@ -51,139 +51,80 @@ def seconds(record: dict) -> float:
     return float(record["grand_total"].get("total_seconds") or 0)
 
 
-def sum_named(records: list[dict], key: str) -> list[dict]:
-    totals: dict[str, float] = defaultdict(float)
-    for record in records:
-        for item in record[key]:
-            totals[item.get("name") or "Unknown"] += float(item.get("total_seconds") or 0)
+def named_items(items: list[dict]) -> list[dict]:
     return [
-        {"name": name, "seconds": round(value, 3)}
-        for name, value in sorted(totals.items(), key=lambda x: x[1], reverse=True)
+        {
+            "name": item.get("name") or "Unknown",
+            "seconds": round(float(item.get("total_seconds") or 0), 3),
+        }
+        for item in items
     ]
 
 
-def aggregate_projects(records: list[dict]) -> list[dict]:
-    totals: dict[str, dict] = defaultdict(lambda: {
-        "seconds": 0.0,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "input_tokens": 0,
-        "cached_input_tokens": 0,
-        "output_tokens": 0,
-        "prompt_events": 0,
-        "sessions": 0,
-        "cost": 0.0,
-    })
-
-    for record in records:
-        for item in record["projects"]:
-            name = item.get("name") or "Unknown"
-            target = totals[name]
-            target["seconds"] += float(item.get("total_seconds") or 0)
-            target["ai_additions"] += int(item.get("ai_additions") or 0)
-            target["ai_deletions"] += int(item.get("ai_deletions") or 0)
-            target["human_additions"] += int(item.get("human_additions") or 0)
-            target["human_deletions"] += int(item.get("human_deletions") or 0)
-            target["input_tokens"] += int(item.get("ai_input_tokens") or 0)
-            target["cached_input_tokens"] += int(item.get("ai_cached_input_tokens") or 0)
-            target["output_tokens"] += int(item.get("ai_output_tokens") or 0)
-            target["prompt_events"] += int(item.get("ai_prompt_events_total") or 0)
-            target["sessions"] += int(item.get("ai_sessions") or 0)
-            target["cost"] += float(item.get("ai_model_total_cost") or 0)
-
-    result = []
-    for name, stats in sorted(totals.items(), key=lambda x: x[1]["seconds"], reverse=True):
-        result.append({
-            "name": name,
-            "seconds": round(stats["seconds"], 3),
-            "ai_additions": stats["ai_additions"],
-            "ai_deletions": stats["ai_deletions"],
-            "human_additions": stats["human_additions"],
-            "human_deletions": stats["human_deletions"],
-            "input_tokens": stats["input_tokens"],
-            "cached_input_tokens": stats["cached_input_tokens"],
-            "output_tokens": stats["output_tokens"],
-            "tokens": stats["input_tokens"] + stats["cached_input_tokens"] + stats["output_tokens"],
-            "prompt_events": stats["prompt_events"],
-            "sessions": stats["sessions"],
-            "cost": round(stats["cost"], 6),
-        })
-    return result
-
-
-def ai_totals(records: list[dict]) -> dict:
-    totals = {
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "input_tokens": 0,
-        "cached_input_tokens": 0,
-        "output_tokens": 0,
-        "prompt_length_sum": 0,
-        "prompt_events": 0,
-        "sessions": 0,
-        "cost": 0.0,
+def project_item(item: dict) -> dict:
+    input_tokens = int(item.get("ai_input_tokens") or 0)
+    cached_tokens = int(item.get("ai_cached_input_tokens") or 0)
+    output_tokens = int(item.get("ai_output_tokens") or 0)
+    return {
+        "name": item.get("name") or "Unknown",
+        "seconds": round(float(item.get("total_seconds") or 0), 3),
+        "ai_additions": int(item.get("ai_additions") or 0),
+        "ai_deletions": int(item.get("ai_deletions") or 0),
+        "human_additions": int(item.get("human_additions") or 0),
+        "human_deletions": int(item.get("human_deletions") or 0),
+        "input_tokens": input_tokens,
+        "cached_input_tokens": cached_tokens,
+        "output_tokens": output_tokens,
+        "tokens": input_tokens + cached_tokens + output_tokens,
+        "prompt_events": int(item.get("ai_prompt_events_total") or 0),
+        "sessions": int(item.get("ai_sessions") or 0),
+        "cost": round(float(item.get("ai_model_total_cost") or 0), 6),
+        "models": [
+            {
+                "name": model.get("name") or "Unknown",
+                "lines": float(model.get("lines") or 0),
+                "cost": round(float(model.get("cost") or 0), 6),
+            }
+            for model in (item.get("ai_model_breakdown") or [])
+        ],
     }
-    models: dict[str, dict[str, float]] = defaultdict(lambda: {"lines": 0.0, "cost": 0.0})
 
-    for record in records:
-        grand = record["grand_total"]
-        totals["ai_additions"] += int(grand.get("ai_additions") or 0)
-        totals["ai_deletions"] += int(grand.get("ai_deletions") or 0)
-        totals["human_additions"] += int(grand.get("human_additions") or 0)
-        totals["human_deletions"] += int(grand.get("human_deletions") or 0)
-        totals["input_tokens"] += int(grand.get("ai_input_tokens") or 0)
-        totals["cached_input_tokens"] += int(grand.get("ai_cached_input_tokens") or 0)
-        totals["output_tokens"] += int(grand.get("ai_output_tokens") or 0)
-        totals["prompt_length_sum"] += int(grand.get("ai_prompt_length_sum") or 0)
-        totals["prompt_events"] += int(grand.get("ai_prompt_events_total") or 0)
-        totals["sessions"] += int(grand.get("ai_sessions") or 0)
-        totals["cost"] += float(grand.get("ai_model_total_cost") or 0)
 
-        breakdown = grand.get("ai_model_breakdown") or []
-        if breakdown:
-            for item in breakdown:
-                name = item.get("name") or "Unknown"
-                models[name]["lines"] += float(item.get("lines") or 0)
-                models[name]["cost"] += float(item.get("cost") or 0)
-        else:
-            for name, line_count in (grand.get("ai_model_line_changes") or {}).items():
-                models[name]["lines"] += float(line_count or 0)
-            for name, model_cost in (grand.get("ai_model_costs") or {}).items():
-                models[name]["cost"] += float(model_cost or 0)
-
-    totals["cost"] = round(totals["cost"], 6)
-    totals["models"] = [
-        {"name": name, "lines": round(stats["lines"], 3), "cost": round(stats["cost"], 6)}
-        for name, stats in sorted(models.items(), key=lambda x: (x[1]["lines"], x[1]["cost"]), reverse=True)
-    ]
-    return totals
+def ai_item(grand: dict) -> dict:
+    return {
+        "ai_additions": int(grand.get("ai_additions") or 0),
+        "ai_deletions": int(grand.get("ai_deletions") or 0),
+        "human_additions": int(grand.get("human_additions") or 0),
+        "human_deletions": int(grand.get("human_deletions") or 0),
+        "input_tokens": int(grand.get("ai_input_tokens") or 0),
+        "cached_input_tokens": int(grand.get("ai_cached_input_tokens") or 0),
+        "output_tokens": int(grand.get("ai_output_tokens") or 0),
+        "prompt_length_sum": int(grand.get("ai_prompt_length_sum") or 0),
+        "prompt_events": int(grand.get("ai_prompt_events_total") or 0),
+        "sessions": int(grand.get("ai_sessions") or 0),
+        "cost": round(float(grand.get("ai_model_total_cost") or 0), 6),
+        "models": [
+            {
+                "name": model.get("name") or "Unknown",
+                "lines": float(model.get("lines") or 0),
+                "cost": round(float(model.get("cost") or 0), 6),
+            }
+            for model in (grand.get("ai_model_breakdown") or [])
+        ],
+    }
 
 
 def daily_item(record: dict) -> dict:
-    grand = record["grand_total"]
     return {
         "date": record["date"].isoformat(),
         "seconds": round(seconds(record), 3),
-        "categories": [
-            {"name": item.get("name") or "Unknown", "seconds": round(float(item.get("total_seconds") or 0), 3)}
-            for item in record["categories"]
-        ],
-        "ai": {
-            "ai_additions": int(grand.get("ai_additions") or 0),
-            "ai_deletions": int(grand.get("ai_deletions") or 0),
-            "human_additions": int(grand.get("human_additions") or 0),
-            "human_deletions": int(grand.get("human_deletions") or 0),
-            "prompt_events": int(grand.get("ai_prompt_events_total") or 0),
-            "sessions": int(grand.get("ai_sessions") or 0),
-            "input_tokens": int(grand.get("ai_input_tokens") or 0),
-            "cached_input_tokens": int(grand.get("ai_cached_input_tokens") or 0),
-            "output_tokens": int(grand.get("ai_output_tokens") or 0),
-            "cost": round(float(grand.get("ai_model_total_cost") or 0), 6),
-        },
+        "projects": [project_item(item) for item in record["projects"]],
+        "languages": named_items(record["languages"]),
+        "editors": named_items(record["editors"]),
+        "operating_systems": named_items(record["operating_systems"]),
+        "machines": named_items(record["machines"]),
+        "categories": named_items(record["categories"]),
+        "ai": ai_item(record["grand_total"]),
     }
 
 
@@ -214,16 +155,12 @@ def main() -> None:
             "all_time_seconds": round(total, 3),
             "daily_average_seconds": round(total / len(active), 3) if active else 0,
             "active_days": len(active),
-            "best_day": {"date": best["date"].isoformat(), "seconds": round(seconds(best), 3)} if best else None,
+            "best_day": {
+                "date": best["date"].isoformat(),
+                "seconds": round(seconds(best), 3),
+            } if best else None,
         },
         "daily": [daily_item(record) for record in records],
-        "projects": aggregate_projects(records),
-        "languages": sum_named(records, "languages"),
-        "editors": sum_named(records, "editors"),
-        "operating_systems": sum_named(records, "operating_systems"),
-        "machines": sum_named(records, "machines"),
-        "categories": sum_named(records, "categories"),
-        "ai": ai_totals(records),
     }
 
     SITE_DIR.mkdir(parents=True, exist_ok=True)
