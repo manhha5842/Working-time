@@ -2,7 +2,7 @@
 
 Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 
-> Last updated: **2026-08-28 16:16 ICT**
+> Last updated: **2026-08-28 16:17 ICT**
 
 ## Overview
 
@@ -35,9 +35,9 @@ Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 |---|---:|---:|
 | TypeScript | 28h 45m | 21.3% |
 | Dart | 23h 37m | 17.5% |
-| Java | 23h 14m | 17.2% |
+| Java | 23h 15m | 17.2% |
 | Markdown | 22h 10m | 16.4% |
-| Other | 18h | 13.3% |
+| Other | 17h 59m | 13.3% |
 | SQL | 3h 55m | 2.9% |
 | Bash | 3h 17m | 2.4% |
 | YAML | 2h 57m | 2.2% |
