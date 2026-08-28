@@ -2,18 +2,18 @@
 
 Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 
-> Last updated: **2026-08-28 14:45 ICT**
+> Last updated: **2026-08-28 15:55 ICT**
 
 ## Overview
 
 | Metric | Coding time |
 |---|---:|
-| Today | **3h 58m** |
-| This week | **27h 1m** |
-| This month | **28h 13m** |
-| This year | **28h 13m** |
-| All archived time | **28h 13m** |
-| Daily average (active days) | **4h 42m** |
+| Today | **4h 32m** |
+| This week | **27h 36m** |
+| This month | **28h 47m** |
+| This year | **28h 47m** |
+| All archived time | **28h 47m** |
+| Daily average (active days) | **4h 48m** |
 | Active days | **6** |
 | Best day | **2026-08-27 (7h 53m)** |
 
@@ -27,29 +27,29 @@ Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 | Tue | 2026-08-25 | 4h 2m |
 | Wed | 2026-08-26 | 4h 59m |
 | Thu | 2026-08-27 | 7h 53m |
-| Fri | 2026-08-28 | 3h 58m |
+| Fri | 2026-08-28 | 4h 32m |
 
 ## Top Languages
 
 | Language | Time | Share |
 |---|---:|---:|
-| Java | 9h 35m | 34.0% |
-| Markdown | 6h 1m | 21.3% |
-| TypeScript | 5h 57m | 21.1% |
-| Other | 2h 47m | 9.8% |
-| SQL | 1h 17m | 4.6% |
-| JavaScript | 32m | 1.9% |
+| Java | 9h 51m | 34.2% |
+| Markdown | 6h 1m | 20.9% |
+| TypeScript | 6h | 20.8% |
+| Other | 2h 47m | 9.7% |
+| SQL | 1h 17m | 4.5% |
+| JavaScript | 33m | 1.9% |
+| JSON | 30m | 1.7% |
 | XML | 29m | 1.7% |
-| JSON | 25m | 1.5% |
 
 ## Top Projects
 
 | Project | Time | Share |
 |---|---:|---:|
-| purchase-portal-be | 16h 21m | 57.9% |
-| purchase-portal-fe | 7h 56m | 28.1% |
-| website | 2h 30m | 8.9% |
-| timesheet-claim | 1h 15m | 4.4% |
+| purchase-portal-be | 16h 38m | 57.8% |
+| purchase-portal-fe | 8h 4m | 28.0% |
+| website | 2h 30m | 8.7% |
+| timesheet-claim | 1h 24m | 4.9% |
 | shopee-seeding-bot-develop | 5m | 0.3% |
 | hsafe-mobile | 3m | 0.2% |
 | cho | 2m | 0.1% |
@@ -59,10 +59,10 @@ Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 
 | Project | Time | Share |
 |---|---:|---:|
-| purchase-portal-be | 16h 21m | 57.9% |
-| purchase-portal-fe | 7h 56m | 28.1% |
-| website | 2h 30m | 8.9% |
-| timesheet-claim | 1h 15m | 4.4% |
+| purchase-portal-be | 16h 38m | 57.8% |
+| purchase-portal-fe | 8h 4m | 28.0% |
+| website | 2h 30m | 8.7% |
+| timesheet-claim | 1h 24m | 4.9% |
 | shopee-seeding-bot-develop | 5m | 0.3% |
 | hsafe-mobile | 3m | 0.2% |
 | cho | 2m | 0.1% |
@@ -72,15 +72,15 @@ Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 
 | Editor | Time | Share |
 |---|---:|---:|
-| Codex Vscode | 19h 42m | 69.8% |
-| VS Code | 8h 9m | 28.9% |
-| CLI | 21m | 1.3% |
+| Codex Vscode | 19h 47m | 68.7% |
+| VS Code | 8h 39m | 30.0% |
+| CLI | 21m | 1.2% |
 
 ## Operating Systems
 
 | OS | Time | Share |
 |---|---:|---:|
-| Windows | 28h 13m | 100.0% |
+| Windows | 28h 47m | 100.0% |
 
 ## How it works
 
