@@ -84,13 +84,3 @@ README.md
 ```
 
 The workflow refreshes the most recent **7 days** on every run, so a missed or delayed run can recover automatically.
-
-### Required secret
-
-Create this repository secret in **Settings → Secrets and variables → Actions**:
-
-```text
-WAKATIME_API_KEY
-```
-
-Never commit the API key into the repository.
