@@ -46,6 +46,9 @@ jobs:
       - name: Generate static site data
         run: python scripts/generate_site_data.py
 
+      - name: Validate dashboard JavaScript
+        run: node --check site/app.js
+
       - name: Commit updated archive
         run: |
           git config user.name "wakatime-bot"
