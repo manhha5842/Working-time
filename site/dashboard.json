@@ -1,20 +1,20 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-28T16:47:55.420665+07:00",
+  "generated_at": "2026-08-29T09:05:57.278559+07:00",
   "timezone": "Asia/Ho_Chi_Minh",
   "archive": {
     "first_date": "2026-07-30",
-    "last_date": "2026-08-28",
-    "archived_days": 30,
+    "last_date": "2026-08-29",
+    "archived_days": 31,
     "active_days": 26
   },
   "overview": {
-    "today_seconds": 19992.026,
-    "week_seconds": 103013.528,
-    "month_seconds": 448289.195,
-    "year_seconds": 489504.069,
-    "all_archived_seconds": 489504.069,
-    "daily_average_seconds": 18827.08,
+    "today_seconds": 0.0,
+    "week_seconds": 106080.9,
+    "month_seconds": 451356.567,
+    "year_seconds": 492571.441,
+    "all_archived_seconds": 492571.441,
+    "daily_average_seconds": 18945.055,
     "active_days": 26,
     "best_day": {
       "date": "2026-07-30",
@@ -86018,26 +86018,26 @@
     },
     {
       "date": "2026-08-28",
-      "seconds": 19992.026,
+      "seconds": 23059.398,
       "projects": [
         {
           "name": "purchase-portal-be",
-          "seconds": 10793.313,
+          "seconds": 11300.583,
           "ai_additions": 489,
           "ai_deletions": 143,
-          "human_additions": 251,
-          "human_deletions": 545,
-          "input_tokens": 1878282,
-          "cached_input_tokens": 45626240,
-          "output_tokens": 138915,
-          "prompt_length_sum": 129514,
-          "prompt_length_avg": 3238,
-          "prompt_length_avg_per_session": 3287,
-          "prompt_length_median_per_session": 2728,
-          "prompt_events": 40,
-          "prompts_avg_per_session": 3,
+          "human_additions": 273,
+          "human_deletions": 633,
+          "input_tokens": 1931826,
+          "cached_input_tokens": 45947520,
+          "output_tokens": 140300,
+          "prompt_length_sum": 248333,
+          "prompt_length_avg": 4209,
+          "prompt_length_avg_per_session": 3724,
+          "prompt_length_median_per_session": 3530,
+          "prompt_events": 59,
+          "prompts_avg_per_session": 4,
           "prompts_median_per_session": 2,
-          "sessions": 13,
+          "sessions": 15,
           "cost": 2.347003,
           "models": [
             {
@@ -86046,15 +86046,15 @@
               "cost": 2.347003
             }
           ],
-          "tokens": 47643437
+          "tokens": 48019646
         },
         {
           "name": "purchase-portal-fe",
-          "seconds": 6087.671,
+          "seconds": 7831.313,
           "ai_additions": 0,
           "ai_deletions": 0,
-          "human_additions": 105,
-          "human_deletions": 176,
+          "human_additions": 127,
+          "human_deletions": 181,
           "input_tokens": 405631,
           "cached_input_tokens": 14753536,
           "output_tokens": 58218,
@@ -86083,28 +86083,28 @@
         },
         {
           "name": "timesheet-claim",
-          "seconds": 3111.042,
-          "ai_additions": 594,
+          "seconds": 3927.502,
+          "ai_additions": 599,
           "ai_deletions": 88,
           "human_additions": 0,
           "human_deletions": 0,
-          "input_tokens": 1479322,
-          "cached_input_tokens": 20386816,
-          "output_tokens": 84637,
-          "prompt_length_sum": 7428,
-          "prompt_length_avg": 928,
-          "prompt_length_avg_per_session": 1756,
-          "prompt_length_median_per_session": 76,
-          "prompt_events": 8,
+          "input_tokens": 1534042,
+          "cached_input_tokens": 22706944,
+          "output_tokens": 90689,
+          "prompt_length_sum": 8301,
+          "prompt_length_avg": 692,
+          "prompt_length_avg_per_session": 1267,
+          "prompt_length_median_per_session": 178,
+          "prompt_events": 12,
           "prompts_avg_per_session": 2,
           "prompts_median_per_session": 1,
-          "sessions": 4,
-          "cost": 4.723472,
+          "sessions": 6,
+          "cost": 4.788081,
           "models": [
             {
               "name": "GPT",
-              "lines": 682.0,
-              "cost": 3.704468
+              "lines": 687.0,
+              "cost": 3.769077
             },
             {
               "name": "Codex-Vscode",
@@ -86112,41 +86112,41 @@
               "cost": 1.019004
             }
           ],
-          "tokens": 21950775
+          "tokens": 24331675
         }
       ],
       "languages": [
         {
           "name": "Java",
-          "seconds": 8305.503
+          "seconds": 9119.082
         },
         {
           "name": "TypeScript",
-          "seconds": 5828.497
-        },
-        {
-          "name": "Other",
-          "seconds": 1548.813
+          "seconds": 8461.921
         },
         {
           "name": "Markdown",
-          "seconds": 1533.287
+          "seconds": 2086.223
         },
         {
           "name": "JSON",
-          "seconds": 1074.156
-        },
-        {
-          "name": "Bash",
-          "seconds": 678.93
+          "seconds": 1428.46
         },
         {
           "name": "XML",
-          "seconds": 625.505
+          "seconds": 761.357
+        },
+        {
+          "name": "Bash",
+          "seconds": 680.619
         },
         {
           "name": "JavaScript",
-          "seconds": 285.328
+          "seconds": 292.562
+        },
+        {
+          "name": "Other",
+          "seconds": 117.167
         },
         {
           "name": "YAML",
@@ -86160,11 +86160,11 @@
       "editors": [
         {
           "name": "Codex Vscode",
-          "seconds": 10678.658
+          "seconds": 11476.078
         },
         {
           "name": "VS Code",
-          "seconds": 9001.441
+          "seconds": 11271.393
         },
         {
           "name": "CLI",
@@ -86174,53 +86174,73 @@
       "operating_systems": [
         {
           "name": "Windows",
-          "seconds": 19992.026
+          "seconds": 23059.398
         }
       ],
       "machines": [
         {
           "name": "ALEXANDER-II",
-          "seconds": 19992.026
+          "seconds": 23059.398
         }
       ],
       "categories": [
         {
           "name": "AI Coding",
-          "seconds": 15493.861
+          "seconds": 16584.434
         },
         {
           "name": "Coding",
-          "seconds": 3909.568
+          "seconds": 5844.152
         },
         {
           "name": "Writing Tests",
-          "seconds": 588.597
+          "seconds": 630.812
         }
       ],
       "dependencies": [
         {
           "name": "lotte.chamomile",
-          "seconds": 7585.201
+          "seconds": 8395.444
         },
         {
           "name": "springframework.http",
-          "seconds": 6862.458
+          "seconds": 7479.701
         },
         {
           "name": "react",
-          "seconds": 4798.757
+          "seconds": 7056.959
         },
         {
-          "name": "lombok.RequiredArgsConstructor",
-          "seconds": 4719.348
+          "name": "react-i18next",
+          "seconds": 6109.934
+        },
+        {
+          "name": "ui",
+          "seconds": 5725.044
         },
         {
           "name": "lucide-react",
-          "seconds": 4685.383
+          "seconds": 5672.812
+        },
+        {
+          "name": "lombok.RequiredArgsConstructor",
+          "seconds": 5088.552
+        },
+        {
+          "name": "icons",
+          "seconds": 4519.351
         },
         {
           "name": "navigation",
-          "seconds": 4237.831
+          "seconds": 4256.447
+        },
+        {
+          "name": "i18next",
+          "seconds": 4047.094
+        },
+        {
+          "name": "dayjs",
+          "seconds": 4030.762
         },
         {
           "name": "data",
@@ -86228,58 +86248,38 @@
         },
         {
           "name": "springframework.stereotype",
-          "seconds": 3945.969
+          "seconds": 3998.155
         },
         {
-          "name": "react-i18next",
-          "seconds": 3913.966
+          "name": "lombok.extern",
+          "seconds": 3707.049
         },
         {
-          "name": "ui",
-          "seconds": 3884.713
-        },
-        {
-          "name": "icons",
-          "seconds": 3769.943
-        },
-        {
-          "name": "i18next",
-          "seconds": 3684.264
-        },
-        {
-          "name": "purAuthorizationStore",
-          "seconds": 3681.081
+          "name": "springframework.util",
+          "seconds": 3707.049
         },
         {
           "name": "purPermissions",
-          "seconds": 3681.081
+          "seconds": 3699.466
         },
         {
           "name": "react-router",
-          "seconds": 3681.081
+          "seconds": 3690.94
+        },
+        {
+          "name": "purAuthorizationStore",
+          "seconds": 3690.94
         },
         {
           "name": "api",
-          "seconds": 3681.081
+          "seconds": 3690.94
         },
         {
           "name": "notificationText",
           "seconds": 3679.523
         },
         {
-          "name": "dayjs",
-          "seconds": 3676.458
-        },
-        {
-          "name": "user",
-          "seconds": 3660.654
-        },
-        {
           "name": "trello",
-          "seconds": 3660.654
-        },
-        {
-          "name": "purAuthorizationApi",
           "seconds": 3660.654
         },
         {
@@ -86287,79 +86287,143 @@
           "seconds": 3660.654
         },
         {
+          "name": "user",
+          "seconds": 3660.654
+        },
+        {
           "name": "useNotificationSse",
           "seconds": 3660.654
         },
         {
-          "name": "lombok.extern",
-          "seconds": 3654.863
-        },
-        {
-          "name": "springframework.util",
-          "seconds": 3654.863
+          "name": "purAuthorizationApi",
+          "seconds": 3660.654
         },
         {
           "name": "fasterxml.jackson",
-          "seconds": 3306.559
-        },
-        {
-          "name": "authSession",
-          "seconds": 3076.026
+          "seconds": 3497.136
         },
         {
           "name": "springframework.web",
-          "seconds": 2614.351
+          "seconds": 3206.229
+        },
+        {
+          "name": "authSession",
+          "seconds": 3085.885
         },
         {
           "name": "springframework.data",
-          "seconds": 2594.697
-        },
-        {
-          "name": "io.swagger",
-          "seconds": 2076.966
-        },
-        {
-          "name": "junit.jupiter",
-          "seconds": 2003.802
-        },
-        {
-          "name": "springframework.core",
-          "seconds": 1861.074
-        },
-        {
-          "name": "mockito.Mockito",
-          "seconds": 1205.859
+          "seconds": 2603.199
         },
         {
           "name": "types",
-          "seconds": 1175.531
+          "seconds": 2554.872
+        },
+        {
+          "name": "springframework.core",
+          "seconds": 2442.243
+        },
+        {
+          "name": "io.swagger",
+          "seconds": 2401.221
+        },
+        {
+          "name": "junit.jupiter",
+          "seconds": 2169.981
         },
         {
           "name": "springframework.security",
-          "seconds": 1115.012
+          "seconds": 1614.105
+        },
+        {
+          "name": "shared-utils",
+          "seconds": 1307.971
+        },
+        {
+          "name": "react-query",
+          "seconds": 1230.059
         },
         {
           "name": "assertj.core",
-          "seconds": 1022.903
+          "seconds": 1226.184
         },
         {
-          "name": "springframework.test",
-          "seconds": 980.899
+          "name": "skeleton",
+          "seconds": 1189.875
+        },
+        {
+          "name": "mockito.Mockito",
+          "seconds": 1179.038
         },
         {
           "name": "springframework.dao",
-          "seconds": 781.122
+          "seconds": 1103.354
         },
         {
-          "name": "node_modules/lodash.groupby",
+          "name": "springframework.test",
+          "seconds": 943.797
+        },
+        {
+          "name": "table",
+          "seconds": 914.722
+        },
+        {
+          "name": "badge",
+          "seconds": 856.57
+        },
+        {
+          "name": "status",
+          "seconds": 848.354
+        },
+        {
+          "name": "dialog",
+          "seconds": 842.807
+        },
+        {
+          "name": "orderListApi",
+          "seconds": 839.828
+        },
+        {
+          "name": "useDeliveryNotes",
+          "seconds": 839.828
+        },
+        {
+          "name": "DeliveryNoteUpload",
+          "seconds": 839.828
+        },
+        {
+          "name": "TablePagination",
+          "seconds": 772.204
+        },
+        {
+          "name": "node_modules/once",
           "seconds": 746.502
         },
         {
-          "name": "node_modules/@fast-csv/format",
+          "name": "node_modules/util-deprecate",
           "seconds": 746.502
         },
         {
-          "name": "node_modules/@types/react-dom",
+          "name": "node_modules/@emotion/unitless",
+          "seconds": 746.502
+        },
+        {
+          "name": "node_modules/caniuse-lite",
+          "seconds": 746.502
+        },
+        {
+          "name": "node_modules/@babel/plugin-transform-react-jsx-self",
+          "seconds": 746.502
+        },
+        {
+          "name": "node_modules/estraverse",
+          "seconds": 746.502
+        },
+        {
+          "name": "node_modules/ms",
+          "seconds": 746.502
+        },
+        {
+          "name": "node_modules/jszip/node_modules/safe-buffer",
           "seconds": 746.502
         },
         {
@@ -86367,7 +86431,39 @@
           "seconds": 746.502
         },
         {
-          "name": "node_modules/node-releases",
+          "name": "node_modules/@esbuild/freebsd-x64",
+          "seconds": 746.502
+        },
+        {
+          "name": "node_modules/jszip/node_modules/string_decoder",
+          "seconds": 746.502
+        },
+        {
+          "name": "node_modules/lodash.isundefined",
+          "seconds": 746.502
+        },
+        {
+          "name": "node_modules/@types/babel__traverse",
+          "seconds": 746.502
+        },
+        {
+          "name": "node_modules/lodash.groupby",
+          "seconds": 746.502
+        },
+        {
+          "name": "node_modules/@tinymce/tinymce-react",
+          "seconds": 746.502
+        },
+        {
+          "name": "node_modules/update-browserslist-db",
+          "seconds": 746.502
+        },
+        {
+          "name": "node_modules/@fast-csv/format",
+          "seconds": 746.502
+        },
+        {
+          "name": "node_modules/@esbuild/android-x64",
           "seconds": 746.502
         },
         {
@@ -86379,31 +86475,7 @@
           "seconds": 746.502
         },
         {
-          "name": "node_modules/@babel/plugin-transform-react-jsx-self",
-          "seconds": 746.502
-        },
-        {
-          "name": "node_modules/browserslist",
-          "seconds": 746.502
-        },
-        {
-          "name": "node_modules/estraverse",
-          "seconds": 746.502
-        },
-        {
-          "name": "node_modules/@types/babel__traverse",
-          "seconds": 746.502
-        },
-        {
-          "name": "node_modules/@esbuild/freebsd-x64",
-          "seconds": 746.502
-        },
-        {
-          "name": "node_modules/tar",
-          "seconds": 746.502
-        },
-        {
-          "name": "node_modules/util-deprecate",
+          "name": "node_modules/prop-types/node_modules/react-is",
           "seconds": 746.502
         },
         {
@@ -86411,15 +86483,63 @@
           "seconds": 746.502
         },
         {
-          "name": "node_modules/lodash.isundefined",
+          "name": "node_modules/tar",
           "seconds": 746.502
         },
         {
-          "name": "node_modules/prop-types/node_modules/react-is",
+          "name": "node_modules/@jridgewell/remapping",
           "seconds": 746.502
         },
         {
-          "name": "node_modules/jszip/node_modules/string_decoder",
+          "name": "node_modules/tar-stream",
+          "seconds": 746.502
+        },
+        {
+          "name": "node_modules/@tanstack/react-store",
+          "seconds": 746.502
+        },
+        {
+          "name": "node_modules/math-intrinsics",
+          "seconds": 746.502
+        },
+        {
+          "name": "node_modules/resolve-from",
+          "seconds": 746.502
+        },
+        {
+          "name": "node_modules/eslint",
+          "seconds": 746.502
+        },
+        {
+          "name": "node_modules/@types/react-dom",
+          "seconds": 746.502
+        },
+        {
+          "name": "node_modules/@types/prop-types",
+          "seconds": 746.502
+        },
+        {
+          "name": "node_modules/browserslist",
+          "seconds": 746.502
+        },
+        {
+          "name": "node_modules/@rc-component/color-picker/node_modules/@ant-design/fast-color",
+          "seconds": 746.502
+        },
+        {
+          "name": "node_modules/node-releases",
+          "seconds": 746.502
+        },
+        {
+          "name": "node_modules/esutils",
+          "seconds": 746.502
+        },
+        {
+          "name": "node_modules/esquery",
+          "seconds": 746.502
+        },
+        {
+          "name": "node_modules/@rollup/rollup-linux-riscv64-gnu",
           "seconds": 746.502
         },
         {
@@ -86431,100 +86551,44 @@
           "seconds": 746.502
         },
         {
-          "name": "node_modules/jszip/node_modules/safe-buffer",
-          "seconds": 746.502
-        },
-        {
-          "name": "node_modules/update-browserslist-db",
-          "seconds": 746.502
-        },
-        {
-          "name": "node_modules/@esbuild/android-x64",
-          "seconds": 746.502
-        },
-        {
-          "name": "node_modules/@tinymce/tinymce-react",
-          "seconds": 746.502
-        },
-        {
-          "name": "node_modules/@rollup/rollup-linux-riscv64-gnu",
-          "seconds": 746.502
-        },
-        {
-          "name": "node_modules/tar-stream",
-          "seconds": 746.502
-        },
-        {
-          "name": "node_modules/caniuse-lite",
-          "seconds": 746.502
-        },
-        {
           "name": "node_modules/@esbuild/darwin-arm64",
           "seconds": 746.502
         },
         {
-          "name": "node_modules/eslint",
-          "seconds": 746.502
+          "name": "axios",
+          "seconds": 722.75
         },
         {
-          "name": "node_modules/@jridgewell/remapping",
-          "seconds": 746.502
-        },
-        {
-          "name": "node_modules/once",
-          "seconds": 746.502
-        },
-        {
-          "name": "node_modules/@rc-component/color-picker/node_modules/@ant-design/fast-color",
-          "seconds": 746.502
-        },
-        {
-          "name": "node_modules/@types/prop-types",
-          "seconds": 746.502
-        },
-        {
-          "name": "node_modules/resolve-from",
-          "seconds": 746.502
-        },
-        {
-          "name": "node_modules/math-intrinsics",
-          "seconds": 746.502
-        },
-        {
-          "name": "node_modules/esquery",
-          "seconds": 746.502
-        },
-        {
-          "name": "node_modules/ms",
-          "seconds": 746.502
-        },
-        {
-          "name": "node_modules/@tanstack/react-store",
-          "seconds": 746.502
-        },
-        {
-          "name": "node_modules/esutils",
-          "seconds": 746.502
-        },
-        {
-          "name": "node_modules/@emotion/unitless",
-          "seconds": 746.502
-        },
-        {
-          "name": "shared-utils",
-          "seconds": 674.846
+          "name": "DashboardPanel",
+          "seconds": 642.593
         },
         {
           "name": "button",
-          "seconds": 629.917
+          "seconds": 638.674
         },
         {
-          "name": "skeleton",
-          "seconds": 556.75
+          "name": "index",
+          "seconds": 638.131
+        },
+        {
+          "name": "DashboardLoadingSkeleton",
+          "seconds": 631.176
+        },
+        {
+          "name": "evd-client",
+          "seconds": 565.991
         },
         {
           "name": "AuthContext",
-          "seconds": 532.311
+          "seconds": 541.068
+        },
+        {
+          "name": "errors",
+          "seconds": 530.272
+        },
+        {
+          "name": "prisma-db",
+          "seconds": 518.024
         },
         {
           "name": "jakarta.validation",
@@ -86535,24 +86599,100 @@
           "seconds": 485.888
         },
         {
-          "name": "react-query",
-          "seconds": 480.651
-        },
-        {
-          "name": "errors",
-          "seconds": 478.654
-        },
-        {
-          "name": "prisma-db",
-          "seconds": 466.406
+          "name": "antd",
+          "seconds": 388.977
         },
         {
           "name": "sun.net",
-          "seconds": 380.471
+          "seconds": 384.159
         },
         {
-          "name": "axios",
-          "seconds": 368.446
+          "name": "i18next-browser-languagedetector",
+          "seconds": 377.914
+        },
+        {
+          "name": "@gems/auth-core",
+          "seconds": 370.108
+        },
+        {
+          "name": "typescript-eslint",
+          "seconds": 370.108
+        },
+        {
+          "name": "vite",
+          "seconds": 370.108
+        },
+        {
+          "name": "clsx",
+          "seconds": 370.108
+        },
+        {
+          "name": "@gems/user-core",
+          "seconds": 370.108
+        },
+        {
+          "name": "@tanstack/react-query",
+          "seconds": 370.108
+        },
+        {
+          "name": "npm",
+          "seconds": 370.108
+        },
+        {
+          "name": "@ant-design/icons",
+          "seconds": 370.108
+        },
+        {
+          "name": "@tanstack/react-router",
+          "seconds": 370.108
+        },
+        {
+          "name": "typescript",
+          "seconds": 370.108
+        },
+        {
+          "name": "@types/node",
+          "seconds": 370.108
+        },
+        {
+          "name": "react-dom",
+          "seconds": 370.108
+        },
+        {
+          "name": "@types/react-dom",
+          "seconds": 370.108
+        },
+        {
+          "name": "@vitejs/plugin-react",
+          "seconds": 370.108
+        },
+        {
+          "name": "@gems/ui",
+          "seconds": 370.108
+        },
+        {
+          "name": "@gems/evd-client",
+          "seconds": 370.108
+        },
+        {
+          "name": "@tailwindcss/vite",
+          "seconds": 370.108
+        },
+        {
+          "name": "@fontsource/roboto",
+          "seconds": 370.108
+        },
+        {
+          "name": "@types/react",
+          "seconds": 370.108
+        },
+        {
+          "name": "tailwindcss",
+          "seconds": 370.108
+        },
+        {
+          "name": "zustand",
+          "seconds": 370.108
         },
         {
           "name": "client",
@@ -86560,26 +86700,26 @@
         },
         {
           "name": "card",
-          "seconds": 325.211
+          "seconds": 333.968
+        },
+        {
+          "name": "springframework.mock",
+          "seconds": 329.133
         },
         {
           "name": "sonner",
-          "seconds": 310.853
-        },
-        {
-          "name": "table",
-          "seconds": 281.597
+          "seconds": 319.61
         },
         {
           "name": "label",
-          "seconds": 281.48
-        },
-        {
-          "name": "accountant-recipients",
-          "seconds": 266.427
+          "seconds": 290.237
         },
         {
           "name": "email-service",
+          "seconds": 266.427
+        },
+        {
+          "name": "accountant-recipients",
           "seconds": 266.427
         },
         {
@@ -86587,120 +86727,108 @@
           "seconds": 264.906
         },
         {
+          "name": "attachment-storage",
+          "seconds": 263.845
+        },
+        {
           "name": "ClaimFormDialog",
           "seconds": 260.912
+        },
+        {
+          "name": "approver-resolver",
+          "seconds": 251.597
+        },
+        {
+          "name": "flow-service",
+          "seconds": 251.597
+        },
+        {
+          "name": "claim-adapter",
+          "seconds": 251.597
+        },
+        {
+          "name": "mockito.Mock",
+          "seconds": 235.241
+        },
+        {
+          "name": "mockito.ArgumentMatchers",
+          "seconds": 235.241
+        },
+        {
+          "name": "mockito.junit",
+          "seconds": 235.241
+        },
+        {
+          "name": "mockito.InjectMocks",
+          "seconds": 235.241
         },
         {
           "name": "textarea",
           "seconds": 229.926
         },
         {
-          "name": "mockito.Mock",
-          "seconds": 224.96
+          "name": "zod",
+          "seconds": 222.712
         },
         {
-          "name": "mockito.InjectMocks",
-          "seconds": 224.96
+          "name": "notificationService",
+          "seconds": 222.712
         },
         {
-          "name": "mockito.junit",
-          "seconds": 224.96
-        },
-        {
-          "name": "mockito.ArgumentMatchers",
-          "seconds": 224.96
-        },
-        {
-          "name": "badge",
-          "seconds": 223.445
-        },
-        {
-          "name": "attachment-storage",
-          "seconds": 212.227
-        },
-        {
-          "name": "dialog",
-          "seconds": 209.682
+          "name": "submission-adapter",
+          "seconds": 222.712
         },
         {
           "name": "axios-config",
-          "seconds": 209.682
-        },
-        {
-          "name": "flow-service",
-          "seconds": 199.979
-        },
-        {
-          "name": "approver-resolver",
-          "seconds": 199.979
-        },
-        {
-          "name": "claim-adapter",
-          "seconds": 199.979
+          "seconds": 218.439
         },
         {
           "name": "mockito.ArgumentCaptor",
           "seconds": 195.787
         },
         {
-          "name": "zod",
-          "seconds": 171.094
-        },
-        {
-          "name": "notificationService",
-          "seconds": 171.094
-        },
-        {
-          "name": "submission-adapter",
-          "seconds": 171.094
+          "name": "jakarta.servlet",
+          "seconds": 195.258
         },
         {
           "name": "springframework.transaction",
           "seconds": 162.979
         },
         {
+          "name": "select",
+          "seconds": 157.917
+        },
+        {
           "name": "ApprovalDiscussion",
           "seconds": 156.759
         },
         {
-          "name": "select",
-          "seconds": 149.16
-        },
-        {
-          "name": "springframework.mock",
-          "seconds": 147.058
+          "name": "StatsOverview",
+          "seconds": 147.836
         },
         {
           "name": "alert",
           "seconds": 142.518
         },
         {
-          "name": "TablePagination",
-          "seconds": 139.079
-        },
-        {
-          "name": "StatsOverview",
-          "seconds": 139.079
+          "name": "popover",
+          "seconds": 133.478
         },
         {
           "name": "TimeEntryRow",
           "seconds": 128.755
         },
         {
-          "name": "lombok.Setter",
+          "name": "lombok.Getter",
           "seconds": 128.44
         },
         {
-          "name": "lombok.Getter",
+          "name": "lombok.Setter",
           "seconds": 128.44
         },
         {
           "name": "springframework.boot",
           "seconds": 127.075
-        },
-        {
-          "name": "popover",
-          "seconds": 124.721
         },
         {
           "name": "claim-ui",
@@ -86719,27 +86847,15 @@
           "seconds": 90.727
         },
         {
-          "name": "DeliveryNoteUpload",
-          "seconds": 90.42
+          "name": "useCachedFetch",
+          "seconds": 89.684
         },
         {
-          "name": "useDeliveryNotes",
-          "seconds": 90.42
-        },
-        {
-          "name": "status",
-          "seconds": 90.42
-        },
-        {
-          "name": "orderListApi",
-          "seconds": 90.42
+          "name": "switch",
+          "seconds": 89.684
         },
         {
           "name": "auth",
-          "seconds": 83.642
-        },
-        {
-          "name": "server",
           "seconds": 83.642
         },
         {
@@ -86747,47 +86863,31 @@
           "seconds": 83.642
         },
         {
-          "name": "discussion-service",
+          "name": "server",
           "seconds": 83.642
         },
         {
-          "name": "useCachedFetch",
-          "seconds": 80.927
-        },
-        {
-          "name": "switch",
-          "seconds": 80.927
+          "name": "discussion-service",
+          "seconds": 83.642
         },
         {
           "name": "input",
           "seconds": 77.507
         },
         {
-          "name": "DashboardPanel",
-          "seconds": 71.702
+          "name": "react-day-picker",
+          "seconds": 43.794
         },
         {
-          "name": "DashboardLoadingSkeleton",
-          "seconds": 70.144
-        },
-        {
-          "name": "evd-client",
-          "seconds": 44.626
+          "name": "calendar-03",
+          "seconds": 43.794
         },
         {
           "name": "useReferenceData",
           "seconds": 43.794
         },
         {
-          "name": "react-day-picker",
-          "seconds": 43.794
-        },
-        {
           "name": "UnsavedChangesDialog",
-          "seconds": 43.794
-        },
-        {
-          "name": "calendar-03",
           "seconds": 43.794
         },
         {
@@ -86799,15 +86899,11 @@
           "seconds": 43.136
         },
         {
-          "name": "antd",
-          "seconds": 34.673
-        },
-        {
-          "name": "ClaimDetailDialog",
+          "name": "data-cache",
           "seconds": 33.713
         },
         {
-          "name": "data-cache",
+          "name": "ClaimDetailDialog",
           "seconds": 33.713
         },
         {
@@ -86831,99 +86927,19 @@
           "seconds": 24.439
         },
         {
-          "name": "i18next-browser-languagedetector",
-          "seconds": 23.61
+          "name": "order-type",
+          "seconds": 18.385
         },
         {
-          "name": "@types/node",
-          "seconds": 15.804
-        },
-        {
-          "name": "typescript-eslint",
-          "seconds": 15.804
-        },
-        {
-          "name": "@gems/evd-client",
-          "seconds": 15.804
-        },
-        {
-          "name": "@vitejs/plugin-react",
-          "seconds": 15.804
-        },
-        {
-          "name": "@gems/ui",
-          "seconds": 15.804
-        },
-        {
-          "name": "react-dom",
-          "seconds": 15.804
-        },
-        {
-          "name": "@tanstack/react-query",
-          "seconds": 15.804
-        },
-        {
-          "name": "@ant-design/icons",
-          "seconds": 15.804
-        },
-        {
-          "name": "vite",
-          "seconds": 15.804
-        },
-        {
-          "name": "clsx",
-          "seconds": 15.804
-        },
-        {
-          "name": "@tailwindcss/vite",
-          "seconds": 15.804
-        },
-        {
-          "name": "@types/react",
-          "seconds": 15.804
-        },
-        {
-          "name": "@tanstack/react-router",
-          "seconds": 15.804
-        },
-        {
-          "name": "zustand",
-          "seconds": 15.804
-        },
-        {
-          "name": "npm",
-          "seconds": 15.804
-        },
-        {
-          "name": "@gems/user-core",
-          "seconds": 15.804
-        },
-        {
-          "name": "typescript",
-          "seconds": 15.804
-        },
-        {
-          "name": "@types/react-dom",
-          "seconds": 15.804
-        },
-        {
-          "name": "tailwindcss",
-          "seconds": 15.804
-        },
-        {
-          "name": "@gems/auth-core",
-          "seconds": 15.804
-        },
-        {
-          "name": "@fontsource/roboto",
-          "seconds": 15.804
+          "name": "classification",
+          "seconds": 18.385
         },
         {
           "name": "springframework.context",
           "seconds": 14.398
         },
         {
-          "name": "index",
+          "name": "components",
           "seconds": 13.763
         },
         {
@@ -86931,12 +86947,36 @@
           "seconds": 13.763
         },
         {
-          "name": "components",
-          "seconds": 13.763
+          "name": "useDashboardData",
+          "seconds": 11.417
         },
         {
-          "name": "jakarta.servlet",
-          "seconds": 13.183
+          "name": "DashboardTable",
+          "seconds": 11.417
+        },
+        {
+          "name": "DashboardNotifications",
+          "seconds": 11.417
+        },
+        {
+          "name": "order-list",
+          "seconds": 8.526
+        },
+        {
+          "name": "formatter",
+          "seconds": 8.526
+        },
+        {
+          "name": "DeliveryNoteCell",
+          "seconds": 8.526
+        },
+        {
+          "name": "OrderTableCells",
+          "seconds": 8.526
+        },
+        {
+          "name": "order-actions",
+          "seconds": 8.526
         },
         {
           "name": "notificationTranslations",
@@ -86944,43 +86984,31 @@
         },
         {
           "name": "apache.ibatis",
-          "seconds": 3.892
-        },
-        {
-          "name": "useDashboardData",
-          "seconds": 1.558
-        },
-        {
-          "name": "DashboardTable",
-          "seconds": 1.558
-        },
-        {
-          "name": "DashboardNotifications",
-          "seconds": 1.558
+          "seconds": 7.228
         }
       ],
       "ai": {
-        "ai_additions": 1083,
+        "ai_additions": 1088,
         "ai_deletions": 231,
-        "human_additions": 356,
-        "human_deletions": 721,
-        "input_tokens": 3763235,
-        "cached_input_tokens": 80766592,
-        "output_tokens": 281770,
-        "prompt_length_sum": 247890,
-        "prompt_length_avg": 3138,
-        "prompt_length_avg_per_session": 3085,
+        "human_additions": 400,
+        "human_deletions": 814,
+        "input_tokens": 3871499,
+        "cached_input_tokens": 83408000,
+        "output_tokens": 289207,
+        "prompt_length_sum": 367582,
+        "prompt_length_avg": 3604,
+        "prompt_length_avg_per_session": 3137,
         "prompt_length_median_per_session": 1320,
-        "prompt_events": 79,
+        "prompt_events": 102,
         "prompts_avg_per_session": 4,
         "prompts_median_per_session": 2,
-        "sessions": 22,
-        "cost": 8.011168,
+        "sessions": 26,
+        "cost": 8.075777,
         "models": [
           {
             "name": "GPT",
-            "lines": 1314.0,
-            "cost": 6.855755
+            "lines": 1319.0,
+            "cost": 6.920364
           },
           {
             "name": "Codex-Vscode",
@@ -87422,11 +87450,110 @@
           {
             "name": "purchase-portal-be",
             "start_minute": 996.967,
-            "duration_seconds": 651.166,
+            "duration_seconds": 359.276,
             "ai_additions": 0,
             "ai_deletions": 0,
             "human_additions": 0,
-            "human_deletions": 290
+            "human_deletions": 188
+          },
+          {
+            "name": "purchase-portal-fe",
+            "start_minute": 1002.95,
+            "duration_seconds": 41.425,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 0
+          },
+          {
+            "name": "purchase-portal-be",
+            "start_minute": 1003.65,
+            "duration_seconds": 501.53,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 116
+          },
+          {
+            "name": "timesheet-claim",
+            "start_minute": 1012.0,
+            "duration_seconds": 1.657,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "purchase-portal-be",
+            "start_minute": 1012.033,
+            "duration_seconds": 2.327,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "timesheet-claim",
+            "start_minute": 1012.067,
+            "duration_seconds": 209.475,
+            "ai_additions": 5,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "purchase-portal-fe",
+            "start_minute": 1015.567,
+            "duration_seconds": 200.194,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 18,
+            "human_deletions": 0
+          },
+          {
+            "name": "timesheet-claim",
+            "start_minute": 1018.9,
+            "duration_seconds": 605.328,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "purchase-portal-fe",
+            "start_minute": 1028.983,
+            "duration_seconds": 321.171,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 2,
+            "human_deletions": 4
+          },
+          {
+            "name": "purchase-portal-be",
+            "start_minute": 1051.217,
+            "duration_seconds": 295.303,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 21,
+            "human_deletions": 74
+          },
+          {
+            "name": "purchase-portal-fe",
+            "start_minute": 1056.15,
+            "duration_seconds": 729.34,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "purchase-portal-fe",
+            "start_minute": 1084.467,
+            "duration_seconds": 451.512,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 1
           }
         ],
         "language": [
@@ -88394,9 +88521,27 @@
             "human_deletions": 0
           },
           {
-            "name": "Other",
+            "name": "TypeScript",
             "start_minute": 966.733,
-            "duration_seconds": 867.341,
+            "duration_seconds": 32.464,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 967.283,
+            "duration_seconds": 306.309,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 972.383,
+            "duration_seconds": 528.568,
             "ai_additions": 0,
             "ai_deletions": 0,
             "human_additions": 0,
@@ -88430,18 +88575,9 @@
             "human_deletions": 0
           },
           {
-            "name": "Other",
-            "start_minute": 986.683,
-            "duration_seconds": 8.757,
-            "ai_additions": 0,
-            "ai_deletions": 0,
-            "human_additions": 0,
-            "human_deletions": 0
-          },
-          {
             "name": "TypeScript",
-            "start_minute": 986.833,
-            "duration_seconds": 145.655,
+            "start_minute": 986.683,
+            "duration_seconds": 154.412,
             "ai_additions": 0,
             "ai_deletions": 62,
             "human_additions": 0,
@@ -88459,17 +88595,8 @@
           {
             "name": "Markdown",
             "start_minute": 989.333,
-            "duration_seconds": 38.366,
+            "duration_seconds": 458.062,
             "ai_additions": 2,
-            "ai_deletions": 0,
-            "human_additions": 0,
-            "human_deletions": 0
-          },
-          {
-            "name": "Other",
-            "start_minute": 989.967,
-            "duration_seconds": 419.696,
-            "ai_additions": 0,
             "ai_deletions": 0,
             "human_additions": 0,
             "human_deletions": 0
@@ -88513,10 +88640,19 @@
           {
             "name": "Java",
             "start_minute": 997.933,
-            "duration_seconds": 342.833,
+            "duration_seconds": 301.408,
             "ai_additions": 0,
             "ai_deletions": 0,
             "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 1002.95,
+            "duration_seconds": 41.425,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
             "human_deletions": 0
           },
           {
@@ -88538,7 +88674,7 @@
             "human_deletions": 3
           },
           {
-            "name": "Other",
+            "name": "XML",
             "start_minute": 1005.067,
             "duration_seconds": 135.852,
             "ai_additions": 0,
@@ -88549,11 +88685,155 @@
           {
             "name": "Java",
             "start_minute": 1007.333,
-            "duration_seconds": 29.173,
+            "duration_seconds": 117.176,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 113
+          },
+          {
+            "name": "Java",
+            "start_minute": 1009.283,
+            "duration_seconds": 163.062,
             "ai_additions": 0,
             "ai_deletions": 0,
             "human_additions": 0,
-            "human_deletions": 99
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 1012.0,
+            "duration_seconds": 1.657,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 1012.033,
+            "duration_seconds": 2.327,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 1012.067,
+            "duration_seconds": 49.961,
+            "ai_additions": 3,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "JavaScript",
+            "start_minute": 1012.9,
+            "duration_seconds": 7.234,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1013.033,
+            "duration_seconds": 133.24,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 1015.25,
+            "duration_seconds": 219.234,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 18,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 1018.9,
+            "duration_seconds": 605.328,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 1028.983,
+            "duration_seconds": 321.171,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 2,
+            "human_deletions": 4
+          },
+          {
+            "name": "Java",
+            "start_minute": 1051.217,
+            "duration_seconds": 169.189,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 1054.033,
+            "duration_seconds": 126.114,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 21,
+            "human_deletions": 74
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 1056.15,
+            "duration_seconds": 707.983,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Bash",
+            "start_minute": 1067.95,
+            "duration_seconds": 1.689,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "JSON",
+            "start_minute": 1067.967,
+            "duration_seconds": 19.668,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "JSON",
+            "start_minute": 1084.467,
+            "duration_seconds": 334.636,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 1090.05,
+            "duration_seconds": 116.876,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 1
           }
         ],
         "category": [
@@ -89109,7 +89389,7 @@
           {
             "name": "AI Coding",
             "start_minute": 997.933,
-            "duration_seconds": 342.833,
+            "duration_seconds": 301.408,
             "ai_additions": 0,
             "ai_deletions": 0,
             "human_additions": 0,
@@ -89117,11 +89397,11 @@
           },
           {
             "name": "Coding",
-            "start_minute": 1003.65,
-            "duration_seconds": 85.44,
+            "start_minute": 1002.95,
+            "duration_seconds": 126.865,
             "ai_additions": 0,
             "ai_deletions": 0,
-            "human_additions": 0,
+            "human_additions": 1,
             "human_deletions": 3
           },
           {
@@ -89136,11 +89416,119 @@
           {
             "name": "Writing Tests",
             "start_minute": 1007.333,
-            "duration_seconds": 29.173,
+            "duration_seconds": 53.417,
             "ai_additions": 0,
             "ai_deletions": 0,
             "human_additions": 0,
-            "human_deletions": 99
+            "human_deletions": 112
+          },
+          {
+            "name": "Coding",
+            "start_minute": 1008.233,
+            "duration_seconds": 4.156,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 0
+          },
+          {
+            "name": "Writing Tests",
+            "start_minute": 1008.3,
+            "duration_seconds": 5.678,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Coding",
+            "start_minute": 1008.383,
+            "duration_seconds": 53.925,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 1
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 1009.283,
+            "duration_seconds": 357.481,
+            "ai_additions": 5,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Coding",
+            "start_minute": 1015.25,
+            "duration_seconds": 219.234,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 18,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 1018.9,
+            "duration_seconds": 605.328,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Coding",
+            "start_minute": 1028.983,
+            "duration_seconds": 321.171,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 2,
+            "human_deletions": 4
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 1051.217,
+            "duration_seconds": 169.189,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Coding",
+            "start_minute": 1054.033,
+            "duration_seconds": 70.013,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Writing Tests",
+            "start_minute": 1055.217,
+            "duration_seconds": 12.293,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 21,
+            "human_deletions": 19
+          },
+          {
+            "name": "Coding",
+            "start_minute": 1055.417,
+            "duration_seconds": 773.148,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 55
+          },
+          {
+            "name": "Coding",
+            "start_minute": 1084.467,
+            "duration_seconds": 451.512,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 1
           }
         ],
         "editor": [
@@ -89894,7 +90282,7 @@
           {
             "name": "VS Code",
             "start_minute": 997.933,
-            "duration_seconds": 342.833,
+            "duration_seconds": 301.408,
             "ai_additions": 0,
             "ai_deletions": 0,
             "human_additions": 0,
@@ -89902,11 +90290,11 @@
           },
           {
             "name": "VS Code",
-            "start_minute": 1003.65,
-            "duration_seconds": 85.44,
+            "start_minute": 1002.95,
+            "duration_seconds": 126.865,
             "ai_additions": 0,
             "ai_deletions": 0,
-            "human_additions": 0,
+            "human_additions": 1,
             "human_deletions": 3
           },
           {
@@ -89921,11 +90309,101 @@
           {
             "name": "VS Code",
             "start_minute": 1007.333,
-            "duration_seconds": 29.173,
+            "duration_seconds": 117.176,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 113
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 1009.283,
+            "duration_seconds": 163.062,
             "ai_additions": 0,
             "ai_deletions": 0,
             "human_additions": 0,
-            "human_deletions": 99
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 1012.0,
+            "duration_seconds": 1.657,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 1012.033,
+            "duration_seconds": 2.327,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 1012.067,
+            "duration_seconds": 190.435,
+            "ai_additions": 5,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 1015.25,
+            "duration_seconds": 219.234,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 18,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 1018.9,
+            "duration_seconds": 605.328,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 1028.983,
+            "duration_seconds": 321.171,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 2,
+            "human_deletions": 4
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 1051.217,
+            "duration_seconds": 169.189,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 1054.033,
+            "duration_seconds": 855.454,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 21,
+            "human_deletions": 74
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 1084.467,
+            "duration_seconds": 451.512,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 1
           }
         ],
         "os": [
@@ -90364,7 +90842,7 @@
           {
             "name": "Windows",
             "start_minute": 997.933,
-            "duration_seconds": 342.833,
+            "duration_seconds": 301.408,
             "ai_additions": 0,
             "ai_deletions": 0,
             "human_additions": 0,
@@ -90372,11 +90850,11 @@
           },
           {
             "name": "Windows",
-            "start_minute": 1003.65,
-            "duration_seconds": 85.44,
+            "start_minute": 1002.95,
+            "duration_seconds": 126.865,
             "ai_additions": 0,
             "ai_deletions": 0,
-            "human_additions": 0,
+            "human_additions": 1,
             "human_deletions": 3
           },
           {
@@ -90391,11 +90869,74 @@
           {
             "name": "Windows",
             "start_minute": 1007.333,
-            "duration_seconds": 29.173,
+            "duration_seconds": 117.176,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 113
+          },
+          {
+            "name": "Windows",
+            "start_minute": 1009.283,
+            "duration_seconds": 357.481,
+            "ai_additions": 5,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 1015.25,
+            "duration_seconds": 219.234,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 18,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 1018.9,
+            "duration_seconds": 605.328,
             "ai_additions": 0,
             "ai_deletions": 0,
             "human_additions": 0,
-            "human_deletions": 99
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 1028.983,
+            "duration_seconds": 321.171,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 2,
+            "human_deletions": 4
+          },
+          {
+            "name": "Windows",
+            "start_minute": 1051.217,
+            "duration_seconds": 169.189,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 1054.033,
+            "duration_seconds": 855.454,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 21,
+            "human_deletions": 74
+          },
+          {
+            "name": "Windows",
+            "start_minute": 1084.467,
+            "duration_seconds": 451.512,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 1
           }
         ],
         "machine": [
@@ -90456,13 +90997,69 @@
           {
             "name": "ALEXANDER-II",
             "start_minute": 922.917,
-            "duration_seconds": 5094.127,
-            "ai_additions": 15,
+            "duration_seconds": 6685.344,
+            "ai_additions": 20,
             "ai_deletions": 62,
-            "human_additions": 50,
-            "human_deletions": 378
+            "human_additions": 72,
+            "human_deletions": 396
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 1051.217,
+            "duration_seconds": 1024.643,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 21,
+            "human_deletions": 74
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 1084.467,
+            "duration_seconds": 451.512,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 1
           }
         ]
+      }
+    },
+    {
+      "date": "2026-08-29",
+      "seconds": 0.0,
+      "projects": [],
+      "languages": [],
+      "editors": [],
+      "operating_systems": [],
+      "machines": [],
+      "categories": [],
+      "dependencies": [],
+      "ai": {
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "input_tokens": 0,
+        "cached_input_tokens": 0,
+        "output_tokens": 0,
+        "prompt_length_sum": 0,
+        "prompt_length_avg": 0,
+        "prompt_length_avg_per_session": 0,
+        "prompt_length_median_per_session": 0,
+        "prompt_events": 0,
+        "prompts_avg_per_session": 0,
+        "prompts_median_per_session": 0,
+        "sessions": 0,
+        "cost": 0.0,
+        "models": []
+      },
+      "timelines": {
+        "project": [],
+        "language": [],
+        "category": [],
+        "editor": [],
+        "os": [],
+        "machine": []
       }
     }
   ]
