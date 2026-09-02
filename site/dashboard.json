@@ -1,21 +1,21 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-02T04:43:31.154166+07:00",
+  "generated_at": "2026-09-03T04:45:13.140738+07:00",
   "timezone": "Asia/Ho_Chi_Minh",
   "archive": {
     "first_date": "2026-07-30",
-    "last_date": "2026-09-02",
-    "archived_days": 35,
-    "active_days": 26
+    "last_date": "2026-09-03",
+    "archived_days": 36,
+    "active_days": 29
   },
   "overview": {
     "today_seconds": 0.0,
-    "week_seconds": 0.0,
-    "month_seconds": 0.0,
-    "year_seconds": 492571.441,
-    "all_archived_seconds": 492571.441,
-    "daily_average_seconds": 18945.055,
-    "active_days": 26,
+    "week_seconds": 2817.461,
+    "month_seconds": 1778.926,
+    "year_seconds": 495388.902,
+    "all_archived_seconds": 495388.902,
+    "daily_average_seconds": 17082.376,
+    "active_days": 29,
     "best_day": {
       "date": "2026-07-30",
       "seconds": 30595.017
@@ -91102,82 +91102,1338 @@
     },
     {
       "date": "2026-08-31",
-      "seconds": 0.0,
-      "projects": [],
-      "languages": [],
-      "editors": [],
-      "operating_systems": [],
-      "machines": [],
-      "categories": [],
-      "dependencies": [],
+      "seconds": 1038.535,
+      "projects": [
+        {
+          "name": "shopee-seeding-bot-develop",
+          "seconds": 1038.535,
+          "ai_additions": 50,
+          "ai_deletions": 51,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 263462,
+          "cached_input_tokens": 9116160,
+          "output_tokens": 24729,
+          "prompt_length_sum": 467,
+          "prompt_length_avg": 78,
+          "prompt_length_avg_per_session": 78,
+          "prompt_length_median_per_session": 78,
+          "prompt_events": 6,
+          "prompts_avg_per_session": 6,
+          "prompts_median_per_session": 6,
+          "sessions": 1,
+          "cost": 4.307798,
+          "models": [
+            {
+              "name": "GPT",
+              "lines": 78.0,
+              "cost": 2.45444
+            },
+            {
+              "name": "Codex-Vscode",
+              "lines": 23.0,
+              "cost": 1.853358
+            }
+          ],
+          "tokens": 9404351
+        }
+      ],
+      "languages": [
+        {
+          "name": "Python",
+          "seconds": 538.544
+        },
+        {
+          "name": "JavaScript",
+          "seconds": 446.572
+        },
+        {
+          "name": "Markdown",
+          "seconds": 53.419
+        }
+      ],
+      "editors": [
+        {
+          "name": "Codex Vscode",
+          "seconds": 976.603
+        },
+        {
+          "name": "VS Code",
+          "seconds": 61.932
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "Windows",
+          "seconds": 1038.535
+        }
+      ],
+      "machines": [
+        {
+          "name": "Alexander",
+          "seconds": 1038.535
+        }
+      ],
+      "categories": [
+        {
+          "name": "AI Coding",
+          "seconds": 1038.535
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "urllib",
+          "seconds": 538.544
+        },
+        {
+          "name": "shopee_products",
+          "seconds": 538.544
+        },
+        {
+          "name": "logging",
+          "seconds": 538.544
+        },
+        {
+          "name": "fb_account_manager",
+          "seconds": 538.544
+        },
+        {
+          "name": "group_survey",
+          "seconds": 538.544
+        },
+        {
+          "name": "utils",
+          "seconds": 538.544
+        },
+        {
+          "name": "collections",
+          "seconds": 538.544
+        },
+        {
+          "name": "threading",
+          "seconds": 538.544
+        },
+        {
+          "name": "html",
+          "seconds": 538.544
+        },
+        {
+          "name": "ai_prompts",
+          "seconds": 538.544
+        },
+        {
+          "name": "telegram_notify",
+          "seconds": 538.544
+        },
+        {
+          "name": "browser",
+          "seconds": 538.544
+        },
+        {
+          "name": "time",
+          "seconds": 538.544
+        },
+        {
+          "name": "config_manager",
+          "seconds": 538.544
+        },
+        {
+          "name": "shopee_access",
+          "seconds": 538.544
+        },
+        {
+          "name": "hashlib",
+          "seconds": 523.024
+        },
+        {
+          "name": "random",
+          "seconds": 523.024
+        },
+        {
+          "name": "product_matching",
+          "seconds": 523.024
+        },
+        {
+          "name": "selenium",
+          "seconds": 523.024
+        },
+        {
+          "name": "shopee_aff",
+          "seconds": 523.024
+        },
+        {
+          "name": "pathlib",
+          "seconds": 523.024
+        },
+        {
+          "name": "facebook",
+          "seconds": 523.024
+        },
+        {
+          "name": "re",
+          "seconds": 523.024
+        },
+        {
+          "name": "web_ai",
+          "seconds": 523.024
+        },
+        {
+          "name": "unicodedata",
+          "seconds": 523.024
+        },
+        {
+          "name": "subprocess",
+          "seconds": 523.024
+        },
+        {
+          "name": "link_converter",
+          "seconds": 523.024
+        },
+        {
+          "name": "PyQt6",
+          "seconds": 523.024
+        },
+        {
+          "name": "db",
+          "seconds": 523.024
+        },
+        {
+          "name": "tinyurl",
+          "seconds": 523.024
+        },
+        {
+          "name": "shopee",
+          "seconds": 523.024
+        },
+        {
+          "name": "telegram_account_handler",
+          "seconds": 15.52
+        },
+        {
+          "name": "exc",
+          "seconds": 15.52
+        },
+        {
+          "name": "update_manager",
+          "seconds": 15.52
+        },
+        {
+          "name": "csv",
+          "seconds": 15.52
+        },
+        {
+          "name": "license",
+          "seconds": 15.52
+        },
+        {
+          "name": "shopee_extension_bridge",
+          "seconds": 15.52
+        },
+        {
+          "name": "zipfile",
+          "seconds": 15.52
+        },
+        {
+          "name": "app_workers",
+          "seconds": 15.52
+        },
+        {
+          "name": "remote_telemetry",
+          "seconds": 15.52
+        },
+        {
+          "name": "e",
+          "seconds": 15.52
+        },
+        {
+          "name": "http",
+          "seconds": 15.52
+        },
+        {
+          "name": "functools",
+          "seconds": 15.52
+        },
+        {
+          "name": "webbrowser",
+          "seconds": 15.52
+        },
+        {
+          "name": "version",
+          "seconds": 15.52
+        },
+        {
+          "name": "ninerouter",
+          "seconds": 15.52
+        },
+        {
+          "name": "socketserver",
+          "seconds": 15.52
+        },
+        {
+          "name": "shutil",
+          "seconds": 15.52
+        },
+        {
+          "name": "dataclasses",
+          "seconds": 15.52
+        },
+        {
+          "name": "tempfile",
+          "seconds": 15.52
+        },
+        {
+          "name": "ctypes",
+          "seconds": 15.52
+        },
+        {
+          "name": "datetime",
+          "seconds": 15.52
+        },
+        {
+          "name": "main",
+          "seconds": 15.52
+        },
+        {
+          "name": "shopee_stats",
+          "seconds": 15.52
+        },
+        {
+          "name": "io",
+          "seconds": 15.52
+        },
+        {
+          "name": "json",
+          "seconds": 15.52
+        }
+      ],
       "ai": {
-        "ai_additions": 0,
-        "ai_deletions": 0,
+        "ai_additions": 50,
+        "ai_deletions": 51,
         "human_additions": 0,
         "human_deletions": 0,
-        "input_tokens": 0,
-        "cached_input_tokens": 0,
-        "output_tokens": 0,
-        "prompt_length_sum": 0,
-        "prompt_length_avg": 0,
-        "prompt_length_avg_per_session": 0,
-        "prompt_length_median_per_session": 0,
-        "prompt_events": 0,
-        "prompts_avg_per_session": 0,
-        "prompts_median_per_session": 0,
-        "sessions": 0,
-        "cost": 0.0,
-        "models": []
+        "input_tokens": 263462,
+        "cached_input_tokens": 9116160,
+        "output_tokens": 24729,
+        "prompt_length_sum": 467,
+        "prompt_length_avg": 78,
+        "prompt_length_avg_per_session": 78,
+        "prompt_length_median_per_session": 78,
+        "prompt_events": 6,
+        "prompts_avg_per_session": 6,
+        "prompts_median_per_session": 6,
+        "sessions": 1,
+        "cost": 4.307798,
+        "models": [
+          {
+            "name": "GPT",
+            "lines": 78.0,
+            "cost": 2.45444
+          },
+          {
+            "name": "Codex-Vscode",
+            "lines": 23.0,
+            "cost": 1.853358
+          }
+        ]
       },
       "timelines": {
-        "project": [],
-        "language": [],
-        "category": [],
-        "editor": [],
-        "os": [],
-        "machine": []
+        "project": [
+          {
+            "name": "shopee-seeding-bot-develop",
+            "start_minute": 1031.6,
+            "duration_seconds": 61.932,
+            "ai_additions": 23,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "shopee-seeding-bot-develop",
+            "start_minute": 1357.217,
+            "duration_seconds": 976.603,
+            "ai_additions": 27,
+            "ai_deletions": 51,
+            "human_additions": 0,
+            "human_deletions": 0
+          }
+        ],
+        "language": [
+          {
+            "name": "Python",
+            "start_minute": 1031.6,
+            "duration_seconds": 36.142,
+            "ai_additions": 21,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1032.2,
+            "duration_seconds": 25.79,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Python",
+            "start_minute": 1357.217,
+            "duration_seconds": 486.882,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Python",
+            "start_minute": 1365.333,
+            "duration_seconds": 15.52,
+            "ai_additions": 27,
+            "ai_deletions": 51,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1365.6,
+            "duration_seconds": 27.629,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "JavaScript",
+            "start_minute": 1366.05,
+            "duration_seconds": 446.572,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          }
+        ],
+        "category": [
+          {
+            "name": "AI Coding",
+            "start_minute": 1031.6,
+            "duration_seconds": 61.932,
+            "ai_additions": 23,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 1357.217,
+            "duration_seconds": 976.603,
+            "ai_additions": 27,
+            "ai_deletions": 51,
+            "human_additions": 0,
+            "human_deletions": 0
+          }
+        ],
+        "editor": [
+          {
+            "name": "VS Code",
+            "start_minute": 1031.6,
+            "duration_seconds": 61.932,
+            "ai_additions": 23,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 1357.217,
+            "duration_seconds": 976.603,
+            "ai_additions": 27,
+            "ai_deletions": 51,
+            "human_additions": 0,
+            "human_deletions": 0
+          }
+        ],
+        "os": [
+          {
+            "name": "Windows",
+            "start_minute": 1031.6,
+            "duration_seconds": 61.932,
+            "ai_additions": 23,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 1357.217,
+            "duration_seconds": 976.603,
+            "ai_additions": 27,
+            "ai_deletions": 51,
+            "human_additions": 0,
+            "human_deletions": 0
+          }
+        ],
+        "machine": [
+          {
+            "name": "Alexander",
+            "start_minute": 1031.6,
+            "duration_seconds": 61.932,
+            "ai_additions": 23,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Alexander",
+            "start_minute": 1357.217,
+            "duration_seconds": 976.603,
+            "ai_additions": 27,
+            "ai_deletions": 51,
+            "human_additions": 0,
+            "human_deletions": 0
+          }
+        ]
       }
     },
     {
       "date": "2026-09-01",
-      "seconds": 0.0,
-      "projects": [],
-      "languages": [],
-      "editors": [],
-      "operating_systems": [],
-      "machines": [],
-      "categories": [],
+      "seconds": 1252.877,
+      "projects": [
+        {
+          "name": "shopee-seeding-bot-develop",
+          "seconds": 1252.877,
+          "ai_additions": 469,
+          "ai_deletions": 85,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 439152,
+          "cached_input_tokens": 6519808,
+          "output_tokens": 30153,
+          "prompt_length_sum": 685,
+          "prompt_length_avg": 98,
+          "prompt_length_avg_per_session": 98,
+          "prompt_length_median_per_session": 98,
+          "prompt_events": 7,
+          "prompts_avg_per_session": 7,
+          "prompts_median_per_session": 7,
+          "sessions": 1,
+          "cost": 2.5441,
+          "models": [
+            {
+              "name": "GPT",
+              "lines": 554.0,
+              "cost": 2.5441
+            }
+          ],
+          "tokens": 6989113
+        }
+      ],
+      "languages": [
+        {
+          "name": "Python",
+          "seconds": 833.457
+        },
+        {
+          "name": "Markdown",
+          "seconds": 247.912
+        },
+        {
+          "name": "JavaScript",
+          "seconds": 171.508
+        }
+      ],
+      "editors": [
+        {
+          "name": "Codex Vscode",
+          "seconds": 1252.877
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "Windows",
+          "seconds": 1252.877
+        }
+      ],
+      "machines": [
+        {
+          "name": "Alexander",
+          "seconds": 1252.877
+        }
+      ],
+      "categories": [
+        {
+          "name": "AI Coding",
+          "seconds": 1252.877
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "utils",
+          "seconds": 820.403
+        },
+        {
+          "name": "json",
+          "seconds": 820.403
+        },
+        {
+          "name": "app_workers",
+          "seconds": 802.115
+        },
+        {
+          "name": "threading",
+          "seconds": 802.115
+        },
+        {
+          "name": "tempfile",
+          "seconds": 802.115
+        },
+        {
+          "name": "datetime",
+          "seconds": 802.115
+        },
+        {
+          "name": "main",
+          "seconds": 802.115
+        },
+        {
+          "name": "unittest",
+          "seconds": 584.238
+        },
+        {
+          "name": "pathlib",
+          "seconds": 571.184
+        },
+        {
+          "name": "gui_html",
+          "seconds": 571.184
+        },
+        {
+          "name": "sqlite3",
+          "seconds": 571.184
+        },
+        {
+          "name": "inspect",
+          "seconds": 571.184
+        },
+        {
+          "name": "db",
+          "seconds": 571.184
+        },
+        {
+          "name": "auto_run",
+          "seconds": 571.184
+        },
+        {
+          "name": "ninerouter",
+          "seconds": 249.219
+        },
+        {
+          "name": "browser",
+          "seconds": 249.219
+        },
+        {
+          "name": "time",
+          "seconds": 249.219
+        },
+        {
+          "name": "telegram_account_handler",
+          "seconds": 230.931
+        },
+        {
+          "name": "exc",
+          "seconds": 230.931
+        },
+        {
+          "name": "urllib",
+          "seconds": 230.931
+        },
+        {
+          "name": "update_manager",
+          "seconds": 230.931
+        },
+        {
+          "name": "csv",
+          "seconds": 230.931
+        },
+        {
+          "name": "license",
+          "seconds": 230.931
+        },
+        {
+          "name": "shopee_products",
+          "seconds": 230.931
+        },
+        {
+          "name": "logging",
+          "seconds": 230.931
+        },
+        {
+          "name": "shopee_extension_bridge",
+          "seconds": 230.931
+        },
+        {
+          "name": "zipfile",
+          "seconds": 230.931
+        },
+        {
+          "name": "remote_telemetry",
+          "seconds": 230.931
+        },
+        {
+          "name": "e",
+          "seconds": 230.931
+        },
+        {
+          "name": "http",
+          "seconds": 230.931
+        },
+        {
+          "name": "functools",
+          "seconds": 230.931
+        },
+        {
+          "name": "fb_account_manager",
+          "seconds": 230.931
+        },
+        {
+          "name": "group_survey",
+          "seconds": 230.931
+        },
+        {
+          "name": "webbrowser",
+          "seconds": 230.931
+        },
+        {
+          "name": "version",
+          "seconds": 230.931
+        },
+        {
+          "name": "collections",
+          "seconds": 230.931
+        },
+        {
+          "name": "socketserver",
+          "seconds": 230.931
+        },
+        {
+          "name": "html",
+          "seconds": 230.931
+        },
+        {
+          "name": "ai_prompts",
+          "seconds": 230.931
+        },
+        {
+          "name": "telegram_notify",
+          "seconds": 230.931
+        },
+        {
+          "name": "shutil",
+          "seconds": 230.931
+        },
+        {
+          "name": "dataclasses",
+          "seconds": 230.931
+        },
+        {
+          "name": "ctypes",
+          "seconds": 230.931
+        },
+        {
+          "name": "config_manager",
+          "seconds": 230.931
+        },
+        {
+          "name": "shopee_access",
+          "seconds": 230.931
+        },
+        {
+          "name": "shopee_stats",
+          "seconds": 230.931
+        },
+        {
+          "name": "io",
+          "seconds": 230.931
+        },
+        {
+          "name": "unicodedata",
+          "seconds": 18.288
+        },
+        {
+          "name": "base64",
+          "seconds": 18.288
+        },
+        {
+          "name": "PyQt6",
+          "seconds": 18.288
+        },
+        {
+          "name": "selenium",
+          "seconds": 18.288
+        },
+        {
+          "name": "subprocess",
+          "seconds": 18.288
+        },
+        {
+          "name": "web_ai",
+          "seconds": 13.054
+        }
+      ],
+      "ai": {
+        "ai_additions": 469,
+        "ai_deletions": 85,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "input_tokens": 439152,
+        "cached_input_tokens": 6519808,
+        "output_tokens": 30153,
+        "prompt_length_sum": 685,
+        "prompt_length_avg": 98,
+        "prompt_length_avg_per_session": 98,
+        "prompt_length_median_per_session": 98,
+        "prompt_events": 7,
+        "prompts_avg_per_session": 7,
+        "prompts_median_per_session": 7,
+        "sessions": 1,
+        "cost": 2.5441,
+        "models": [
+          {
+            "name": "GPT",
+            "lines": 554.0,
+            "cost": 2.5441
+          }
+        ]
+      },
+      "timelines": {
+        "project": [
+          {
+            "name": "shopee-seeding-bot-develop",
+            "start_minute": 572.683,
+            "duration_seconds": 288.951,
+            "ai_additions": 195,
+            "ai_deletions": 84,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "shopee-seeding-bot-develop",
+            "start_minute": 1177.983,
+            "duration_seconds": 963.926,
+            "ai_additions": 274,
+            "ai_deletions": 1,
+            "human_additions": 0,
+            "human_deletions": 0
+          }
+        ],
+        "language": [
+          {
+            "name": "JavaScript",
+            "start_minute": 572.683,
+            "duration_seconds": 171.508,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Python",
+            "start_minute": 575.55,
+            "duration_seconds": 117.443,
+            "ai_additions": 194,
+            "ai_deletions": 84,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1177.983,
+            "duration_seconds": 223.785,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Python",
+            "start_minute": 1181.717,
+            "duration_seconds": 169.753,
+            "ai_additions": 159,
+            "ai_deletions": 1,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1184.533,
+            "duration_seconds": 24.127,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Python",
+            "start_minute": 1184.95,
+            "duration_seconds": 546.261,
+            "ai_additions": 114,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          }
+        ],
+        "category": [
+          {
+            "name": "AI Coding",
+            "start_minute": 572.683,
+            "duration_seconds": 288.951,
+            "ai_additions": 195,
+            "ai_deletions": 84,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 1177.983,
+            "duration_seconds": 963.926,
+            "ai_additions": 274,
+            "ai_deletions": 1,
+            "human_additions": 0,
+            "human_deletions": 0
+          }
+        ],
+        "editor": [
+          {
+            "name": "Codex Vscode",
+            "start_minute": 572.683,
+            "duration_seconds": 288.951,
+            "ai_additions": 195,
+            "ai_deletions": 84,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 1177.983,
+            "duration_seconds": 963.926,
+            "ai_additions": 274,
+            "ai_deletions": 1,
+            "human_additions": 0,
+            "human_deletions": 0
+          }
+        ],
+        "os": [
+          {
+            "name": "Windows",
+            "start_minute": 572.683,
+            "duration_seconds": 288.951,
+            "ai_additions": 195,
+            "ai_deletions": 84,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 1177.983,
+            "duration_seconds": 963.926,
+            "ai_additions": 274,
+            "ai_deletions": 1,
+            "human_additions": 0,
+            "human_deletions": 0
+          }
+        ],
+        "machine": [
+          {
+            "name": "Alexander",
+            "start_minute": 572.683,
+            "duration_seconds": 288.951,
+            "ai_additions": 195,
+            "ai_deletions": 84,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Alexander",
+            "start_minute": 1177.983,
+            "duration_seconds": 963.926,
+            "ai_additions": 274,
+            "ai_deletions": 1,
+            "human_additions": 0,
+            "human_deletions": 0
+          }
+        ]
+      }
+    },
+    {
+      "date": "2026-09-02",
+      "seconds": 526.049,
+      "projects": [
+        {
+          "name": "shopee-seeding-bot-develop",
+          "seconds": 393.217,
+          "ai_additions": 0,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 9491,
+          "cached_input_tokens": 17152,
+          "output_tokens": 159,
+          "prompt_length_sum": 1026,
+          "prompt_length_avg": 1026,
+          "prompt_length_avg_per_session": 1026,
+          "prompt_length_median_per_session": 1026,
+          "prompt_events": 1,
+          "prompts_avg_per_session": 1,
+          "prompts_median_per_session": 1,
+          "sessions": 1,
+          "cost": 0.082314,
+          "models": [
+            {
+              "name": "Codex-Vscode",
+              "lines": 0.0,
+              "cost": 0.082314
+            }
+          ],
+          "tokens": 26802
+        },
+        {
+          "name": "timesheet-claim",
+          "seconds": 132.832,
+          "ai_additions": 0,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 43184,
+          "cached_input_tokens": 527616,
+          "output_tokens": 2645,
+          "prompt_length_sum": 1215,
+          "prompt_length_avg": 202,
+          "prompt_length_avg_per_session": 202,
+          "prompt_length_median_per_session": 202,
+          "prompt_events": 6,
+          "prompts_avg_per_session": 6,
+          "prompts_median_per_session": 6,
+          "sessions": 1,
+          "cost": 0.223631,
+          "models": [
+            {
+              "name": "GPT",
+              "lines": 0.0,
+              "cost": 0.223631
+            }
+          ],
+          "tokens": 573445
+        }
+      ],
+      "languages": [
+        {
+          "name": "Markdown",
+          "seconds": 396.29
+        },
+        {
+          "name": "Other",
+          "seconds": 99.475
+        },
+        {
+          "name": "JSON",
+          "seconds": 18.241
+        },
+        {
+          "name": "SQL",
+          "seconds": 9.2
+        },
+        {
+          "name": "Bash",
+          "seconds": 2.843
+        }
+      ],
+      "editors": [
+        {
+          "name": "VS Code",
+          "seconds": 526.049
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "Windows",
+          "seconds": 526.049
+        }
+      ],
+      "machines": [
+        {
+          "name": "Alexander",
+          "seconds": 526.049
+        }
+      ],
+      "categories": [
+        {
+          "name": "AI Coding",
+          "seconds": 492.692
+        },
+        {
+          "name": "Coding",
+          "seconds": 30.284
+        },
+        {
+          "name": "Writing Docs",
+          "seconds": 3.073
+        }
+      ],
       "dependencies": [],
       "ai": {
         "ai_additions": 0,
         "ai_deletions": 0,
         "human_additions": 0,
         "human_deletions": 0,
-        "input_tokens": 0,
-        "cached_input_tokens": 0,
-        "output_tokens": 0,
-        "prompt_length_sum": 0,
-        "prompt_length_avg": 0,
-        "prompt_length_avg_per_session": 0,
-        "prompt_length_median_per_session": 0,
-        "prompt_events": 0,
-        "prompts_avg_per_session": 0,
-        "prompts_median_per_session": 0,
-        "sessions": 0,
-        "cost": 0.0,
-        "models": []
+        "input_tokens": 52675,
+        "cached_input_tokens": 544768,
+        "output_tokens": 2804,
+        "prompt_length_sum": 2241,
+        "prompt_length_avg": 320,
+        "prompt_length_avg_per_session": 614,
+        "prompt_length_median_per_session": 614,
+        "prompt_events": 7,
+        "prompts_avg_per_session": 4,
+        "prompts_median_per_session": 4,
+        "sessions": 2,
+        "cost": 0.305945,
+        "models": [
+          {
+            "name": "GPT",
+            "lines": 0.0,
+            "cost": 0.223631
+          },
+          {
+            "name": "Codex-Vscode",
+            "lines": 0.0,
+            "cost": 0.082314
+          }
+        ]
       },
       "timelines": {
-        "project": [],
-        "language": [],
-        "category": [],
-        "editor": [],
-        "os": [],
-        "machine": []
+        "project": [
+          {
+            "name": "shopee-seeding-bot-develop",
+            "start_minute": 693.183,
+            "duration_seconds": 393.217,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "timesheet-claim",
+            "start_minute": 722.183,
+            "duration_seconds": 33.357,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "timesheet-claim",
+            "start_minute": 765.617,
+            "duration_seconds": 99.475,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          }
+        ],
+        "language": [
+          {
+            "name": "Markdown",
+            "start_minute": 693.183,
+            "duration_seconds": 393.217,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 722.183,
+            "duration_seconds": 3.073,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "JSON",
+            "start_minute": 722.233,
+            "duration_seconds": 9.962,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "SQL",
+            "start_minute": 722.4,
+            "duration_seconds": 9.2,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Bash",
+            "start_minute": 722.55,
+            "duration_seconds": 2.843,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "JSON",
+            "start_minute": 722.6,
+            "duration_seconds": 8.279,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 765.617,
+            "duration_seconds": 99.475,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          }
+        ],
+        "category": [
+          {
+            "name": "AI Coding",
+            "start_minute": 693.183,
+            "duration_seconds": 393.217,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Writing Docs",
+            "start_minute": 722.183,
+            "duration_seconds": 3.073,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Coding",
+            "start_minute": 722.233,
+            "duration_seconds": 30.284,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 765.617,
+            "duration_seconds": 99.475,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          }
+        ],
+        "editor": [
+          {
+            "name": "VS Code",
+            "start_minute": 693.183,
+            "duration_seconds": 393.217,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 722.183,
+            "duration_seconds": 33.357,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 765.617,
+            "duration_seconds": 99.475,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          }
+        ],
+        "os": [
+          {
+            "name": "Windows",
+            "start_minute": 693.183,
+            "duration_seconds": 393.217,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 722.183,
+            "duration_seconds": 33.357,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 765.617,
+            "duration_seconds": 99.475,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          }
+        ],
+        "machine": [
+          {
+            "name": "Alexander",
+            "start_minute": 693.183,
+            "duration_seconds": 393.217,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Alexander",
+            "start_minute": 722.183,
+            "duration_seconds": 33.357,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Alexander",
+            "start_minute": 765.617,
+            "duration_seconds": 99.475,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          }
+        ]
       }
     },
     {
-      "date": "2026-09-02",
+      "date": "2026-09-03",
       "seconds": 0.0,
       "projects": [],
       "languages": [],
