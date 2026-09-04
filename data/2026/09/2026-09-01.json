@@ -125,17 +125,6 @@
       ],
       "dependencies": [
         {
-          "name": "json",
-          "total_seconds": 820.403,
-          "digital": "0:13:40",
-          "decimal": "0.22",
-          "text": "13 mins",
-          "hours": 0,
-          "minutes": 13,
-          "seconds": 40,
-          "percent": 4.7
-        },
-        {
           "name": "utils",
           "total_seconds": 820.403,
           "digital": "0:13:40",
@@ -147,29 +136,29 @@
           "percent": 4.7
         },
         {
+          "name": "json",
+          "total_seconds": 820.403,
+          "digital": "0:13:40",
+          "decimal": "0.22",
+          "text": "13 mins",
+          "hours": 0,
+          "minutes": 13,
+          "seconds": 40,
+          "percent": 4.7
+        },
+        {
+          "name": "threading",
+          "total_seconds": 802.115,
+          "digital": "0:13:22",
+          "decimal": "0.22",
+          "text": "13 mins",
+          "hours": 0,
+          "minutes": 13,
+          "seconds": 22,
+          "percent": 4.6
+        },
+        {
           "name": "app_workers",
-          "total_seconds": 802.115,
-          "digital": "0:13:22",
-          "decimal": "0.22",
-          "text": "13 mins",
-          "hours": 0,
-          "minutes": 13,
-          "seconds": 22,
-          "percent": 4.6
-        },
-        {
-          "name": "tempfile",
-          "total_seconds": 802.115,
-          "digital": "0:13:22",
-          "decimal": "0.22",
-          "text": "13 mins",
-          "hours": 0,
-          "minutes": 13,
-          "seconds": 22,
-          "percent": 4.6
-        },
-        {
-          "name": "main",
           "total_seconds": 802.115,
           "digital": "0:13:22",
           "decimal": "0.22",
@@ -191,7 +180,18 @@
           "percent": 4.6
         },
         {
-          "name": "threading",
+          "name": "main",
+          "total_seconds": 802.115,
+          "digital": "0:13:22",
+          "decimal": "0.22",
+          "text": "13 mins",
+          "hours": 0,
+          "minutes": 13,
+          "seconds": 22,
+          "percent": 4.6
+        },
+        {
+          "name": "tempfile",
           "total_seconds": 802.115,
           "digital": "0:13:22",
           "decimal": "0.22",
@@ -211,6 +211,17 @@
           "minutes": 9,
           "seconds": 44,
           "percent": 3.35
+        },
+        {
+          "name": "sqlite3",
+          "total_seconds": 571.184,
+          "digital": "0:09:31",
+          "decimal": "0.15",
+          "text": "9 mins",
+          "hours": 0,
+          "minutes": 9,
+          "seconds": 31,
+          "percent": 3.27
         },
         {
           "name": "pathlib",
@@ -235,18 +246,7 @@
           "percent": 3.27
         },
         {
-          "name": "sqlite3",
-          "total_seconds": 571.184,
-          "digital": "0:09:31",
-          "decimal": "0.15",
-          "text": "9 mins",
-          "hours": 0,
-          "minutes": 9,
-          "seconds": 31,
-          "percent": 3.27
-        },
-        {
-          "name": "gui_html",
+          "name": "db",
           "total_seconds": 571.184,
           "digital": "0:09:31",
           "decimal": "0.15",
@@ -268,7 +268,7 @@
           "percent": 3.27
         },
         {
-          "name": "db",
+          "name": "gui_html",
           "total_seconds": 571.184,
           "digital": "0:09:31",
           "decimal": "0.15",
@@ -279,7 +279,7 @@
           "percent": 3.27
         },
         {
-          "name": "time",
+          "name": "browser",
           "total_seconds": 249.219,
           "digital": "0:04:09",
           "decimal": "0.07",
@@ -301,7 +301,7 @@
           "percent": 1.43
         },
         {
-          "name": "browser",
+          "name": "time",
           "total_seconds": 249.219,
           "digital": "0:04:09",
           "decimal": "0.07",
@@ -310,17 +310,6 @@
           "minutes": 4,
           "seconds": 9,
           "percent": 1.43
-        },
-        {
-          "name": "config_manager",
-          "total_seconds": 230.931,
-          "digital": "0:03:50",
-          "decimal": "0.05",
-          "text": "3 mins",
-          "hours": 0,
-          "minutes": 3,
-          "seconds": 50,
-          "percent": 1.32
         },
         {
           "name": "shopee_extension_bridge",
@@ -334,227 +323,7 @@
           "percent": 1.32
         },
         {
-          "name": "version",
-          "total_seconds": 230.931,
-          "digital": "0:03:50",
-          "decimal": "0.05",
-          "text": "3 mins",
-          "hours": 0,
-          "minutes": 3,
-          "seconds": 50,
-          "percent": 1.32
-        },
-        {
-          "name": "ai_prompts",
-          "total_seconds": 230.931,
-          "digital": "0:03:50",
-          "decimal": "0.05",
-          "text": "3 mins",
-          "hours": 0,
-          "minutes": 3,
-          "seconds": 50,
-          "percent": 1.32
-        },
-        {
-          "name": "html",
-          "total_seconds": 230.931,
-          "digital": "0:03:50",
-          "decimal": "0.05",
-          "text": "3 mins",
-          "hours": 0,
-          "minutes": 3,
-          "seconds": 50,
-          "percent": 1.32
-        },
-        {
-          "name": "shutil",
-          "total_seconds": 230.931,
-          "digital": "0:03:50",
-          "decimal": "0.05",
-          "text": "3 mins",
-          "hours": 0,
-          "minutes": 3,
-          "seconds": 50,
-          "percent": 1.32
-        },
-        {
-          "name": "remote_telemetry",
-          "total_seconds": 230.931,
-          "digital": "0:03:50",
-          "decimal": "0.05",
-          "text": "3 mins",
-          "hours": 0,
-          "minutes": 3,
-          "seconds": 50,
-          "percent": 1.32
-        },
-        {
-          "name": "shopee_products",
-          "total_seconds": 230.931,
-          "digital": "0:03:50",
-          "decimal": "0.05",
-          "text": "3 mins",
-          "hours": 0,
-          "minutes": 3,
-          "seconds": 50,
-          "percent": 1.32
-        },
-        {
-          "name": "telegram_account_handler",
-          "total_seconds": 230.931,
-          "digital": "0:03:50",
-          "decimal": "0.05",
-          "text": "3 mins",
-          "hours": 0,
-          "minutes": 3,
-          "seconds": 50,
-          "percent": 1.32
-        },
-        {
-          "name": "group_survey",
-          "total_seconds": 230.931,
-          "digital": "0:03:50",
-          "decimal": "0.05",
-          "text": "3 mins",
-          "hours": 0,
-          "minutes": 3,
-          "seconds": 50,
-          "percent": 1.32
-        },
-        {
-          "name": "license",
-          "total_seconds": 230.931,
-          "digital": "0:03:50",
-          "decimal": "0.05",
-          "text": "3 mins",
-          "hours": 0,
-          "minutes": 3,
-          "seconds": 50,
-          "percent": 1.32
-        },
-        {
-          "name": "exc",
-          "total_seconds": 230.931,
-          "digital": "0:03:50",
-          "decimal": "0.05",
-          "text": "3 mins",
-          "hours": 0,
-          "minutes": 3,
-          "seconds": 50,
-          "percent": 1.32
-        },
-        {
-          "name": "webbrowser",
-          "total_seconds": 230.931,
-          "digital": "0:03:50",
-          "decimal": "0.05",
-          "text": "3 mins",
-          "hours": 0,
-          "minutes": 3,
-          "seconds": 50,
-          "percent": 1.32
-        },
-        {
-          "name": "shopee_stats",
-          "total_seconds": 230.931,
-          "digital": "0:03:50",
-          "decimal": "0.05",
-          "text": "3 mins",
-          "hours": 0,
-          "minutes": 3,
-          "seconds": 50,
-          "percent": 1.32
-        },
-        {
-          "name": "dataclasses",
-          "total_seconds": 230.931,
-          "digital": "0:03:50",
-          "decimal": "0.05",
-          "text": "3 mins",
-          "hours": 0,
-          "minutes": 3,
-          "seconds": 50,
-          "percent": 1.32
-        },
-        {
           "name": "shopee_access",
-          "total_seconds": 230.931,
-          "digital": "0:03:50",
-          "decimal": "0.05",
-          "text": "3 mins",
-          "hours": 0,
-          "minutes": 3,
-          "seconds": 50,
-          "percent": 1.32
-        },
-        {
-          "name": "http",
-          "total_seconds": 230.931,
-          "digital": "0:03:50",
-          "decimal": "0.05",
-          "text": "3 mins",
-          "hours": 0,
-          "minutes": 3,
-          "seconds": 50,
-          "percent": 1.32
-        },
-        {
-          "name": "zipfile",
-          "total_seconds": 230.931,
-          "digital": "0:03:50",
-          "decimal": "0.05",
-          "text": "3 mins",
-          "hours": 0,
-          "minutes": 3,
-          "seconds": 50,
-          "percent": 1.32
-        },
-        {
-          "name": "urllib",
-          "total_seconds": 230.931,
-          "digital": "0:03:50",
-          "decimal": "0.05",
-          "text": "3 mins",
-          "hours": 0,
-          "minutes": 3,
-          "seconds": 50,
-          "percent": 1.32
-        },
-        {
-          "name": "telegram_notify",
-          "total_seconds": 230.931,
-          "digital": "0:03:50",
-          "decimal": "0.05",
-          "text": "3 mins",
-          "hours": 0,
-          "minutes": 3,
-          "seconds": 50,
-          "percent": 1.32
-        },
-        {
-          "name": "socketserver",
-          "total_seconds": 230.931,
-          "digital": "0:03:50",
-          "decimal": "0.05",
-          "text": "3 mins",
-          "hours": 0,
-          "minutes": 3,
-          "seconds": 50,
-          "percent": 1.32
-        },
-        {
-          "name": "io",
-          "total_seconds": 230.931,
-          "digital": "0:03:50",
-          "decimal": "0.05",
-          "text": "3 mins",
-          "hours": 0,
-          "minutes": 3,
-          "seconds": 50,
-          "percent": 1.32
-        },
-        {
-          "name": "ctypes",
           "total_seconds": 230.931,
           "digital": "0:03:50",
           "decimal": "0.05",
@@ -587,7 +356,7 @@
           "percent": 1.32
         },
         {
-          "name": "fb_account_manager",
+          "name": "io",
           "total_seconds": 230.931,
           "digital": "0:03:50",
           "decimal": "0.05",
@@ -598,7 +367,7 @@
           "percent": 1.32
         },
         {
-          "name": "csv",
+          "name": "ai_prompts",
           "total_seconds": 230.931,
           "digital": "0:03:50",
           "decimal": "0.05",
@@ -609,7 +378,40 @@
           "percent": 1.32
         },
         {
-          "name": "collections",
+          "name": "html",
+          "total_seconds": 230.931,
+          "digital": "0:03:50",
+          "decimal": "0.05",
+          "text": "3 mins",
+          "hours": 0,
+          "minutes": 3,
+          "seconds": 50,
+          "percent": 1.32
+        },
+        {
+          "name": "zipfile",
+          "total_seconds": 230.931,
+          "digital": "0:03:50",
+          "decimal": "0.05",
+          "text": "3 mins",
+          "hours": 0,
+          "minutes": 3,
+          "seconds": 50,
+          "percent": 1.32
+        },
+        {
+          "name": "telegram_notify",
+          "total_seconds": 230.931,
+          "digital": "0:03:50",
+          "decimal": "0.05",
+          "text": "3 mins",
+          "hours": 0,
+          "minutes": 3,
+          "seconds": 50,
+          "percent": 1.32
+        },
+        {
+          "name": "group_survey",
           "total_seconds": 230.931,
           "digital": "0:03:50",
           "decimal": "0.05",
@@ -631,6 +433,50 @@
           "percent": 1.32
         },
         {
+          "name": "shutil",
+          "total_seconds": 230.931,
+          "digital": "0:03:50",
+          "decimal": "0.05",
+          "text": "3 mins",
+          "hours": 0,
+          "minutes": 3,
+          "seconds": 50,
+          "percent": 1.32
+        },
+        {
+          "name": "license",
+          "total_seconds": 230.931,
+          "digital": "0:03:50",
+          "decimal": "0.05",
+          "text": "3 mins",
+          "hours": 0,
+          "minutes": 3,
+          "seconds": 50,
+          "percent": 1.32
+        },
+        {
+          "name": "shopee_products",
+          "total_seconds": 230.931,
+          "digital": "0:03:50",
+          "decimal": "0.05",
+          "text": "3 mins",
+          "hours": 0,
+          "minutes": 3,
+          "seconds": 50,
+          "percent": 1.32
+        },
+        {
+          "name": "version",
+          "total_seconds": 230.931,
+          "digital": "0:03:50",
+          "decimal": "0.05",
+          "text": "3 mins",
+          "hours": 0,
+          "minutes": 3,
+          "seconds": 50,
+          "percent": 1.32
+        },
+        {
           "name": "logging",
           "total_seconds": 230.931,
           "digital": "0:03:50",
@@ -640,6 +486,182 @@
           "minutes": 3,
           "seconds": 50,
           "percent": 1.32
+        },
+        {
+          "name": "http",
+          "total_seconds": 230.931,
+          "digital": "0:03:50",
+          "decimal": "0.05",
+          "text": "3 mins",
+          "hours": 0,
+          "minutes": 3,
+          "seconds": 50,
+          "percent": 1.32
+        },
+        {
+          "name": "config_manager",
+          "total_seconds": 230.931,
+          "digital": "0:03:50",
+          "decimal": "0.05",
+          "text": "3 mins",
+          "hours": 0,
+          "minutes": 3,
+          "seconds": 50,
+          "percent": 1.32
+        },
+        {
+          "name": "collections",
+          "total_seconds": 230.931,
+          "digital": "0:03:50",
+          "decimal": "0.05",
+          "text": "3 mins",
+          "hours": 0,
+          "minutes": 3,
+          "seconds": 50,
+          "percent": 1.32
+        },
+        {
+          "name": "telegram_account_handler",
+          "total_seconds": 230.931,
+          "digital": "0:03:50",
+          "decimal": "0.05",
+          "text": "3 mins",
+          "hours": 0,
+          "minutes": 3,
+          "seconds": 50,
+          "percent": 1.32
+        },
+        {
+          "name": "csv",
+          "total_seconds": 230.931,
+          "digital": "0:03:50",
+          "decimal": "0.05",
+          "text": "3 mins",
+          "hours": 0,
+          "minutes": 3,
+          "seconds": 50,
+          "percent": 1.32
+        },
+        {
+          "name": "fb_account_manager",
+          "total_seconds": 230.931,
+          "digital": "0:03:50",
+          "decimal": "0.05",
+          "text": "3 mins",
+          "hours": 0,
+          "minutes": 3,
+          "seconds": 50,
+          "percent": 1.32
+        },
+        {
+          "name": "shopee_stats",
+          "total_seconds": 230.931,
+          "digital": "0:03:50",
+          "decimal": "0.05",
+          "text": "3 mins",
+          "hours": 0,
+          "minutes": 3,
+          "seconds": 50,
+          "percent": 1.32
+        },
+        {
+          "name": "remote_telemetry",
+          "total_seconds": 230.931,
+          "digital": "0:03:50",
+          "decimal": "0.05",
+          "text": "3 mins",
+          "hours": 0,
+          "minutes": 3,
+          "seconds": 50,
+          "percent": 1.32
+        },
+        {
+          "name": "socketserver",
+          "total_seconds": 230.931,
+          "digital": "0:03:50",
+          "decimal": "0.05",
+          "text": "3 mins",
+          "hours": 0,
+          "minutes": 3,
+          "seconds": 50,
+          "percent": 1.32
+        },
+        {
+          "name": "webbrowser",
+          "total_seconds": 230.931,
+          "digital": "0:03:50",
+          "decimal": "0.05",
+          "text": "3 mins",
+          "hours": 0,
+          "minutes": 3,
+          "seconds": 50,
+          "percent": 1.32
+        },
+        {
+          "name": "dataclasses",
+          "total_seconds": 230.931,
+          "digital": "0:03:50",
+          "decimal": "0.05",
+          "text": "3 mins",
+          "hours": 0,
+          "minutes": 3,
+          "seconds": 50,
+          "percent": 1.32
+        },
+        {
+          "name": "exc",
+          "total_seconds": 230.931,
+          "digital": "0:03:50",
+          "decimal": "0.05",
+          "text": "3 mins",
+          "hours": 0,
+          "minutes": 3,
+          "seconds": 50,
+          "percent": 1.32
+        },
+        {
+          "name": "urllib",
+          "total_seconds": 230.931,
+          "digital": "0:03:50",
+          "decimal": "0.05",
+          "text": "3 mins",
+          "hours": 0,
+          "minutes": 3,
+          "seconds": 50,
+          "percent": 1.32
+        },
+        {
+          "name": "ctypes",
+          "total_seconds": 230.931,
+          "digital": "0:03:50",
+          "decimal": "0.05",
+          "text": "3 mins",
+          "hours": 0,
+          "minutes": 3,
+          "seconds": 50,
+          "percent": 1.32
+        },
+        {
+          "name": "base64",
+          "total_seconds": 18.288,
+          "digital": "0:00:18",
+          "decimal": "0.00",
+          "text": "18 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 18,
+          "percent": 0.1
+        },
+        {
+          "name": "selenium",
+          "total_seconds": 18.288,
+          "digital": "0:00:18",
+          "decimal": "0.00",
+          "text": "18 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 18,
+          "percent": 0.1
         },
         {
           "name": "PyQt6",
@@ -665,28 +687,6 @@
         },
         {
           "name": "subprocess",
-          "total_seconds": 18.288,
-          "digital": "0:00:18",
-          "decimal": "0.00",
-          "text": "18 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 18,
-          "percent": 0.1
-        },
-        {
-          "name": "base64",
-          "total_seconds": 18.288,
-          "digital": "0:00:18",
-          "decimal": "0.00",
-          "text": "18 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 18,
-          "percent": 0.1
-        },
-        {
-          "name": "selenium",
           "total_seconds": 18.288,
           "digital": "0:00:18",
           "decimal": "0.00",

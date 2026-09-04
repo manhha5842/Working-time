@@ -15,21 +15,21 @@
         "ai_model_line_changes": {
           "GPT": 364
         },
-        "ai_input_tokens": 2238427,
-        "ai_cached_input_tokens": 2790656,
-        "ai_output_tokens": 24490,
+        "ai_input_tokens": 2340948,
+        "ai_cached_input_tokens": 2806784,
+        "ai_output_tokens": 24957,
         "ai_prompt_length_sum": 53074,
         "ai_prompt_events_total": 9,
         "ai_sessions": 3,
         "ai_model_costs": {
           "Codex-Vscode": 0.967275,
-          "GPT": 5.100752
+          "GPT": 5.314624
         },
         "ai_model_breakdown": [
           {
             "name": "GPT",
             "lines": 364,
-            "cost": 5.100752
+            "cost": 5.314624
           },
           {
             "name": "Codex-Vscode",
@@ -37,7 +37,7 @@
             "cost": 0.967275
           }
         ],
-        "ai_model_total_cost": 6.068027,
+        "ai_model_total_cost": 6.281899,
         "ai_prompt_length_avg": 5897,
         "ai_prompt_events_avg_per_session": 3,
         "ai_prompt_events_median_per_session": 2,
@@ -62,21 +62,21 @@
           "ai_model_line_changes": {
             "GPT": 364
           },
-          "ai_input_tokens": 2195243,
-          "ai_cached_input_tokens": 2263040,
-          "ai_output_tokens": 21845,
+          "ai_input_tokens": 2297764,
+          "ai_cached_input_tokens": 2279168,
+          "ai_output_tokens": 22312,
           "ai_prompt_length_sum": 51859,
           "ai_prompt_events_total": 3,
           "color": null,
           "ai_model_costs": {
             "Codex-Vscode": 0.967275,
-            "GPT": 4.877121
+            "GPT": 5.090993
           },
           "ai_model_breakdown": [
             {
               "name": "GPT",
               "lines": 364,
-              "cost": 4.877121
+              "cost": 5.090993
             },
             {
               "name": "Codex-Vscode",
@@ -84,7 +84,7 @@
               "cost": 0.967275
             }
           ],
-          "ai_model_total_cost": 5.844396,
+          "ai_model_total_cost": 6.058268,
           "ai_prompt_length_avg": 17286,
           "ai_prompt_length_avg_per_session": 13221,
           "ai_prompt_length_median_per_session": 13221,
@@ -220,6 +220,17 @@
       ],
       "dependencies": [
         {
+          "name": "selenium",
+          "total_seconds": 938.35,
+          "digital": "0:15:38",
+          "decimal": "0.25",
+          "text": "15 mins",
+          "hours": 0,
+          "minutes": 15,
+          "seconds": 38,
+          "percent": 10.48
+        },
+        {
           "name": "PyQt6",
           "total_seconds": 938.35,
           "digital": "0:15:38",
@@ -232,17 +243,6 @@
         },
         {
           "name": "time",
-          "total_seconds": 938.35,
-          "digital": "0:15:38",
-          "decimal": "0.25",
-          "text": "15 mins",
-          "hours": 0,
-          "minutes": 15,
-          "seconds": 38,
-          "percent": 10.48
-        },
-        {
-          "name": "browser",
           "total_seconds": 938.35,
           "digital": "0:15:38",
           "decimal": "0.25",
@@ -275,7 +275,7 @@
           "percent": 10.48
         },
         {
-          "name": "selenium",
+          "name": "browser",
           "total_seconds": 938.35,
           "digital": "0:15:38",
           "decimal": "0.25",
@@ -284,6 +284,17 @@
           "minutes": 15,
           "seconds": 38,
           "percent": 10.48
+        },
+        {
+          "name": "base64",
+          "total_seconds": 920.02,
+          "digital": "0:15:20",
+          "decimal": "0.25",
+          "text": "15 mins",
+          "hours": 0,
+          "minutes": 15,
+          "seconds": 20,
+          "percent": 10.28
         },
         {
           "name": "ninerouter",
@@ -298,17 +309,6 @@
         },
         {
           "name": "json",
-          "total_seconds": 920.02,
-          "digital": "0:15:20",
-          "decimal": "0.25",
-          "text": "15 mins",
-          "hours": 0,
-          "minutes": 15,
-          "seconds": 20,
-          "percent": 10.28
-        },
-        {
-          "name": "base64",
           "total_seconds": 920.02,
           "digital": "0:15:20",
           "decimal": "0.25",
@@ -341,238 +341,7 @@
           "percent": 0.58
         },
         {
-          "name": "config_manager",
-          "total_seconds": 18.33,
-          "digital": "0:00:18",
-          "decimal": "0.00",
-          "text": "18 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 18,
-          "percent": 0.2
-        },
-        {
           "name": "product_matching",
-          "total_seconds": 18.33,
-          "digital": "0:00:18",
-          "decimal": "0.00",
-          "text": "18 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 18,
-          "percent": 0.2
-        },
-        {
-          "name": "db",
-          "total_seconds": 18.33,
-          "digital": "0:00:18",
-          "decimal": "0.00",
-          "text": "18 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 18,
-          "percent": 0.2
-        },
-        {
-          "name": "unicodedata",
-          "total_seconds": 18.33,
-          "digital": "0:00:18",
-          "decimal": "0.00",
-          "text": "18 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 18,
-          "percent": 0.2
-        },
-        {
-          "name": "ai_prompts",
-          "total_seconds": 18.33,
-          "digital": "0:00:18",
-          "decimal": "0.00",
-          "text": "18 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 18,
-          "percent": 0.2
-        },
-        {
-          "name": "facebook",
-          "total_seconds": 18.33,
-          "digital": "0:00:18",
-          "decimal": "0.00",
-          "text": "18 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 18,
-          "percent": 0.2
-        },
-        {
-          "name": "html",
-          "total_seconds": 18.33,
-          "digital": "0:00:18",
-          "decimal": "0.00",
-          "text": "18 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 18,
-          "percent": 0.2
-        },
-        {
-          "name": "re",
-          "total_seconds": 18.33,
-          "digital": "0:00:18",
-          "decimal": "0.00",
-          "text": "18 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 18,
-          "percent": 0.2
-        },
-        {
-          "name": "shopee_products",
-          "total_seconds": 18.33,
-          "digital": "0:00:18",
-          "decimal": "0.00",
-          "text": "18 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 18,
-          "percent": 0.2
-        },
-        {
-          "name": "link_converter",
-          "total_seconds": 18.33,
-          "digital": "0:00:18",
-          "decimal": "0.00",
-          "text": "18 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 18,
-          "percent": 0.2
-        },
-        {
-          "name": "group_survey",
-          "total_seconds": 18.33,
-          "digital": "0:00:18",
-          "decimal": "0.00",
-          "text": "18 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 18,
-          "percent": 0.2
-        },
-        {
-          "name": "shopee_access",
-          "total_seconds": 18.33,
-          "digital": "0:00:18",
-          "decimal": "0.00",
-          "text": "18 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 18,
-          "percent": 0.2
-        },
-        {
-          "name": "pathlib",
-          "total_seconds": 18.33,
-          "digital": "0:00:18",
-          "decimal": "0.00",
-          "text": "18 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 18,
-          "percent": 0.2
-        },
-        {
-          "name": "urllib",
-          "total_seconds": 18.33,
-          "digital": "0:00:18",
-          "decimal": "0.00",
-          "text": "18 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 18,
-          "percent": 0.2
-        },
-        {
-          "name": "telegram_notify",
-          "total_seconds": 18.33,
-          "digital": "0:00:18",
-          "decimal": "0.00",
-          "text": "18 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 18,
-          "percent": 0.2
-        },
-        {
-          "name": "random",
-          "total_seconds": 18.33,
-          "digital": "0:00:18",
-          "decimal": "0.00",
-          "text": "18 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 18,
-          "percent": 0.2
-        },
-        {
-          "name": "tinyurl",
-          "total_seconds": 18.33,
-          "digital": "0:00:18",
-          "decimal": "0.00",
-          "text": "18 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 18,
-          "percent": 0.2
-        },
-        {
-          "name": "fb_account_manager",
-          "total_seconds": 18.33,
-          "digital": "0:00:18",
-          "decimal": "0.00",
-          "text": "18 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 18,
-          "percent": 0.2
-        },
-        {
-          "name": "shopee",
-          "total_seconds": 18.33,
-          "digital": "0:00:18",
-          "decimal": "0.00",
-          "text": "18 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 18,
-          "percent": 0.2
-        },
-        {
-          "name": "shopee_aff",
-          "total_seconds": 18.33,
-          "digital": "0:00:18",
-          "decimal": "0.00",
-          "text": "18 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 18,
-          "percent": 0.2
-        },
-        {
-          "name": "hashlib",
-          "total_seconds": 18.33,
-          "digital": "0:00:18",
-          "decimal": "0.00",
-          "text": "18 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 18,
-          "percent": 0.2
-        },
-        {
-          "name": "collections",
           "total_seconds": 18.33,
           "digital": "0:00:18",
           "decimal": "0.00",
@@ -594,7 +363,238 @@
           "percent": 0.2
         },
         {
+          "name": "shopee_access",
+          "total_seconds": 18.33,
+          "digital": "0:00:18",
+          "decimal": "0.00",
+          "text": "18 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 18,
+          "percent": 0.2
+        },
+        {
+          "name": "facebook",
+          "total_seconds": 18.33,
+          "digital": "0:00:18",
+          "decimal": "0.00",
+          "text": "18 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 18,
+          "percent": 0.2
+        },
+        {
+          "name": "ai_prompts",
+          "total_seconds": 18.33,
+          "digital": "0:00:18",
+          "decimal": "0.00",
+          "text": "18 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 18,
+          "percent": 0.2
+        },
+        {
+          "name": "html",
+          "total_seconds": 18.33,
+          "digital": "0:00:18",
+          "decimal": "0.00",
+          "text": "18 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 18,
+          "percent": 0.2
+        },
+        {
+          "name": "db",
+          "total_seconds": 18.33,
+          "digital": "0:00:18",
+          "decimal": "0.00",
+          "text": "18 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 18,
+          "percent": 0.2
+        },
+        {
+          "name": "hashlib",
+          "total_seconds": 18.33,
+          "digital": "0:00:18",
+          "decimal": "0.00",
+          "text": "18 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 18,
+          "percent": 0.2
+        },
+        {
+          "name": "re",
+          "total_seconds": 18.33,
+          "digital": "0:00:18",
+          "decimal": "0.00",
+          "text": "18 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 18,
+          "percent": 0.2
+        },
+        {
+          "name": "telegram_notify",
+          "total_seconds": 18.33,
+          "digital": "0:00:18",
+          "decimal": "0.00",
+          "text": "18 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 18,
+          "percent": 0.2
+        },
+        {
+          "name": "group_survey",
+          "total_seconds": 18.33,
+          "digital": "0:00:18",
+          "decimal": "0.00",
+          "text": "18 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 18,
+          "percent": 0.2
+        },
+        {
+          "name": "shopee",
+          "total_seconds": 18.33,
+          "digital": "0:00:18",
+          "decimal": "0.00",
+          "text": "18 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 18,
+          "percent": 0.2
+        },
+        {
+          "name": "shopee_products",
+          "total_seconds": 18.33,
+          "digital": "0:00:18",
+          "decimal": "0.00",
+          "text": "18 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 18,
+          "percent": 0.2
+        },
+        {
           "name": "logging",
+          "total_seconds": 18.33,
+          "digital": "0:00:18",
+          "decimal": "0.00",
+          "text": "18 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 18,
+          "percent": 0.2
+        },
+        {
+          "name": "config_manager",
+          "total_seconds": 18.33,
+          "digital": "0:00:18",
+          "decimal": "0.00",
+          "text": "18 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 18,
+          "percent": 0.2
+        },
+        {
+          "name": "pathlib",
+          "total_seconds": 18.33,
+          "digital": "0:00:18",
+          "decimal": "0.00",
+          "text": "18 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 18,
+          "percent": 0.2
+        },
+        {
+          "name": "unicodedata",
+          "total_seconds": 18.33,
+          "digital": "0:00:18",
+          "decimal": "0.00",
+          "text": "18 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 18,
+          "percent": 0.2
+        },
+        {
+          "name": "tinyurl",
+          "total_seconds": 18.33,
+          "digital": "0:00:18",
+          "decimal": "0.00",
+          "text": "18 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 18,
+          "percent": 0.2
+        },
+        {
+          "name": "collections",
+          "total_seconds": 18.33,
+          "digital": "0:00:18",
+          "decimal": "0.00",
+          "text": "18 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 18,
+          "percent": 0.2
+        },
+        {
+          "name": "shopee_aff",
+          "total_seconds": 18.33,
+          "digital": "0:00:18",
+          "decimal": "0.00",
+          "text": "18 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 18,
+          "percent": 0.2
+        },
+        {
+          "name": "fb_account_manager",
+          "total_seconds": 18.33,
+          "digital": "0:00:18",
+          "decimal": "0.00",
+          "text": "18 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 18,
+          "percent": 0.2
+        },
+        {
+          "name": "random",
+          "total_seconds": 18.33,
+          "digital": "0:00:18",
+          "decimal": "0.00",
+          "text": "18 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 18,
+          "percent": 0.2
+        },
+        {
+          "name": "urllib",
+          "total_seconds": 18.33,
+          "digital": "0:00:18",
+          "decimal": "0.00",
+          "text": "18 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 18,
+          "percent": 0.2
+        },
+        {
+          "name": "link_converter",
           "total_seconds": 18.33,
           "digital": "0:00:18",
           "decimal": "0.00",
@@ -674,22 +674,22 @@
           "ai_model_line_changes": {
             "GPT": 364
           },
-          "ai_input_tokens": 2115090,
-          "ai_cached_input_tokens": 2029568,
-          "ai_output_tokens": 20085,
+          "ai_input_tokens": 2217611,
+          "ai_cached_input_tokens": 2045696,
+          "ai_output_tokens": 20552,
           "ai_prompt_length_sum": 0,
           "ai_prompt_events_total": 0,
           "ai_model_costs": {
-            "GPT": 4.877121
+            "GPT": 5.090993
           },
           "ai_model_breakdown": [
             {
               "name": "GPT",
               "lines": 364,
-              "cost": 4.877121
+              "cost": 5.090993
             }
           ],
-          "ai_model_total_cost": 4.877121,
+          "ai_model_total_cost": 5.090993,
           "ai_prompt_length_avg": 0,
           "ai_prompt_length_avg_per_session": 0,
           "ai_prompt_length_median_per_session": 0,
