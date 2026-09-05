@@ -1,6 +1,41 @@
 {
   "data": [
     {
+      "languages": [
+        {
+          "name": "Python",
+          "total_seconds": 833.457,
+          "digital": "0:13:53",
+          "decimal": "0.22",
+          "text": "13 mins",
+          "hours": 0,
+          "minutes": 13,
+          "seconds": 53,
+          "percent": 66.52
+        },
+        {
+          "name": "Markdown",
+          "total_seconds": 247.912,
+          "digital": "0:04:07",
+          "decimal": "0.07",
+          "text": "4 mins",
+          "hours": 0,
+          "minutes": 4,
+          "seconds": 7,
+          "percent": 19.79
+        },
+        {
+          "name": "JavaScript",
+          "total_seconds": 171.508,
+          "digital": "0:02:51",
+          "decimal": "0.03",
+          "text": "2 mins",
+          "hours": 0,
+          "minutes": 2,
+          "seconds": 51,
+          "percent": 13.69
+        }
+      ],
       "grand_total": {
         "hours": 0,
         "minutes": 20,
@@ -38,16 +73,9 @@
         "ai_prompt_length_avg_per_session": 98,
         "ai_prompt_length_median_per_session": 98
       },
-      "range": {
-        "start": "2026-08-31T17:00:00Z",
-        "end": "2026-09-01T16:59:59Z",
-        "date": "2026-09-01",
-        "text": "Tue Sep 1st 2026",
-        "timezone": "Asia/Ho_Chi_Minh"
-      },
-      "projects": [
+      "editors": [
         {
-          "name": "shopee-seeding-bot-develop",
+          "name": "Codex Vscode",
           "total_seconds": 1252.877,
           "ai_additions": 469,
           "ai_deletions": 85,
@@ -61,7 +89,6 @@
           "ai_output_tokens": 30153,
           "ai_prompt_length_sum": 685,
           "ai_prompt_events_total": 7,
-          "color": null,
           "ai_model_costs": {
             "GPT": 2.5441
           },
@@ -88,39 +115,30 @@
           "percent": 100.0
         }
       ],
-      "languages": [
+      "operating_systems": [
         {
-          "name": "Python",
-          "total_seconds": 833.457,
-          "digital": "0:13:53",
-          "decimal": "0.22",
-          "text": "13 mins",
+          "name": "Windows",
+          "total_seconds": 1252.877,
+          "digital": "0:20:52",
+          "decimal": "0.33",
+          "text": "20 mins",
           "hours": 0,
-          "minutes": 13,
-          "seconds": 53,
-          "percent": 66.52
-        },
+          "minutes": 20,
+          "seconds": 52,
+          "percent": 100.0
+        }
+      ],
+      "categories": [
         {
-          "name": "Markdown",
-          "total_seconds": 247.912,
-          "digital": "0:04:07",
-          "decimal": "0.07",
-          "text": "4 mins",
+          "name": "AI Coding",
+          "total_seconds": 1252.877,
+          "digital": "0:20:52",
+          "decimal": "0.33",
+          "text": "20 mins",
           "hours": 0,
-          "minutes": 4,
-          "seconds": 7,
-          "percent": 19.79
-        },
-        {
-          "name": "JavaScript",
-          "total_seconds": 171.508,
-          "digital": "0:02:51",
-          "decimal": "0.03",
-          "text": "2 mins",
-          "hours": 0,
-          "minutes": 2,
-          "seconds": 51,
-          "percent": 13.69
+          "minutes": 20,
+          "seconds": 52,
+          "percent": 100.0
         }
       ],
       "dependencies": [
@@ -722,9 +740,9 @@
           "percent": 100.0
         }
       ],
-      "editors": [
+      "projects": [
         {
-          "name": "Codex Vscode",
+          "name": "shopee-seeding-bot-develop",
           "total_seconds": 1252.877,
           "ai_additions": 469,
           "ai_deletions": 85,
@@ -738,6 +756,7 @@
           "ai_output_tokens": 30153,
           "ai_prompt_length_sum": 685,
           "ai_prompt_events_total": 7,
+          "color": null,
           "ai_model_costs": {
             "GPT": 2.5441
           },
@@ -764,32 +783,13 @@
           "percent": 100.0
         }
       ],
-      "operating_systems": [
-        {
-          "name": "Windows",
-          "total_seconds": 1252.877,
-          "digital": "0:20:52",
-          "decimal": "0.33",
-          "text": "20 mins",
-          "hours": 0,
-          "minutes": 20,
-          "seconds": 52,
-          "percent": 100.0
-        }
-      ],
-      "categories": [
-        {
-          "name": "AI Coding",
-          "total_seconds": 1252.877,
-          "digital": "0:20:52",
-          "decimal": "0.33",
-          "text": "20 mins",
-          "hours": 0,
-          "minutes": 20,
-          "seconds": 52,
-          "percent": 100.0
-        }
-      ]
+      "range": {
+        "start": "2026-08-31T17:00:00Z",
+        "end": "2026-09-01T16:59:59Z",
+        "date": "2026-09-01",
+        "text": "Tue Sep 1st 2026",
+        "timezone": "Asia/Ho_Chi_Minh"
+      }
     }
   ],
   "start": "2026-08-31T17:00:00Z",
