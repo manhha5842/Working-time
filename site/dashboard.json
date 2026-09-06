@@ -1,20 +1,20 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-06T04:07:41.763064+07:00",
+  "generated_at": "2026-09-07T04:14:24.298680+07:00",
   "timezone": "Asia/Ho_Chi_Minh",
   "archive": {
     "first_date": "2026-07-30",
-    "last_date": "2026-09-06",
-    "archived_days": 39,
+    "last_date": "2026-09-07",
+    "archived_days": 40,
     "active_days": 33
   },
   "overview": {
-    "today_seconds": 3833.602,
-    "week_seconds": 47983.302,
-    "month_seconds": 46944.767,
-    "year_seconds": 540554.743,
-    "all_archived_seconds": 540554.743,
-    "daily_average_seconds": 16380.447,
+    "today_seconds": 0.0,
+    "week_seconds": 0.0,
+    "month_seconds": 50223.872,
+    "year_seconds": 543833.848,
+    "all_archived_seconds": 543833.848,
+    "daily_average_seconds": 16479.814,
     "active_days": 33,
     "best_day": {
       "date": "2026-07-30",
@@ -99938,19 +99938,19 @@
           "seconds": 365.428
         },
         {
-          "name": "use-freelancer-submission-api",
-          "seconds": 364.397
-        },
-        {
           "name": "SubmissionDetailsCard",
           "seconds": 364.397
         },
         {
-          "name": "SubmissionActivityTimeline",
+          "name": "use-freelancer-submission-api",
           "seconds": 364.397
         },
         {
           "name": "SubmissionTimeEntriesCard",
+          "seconds": 364.397
+        },
+        {
+          "name": "SubmissionActivityTimeline",
           "seconds": 364.397
         },
         {
@@ -99966,11 +99966,11 @@
           "seconds": 318.803
         },
         {
-          "name": "MemberInviteModal",
+          "name": "SubmissionDetailsModal",
           "seconds": 318.347
         },
         {
-          "name": "SubmissionDetailsModal",
+          "name": "MemberInviteModal",
           "seconds": 318.347
         },
         {
@@ -100062,11 +100062,11 @@
           "seconds": 204.287
         },
         {
-          "name": "ReviewDecisionCard",
+          "name": "DraftSubmissionUnavailable",
           "seconds": 197.096
         },
         {
-          "name": "ApprovalHistoryCard",
+          "name": "ReviewDecisionCard",
           "seconds": 197.096
         },
         {
@@ -100074,23 +100074,23 @@
           "seconds": 197.096
         },
         {
-          "name": "DraftSubmissionUnavailable",
+          "name": "ApprovalHistoryCard",
           "seconds": 197.096
-        },
-        {
-          "name": "RateHistoryModal",
-          "seconds": 167.042
-        },
-        {
-          "name": "EditUserModal",
-          "seconds": 167.042
         },
         {
           "name": "AddUserModal",
           "seconds": 167.042
         },
         {
+          "name": "RateHistoryModal",
+          "seconds": 167.042
+        },
+        {
           "name": "ResetPasswordModal",
+          "seconds": 167.042
+        },
+        {
+          "name": "EditUserModal",
           "seconds": 167.042
         },
         {
@@ -100178,7 +100178,7 @@
           "seconds": 72.012
         },
         {
-          "name": "ProjectsSearchControls",
+          "name": "ProjectsHeader",
           "seconds": 72.012
         },
         {
@@ -100186,12 +100186,16 @@
           "seconds": 72.012
         },
         {
-          "name": "ProjectsHeader",
+          "name": "ProjectsSearchControls",
           "seconds": 72.012
         },
         {
           "name": "SubmissionHistoryModal",
           "seconds": 68.898
+        },
+        {
+          "name": "TimesheetEntriesCard",
+          "seconds": 65.408
         },
         {
           "name": "TimesheetSubmissionActions",
@@ -100207,10 +100211,6 @@
         },
         {
           "name": "use-timesheet-submission",
-          "seconds": 65.408
-        },
-        {
-          "name": "TimesheetEntriesCard",
           "seconds": 65.408
         },
         {
@@ -100286,11 +100286,11 @@
           "seconds": 6.774
         },
         {
-          "name": "ManageCategoriesDialog",
+          "name": "FlowEditor",
           "seconds": 6.251
         },
         {
-          "name": "FlowEditor",
+          "name": "ManageCategoriesDialog",
           "seconds": 6.251
         },
         {
@@ -101231,32 +101231,32 @@
     },
     {
       "date": "2026-09-06",
-      "seconds": 3833.602,
+      "seconds": 7112.707,
       "projects": [
         {
           "name": "timesheet-claim",
-          "seconds": 3833.602,
-          "ai_additions": 752,
-          "ai_deletions": 39,
+          "seconds": 7112.707,
+          "ai_additions": 1200,
+          "ai_deletions": 44,
           "human_additions": 2,
           "human_deletions": 3,
-          "input_tokens": 941346,
-          "cached_input_tokens": 51547520,
-          "output_tokens": 100640,
-          "prompt_length_sum": 13566,
-          "prompt_length_avg": 1938,
-          "prompt_length_avg_per_session": 2083,
-          "prompt_length_median_per_session": 1576,
-          "prompt_events": 7,
-          "prompts_avg_per_session": 1,
+          "input_tokens": 1395486,
+          "cached_input_tokens": 62318720,
+          "output_tokens": 144201,
+          "prompt_length_sum": 25439,
+          "prompt_length_avg": 978,
+          "prompt_length_avg_per_session": 2527,
+          "prompt_length_median_per_session": 2803,
+          "prompt_events": 26,
+          "prompts_avg_per_session": 4,
           "prompts_median_per_session": 1,
-          "sessions": 5,
-          "cost": 3.132599,
+          "sessions": 6,
+          "cost": 6.964631,
           "models": [
             {
               "name": "GPT",
-              "lines": 791.0,
-              "cost": 1.473911
+              "lines": 1244.0,
+              "cost": 5.305943
             },
             {
               "name": "Codex-Vscode",
@@ -101264,53 +101264,53 @@
               "cost": 1.658688
             }
           ],
-          "tokens": 52589506
+          "tokens": 63858407
         }
       ],
       "languages": [
         {
           "name": "TypeScript",
-          "seconds": 2135.647
+          "seconds": 3148.213
         },
         {
           "name": "Markdown",
-          "seconds": 899.015
+          "seconds": 2233.2
         },
         {
           "name": "JavaScript",
-          "seconds": 776.943
+          "seconds": 1532.202
         },
         {
-          "name": "Other",
-          "seconds": 21.997
+          "name": "Prisma",
+          "seconds": 199.092
         }
       ],
       "editors": [
         {
           "name": "Codex Vscode",
-          "seconds": 3280.602
+          "seconds": 6531.03
         },
         {
           "name": "VS Code",
-          "seconds": 553.0
+          "seconds": 581.677
         }
       ],
       "operating_systems": [
         {
           "name": "Windows",
-          "seconds": 3833.602
+          "seconds": 7112.707
         }
       ],
       "machines": [
         {
           "name": "Alexander",
-          "seconds": 3833.602
+          "seconds": 7112.707
         }
       ],
       "categories": [
         {
           "name": "AI Coding",
-          "seconds": 3622.672
+          "seconds": 6901.777
         },
         {
           "name": "Coding",
@@ -101327,40 +101327,76 @@
       ],
       "dependencies": [
         {
-          "name": "react",
-          "seconds": 1003.001
+          "name": "types",
+          "seconds": 1705.0
         },
         {
-          "name": "types",
-          "seconds": 999.321
+          "name": "react",
+          "seconds": 1163.14
         },
         {
           "name": "LanguageContext",
-          "seconds": 956.829
+          "seconds": 1116.968
+        },
+        {
+          "name": "zod",
+          "seconds": 1028.168
         },
         {
           "name": "lucide-react",
-          "seconds": 861.026
+          "seconds": 1021.165
         },
         {
-          "name": "server",
-          "seconds": 759.025
+          "name": "errors",
+          "seconds": 854.263
         },
         {
           "name": "sonner",
-          "seconds": 677.565
+          "seconds": 837.704
         },
         {
           "name": "button",
-          "seconds": 671.99
+          "seconds": 832.129
+        },
+        {
+          "name": "card",
+          "seconds": 803.932
+        },
+        {
+          "name": "notificationService",
+          "seconds": 798.729
+        },
+        {
+          "name": "server",
+          "seconds": 774.338
+        },
+        {
+          "name": "prisma-db",
+          "seconds": 718.012
+        },
+        {
+          "name": "flow-service",
+          "seconds": 718.012
+        },
+        {
+          "name": "submission-adapter",
+          "seconds": 714.054
+        },
+        {
+          "name": "attachment-storage",
+          "seconds": 713.825
+        },
+        {
+          "name": "claim-adapter",
+          "seconds": 705.679
+        },
+        {
+          "name": "approver-resolver",
+          "seconds": 705.679
         },
         {
           "name": "shared-utils",
           "seconds": 644.774
-        },
-        {
-          "name": "card",
-          "seconds": 643.793
         },
         {
           "name": "navigation",
@@ -101379,8 +101415,16 @@
           "seconds": 516.731
         },
         {
+          "name": "textarea",
+          "seconds": 464.602
+        },
+        {
           "name": "label",
           "seconds": 417.473
+        },
+        {
+          "name": "dialog",
+          "seconds": 392.766
         },
         {
           "name": "table",
@@ -101391,24 +101435,24 @@
           "seconds": 386.67
         },
         {
-          "name": "zod",
-          "seconds": 322.489
+          "name": "utils",
+          "seconds": 342.968
+        },
+        {
+          "name": "tooltip",
+          "seconds": 325.686
         },
         {
           "name": "axios-config",
           "seconds": 306.616
         },
         {
-          "name": "textarea",
-          "seconds": 304.463
-        },
-        {
           "name": "ApprovalDiscussion",
           "seconds": 295.939
         },
         {
-          "name": "dialog",
-          "seconds": 232.627
+          "name": "avatar",
+          "seconds": 261.092
         },
         {
           "name": "TablePagination",
@@ -101431,16 +101475,16 @@
           "seconds": 188.992
         },
         {
-          "name": "utils",
-          "seconds": 182.829
-        },
-        {
-          "name": "tooltip",
-          "seconds": 165.547
+          "name": "auth",
+          "seconds": 173.693
         },
         {
           "name": "useCachedFetch",
           "seconds": 165.34
+        },
+        {
+          "name": "approval-client",
+          "seconds": 164.332
         },
         {
           "name": "TimeEntryRow",
@@ -101451,15 +101495,11 @@
           "seconds": 159.132
         },
         {
-          "name": "auth",
-          "seconds": 158.38
-        },
-        {
-          "name": "use-freelancer-submission-api",
+          "name": "submission-activity",
           "seconds": 152.777
         },
         {
-          "name": "submission-activity",
+          "name": "SubmissionDetailsCard",
           "seconds": 152.777
         },
         {
@@ -101467,11 +101507,11 @@
           "seconds": 152.777
         },
         {
-          "name": "SubmissionActivityTimeline",
+          "name": "use-freelancer-submission-api",
           "seconds": 152.777
         },
         {
-          "name": "SubmissionDetailsCard",
+          "name": "SubmissionActivityTimeline",
           "seconds": 152.777
         },
         {
@@ -101481,10 +101521,6 @@
         {
           "name": "badge",
           "seconds": 151.927
-        },
-        {
-          "name": "errors",
-          "seconds": 148.584
         },
         {
           "name": "StatsOverview",
@@ -101507,11 +101543,11 @@
           "seconds": 106.266
         },
         {
-          "name": "useUnsavedChanges",
+          "name": "UnsavedChangesDialog",
           "seconds": 104.74
         },
         {
-          "name": "UnsavedChangesDialog",
+          "name": "useUnsavedChanges",
           "seconds": 104.74
         },
         {
@@ -101519,16 +101555,8 @@
           "seconds": 103.781
         },
         {
-          "name": "avatar",
-          "seconds": 100.953
-        },
-        {
           "name": "list-client",
           "seconds": 98.989
-        },
-        {
-          "name": "notificationService",
-          "seconds": 93.05
         },
         {
           "name": "dropdown-menu",
@@ -101539,8 +101567,20 @@
           "seconds": 77.484
         },
         {
+          "name": "respond",
+          "seconds": 72.123
+        },
+        {
           "name": "inbox-service",
           "seconds": 68.656
+        },
+        {
+          "name": "TimesheetEntriesCard",
+          "seconds": 66.351
+        },
+        {
+          "name": "TimesheetPeriodCard",
+          "seconds": 66.351
         },
         {
           "name": "use-timesheet-submission",
@@ -101551,24 +101591,12 @@
           "seconds": 66.351
         },
         {
-          "name": "TimesheetPeriodCard",
-          "seconds": 66.351
-        },
-        {
-          "name": "TimesheetEntriesCard",
-          "seconds": 66.351
-        },
-        {
           "name": "validation",
           "seconds": 66.327
         },
         {
           "name": "pagination",
           "seconds": 58.145
-        },
-        {
-          "name": "respond",
-          "seconds": 56.81
         },
         {
           "name": "index",
@@ -101583,11 +101611,11 @@
           "seconds": 48.937
         },
         {
-          "name": "ThemeToggle",
+          "name": "notification-i18n",
           "seconds": 45.862
         },
         {
-          "name": "notification-i18n",
+          "name": "ThemeToggle",
           "seconds": 45.862
         },
         {
@@ -101627,15 +101655,11 @@
           "seconds": 31.827
         },
         {
-          "name": "project-actions",
-          "seconds": 31.827
-        },
-        {
           "name": "MemberInviteModal",
           "seconds": 31.827
         },
         {
-          "name": "SubmissionDetailsModal",
+          "name": "project-actions",
           "seconds": 31.827
         },
         {
@@ -101644,6 +101668,10 @@
         },
         {
           "name": "LoadingSkeleton",
+          "seconds": 31.827
+        },
+        {
+          "name": "SubmissionDetailsModal",
           "seconds": 31.827
         },
         {
@@ -101663,7 +101691,11 @@
           "seconds": 29.103
         },
         {
-          "name": "device",
+          "name": "discussion-service",
+          "seconds": 27.646
+        },
+        {
+          "name": "messages",
           "seconds": 21.412
         },
         {
@@ -101671,11 +101703,11 @@
           "seconds": 21.412
         },
         {
-          "name": "messages",
+          "name": "image",
           "seconds": 21.412
         },
         {
-          "name": "image",
+          "name": "device",
           "seconds": 21.412
         },
         {
@@ -101691,39 +101723,23 @@
           "seconds": 15.366
         },
         {
-          "name": "discussion-service",
-          "seconds": 12.333
-        },
-        {
-          "name": "prisma-db",
-          "seconds": 12.333
-        },
-        {
           "name": "prisma",
           "seconds": 12.333
-        },
-        {
-          "name": "flow-service",
-          "seconds": 12.333
-        },
-        {
-          "name": "react-day-picker",
-          "seconds": 9.286
         },
         {
           "name": "calendar-03",
           "seconds": 9.286
         },
         {
-          "name": "submission-adapter",
+          "name": "react-day-picker",
+          "seconds": 9.286
+        },
+        {
+          "name": "review-admin",
           "seconds": 8.375
         },
         {
           "name": "approval-engine",
-          "seconds": 8.375
-        },
-        {
-          "name": "review-admin",
           "seconds": 8.375
         },
         {
@@ -101732,10 +101748,6 @@
         },
         {
           "name": "schemas",
-          "seconds": 8.146
-        },
-        {
-          "name": "attachment-storage",
           "seconds": 8.146
         },
         {
@@ -101755,19 +101767,7 @@
           "seconds": 5.019
         },
         {
-          "name": "use-review-submission",
-          "seconds": 4.955
-        },
-        {
           "name": "TimeLogsDetail",
-          "seconds": 4.955
-        },
-        {
-          "name": "DraftSubmissionUnavailable",
-          "seconds": 4.955
-        },
-        {
-          "name": "ApprovalHistoryCard",
           "seconds": 4.955
         },
         {
@@ -101775,8 +101775,16 @@
           "seconds": 4.955
         },
         {
-          "name": "approval-client",
-          "seconds": 4.193
+          "name": "DraftSubmissionUnavailable",
+          "seconds": 4.955
+        },
+        {
+          "name": "use-review-submission",
+          "seconds": 4.955
+        },
+        {
+          "name": "ApprovalHistoryCard",
+          "seconds": 4.955
         },
         {
           "name": "login-form",
@@ -101784,27 +101792,27 @@
         }
       ],
       "ai": {
-        "ai_additions": 752,
-        "ai_deletions": 39,
+        "ai_additions": 1200,
+        "ai_deletions": 44,
         "human_additions": 2,
         "human_deletions": 3,
-        "input_tokens": 941346,
-        "cached_input_tokens": 51547520,
-        "output_tokens": 100640,
-        "prompt_length_sum": 13566,
-        "prompt_length_avg": 1938,
-        "prompt_length_avg_per_session": 2083,
-        "prompt_length_median_per_session": 1576,
-        "prompt_events": 7,
-        "prompts_avg_per_session": 1,
+        "input_tokens": 1395486,
+        "cached_input_tokens": 62318720,
+        "output_tokens": 144201,
+        "prompt_length_sum": 25439,
+        "prompt_length_avg": 978,
+        "prompt_length_avg_per_session": 2527,
+        "prompt_length_median_per_session": 2803,
+        "prompt_events": 26,
+        "prompts_avg_per_session": 4,
         "prompts_median_per_session": 1,
-        "sessions": 5,
-        "cost": 3.132599,
+        "sessions": 6,
+        "cost": 6.964631,
         "models": [
           {
             "name": "GPT",
-            "lines": 791.0,
-            "cost": 1.473911
+            "lines": 1244.0,
+            "cost": 5.305943
           },
           {
             "name": "Codex-Vscode",
@@ -101836,9 +101844,18 @@
           {
             "name": "timesheet-claim",
             "start_minute": 118.4,
-            "duration_seconds": 21.997,
-            "ai_additions": 0,
+            "duration_seconds": 642.037,
+            "ai_additions": 367,
             "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "timesheet-claim",
+            "start_minute": 979.85,
+            "duration_seconds": 2659.065,
+            "ai_additions": 81,
+            "ai_deletions": 5,
             "human_additions": 0,
             "human_deletions": 0
           }
@@ -102241,9 +102258,189 @@
             "human_deletions": 0
           },
           {
-            "name": "Other",
+            "name": "Prisma",
             "start_minute": 118.4,
-            "duration_seconds": 21.997,
+            "duration_seconds": 199.092,
+            "ai_additions": 22,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 121.717,
+            "duration_seconds": 21.983,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 122.083,
+            "duration_seconds": 68.559,
+            "ai_additions": 2,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 123.217,
+            "duration_seconds": 55.328,
+            "ai_additions": 277,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 124.15,
+            "duration_seconds": 109.452,
+            "ai_additions": 6,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 125.967,
+            "duration_seconds": 187.623,
+            "ai_additions": 4,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 979.85,
+            "duration_seconds": 197.881,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 983.15,
+            "duration_seconds": 28.86,
+            "ai_additions": 2,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 983.633,
+            "duration_seconds": 240.821,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "JavaScript",
+            "start_minute": 987.65,
+            "duration_seconds": 59.714,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 988.633,
+            "duration_seconds": 583.827,
+            "ai_additions": 11,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 998.367,
+            "duration_seconds": 427.685,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "JavaScript",
+            "start_minute": 1005.5,
+            "duration_seconds": 573.491,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 1015.05,
+            "duration_seconds": 81.837,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1016.417,
+            "duration_seconds": 92.774,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "JavaScript",
+            "start_minute": 1017.967,
+            "duration_seconds": 122.054,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 1020.0,
+            "duration_seconds": 54.679,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 1020.917,
+            "duration_seconds": 75.405,
+            "ai_additions": 0,
+            "ai_deletions": 5,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1022.167,
+            "duration_seconds": 34.768,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1022.75,
+            "duration_seconds": 55.214,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 1023.667,
+            "duration_seconds": 30.055,
             "ai_additions": 0,
             "ai_deletions": 0,
             "human_additions": 0,
@@ -102308,9 +102505,18 @@
           {
             "name": "AI Coding",
             "start_minute": 118.4,
-            "duration_seconds": 21.997,
-            "ai_additions": 0,
+            "duration_seconds": 642.037,
+            "ai_additions": 367,
             "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 979.85,
+            "duration_seconds": 2659.065,
+            "ai_additions": 81,
+            "ai_deletions": 5,
             "human_additions": 0,
             "human_deletions": 0
           }
@@ -102553,9 +102759,36 @@
           {
             "name": "Codex Vscode",
             "start_minute": 118.417,
-            "duration_seconds": 20.98,
+            "duration_seconds": 641.02,
+            "ai_additions": 367,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 979.85,
+            "duration_seconds": 1840.535,
+            "ai_additions": 51,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 1010.533,
+            "duration_seconds": 28.677,
             "ai_additions": 0,
             "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 1011.0,
+            "duration_seconds": 789.853,
+            "ai_additions": 30,
+            "ai_deletions": 5,
             "human_additions": 0,
             "human_deletions": 0
           }
@@ -102609,9 +102842,18 @@
           {
             "name": "Windows",
             "start_minute": 118.4,
-            "duration_seconds": 21.997,
-            "ai_additions": 0,
+            "duration_seconds": 642.037,
+            "ai_additions": 367,
             "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 979.85,
+            "duration_seconds": 2659.065,
+            "ai_additions": 81,
+            "ai_deletions": 5,
             "human_additions": 0,
             "human_deletions": 0
           }
@@ -102638,13 +102880,60 @@
           {
             "name": "Alexander",
             "start_minute": 118.4,
-            "duration_seconds": 21.997,
-            "ai_additions": 0,
+            "duration_seconds": 642.037,
+            "ai_additions": 367,
             "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Alexander",
+            "start_minute": 979.85,
+            "duration_seconds": 2659.065,
+            "ai_additions": 81,
+            "ai_deletions": 5,
             "human_additions": 0,
             "human_deletions": 0
           }
         ]
+      }
+    },
+    {
+      "date": "2026-09-07",
+      "seconds": 0.0,
+      "projects": [],
+      "languages": [],
+      "editors": [],
+      "operating_systems": [],
+      "machines": [],
+      "categories": [],
+      "dependencies": [],
+      "ai": {
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "input_tokens": 0,
+        "cached_input_tokens": 0,
+        "output_tokens": 0,
+        "prompt_length_sum": 0,
+        "prompt_length_avg": 0,
+        "prompt_length_avg_per_session": 0,
+        "prompt_length_median_per_session": 0,
+        "prompt_events": 0,
+        "prompts_avg_per_session": 0,
+        "prompts_median_per_session": 0,
+        "sessions": 0,
+        "cost": 0.0,
+        "models": []
+      },
+      "timelines": {
+        "project": [],
+        "language": [],
+        "category": [],
+        "editor": [],
+        "os": [],
+        "machine": []
       }
     }
   ]
