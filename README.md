@@ -2,71 +2,71 @@
 
 Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 
-> Last updated: **2026-09-10 04:39 ICT**
+> Last updated: **2026-09-11 04:34 ICT**
 
 ## Overview
 
 | Metric | Coding time |
 |---|---:|
 | Today | **0m** |
-| This week | **18h 5m** |
-| This month | **32h 36m** |
-| This year | **169h 43m** |
-| All archived time | **169h 43m** |
-| Daily average (active days) | **4h 43m** |
-| Active days | **36** |
+| This week | **24h 35m** |
+| This month | **39h 6m** |
+| This year | **176h 13m** |
+| All archived time | **176h 13m** |
+| Daily average (active days) | **4h 46m** |
+| Active days | **37** |
 | Best day | **2026-07-30 (8h 30m)** |
 
 ## Last 7 Days
 
 | Day | Date | Coding time |
 |---|---|---:|
-| Fri | 2026-09-04 | 4h 16m |
 | Sat | 2026-09-05 | 2h 42m |
 | Sun | 2026-09-06 | 2h 33m |
 | Mon | 2026-09-07 | 5h 39m |
 | Tue | 2026-09-08 | 5h 41m |
 | Wed | 2026-09-09 | 6h 44m |
-| Thu | 2026-09-10 | 0m |
+| Thu | 2026-09-10 | 6h 30m |
+| Fri | 2026-09-11 | 0m |
 
 ## Top Languages
 
 | Language | Time | Share |
 |---|---:|---:|
-| TypeScript | 42h 53m | 25.3% |
-| Markdown | 29h 16m | 17.2% |
-| Java | 25h 24m | 15.0% |
-| Dart | 23h 43m | 14.0% |
-| Other | 20h 23m | 12.0% |
-| JavaScript | 6h 18m | 3.7% |
-| SQL | 4h 15m | 2.5% |
-| Bash | 3h 49m | 2.2% |
+| TypeScript | 45h 9m | 25.6% |
+| Markdown | 31h 32m | 17.9% |
+| Java | 25h 47m | 14.6% |
+| Dart | 23h 43m | 13.5% |
+| Other | 20h 34m | 11.7% |
+| JavaScript | 6h 46m | 3.8% |
+| SQL | 4h 29m | 2.5% |
+| Bash | 4h 10m | 2.4% |
 
 ## Top Projects
 
 | Project | Time | Share |
 |---|---:|---:|
-| purchase-portal-be | 50h 19m | 29.6% |
-| purchase-portal-fe | 40h 13m | 23.7% |
-| hsafe-mobile | 37h 41m | 22.2% |
-| timesheet-claim | 19h 10m | 11.3% |
-| Zerun-pro-max | 11h 16m | 6.6% |
-| shopee-seeding-bot-develop | 6h 49m | 4.0% |
-| website | 2h 52m | 1.7% |
-| firstaid.hsafe.net | 57m | 0.6% |
+| purchase-portal-be | 51h 25m | 29.2% |
+| purchase-portal-fe | 41h 38m | 23.6% |
+| hsafe-mobile | 37h 44m | 21.4% |
+| timesheet-claim | 23h 4m | 13.1% |
+| Zerun-pro-max | 11h 16m | 6.4% |
+| shopee-seeding-bot-develop | 6h 49m | 3.9% |
+| website | 2h 52m | 1.6% |
+| firstaid.hsafe.net | 57m | 0.5% |
 
 ## All Projects
 
 | Project | Time | Share |
 |---|---:|---:|
-| purchase-portal-be | 50h 19m | 29.6% |
-| purchase-portal-fe | 40h 13m | 23.7% |
-| hsafe-mobile | 37h 41m | 22.2% |
-| timesheet-claim | 19h 10m | 11.3% |
-| Zerun-pro-max | 11h 16m | 6.6% |
-| shopee-seeding-bot-develop | 6h 49m | 4.0% |
-| website | 2h 52m | 1.7% |
-| firstaid.hsafe.net | 57m | 0.6% |
+| purchase-portal-be | 51h 25m | 29.2% |
+| purchase-portal-fe | 41h 38m | 23.6% |
+| hsafe-mobile | 37h 44m | 21.4% |
+| timesheet-claim | 23h 4m | 13.1% |
+| Zerun-pro-max | 11h 16m | 6.4% |
+| shopee-seeding-bot-develop | 6h 49m | 3.9% |
+| website | 2h 52m | 1.6% |
+| firstaid.hsafe.net | 57m | 0.5% |
 | realtime-voice-chat | 8m | 0.1% |
 | service | 8m | 0.1% |
 | Downloads | 4m | 0.0% |
@@ -86,18 +86,18 @@ Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 
 | Editor | Time | Share |
 |---|---:|---:|
-| Codex Vscode | 86h 51m | 51.2% |
-| VS Code | 81h 52m | 48.2% |
+| Codex Vscode | 91h 28m | 51.9% |
+| VS Code | 83h 45m | 47.5% |
 | Antigravity Desktop | 23m | 0.2% |
 | CLI | 21m | 0.2% |
-| Codex CLI | 15m | 0.2% |
+| Codex CLI | 15m | 0.1% |
 | Android Studio | 0m | 0.0% |
 
 ## Operating Systems
 
 | OS | Time | Share |
 |---|---:|---:|
-| Windows | 169h 43m | 100.0% |
+| Windows | 176h 13m | 100.0% |
 
 ## How it works
 

@@ -1,6 +1,226 @@
 {
   "data": [
     {
+      "grand_total": {
+        "hours": 5,
+        "minutes": 41,
+        "total_seconds": 20488.867,
+        "digital": "5:41",
+        "decimal": "5.68",
+        "text": "5 hrs 41 mins",
+        "ai_additions": 3475,
+        "ai_deletions": 737,
+        "human_additions": 39,
+        "human_deletions": 9,
+        "ai_model_line_changes": {
+          "GPT": 4212
+        },
+        "ai_input_tokens": 3412418,
+        "ai_cached_input_tokens": 84704256,
+        "ai_output_tokens": 339409,
+        "ai_prompt_length_sum": 21378,
+        "ai_prompt_events_total": 65,
+        "ai_sessions": 8,
+        "ai_model_costs": {
+          "GPT": 15.0219,
+          "Codex-Vscode": 0.179703
+        },
+        "ai_model_breakdown": [
+          {
+            "name": "GPT",
+            "lines": 4212,
+            "cost": 15.0219
+          },
+          {
+            "name": "Codex-Vscode",
+            "lines": 0,
+            "cost": 0.179703
+          }
+        ],
+        "ai_model_total_cost": 15.201603,
+        "ai_prompt_length_avg": 329,
+        "ai_prompt_events_avg_per_session": 8,
+        "ai_prompt_events_median_per_session": 4,
+        "ai_prompt_length_avg_per_session": 563,
+        "ai_prompt_length_median_per_session": 329
+      },
+      "range": {
+        "start": "2026-09-07T17:00:00Z",
+        "end": "2026-09-08T16:59:59Z",
+        "date": "2026-09-08",
+        "text": "Tue Sep 8th 2026",
+        "timezone": "Asia/Ho_Chi_Minh"
+      },
+      "projects": [
+        {
+          "name": "timesheet-claim",
+          "total_seconds": 10655.522,
+          "ai_additions": 3347,
+          "ai_deletions": 691,
+          "human_additions": 1,
+          "human_deletions": 1,
+          "ai_model_line_changes": {
+            "GPT": 4038
+          },
+          "ai_input_tokens": 2381833,
+          "ai_cached_input_tokens": 67003264,
+          "ai_output_tokens": 271550,
+          "ai_prompt_length_sum": 15464,
+          "ai_prompt_events_total": 31,
+          "color": null,
+          "ai_model_costs": {
+            "Codex-Vscode": 0.179703,
+            "GPT": 12.408175
+          },
+          "ai_model_breakdown": [
+            {
+              "name": "GPT",
+              "lines": 4038,
+              "cost": 12.408175
+            },
+            {
+              "name": "Codex-Vscode",
+              "lines": 0,
+              "cost": 0.179703
+            }
+          ],
+          "ai_model_total_cost": 12.587878,
+          "ai_prompt_length_avg": 499,
+          "ai_prompt_length_avg_per_session": 758,
+          "ai_prompt_length_median_per_session": 450,
+          "ai_prompt_events_avg_per_session": 5,
+          "ai_prompt_events_median_per_session": 3,
+          "ai_sessions": 6,
+          "digital": "2:57:35",
+          "decimal": "2.95",
+          "text": "2 hrs 57 mins",
+          "hours": 2,
+          "minutes": 57,
+          "seconds": 35,
+          "percent": 52.01
+        },
+        {
+          "name": "purchase-portal-fe",
+          "total_seconds": 6585.925,
+          "ai_additions": 110,
+          "ai_deletions": 46,
+          "human_additions": 38,
+          "human_deletions": 5,
+          "ai_model_line_changes": {
+            "GPT": 156
+          },
+          "ai_input_tokens": 321677,
+          "ai_cached_input_tokens": 14710016,
+          "ai_output_tokens": 53253,
+          "ai_prompt_length_sum": 2145,
+          "ai_prompt_events_total": 26,
+          "color": null,
+          "ai_model_costs": {
+            "GPT": 0.422439
+          },
+          "ai_model_breakdown": [
+            {
+              "name": "GPT",
+              "lines": 156,
+              "cost": 0.422439
+            }
+          ],
+          "ai_model_total_cost": 0.422439,
+          "ai_prompt_length_avg": 82,
+          "ai_prompt_length_avg_per_session": 82,
+          "ai_prompt_length_median_per_session": 82,
+          "ai_prompt_events_avg_per_session": 26,
+          "ai_prompt_events_median_per_session": 26,
+          "ai_sessions": 1,
+          "digital": "1:49:45",
+          "decimal": "1.82",
+          "text": "1 hr 49 mins",
+          "hours": 1,
+          "minutes": 49,
+          "seconds": 45,
+          "percent": 32.14
+        },
+        {
+          "name": "purchase-portal-be",
+          "total_seconds": 3134.547,
+          "ai_additions": 0,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 3,
+          "ai_model_line_changes": {},
+          "ai_input_tokens": 687076,
+          "ai_cached_input_tokens": 1873792,
+          "ai_output_tokens": 11174,
+          "ai_prompt_length_sum": 3755,
+          "ai_prompt_events_total": 6,
+          "color": null,
+          "ai_model_costs": {
+            "GPT": 1.882999
+          },
+          "ai_model_breakdown": [
+            {
+              "name": "GPT",
+              "lines": 0,
+              "cost": 1.882999
+            }
+          ],
+          "ai_model_total_cost": 1.882999,
+          "ai_prompt_length_avg": 626,
+          "ai_prompt_length_avg_per_session": 626,
+          "ai_prompt_length_median_per_session": 626,
+          "ai_prompt_events_avg_per_session": 6,
+          "ai_prompt_events_median_per_session": 6,
+          "ai_sessions": 1,
+          "digital": "0:52:14",
+          "decimal": "0.87",
+          "text": "52 mins",
+          "hours": 0,
+          "minutes": 52,
+          "seconds": 14,
+          "percent": 15.3
+        },
+        {
+          "name": "shopee-seeding-bot-develop",
+          "total_seconds": 112.873,
+          "ai_additions": 18,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "ai_model_line_changes": {
+            "GPT": 18
+          },
+          "ai_input_tokens": 21832,
+          "ai_cached_input_tokens": 1117184,
+          "ai_output_tokens": 3432,
+          "ai_prompt_length_sum": 14,
+          "ai_prompt_events_total": 2,
+          "color": null,
+          "ai_model_costs": {
+            "GPT": 0.308287
+          },
+          "ai_model_breakdown": [
+            {
+              "name": "GPT",
+              "lines": 18,
+              "cost": 0.308287
+            }
+          ],
+          "ai_model_total_cost": 0.308287,
+          "ai_prompt_length_avg": 7,
+          "ai_prompt_length_avg_per_session": 7,
+          "ai_prompt_length_median_per_session": 7,
+          "ai_prompt_events_avg_per_session": 2,
+          "ai_prompt_events_median_per_session": 2,
+          "ai_sessions": 1,
+          "digital": "0:01:52",
+          "decimal": "0.02",
+          "text": "1 min",
+          "hours": 0,
+          "minutes": 1,
+          "seconds": 52,
+          "percent": 0.55
+        }
+      ],
       "languages": [
         {
           "name": "Markdown",
@@ -166,188 +386,6 @@
           "minutes": 0,
           "seconds": 0,
           "percent": 0.0
-        }
-      ],
-      "grand_total": {
-        "hours": 5,
-        "minutes": 41,
-        "total_seconds": 20488.867,
-        "digital": "5:41",
-        "decimal": "5.68",
-        "text": "5 hrs 41 mins",
-        "ai_additions": 3475,
-        "ai_deletions": 737,
-        "human_additions": 39,
-        "human_deletions": 9,
-        "ai_model_line_changes": {
-          "GPT": 4212
-        },
-        "ai_input_tokens": 3412418,
-        "ai_cached_input_tokens": 84704256,
-        "ai_output_tokens": 339409,
-        "ai_prompt_length_sum": 21378,
-        "ai_prompt_events_total": 65,
-        "ai_sessions": 8,
-        "ai_model_costs": {
-          "GPT": 15.0219,
-          "Codex-Vscode": 0.179703
-        },
-        "ai_model_breakdown": [
-          {
-            "name": "GPT",
-            "lines": 4212,
-            "cost": 15.0219
-          },
-          {
-            "name": "Codex-Vscode",
-            "lines": 0,
-            "cost": 0.179703
-          }
-        ],
-        "ai_model_total_cost": 15.201603,
-        "ai_prompt_length_avg": 329,
-        "ai_prompt_events_avg_per_session": 8,
-        "ai_prompt_events_median_per_session": 4,
-        "ai_prompt_length_avg_per_session": 563,
-        "ai_prompt_length_median_per_session": 329
-      },
-      "editors": [
-        {
-          "name": "Codex Vscode",
-          "total_seconds": 16085.807,
-          "ai_additions": 3475,
-          "ai_deletions": 737,
-          "human_additions": 0,
-          "human_deletions": 0,
-          "ai_model_line_changes": {
-            "GPT": 4212
-          },
-          "ai_input_tokens": 3389041,
-          "ai_cached_input_tokens": 84669952,
-          "ai_output_tokens": 338965,
-          "ai_prompt_length_sum": 17087,
-          "ai_prompt_events_total": 64,
-          "ai_model_costs": {
-            "GPT": 15.0219
-          },
-          "ai_model_breakdown": [
-            {
-              "name": "GPT",
-              "lines": 4212,
-              "cost": 15.0219
-            }
-          ],
-          "ai_model_total_cost": 15.0219,
-          "ai_prompt_length_avg": 267,
-          "ai_prompt_length_avg_per_session": 300,
-          "ai_prompt_length_median_per_session": 145,
-          "ai_prompt_events_avg_per_session": 8,
-          "ai_prompt_events_median_per_session": 4,
-          "ai_sessions": 8,
-          "digital": "4:28:05",
-          "decimal": "4.47",
-          "text": "4 hrs 28 mins",
-          "hours": 4,
-          "minutes": 28,
-          "seconds": 5,
-          "percent": 78.51
-        },
-        {
-          "name": "VS Code",
-          "total_seconds": 4403.06,
-          "ai_additions": 0,
-          "ai_deletions": 0,
-          "human_additions": 39,
-          "human_deletions": 9,
-          "ai_model_line_changes": {},
-          "ai_input_tokens": 23377,
-          "ai_cached_input_tokens": 34304,
-          "ai_output_tokens": 444,
-          "ai_prompt_length_sum": 4291,
-          "ai_prompt_events_total": 1,
-          "ai_model_costs": {
-            "Codex-Vscode": 0.179703
-          },
-          "ai_model_breakdown": [
-            {
-              "name": "Codex-Vscode",
-              "lines": 0,
-              "cost": 0.179703
-            }
-          ],
-          "ai_model_total_cost": 0.179703,
-          "ai_prompt_length_avg": 4291,
-          "ai_prompt_length_avg_per_session": 4291,
-          "ai_prompt_length_median_per_session": 4291,
-          "ai_prompt_events_avg_per_session": 1,
-          "ai_prompt_events_median_per_session": 1,
-          "ai_sessions": 1,
-          "digital": "1:13:23",
-          "decimal": "1.22",
-          "text": "1 hr 13 mins",
-          "hours": 1,
-          "minutes": 13,
-          "seconds": 23,
-          "percent": 21.49
-        }
-      ],
-      "operating_systems": [
-        {
-          "name": "Windows",
-          "total_seconds": 20488.867,
-          "digital": "5:41:28",
-          "decimal": "5.68",
-          "text": "5 hrs 41 mins",
-          "hours": 5,
-          "minutes": 41,
-          "seconds": 28,
-          "percent": 100.0
-        }
-      ],
-      "categories": [
-        {
-          "name": "AI Coding",
-          "total_seconds": 16613.657,
-          "digital": "4:36:53",
-          "decimal": "4.60",
-          "text": "4 hrs 36 mins",
-          "hours": 4,
-          "minutes": 36,
-          "seconds": 53,
-          "percent": 81.09
-        },
-        {
-          "name": "Coding",
-          "total_seconds": 3595.582,
-          "digital": "0:59:55",
-          "decimal": "0.98",
-          "text": "59 mins",
-          "hours": 0,
-          "minutes": 59,
-          "seconds": 55,
-          "percent": 17.55
-        },
-        {
-          "name": "Writing Docs",
-          "total_seconds": 219.724,
-          "digital": "0:03:39",
-          "decimal": "0.05",
-          "text": "3 mins",
-          "hours": 0,
-          "minutes": 3,
-          "seconds": 39,
-          "percent": 1.07
-        },
-        {
-          "name": "Writing Tests",
-          "total_seconds": 59.904,
-          "digital": "0:00:59",
-          "decimal": "0.00",
-          "text": "59 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 59,
-          "percent": 0.29
         }
       ],
       "dependencies": [
@@ -572,17 +610,6 @@
           "percent": 1.91
         },
         {
-          "name": "react-router",
-          "total_seconds": 1711.727,
-          "digital": "0:28:31",
-          "decimal": "0.47",
-          "text": "28 mins",
-          "hours": 0,
-          "minutes": 28,
-          "seconds": 31,
-          "percent": 1.9
-        },
-        {
           "name": "purAuthorizationStore",
           "total_seconds": 1711.727,
           "digital": "0:28:31",
@@ -595,6 +622,17 @@
         },
         {
           "name": "authSession",
+          "total_seconds": 1711.727,
+          "digital": "0:28:31",
+          "decimal": "0.47",
+          "text": "28 mins",
+          "hours": 0,
+          "minutes": 28,
+          "seconds": 31,
+          "percent": 1.9
+        },
+        {
+          "name": "react-router",
           "total_seconds": 1711.727,
           "digital": "0:28:31",
           "decimal": "0.47",
@@ -627,6 +665,17 @@
           "percent": 1.8
         },
         {
+          "name": "springframework.util",
+          "total_seconds": 1565.052,
+          "digital": "0:26:05",
+          "decimal": "0.43",
+          "text": "26 mins",
+          "hours": 0,
+          "minutes": 26,
+          "seconds": 5,
+          "percent": 1.74
+        },
+        {
           "name": "lombok.RequiredArgsConstructor",
           "total_seconds": 1565.052,
           "digital": "0:26:05",
@@ -649,18 +698,7 @@
           "percent": 1.74
         },
         {
-          "name": "springframework.util",
-          "total_seconds": 1565.052,
-          "digital": "0:26:05",
-          "decimal": "0.43",
-          "text": "26 mins",
-          "hours": 0,
-          "minutes": 26,
-          "seconds": 5,
-          "percent": 1.74
-        },
-        {
-          "name": "springframework.dao",
+          "name": "springframework.http",
           "total_seconds": 1562.944,
           "digital": "0:26:02",
           "decimal": "0.43",
@@ -682,7 +720,7 @@
           "percent": 1.74
         },
         {
-          "name": "springframework.http",
+          "name": "springframework.dao",
           "total_seconds": 1562.944,
           "digital": "0:26:02",
           "decimal": "0.43",
@@ -770,28 +808,6 @@
           "percent": 1.0
         },
         {
-          "name": "submission-activity",
-          "total_seconds": 903.846,
-          "digital": "0:15:03",
-          "decimal": "0.25",
-          "text": "15 mins",
-          "hours": 0,
-          "minutes": 15,
-          "seconds": 3,
-          "percent": 1.0
-        },
-        {
-          "name": "SubmissionDetailsCard",
-          "total_seconds": 903.846,
-          "digital": "0:15:03",
-          "decimal": "0.25",
-          "text": "15 mins",
-          "hours": 0,
-          "minutes": 15,
-          "seconds": 3,
-          "percent": 1.0
-        },
-        {
           "name": "dialog",
           "total_seconds": 903.846,
           "digital": "0:15:03",
@@ -814,15 +830,26 @@
           "percent": 1.0
         },
         {
-          "name": "avatar",
-          "total_seconds": 868.553,
-          "digital": "0:14:28",
-          "decimal": "0.23",
-          "text": "14 mins",
+          "name": "submission-activity",
+          "total_seconds": 903.846,
+          "digital": "0:15:03",
+          "decimal": "0.25",
+          "text": "15 mins",
           "hours": 0,
-          "minutes": 14,
-          "seconds": 28,
-          "percent": 0.96
+          "minutes": 15,
+          "seconds": 3,
+          "percent": 1.0
+        },
+        {
+          "name": "SubmissionDetailsCard",
+          "total_seconds": 903.846,
+          "digital": "0:15:03",
+          "decimal": "0.25",
+          "text": "15 mins",
+          "hours": 0,
+          "minutes": 15,
+          "seconds": 3,
+          "percent": 1.0
         },
         {
           "name": "TimeLogsDetail",
@@ -836,7 +863,29 @@
           "percent": 0.96
         },
         {
-          "name": "DraftSubmissionUnavailable",
+          "name": "avatar",
+          "total_seconds": 868.553,
+          "digital": "0:14:28",
+          "decimal": "0.23",
+          "text": "14 mins",
+          "hours": 0,
+          "minutes": 14,
+          "seconds": 28,
+          "percent": 0.96
+        },
+        {
+          "name": "ReviewDecisionCard",
+          "total_seconds": 810.084,
+          "digital": "0:13:30",
+          "decimal": "0.22",
+          "text": "13 mins",
+          "hours": 0,
+          "minutes": 13,
+          "seconds": 30,
+          "percent": 0.9
+        },
+        {
+          "name": "index",
           "total_seconds": 810.084,
           "digital": "0:13:30",
           "decimal": "0.22",
@@ -858,18 +907,7 @@
           "percent": 0.9
         },
         {
-          "name": "ReviewDecisionCard",
-          "total_seconds": 810.084,
-          "digital": "0:13:30",
-          "decimal": "0.22",
-          "text": "13 mins",
-          "hours": 0,
-          "minutes": 13,
-          "seconds": 30,
-          "percent": 0.9
-        },
-        {
-          "name": "index",
+          "name": "DraftSubmissionUnavailable",
           "total_seconds": 810.084,
           "digital": "0:13:30",
           "decimal": "0.22",
@@ -935,6 +973,17 @@
           "percent": 0.46
         },
         {
+          "name": "useNotificationSse",
+          "total_seconds": 412.362,
+          "digital": "0:06:52",
+          "decimal": "0.10",
+          "text": "6 mins",
+          "hours": 0,
+          "minutes": 6,
+          "seconds": 52,
+          "percent": 0.46
+        },
+        {
           "name": "user",
           "total_seconds": 412.362,
           "digital": "0:06:52",
@@ -947,17 +996,6 @@
         },
         {
           "name": "trello",
-          "total_seconds": 412.362,
-          "digital": "0:06:52",
-          "decimal": "0.10",
-          "text": "6 mins",
-          "hours": 0,
-          "minutes": 6,
-          "seconds": 52,
-          "percent": 0.46
-        },
-        {
-          "name": "useNotificationSse",
           "total_seconds": 412.362,
           "digital": "0:06:52",
           "decimal": "0.10",
@@ -1078,7 +1116,7 @@
           "percent": 0.24
         },
         {
-          "name": "NavigationGuardContext",
+          "name": "Header",
           "total_seconds": 212.344,
           "digital": "0:03:32",
           "decimal": "0.05",
@@ -1089,7 +1127,7 @@
           "percent": 0.24
         },
         {
-          "name": "Header",
+          "name": "NavigationGuardContext",
           "total_seconds": 212.344,
           "digital": "0:03:32",
           "decimal": "0.05",
@@ -1144,17 +1182,6 @@
           "percent": 0.2
         },
         {
-          "name": "NotificationListToolbar",
-          "total_seconds": 173.663,
-          "digital": "0:02:53",
-          "decimal": "0.03",
-          "text": "2 mins",
-          "hours": 0,
-          "minutes": 2,
-          "seconds": 53,
-          "percent": 0.19
-        },
-        {
           "name": "NotificationCard",
           "total_seconds": 173.663,
           "digital": "0:02:53",
@@ -1166,7 +1193,7 @@
           "percent": 0.19
         },
         {
-          "name": "NotificationListPagination",
+          "name": "NotificationListLoading",
           "total_seconds": 173.663,
           "digital": "0:02:53",
           "decimal": "0.03",
@@ -1177,7 +1204,18 @@
           "percent": 0.19
         },
         {
-          "name": "NotificationListLoading",
+          "name": "NotificationListToolbar",
+          "total_seconds": 173.663,
+          "digital": "0:02:53",
+          "decimal": "0.03",
+          "text": "2 mins",
+          "hours": 0,
+          "minutes": 2,
+          "seconds": 53,
+          "percent": 0.19
+        },
+        {
+          "name": "NotificationListPagination",
           "total_seconds": 173.663,
           "digital": "0:02:53",
           "decimal": "0.03",
@@ -1210,7 +1248,7 @@
           "percent": 0.18
         },
         {
-          "name": "notification-i18n",
+          "name": "useNotifications",
           "total_seconds": 159.945,
           "digital": "0:02:39",
           "decimal": "0.03",
@@ -1221,7 +1259,7 @@
           "percent": 0.18
         },
         {
-          "name": "link",
+          "name": "notification-i18n",
           "total_seconds": 159.945,
           "digital": "0:02:39",
           "decimal": "0.03",
@@ -1243,7 +1281,7 @@
           "percent": 0.18
         },
         {
-          "name": "useNotifications",
+          "name": "link",
           "total_seconds": 159.945,
           "digital": "0:02:39",
           "decimal": "0.03",
@@ -1254,7 +1292,7 @@
           "percent": 0.18
         },
         {
-          "name": "approver-resolver",
+          "name": "flow-service",
           "total_seconds": 123.367,
           "digital": "0:02:03",
           "decimal": "0.03",
@@ -1265,7 +1303,7 @@
           "percent": 0.14
         },
         {
-          "name": "flow-service",
+          "name": "approver-resolver",
           "total_seconds": 123.367,
           "digital": "0:02:03",
           "decimal": "0.03",
@@ -1320,17 +1358,6 @@
           "percent": 0.12
         },
         {
-          "name": "StatsOverview",
-          "total_seconds": 102.974,
-          "digital": "0:01:42",
-          "decimal": "0.02",
-          "text": "1 min",
-          "hours": 0,
-          "minutes": 1,
-          "seconds": 42,
-          "percent": 0.11
-        },
-        {
           "name": "switch",
           "total_seconds": 102.974,
           "digital": "0:01:42",
@@ -1342,7 +1369,18 @@
           "percent": 0.11
         },
         {
-          "name": "web_ai",
+          "name": "StatsOverview",
+          "total_seconds": 102.974,
+          "digital": "0:01:42",
+          "decimal": "0.02",
+          "text": "1 min",
+          "hours": 0,
+          "minutes": 1,
+          "seconds": 42,
+          "percent": 0.11
+        },
+        {
+          "name": "unittest",
           "total_seconds": 80.853,
           "digital": "0:01:20",
           "decimal": "0.02",
@@ -1353,7 +1391,7 @@
           "percent": 0.09
         },
         {
-          "name": "unittest",
+          "name": "web_ai",
           "total_seconds": 80.853,
           "digital": "0:01:20",
           "decimal": "0.02",
@@ -1408,7 +1446,7 @@
           "percent": 0.07
         },
         {
-          "name": "zod",
+          "name": "submission-adapter",
           "total_seconds": 58.918,
           "digital": "0:00:58",
           "decimal": "0.00",
@@ -1419,7 +1457,7 @@
           "percent": 0.07
         },
         {
-          "name": "submission-adapter",
+          "name": "zod",
           "total_seconds": 58.918,
           "digital": "0:00:58",
           "decimal": "0.00",
@@ -1496,39 +1534,6 @@
           "percent": 0.06
         },
         {
-          "name": "springframework.boot",
-          "total_seconds": 50.233,
-          "digital": "0:00:50",
-          "decimal": "0.00",
-          "text": "50 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 50,
-          "percent": 0.06
-        },
-        {
-          "name": "springframework.web",
-          "total_seconds": 50.233,
-          "digital": "0:00:50",
-          "decimal": "0.00",
-          "text": "50 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 50,
-          "percent": 0.06
-        },
-        {
-          "name": "springframework.beans",
-          "total_seconds": 50.233,
-          "digital": "0:00:50",
-          "decimal": "0.00",
-          "text": "50 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 50,
-          "percent": 0.06
-        },
-        {
           "name": "jakarta.servlet",
           "total_seconds": 50.233,
           "digital": "0:00:50",
@@ -1551,7 +1556,7 @@
           "percent": 0.06
         },
         {
-          "name": "springframework.test",
+          "name": "springframework.web",
           "total_seconds": 50.233,
           "digital": "0:00:50",
           "decimal": "0.00",
@@ -1563,6 +1568,39 @@
         },
         {
           "name": "springframework.context",
+          "total_seconds": 50.233,
+          "digital": "0:00:50",
+          "decimal": "0.00",
+          "text": "50 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 50,
+          "percent": 0.06
+        },
+        {
+          "name": "springframework.boot",
+          "total_seconds": 50.233,
+          "digital": "0:00:50",
+          "decimal": "0.00",
+          "text": "50 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 50,
+          "percent": 0.06
+        },
+        {
+          "name": "springframework.beans",
+          "total_seconds": 50.233,
+          "digital": "0:00:50",
+          "decimal": "0.00",
+          "text": "50 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 50,
+          "percent": 0.06
+        },
+        {
+          "name": "springframework.test",
           "total_seconds": 50.233,
           "digital": "0:00:50",
           "decimal": "0.00",
@@ -1595,17 +1633,6 @@
           "percent": 0.05
         },
         {
-          "name": "server",
-          "total_seconds": 36.092,
-          "digital": "0:00:36",
-          "decimal": "0.00",
-          "text": "36 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 36,
-          "percent": 0.04
-        },
-        {
           "name": "auth",
           "total_seconds": 36.092,
           "digital": "0:00:36",
@@ -1617,7 +1644,18 @@
           "percent": 0.04
         },
         {
-          "name": "WareHousePage",
+          "name": "server",
+          "total_seconds": 36.092,
+          "digital": "0:00:36",
+          "decimal": "0.00",
+          "text": "36 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 36,
+          "percent": 0.04
+        },
+        {
+          "name": "NotificationsPage",
           "total_seconds": 21.119,
           "digital": "0:00:21",
           "decimal": "0.00",
@@ -1628,7 +1666,7 @@
           "percent": 0.02
         },
         {
-          "name": "OrderListPage",
+          "name": "AppLayout",
           "total_seconds": 21.119,
           "digital": "0:00:21",
           "decimal": "0.00",
@@ -1639,7 +1677,7 @@
           "percent": 0.02
         },
         {
-          "name": "ReturnListPage",
+          "name": "toSupportedLang",
           "total_seconds": 21.119,
           "digital": "0:00:21",
           "decimal": "0.00",
@@ -1672,7 +1710,7 @@
           "percent": 0.02
         },
         {
-          "name": "AppLayout",
+          "name": "WareHousePage",
           "total_seconds": 21.119,
           "digital": "0:00:21",
           "decimal": "0.00",
@@ -1683,40 +1721,7 @@
           "percent": 0.02
         },
         {
-          "name": "AuthPages",
-          "total_seconds": 21.119,
-          "digital": "0:00:21",
-          "decimal": "0.00",
-          "text": "21 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 21,
-          "percent": 0.02
-        },
-        {
-          "name": "Providers",
-          "total_seconds": 21.119,
-          "digital": "0:00:21",
-          "decimal": "0.00",
-          "text": "21 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 21,
-          "percent": 0.02
-        },
-        {
-          "name": "toSupportedLang",
-          "total_seconds": 21.119,
-          "digital": "0:00:21",
-          "decimal": "0.00",
-          "text": "21 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 21,
-          "percent": 0.02
-        },
-        {
-          "name": "NotificationsPage",
+          "name": "OrderListPage",
           "total_seconds": 21.119,
           "digital": "0:00:21",
           "decimal": "0.00",
@@ -1749,6 +1754,28 @@
           "percent": 0.02
         },
         {
+          "name": "Providers",
+          "total_seconds": 21.119,
+          "digital": "0:00:21",
+          "decimal": "0.00",
+          "text": "21 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 21,
+          "percent": 0.02
+        },
+        {
+          "name": "AuthPages",
+          "total_seconds": 21.119,
+          "digital": "0:00:21",
+          "decimal": "0.00",
+          "text": "21 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 21,
+          "percent": 0.02
+        },
+        {
           "name": "ProfilePage",
           "total_seconds": 21.119,
           "digital": "0:00:21",
@@ -1760,7 +1787,18 @@
           "percent": 0.02
         },
         {
-          "name": "bell",
+          "name": "ReturnListPage",
+          "total_seconds": 21.119,
+          "digital": "0:00:21",
+          "decimal": "0.00",
+          "text": "21 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 21,
+          "percent": 0.02
+        },
+        {
+          "name": "arrow-reverse",
           "total_seconds": 12.467,
           "digital": "0:00:12",
           "decimal": "0.00",
@@ -1771,7 +1809,7 @@
           "percent": 0.01
         },
         {
-          "name": "arrow-reverse",
+          "name": "bell",
           "total_seconds": 12.467,
           "digital": "0:00:12",
           "decimal": "0.00",
@@ -1804,29 +1842,7 @@
           "percent": 0.01
         },
         {
-          "name": "mockito.ArgumentCaptor",
-          "total_seconds": 8.071,
-          "digital": "0:00:08",
-          "decimal": "0.00",
-          "text": "8 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 8,
-          "percent": 0.01
-        },
-        {
           "name": "mockito.junit",
-          "total_seconds": 8.071,
-          "digital": "0:00:08",
-          "decimal": "0.00",
-          "text": "8 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 8,
-          "percent": 0.01
-        },
-        {
-          "name": "mockito.Mock",
           "total_seconds": 8.071,
           "digital": "0:00:08",
           "decimal": "0.00",
@@ -1848,6 +1864,28 @@
           "percent": 0.01
         },
         {
+          "name": "mockito.ArgumentCaptor",
+          "total_seconds": 8.071,
+          "digital": "0:00:08",
+          "decimal": "0.00",
+          "text": "8 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 8,
+          "percent": 0.01
+        },
+        {
+          "name": "mockito.Mock",
+          "total_seconds": 8.071,
+          "digital": "0:00:08",
+          "decimal": "0.00",
+          "text": "8 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 8,
+          "percent": 0.01
+        },
+        {
           "name": "globals",
           "total_seconds": 3.438,
           "digital": "0:00:03",
@@ -1859,7 +1897,40 @@
           "percent": 0.0
         },
         {
-          "name": "@tailwindcss/vite",
+          "name": "@ant-design/icons",
+          "total_seconds": 3.438,
+          "digital": "0:00:03",
+          "decimal": "0.00",
+          "text": "3 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 3,
+          "percent": 0.0
+        },
+        {
+          "name": "antd",
+          "total_seconds": 3.438,
+          "digital": "0:00:03",
+          "decimal": "0.00",
+          "text": "3 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 3,
+          "percent": 0.0
+        },
+        {
+          "name": "@types/react",
+          "total_seconds": 3.438,
+          "digital": "0:00:03",
+          "decimal": "0.00",
+          "text": "3 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 3,
+          "percent": 0.0
+        },
+        {
+          "name": "eslint-plugin-react-refresh",
           "total_seconds": 3.438,
           "digital": "0:00:03",
           "decimal": "0.00",
@@ -1881,7 +1952,7 @@
           "percent": 0.0
         },
         {
-          "name": "@types/react-dom",
+          "name": "@fontsource/roboto",
           "total_seconds": 3.438,
           "digital": "0:00:03",
           "decimal": "0.00",
@@ -1892,18 +1963,7 @@
           "percent": 0.0
         },
         {
-          "name": "clsx",
-          "total_seconds": 3.438,
-          "digital": "0:00:03",
-          "decimal": "0.00",
-          "text": "3 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 3,
-          "percent": 0.0
-        },
-        {
-          "name": "vite",
+          "name": "@tanstack/react-query",
           "total_seconds": 3.438,
           "digital": "0:00:03",
           "decimal": "0.00",
@@ -1936,7 +1996,7 @@
           "percent": 0.0
         },
         {
-          "name": "react-dom",
+          "name": "@vitejs/plugin-react",
           "total_seconds": 3.438,
           "digital": "0:00:03",
           "decimal": "0.00",
@@ -1958,29 +2018,7 @@
           "percent": 0.0
         },
         {
-          "name": "@ant-design/icons",
-          "total_seconds": 3.438,
-          "digital": "0:00:03",
-          "decimal": "0.00",
-          "text": "3 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 3,
-          "percent": 0.0
-        },
-        {
-          "name": "axios",
-          "total_seconds": 3.438,
-          "digital": "0:00:03",
-          "decimal": "0.00",
-          "text": "3 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 3,
-          "percent": 0.0
-        },
-        {
-          "name": "@types/node",
+          "name": "@types/react-dom",
           "total_seconds": 3.438,
           "digital": "0:00:03",
           "decimal": "0.00",
@@ -2002,18 +2040,7 @@
           "percent": 0.0
         },
         {
-          "name": "eslint-plugin-react-refresh",
-          "total_seconds": 3.438,
-          "digital": "0:00:03",
-          "decimal": "0.00",
-          "text": "3 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 3,
-          "percent": 0.0
-        },
-        {
-          "name": "@tanstack/react-router",
+          "name": "react-dom",
           "total_seconds": 3.438,
           "digital": "0:00:03",
           "decimal": "0.00",
@@ -2035,39 +2062,6 @@
           "percent": 0.0
         },
         {
-          "name": "eslint",
-          "total_seconds": 3.438,
-          "digital": "0:00:03",
-          "decimal": "0.00",
-          "text": "3 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 3,
-          "percent": 0.0
-        },
-        {
-          "name": "antd",
-          "total_seconds": 3.438,
-          "digital": "0:00:03",
-          "decimal": "0.00",
-          "text": "3 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 3,
-          "percent": 0.0
-        },
-        {
-          "name": "tailwindcss",
-          "total_seconds": 3.438,
-          "digital": "0:00:03",
-          "decimal": "0.00",
-          "text": "3 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 3,
-          "percent": 0.0
-        },
-        {
           "name": "@gems/user-core",
           "total_seconds": 3.438,
           "digital": "0:00:03",
@@ -2079,7 +2073,7 @@
           "percent": 0.0
         },
         {
-          "name": "@types/react",
+          "name": "@types/node",
           "total_seconds": 3.438,
           "digital": "0:00:03",
           "decimal": "0.00",
@@ -2090,7 +2084,18 @@
           "percent": 0.0
         },
         {
-          "name": "@fontsource/roboto",
+          "name": "@tanstack/react-router",
+          "total_seconds": 3.438,
+          "digital": "0:00:03",
+          "decimal": "0.00",
+          "text": "3 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 3,
+          "percent": 0.0
+        },
+        {
+          "name": "vite",
           "total_seconds": 3.438,
           "digital": "0:00:03",
           "decimal": "0.00",
@@ -2112,7 +2117,7 @@
           "percent": 0.0
         },
         {
-          "name": "@gems/ui",
+          "name": "tailwindcss",
           "total_seconds": 3.438,
           "digital": "0:00:03",
           "decimal": "0.00",
@@ -2123,7 +2128,18 @@
           "percent": 0.0
         },
         {
-          "name": "@tanstack/react-query",
+          "name": "eslint",
+          "total_seconds": 3.438,
+          "digital": "0:00:03",
+          "decimal": "0.00",
+          "text": "3 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 3,
+          "percent": 0.0
+        },
+        {
+          "name": "@gems/ui",
           "total_seconds": 3.438,
           "digital": "0:00:03",
           "decimal": "0.00",
@@ -2145,7 +2161,29 @@
           "percent": 0.0
         },
         {
-          "name": "@vitejs/plugin-react",
+          "name": "clsx",
+          "total_seconds": 3.438,
+          "digital": "0:00:03",
+          "decimal": "0.00",
+          "text": "3 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 3,
+          "percent": 0.0
+        },
+        {
+          "name": "axios",
+          "total_seconds": 3.438,
+          "digital": "0:00:03",
+          "decimal": "0.00",
+          "text": "3 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 3,
+          "percent": 0.0
+        },
+        {
+          "name": "@tailwindcss/vite",
           "total_seconds": 3.438,
           "digital": "0:00:03",
           "decimal": "0.00",
@@ -2233,29 +2271,7 @@
           "percent": 0.0
         },
         {
-          "name": "next-themes",
-          "total_seconds": 0.0,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0.0
-        },
-        {
-          "name": "google",
-          "total_seconds": 0.0,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0.0
-        },
-        {
-          "name": "next",
+          "name": "NotificationsContext",
           "total_seconds": 0.0,
           "digital": "0:00:00",
           "decimal": "0.00",
@@ -2277,7 +2293,29 @@
           "percent": 0.0
         },
         {
-          "name": "NotificationsContext",
+          "name": "google",
+          "total_seconds": 0.0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "next-themes",
+          "total_seconds": 0.0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "next",
           "total_seconds": 0.0,
           "digital": "0:00:00",
           "decimal": "0.00",
@@ -2299,7 +2337,7 @@
           "percent": 0.0
         },
         {
-          "name": "project-repository",
+          "name": "library",
           "total_seconds": 0.0,
           "digital": "0:00:00",
           "decimal": "0.00",
@@ -2321,7 +2359,7 @@
           "percent": 0.0
         },
         {
-          "name": "library",
+          "name": "project-repository",
           "total_seconds": 0.0,
           "digital": "0:00:00",
           "decimal": "0.00",
@@ -2358,179 +2396,145 @@
           "percent": 47.44
         }
       ],
-      "projects": [
+      "editors": [
         {
-          "name": "timesheet-claim",
-          "total_seconds": 10655.522,
-          "ai_additions": 3347,
-          "ai_deletions": 691,
-          "human_additions": 1,
-          "human_deletions": 1,
+          "name": "Codex Vscode",
+          "total_seconds": 16085.807,
+          "ai_additions": 3475,
+          "ai_deletions": 737,
+          "human_additions": 0,
+          "human_deletions": 0,
           "ai_model_line_changes": {
-            "GPT": 4038
+            "GPT": 4212
           },
-          "ai_input_tokens": 2381833,
-          "ai_cached_input_tokens": 67003264,
-          "ai_output_tokens": 271550,
-          "ai_prompt_length_sum": 15464,
-          "ai_prompt_events_total": 31,
+          "ai_input_tokens": 3389041,
+          "ai_cached_input_tokens": 84669952,
+          "ai_output_tokens": 338965,
+          "ai_prompt_length_sum": 17087,
+          "ai_prompt_events_total": 64,
           "ai_model_costs": {
-            "Codex-Vscode": 0.179703,
-            "GPT": 12.408175
+            "GPT": 15.0219
           },
           "ai_model_breakdown": [
             {
               "name": "GPT",
-              "lines": 4038,
-              "cost": 12.408175
-            },
+              "lines": 4212,
+              "cost": 15.0219
+            }
+          ],
+          "ai_model_total_cost": 15.0219,
+          "ai_prompt_length_avg": 267,
+          "ai_prompt_length_avg_per_session": 300,
+          "ai_prompt_length_median_per_session": 145,
+          "ai_prompt_events_avg_per_session": 8,
+          "ai_prompt_events_median_per_session": 4,
+          "ai_sessions": 8,
+          "digital": "4:28:05",
+          "decimal": "4.47",
+          "text": "4 hrs 28 mins",
+          "hours": 4,
+          "minutes": 28,
+          "seconds": 5,
+          "percent": 78.51
+        },
+        {
+          "name": "VS Code",
+          "total_seconds": 4403.06,
+          "ai_additions": 0,
+          "ai_deletions": 0,
+          "human_additions": 39,
+          "human_deletions": 9,
+          "ai_model_line_changes": {},
+          "ai_input_tokens": 23377,
+          "ai_cached_input_tokens": 34304,
+          "ai_output_tokens": 444,
+          "ai_prompt_length_sum": 4291,
+          "ai_prompt_events_total": 1,
+          "ai_model_costs": {
+            "Codex-Vscode": 0.179703
+          },
+          "ai_model_breakdown": [
             {
               "name": "Codex-Vscode",
               "lines": 0,
               "cost": 0.179703
             }
           ],
-          "ai_model_total_cost": 12.587878,
-          "ai_prompt_length_avg": 499,
-          "ai_prompt_length_avg_per_session": 758,
-          "ai_prompt_length_median_per_session": 450,
-          "ai_prompt_events_avg_per_session": 5,
-          "ai_prompt_events_median_per_session": 3,
-          "ai_sessions": 6,
-          "digital": "2:57:35",
-          "decimal": "2.95",
-          "text": "2 hrs 57 mins",
-          "hours": 2,
-          "minutes": 57,
-          "seconds": 35,
-          "percent": 52.01
-        },
-        {
-          "name": "purchase-portal-fe",
-          "total_seconds": 6585.925,
-          "ai_additions": 110,
-          "ai_deletions": 46,
-          "human_additions": 38,
-          "human_deletions": 5,
-          "ai_model_line_changes": {
-            "GPT": 156
-          },
-          "ai_input_tokens": 321677,
-          "ai_cached_input_tokens": 14710016,
-          "ai_output_tokens": 53253,
-          "ai_prompt_length_sum": 2145,
-          "ai_prompt_events_total": 26,
-          "ai_model_costs": {
-            "GPT": 0.422439
-          },
-          "ai_model_breakdown": [
-            {
-              "name": "GPT",
-              "lines": 156,
-              "cost": 0.422439
-            }
-          ],
-          "ai_model_total_cost": 0.422439,
-          "ai_prompt_length_avg": 82,
-          "ai_prompt_length_avg_per_session": 82,
-          "ai_prompt_length_median_per_session": 82,
-          "ai_prompt_events_avg_per_session": 26,
-          "ai_prompt_events_median_per_session": 26,
+          "ai_model_total_cost": 0.179703,
+          "ai_prompt_length_avg": 4291,
+          "ai_prompt_length_avg_per_session": 4291,
+          "ai_prompt_length_median_per_session": 4291,
+          "ai_prompt_events_avg_per_session": 1,
+          "ai_prompt_events_median_per_session": 1,
           "ai_sessions": 1,
-          "digital": "1:49:45",
-          "decimal": "1.82",
-          "text": "1 hr 49 mins",
+          "digital": "1:13:23",
+          "decimal": "1.22",
+          "text": "1 hr 13 mins",
           "hours": 1,
-          "minutes": 49,
-          "seconds": 45,
-          "percent": 32.14
-        },
-        {
-          "name": "purchase-portal-be",
-          "total_seconds": 3134.547,
-          "ai_additions": 0,
-          "ai_deletions": 0,
-          "human_additions": 0,
-          "human_deletions": 3,
-          "ai_model_line_changes": {},
-          "ai_input_tokens": 687076,
-          "ai_cached_input_tokens": 1873792,
-          "ai_output_tokens": 11174,
-          "ai_prompt_length_sum": 3755,
-          "ai_prompt_events_total": 6,
-          "ai_model_costs": {
-            "GPT": 1.882999
-          },
-          "ai_model_breakdown": [
-            {
-              "name": "GPT",
-              "lines": 0,
-              "cost": 1.882999
-            }
-          ],
-          "ai_model_total_cost": 1.882999,
-          "ai_prompt_length_avg": 626,
-          "ai_prompt_length_avg_per_session": 626,
-          "ai_prompt_length_median_per_session": 626,
-          "ai_prompt_events_avg_per_session": 6,
-          "ai_prompt_events_median_per_session": 6,
-          "ai_sessions": 1,
-          "digital": "0:52:14",
-          "decimal": "0.87",
-          "text": "52 mins",
-          "hours": 0,
-          "minutes": 52,
-          "seconds": 14,
-          "percent": 15.3
-        },
-        {
-          "name": "shopee-seeding-bot-develop",
-          "total_seconds": 112.873,
-          "ai_additions": 18,
-          "ai_deletions": 0,
-          "human_additions": 0,
-          "human_deletions": 0,
-          "ai_model_line_changes": {
-            "GPT": 18
-          },
-          "ai_input_tokens": 21832,
-          "ai_cached_input_tokens": 1117184,
-          "ai_output_tokens": 3432,
-          "ai_prompt_length_sum": 14,
-          "ai_prompt_events_total": 2,
-          "ai_model_costs": {
-            "GPT": 0.308287
-          },
-          "ai_model_breakdown": [
-            {
-              "name": "GPT",
-              "lines": 18,
-              "cost": 0.308287
-            }
-          ],
-          "ai_model_total_cost": 0.308287,
-          "ai_prompt_length_avg": 7,
-          "ai_prompt_length_avg_per_session": 7,
-          "ai_prompt_length_median_per_session": 7,
-          "ai_prompt_events_avg_per_session": 2,
-          "ai_prompt_events_median_per_session": 2,
-          "ai_sessions": 1,
-          "digital": "0:01:52",
-          "decimal": "0.02",
-          "text": "1 min",
-          "hours": 0,
-          "minutes": 1,
-          "seconds": 52,
-          "percent": 0.55
+          "minutes": 13,
+          "seconds": 23,
+          "percent": 21.49
         }
       ],
-      "range": {
-        "start": "2026-09-07T17:00:00Z",
-        "end": "2026-09-08T16:59:59Z",
-        "date": "2026-09-08",
-        "text": "Tue Sep 8th 2026",
-        "timezone": "Asia/Ho_Chi_Minh"
-      }
+      "operating_systems": [
+        {
+          "name": "Windows",
+          "total_seconds": 20488.867,
+          "digital": "5:41:28",
+          "decimal": "5.68",
+          "text": "5 hrs 41 mins",
+          "hours": 5,
+          "minutes": 41,
+          "seconds": 28,
+          "percent": 100.0
+        }
+      ],
+      "categories": [
+        {
+          "name": "AI Coding",
+          "total_seconds": 16613.657,
+          "digital": "4:36:53",
+          "decimal": "4.60",
+          "text": "4 hrs 36 mins",
+          "hours": 4,
+          "minutes": 36,
+          "seconds": 53,
+          "percent": 81.09
+        },
+        {
+          "name": "Coding",
+          "total_seconds": 3595.582,
+          "digital": "0:59:55",
+          "decimal": "0.98",
+          "text": "59 mins",
+          "hours": 0,
+          "minutes": 59,
+          "seconds": 55,
+          "percent": 17.55
+        },
+        {
+          "name": "Writing Docs",
+          "total_seconds": 219.724,
+          "digital": "0:03:39",
+          "decimal": "0.05",
+          "text": "3 mins",
+          "hours": 0,
+          "minutes": 3,
+          "seconds": 39,
+          "percent": 1.07
+        },
+        {
+          "name": "Writing Tests",
+          "total_seconds": 59.904,
+          "digital": "0:00:59",
+          "decimal": "0.00",
+          "text": "59 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 59,
+          "percent": 0.29
+        }
+      ]
     }
   ],
   "start": "2026-09-07T17:00:00Z",
