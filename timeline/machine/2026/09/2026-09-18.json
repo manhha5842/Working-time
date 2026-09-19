@@ -1446,7 +1446,7 @@
       },
       "ai_deletions": 0,
       "human_additions": 0,
-      "human_deletions": 0,
+      "human_deletions": 5,
       "ai_model_costs": {
         "GPT": 2.294427
       },
@@ -1875,11 +1875,11 @@
     {
       "time": 1789727509.562,
       "project": "system-service-tsms-v2",
-      "ai_input_tokens": 400628,
-      "ai_cached_input_tokens": 9232256,
-      "ai_output_tokens": 57929,
+      "ai_input_tokens": 219441,
+      "ai_cached_input_tokens": 6870400,
+      "ai_output_tokens": 48061,
       "machine_name_id": "d6d160fd-aae8-4ca2-9121-92ad62783642",
-      "duration": 2038.42,
+      "duration": 873.729,
       "ai_additions": 516,
       "ai_model_line_changes": {
         "GPT": 637
@@ -1888,17 +1888,67 @@
       "human_additions": 0,
       "human_deletions": 0,
       "ai_model_costs": {
-        "GPT": 2.639854
+        "GPT": 2.389695
       },
-      "ai_sessions": 3,
-      "ai_prompt_length_sum": 931,
-      "ai_prompt_events_total": 7,
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 316,
+      "ai_prompt_events_total": 3,
       "machine": "Alexander",
-      "ai_prompt_length_avg": 133,
+      "ai_prompt_length_avg": 105,
       "ai_prompt_events_avg_per_session": 2,
-      "ai_prompt_events_median_per_session": 3,
-      "ai_prompt_length_avg_per_session": 130,
-      "ai_prompt_length_median_per_session": 130
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 105,
+      "ai_prompt_length_median_per_session": 105
+    },
+    {
+      "time": 1789728383.291,
+      "project": "hsafe-mobile",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "machine_name_id": "60938d58-3b90-4942-87b1-2133ff39f263",
+      "duration": 19.197,
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 1,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "machine": "ALEXANDER-II",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1789728402.488,
+      "project": "system-service-tsms-v2",
+      "ai_input_tokens": 183864,
+      "ai_cached_input_tokens": 2468096,
+      "ai_output_tokens": 10633,
+      "machine_name_id": "d6d160fd-aae8-4ca2-9121-92ad62783642",
+      "duration": 1145.494,
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 2,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.253737
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 615,
+      "ai_prompt_events_total": 4,
+      "machine": "Alexander",
+      "ai_prompt_length_avg": 154,
+      "ai_prompt_events_avg_per_session": 2,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 154,
+      "ai_prompt_length_median_per_session": 154
     }
   ],
   "start": "2026-09-17T17:00:00Z",
