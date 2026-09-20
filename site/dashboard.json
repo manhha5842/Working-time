@@ -1,20 +1,20 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-20T04:26:09.243705+07:00",
+  "generated_at": "2026-09-21T04:27:52.936402+07:00",
   "timezone": "Asia/Ho_Chi_Minh",
   "archive": {
     "first_date": "2026-07-30",
-    "last_date": "2026-09-20",
-    "archived_days": 53,
+    "last_date": "2026-09-21",
+    "archived_days": 54,
     "active_days": 45
   },
   "overview": {
-    "today_seconds": 4981.346,
-    "week_seconds": 101420.552,
-    "month_seconds": 257536.467,
-    "year_seconds": 751146.443,
-    "all_archived_seconds": 751146.443,
-    "daily_average_seconds": 16692.143,
+    "today_seconds": 0.0,
+    "week_seconds": 0.0,
+    "month_seconds": 257778.943,
+    "year_seconds": 751388.919,
+    "all_archived_seconds": 751388.919,
+    "daily_average_seconds": 16697.532,
     "active_days": 45,
     "best_day": {
       "date": "2026-07-30",
@@ -141563,7 +141563,7 @@
           "seconds": 2727.159
         },
         {
-          "name": "lombok.AccessLevel",
+          "name": "lombok.ToString",
           "seconds": 2691.243
         },
         {
@@ -141571,7 +141571,7 @@
           "seconds": 2691.243
         },
         {
-          "name": "lombok.ToString",
+          "name": "lombok.AccessLevel",
           "seconds": 2691.243
         },
         {
@@ -141659,15 +141659,31 @@
           "seconds": 519.533
         },
         {
-          "name": "io.netty",
-          "seconds": 266.48
-        },
-        {
           "name": "reactor.netty",
           "seconds": 266.48
         },
         {
+          "name": "io.netty",
+          "seconds": 266.48
+        },
+        {
+          "name": "amazonaws.services",
+          "seconds": 254.235
+        },
+        {
+          "name": "slf4j.Logger",
+          "seconds": 254.235
+        },
+        {
           "name": "springframework.context",
+          "seconds": 254.235
+        },
+        {
+          "name": "amazonaws.util",
+          "seconds": 254.235
+        },
+        {
+          "name": "sap.conn",
           "seconds": 254.235
         },
         {
@@ -141679,35 +141695,11 @@
           "seconds": 254.235
         },
         {
-          "name": "amazonaws.util",
-          "seconds": 254.235
-        },
-        {
           "name": "slf4j.LoggerFactory",
           "seconds": 254.235
         },
         {
-          "name": "amazonaws.services",
-          "seconds": 254.235
-        },
-        {
-          "name": "sap.conn",
-          "seconds": 254.235
-        },
-        {
-          "name": "slf4j.Logger",
-          "seconds": 254.235
-        },
-        {
-          "name": "react-i18next",
-          "seconds": 212.767
-        },
-        {
           "name": "react-router",
-          "seconds": 212.767
-        },
-        {
-          "name": "purPermissions",
           "seconds": 212.767
         },
         {
@@ -141716,6 +141708,14 @@
         },
         {
           "name": "purAuthorizationStore",
+          "seconds": 212.767
+        },
+        {
+          "name": "purPermissions",
+          "seconds": 212.767
+        },
+        {
+          "name": "react-i18next",
           "seconds": 212.767
         },
         {
@@ -141731,15 +141731,51 @@
           "seconds": 196.702
         },
         {
+          "name": "lucide-react",
+          "seconds": 185.235
+        },
+        {
           "name": "userStore",
           "seconds": 185.235
         },
         {
-          "name": "useNotificationSse",
+          "name": "user",
+          "seconds": 185.235
+        },
+        {
+          "name": "api",
+          "seconds": 185.235
+        },
+        {
+          "name": "arrow-reverse",
           "seconds": 185.235
         },
         {
           "name": "navigation",
+          "seconds": 185.235
+        },
+        {
+          "name": "icons",
+          "seconds": 185.235
+        },
+        {
+          "name": "authSession",
+          "seconds": 185.235
+        },
+        {
+          "name": "purNavigation",
+          "seconds": 185.235
+        },
+        {
+          "name": "notificationText",
+          "seconds": 185.235
+        },
+        {
+          "name": "epa.dev.lotteria",
+          "seconds": 185.235
+        },
+        {
+          "name": "trello",
           "seconds": 185.235
         },
         {
@@ -141751,55 +141787,19 @@
           "seconds": 185.235
         },
         {
-          "name": "jwt-decode",
-          "seconds": 185.235
-        },
-        {
-          "name": "notificationText",
-          "seconds": 185.235
-        },
-        {
-          "name": "purNavigation",
-          "seconds": 185.235
-        },
-        {
-          "name": "lucide-react",
-          "seconds": 185.235
-        },
-        {
           "name": "purAuthorizationApi",
           "seconds": 185.235
         },
         {
-          "name": "arrow-reverse",
+          "name": "useNotificationSse",
           "seconds": 185.235
         },
         {
-          "name": "trello",
-          "seconds": 185.235
-        },
-        {
-          "name": "api",
-          "seconds": 185.235
-        },
-        {
-          "name": "icons",
+          "name": "jwt-decode",
           "seconds": 185.235
         },
         {
           "name": "bell",
-          "seconds": 185.235
-        },
-        {
-          "name": "user",
-          "seconds": 185.235
-        },
-        {
-          "name": "epa.dev.lotteria",
-          "seconds": 185.235
-        },
-        {
-          "name": "authSession",
           "seconds": 185.235
         },
         {
@@ -141811,55 +141811,15 @@
           "seconds": 104.144
         },
         {
-          "name": "suneditor-react",
-          "seconds": 96.03
-        },
-        {
-          "name": "react-custom-scrollbars-2",
-          "seconds": 96.03
-        },
-        {
-          "name": "npm",
-          "seconds": 96.03
-        },
-        {
-          "name": "sharp",
-          "seconds": 96.03
-        },
-        {
-          "name": "@types/seamless-immutable",
-          "seconds": 96.03
-        },
-        {
-          "name": "react-image-lightbox",
-          "seconds": 96.03
-        },
-        {
-          "name": "@types/querystringify",
-          "seconds": 96.03
-        },
-        {
-          "name": "react-simple-maps",
-          "seconds": 96.03
-        },
-        {
-          "name": "react-fast-marquee",
-          "seconds": 96.03
-        },
-        {
-          "name": "@types/react-resizable",
-          "seconds": 96.03
-        },
-        {
           "name": "react-to-print",
           "seconds": 96.03
         },
         {
-          "name": "@types/qs",
+          "name": "react-image-file-resizer",
           "seconds": 96.03
         },
         {
-          "name": "react-chartjs-2",
+          "name": "caniuse-lite",
           "seconds": 96.03
         },
         {
@@ -141871,47 +141831,15 @@
           "seconds": 96.03
         },
         {
-          "name": "nookies",
-          "seconds": 96.03
-        },
-        {
-          "name": "react-infinite-scroll-component",
-          "seconds": 96.03
-        },
-        {
-          "name": "react-image-file-resizer",
-          "seconds": 96.03
-        },
-        {
-          "name": "axios",
-          "seconds": 96.03
-        },
-        {
-          "name": "xlsx-js-style",
-          "seconds": 96.03
-        },
-        {
-          "name": "typescript",
-          "seconds": 96.03
-        },
-        {
-          "name": "ramda",
-          "seconds": 96.03
-        },
-        {
-          "name": "aws-sdk",
-          "seconds": 96.03
-        },
-        {
-          "name": "env-cmd",
-          "seconds": 96.03
-        },
-        {
-          "name": "cookie",
-          "seconds": 96.03
-        },
-        {
           "name": "jspdf",
+          "seconds": 96.03
+        },
+        {
+          "name": "npm",
+          "seconds": 96.03
+        },
+        {
+          "name": "nookies",
           "seconds": 96.03
         },
         {
@@ -141923,15 +141851,39 @@
           "seconds": 96.03
         },
         {
-          "name": "@types/jquery",
+          "name": "file-saver",
           "seconds": 96.03
         },
         {
-          "name": "@types/uuid",
+          "name": "@types/react-resizable",
           "seconds": 96.03
         },
         {
-          "name": "redux-persist",
+          "name": "react-infinite-scroll-component",
+          "seconds": 96.03
+        },
+        {
+          "name": "react-simple-maps",
+          "seconds": 96.03
+        },
+        {
+          "name": "@types/seamless-immutable",
+          "seconds": 96.03
+        },
+        {
+          "name": "suneditor-react",
+          "seconds": 96.03
+        },
+        {
+          "name": "xlsx-js-style",
+          "seconds": 96.03
+        },
+        {
+          "name": "react-fast-marquee",
+          "seconds": 96.03
+        },
+        {
+          "name": "redux-thunk",
           "seconds": 96.03
         },
         {
@@ -141939,11 +141891,59 @@
           "seconds": 96.03
         },
         {
+          "name": "@types/querystringify",
+          "seconds": 96.03
+        },
+        {
+          "name": "env-cmd",
+          "seconds": 96.03
+        },
+        {
+          "name": "react-custom-scrollbars-2",
+          "seconds": 96.03
+        },
+        {
+          "name": "@types/uuid",
+          "seconds": 96.03
+        },
+        {
+          "name": "cookie",
+          "seconds": 96.03
+        },
+        {
+          "name": "sharp",
+          "seconds": 96.03
+        },
+        {
+          "name": "@types/jquery",
+          "seconds": 96.03
+        },
+        {
           "name": "@types/node",
           "seconds": 96.03
         },
         {
-          "name": "caniuse-lite",
+          "name": "@types/qs",
+          "seconds": 96.03
+        },
+        {
+          "name": "axios",
+          "seconds": 96.03
+        },
+        {
+          "name": "typescript",
+          "seconds": 96.03
+        },
+        {
+          "name": "ramda",
+          "seconds": 96.03
+        },
+        {
+          "name": "redux-persist",
+          "seconds": 96.03
+        },
+        {
+          "name": "react-image-lightbox",
           "seconds": 96.03
         },
         {
@@ -141951,11 +141951,11 @@
           "seconds": 96.03
         },
         {
-          "name": "file-saver",
+          "name": "aws-sdk",
           "seconds": 96.03
         },
         {
-          "name": "redux-thunk",
+          "name": "react-chartjs-2",
           "seconds": 96.03
         },
         {
@@ -141987,10 +141987,6 @@
           "seconds": 31.1
         },
         {
-          "name": "storeAccManagement",
-          "seconds": 31.1
-        },
-        {
           "name": "sweetAlert",
           "seconds": 31.1
         },
@@ -141999,47 +141995,11 @@
           "seconds": 31.1
         },
         {
-          "name": "ReturnColumns",
-          "seconds": 27.532
-        },
-        {
-          "name": "en_US",
-          "seconds": 27.532
-        },
-        {
-          "name": "downloadFilename",
-          "seconds": 27.532
-        },
-        {
-          "name": "vi_VN",
-          "seconds": 27.532
-        },
-        {
-          "name": "ReturnFilters",
-          "seconds": 27.532
-        },
-        {
-          "name": "OrderUnsavedChangesDialog",
-          "seconds": 27.532
-        },
-        {
-          "name": "returnExportApi",
-          "seconds": 27.532
-        },
-        {
-          "name": "useReturnListFilters",
-          "seconds": 27.532
-        },
-        {
-          "name": "ReturnActions",
-          "seconds": 27.532
+          "name": "storeAccManagement",
+          "seconds": 31.1
         },
         {
           "name": "ReturnTable",
-          "seconds": 27.532
-        },
-        {
-          "name": "toSupportedLang",
           "seconds": 27.532
         },
         {
@@ -142047,15 +142007,43 @@
           "seconds": 27.532
         },
         {
+          "name": "returnExportApi",
+          "seconds": 27.532
+        },
+        {
+          "name": "ReturnActions",
+          "seconds": 27.532
+        },
+        {
+          "name": "downloadFilename",
+          "seconds": 27.532
+        },
+        {
+          "name": "ReturnColumns",
+          "seconds": 27.532
+        },
+        {
+          "name": "ReturnFilters",
+          "seconds": 27.532
+        },
+        {
+          "name": "useReturnListFilters",
+          "seconds": 27.532
+        },
+        {
+          "name": "vi_VN",
+          "seconds": 27.532
+        },
+        {
+          "name": "en_US",
+          "seconds": 27.532
+        },
+        {
           "name": "constants",
           "seconds": 27.532
         },
         {
-          "name": "useOrderNavigationGuard",
-          "seconds": 27.532
-        },
-        {
-          "name": "ReportDetailModal",
+          "name": "OrderUnsavedChangesDialog",
           "seconds": 27.532
         },
         {
@@ -142063,15 +142051,19 @@
           "seconds": 27.532
         },
         {
-          "name": "EditStoreAccForm",
-          "seconds": 22.986
+          "name": "ReportDetailModal",
+          "seconds": 27.532
+        },
+        {
+          "name": "useOrderNavigationGuard",
+          "seconds": 27.532
+        },
+        {
+          "name": "toSupportedLang",
+          "seconds": 27.532
         },
         {
           "name": "Pagination",
-          "seconds": 22.986
-        },
-        {
-          "name": "Table",
           "seconds": 22.986
         },
         {
@@ -142079,35 +142071,27 @@
           "seconds": 22.986
         },
         {
-          "name": "apache.ibatis",
-          "seconds": 18.991
+          "name": "EditStoreAccForm",
+          "seconds": 22.986
         },
         {
-          "name": "springframework.data",
-          "seconds": 18.15
+          "name": "Table",
+          "seconds": 22.986
+        },
+        {
+          "name": "apache.ibatis",
+          "seconds": 18.991
         },
         {
           "name": "springframework.security",
           "seconds": 18.15
         },
         {
-          "name": "Col",
-          "seconds": 8.114
-        },
-        {
-          "name": "form",
-          "seconds": 8.114
+          "name": "springframework.data",
+          "seconds": 18.15
         },
         {
           "name": "formUtils",
-          "seconds": 8.114
-        },
-        {
-          "name": "FormWrapper",
-          "seconds": 8.114
-        },
-        {
-          "name": "Select",
           "seconds": 8.114
         },
         {
@@ -142115,7 +142099,27 @@
           "seconds": 8.114
         },
         {
+          "name": "Form",
+          "seconds": 8.114
+        },
+        {
+          "name": "FormWrapper",
+          "seconds": 8.114
+        },
+        {
+          "name": "form",
+          "seconds": 8.114
+        },
+        {
           "name": "reduxes",
+          "seconds": 8.114
+        },
+        {
+          "name": "Col",
+          "seconds": 8.114
+        },
+        {
+          "name": "Select",
           "seconds": 8.114
         },
         {
@@ -142123,11 +142127,7 @@
           "seconds": 8.114
         },
         {
-          "name": "Form",
-          "seconds": 8.114
-        },
-        {
-          "name": "evd-client",
+          "name": "CodeInput",
           "seconds": 8.114
         },
         {
@@ -142135,23 +142135,7 @@
           "seconds": 8.114
         },
         {
-          "name": "timeUtils",
-          "seconds": 8.114
-        },
-        {
-          "name": "StoreAccManagementContainer",
-          "seconds": 8.114
-        },
-        {
-          "name": "CodeInput",
-          "seconds": 8.114
-        },
-        {
-          "name": "Spin",
-          "seconds": 8.114
-        },
-        {
-          "name": "InputNumber",
+          "name": "evd-client",
           "seconds": 8.114
         },
         {
@@ -142159,7 +142143,15 @@
           "seconds": 8.114
         },
         {
-          "name": "Input",
+          "name": "AccountSlipConfirm.module",
+          "seconds": 8.114
+        },
+        {
+          "name": "StoreAccManagementContainer",
+          "seconds": 8.114
+        },
+        {
+          "name": "Spin",
           "seconds": 8.114
         },
         {
@@ -142167,7 +142159,15 @@
           "seconds": 8.114
         },
         {
-          "name": "AccountSlipConfirm.module",
+          "name": "Input",
+          "seconds": 8.114
+        },
+        {
+          "name": "InputNumber",
+          "seconds": 8.114
+        },
+        {
+          "name": "timeUtils",
           "seconds": 8.114
         },
         {
@@ -147646,40 +147646,12 @@
       "seconds": 1869.43,
       "projects": [
         {
-          "name": "ria-fe-tsms",
-          "seconds": 846.815,
-          "ai_additions": 34,
-          "ai_deletions": 0,
-          "human_additions": 3,
-          "human_deletions": 0,
-          "input_tokens": 29048,
-          "cached_input_tokens": 4444928,
-          "output_tokens": 10280,
-          "prompt_length_sum": 241,
-          "prompt_length_avg": 60,
-          "prompt_length_avg_per_session": 56,
-          "prompt_length_median_per_session": 56,
-          "prompt_events": 4,
-          "prompts_avg_per_session": 2,
-          "prompts_median_per_session": 2,
-          "sessions": 2,
-          "cost": 1.070442,
-          "models": [
-            {
-              "name": "GPT",
-              "lines": 34.0,
-              "cost": 1.070442
-            }
-          ],
-          "tokens": 4484256
-        },
-        {
           "name": "hsafe-mobile",
-          "seconds": 834.46,
+          "seconds": 876.028,
           "ai_additions": 448,
           "ai_deletions": 11,
-          "human_additions": 0,
-          "human_deletions": 0,
+          "human_additions": 11,
+          "human_deletions": 13,
           "input_tokens": 170504,
           "cached_input_tokens": 4342016,
           "output_tokens": 26788,
@@ -147705,6 +147677,34 @@
             }
           ],
           "tokens": 4539308
+        },
+        {
+          "name": "ria-fe-tsms",
+          "seconds": 805.247,
+          "ai_additions": 34,
+          "ai_deletions": 0,
+          "human_additions": 3,
+          "human_deletions": 0,
+          "input_tokens": 29048,
+          "cached_input_tokens": 4444928,
+          "output_tokens": 10280,
+          "prompt_length_sum": 241,
+          "prompt_length_avg": 60,
+          "prompt_length_avg_per_session": 56,
+          "prompt_length_median_per_session": 56,
+          "prompt_events": 4,
+          "prompts_avg_per_session": 2,
+          "prompts_median_per_session": 2,
+          "sessions": 2,
+          "cost": 1.070442,
+          "models": [
+            {
+              "name": "GPT",
+              "lines": 34.0,
+              "cost": 1.070442
+            }
+          ],
+          "tokens": 4484256
         },
         {
           "name": "gems-service-tsms",
@@ -147776,15 +147776,15 @@
         },
         {
           "name": "Bash",
-          "seconds": 172.041
+          "seconds": 130.473
+        },
+        {
+          "name": "Dart",
+          "seconds": 108.655
         },
         {
           "name": "Docker",
           "seconds": 67.385
-        },
-        {
-          "name": "Dart",
-          "seconds": 67.087
         },
         {
           "name": "Git Config",
@@ -147822,24 +147822,28 @@
       "machines": [
         {
           "name": "Alexander",
-          "seconds": 1034.97
+          "seconds": 993.402
         },
         {
           "name": "ALEXANDER-II",
-          "seconds": 834.46
+          "seconds": 876.028
         }
       ],
       "categories": [
         {
           "name": "AI Coding",
-          "seconds": 1708.676
+          "seconds": 1667.108
         },
         {
           "name": "Coding",
-          "seconds": 160.754
+          "seconds": 202.322
         }
       ],
       "dependencies": [
+        {
+          "name": "react",
+          "seconds": 225.285
+        },
         {
           "name": "react-redux",
           "seconds": 225.285
@@ -147849,59 +147853,7 @@
           "seconds": 225.285
         },
         {
-          "name": "react",
-          "seconds": 225.285
-        },
-        {
-          "name": "react-resizable",
-          "seconds": 202.789
-        },
-        {
-          "name": "@tanstack/react-query",
-          "seconds": 202.789
-        },
-        {
-          "name": "xlsx",
-          "seconds": 202.789
-        },
-        {
-          "name": "lodash",
-          "seconds": 202.789
-        },
-        {
           "name": "redux-saga",
-          "seconds": 202.789
-        },
-        {
-          "name": "@types/react-dom",
-          "seconds": 202.789
-        },
-        {
-          "name": "jspdf-autotable",
-          "seconds": 202.789
-        },
-        {
-          "name": "axios",
-          "seconds": 202.789
-        },
-        {
-          "name": "html2canvas",
-          "seconds": 202.789
-        },
-        {
-          "name": "react-chartjs-2",
-          "seconds": 202.789
-        },
-        {
-          "name": "querystringify",
-          "seconds": 202.789
-        },
-        {
-          "name": "env-cmd",
-          "seconds": 202.789
-        },
-        {
-          "name": "nookies",
           "seconds": 202.789
         },
         {
@@ -147909,11 +147861,7 @@
           "seconds": 202.789
         },
         {
-          "name": "react-infinite-scroll-component",
-          "seconds": 202.789
-        },
-        {
-          "name": "@gems/evd-client",
+          "name": "lodash-es",
           "seconds": 202.789
         },
         {
@@ -147921,43 +147869,7 @@
           "seconds": 202.789
         },
         {
-          "name": "@types/querystringify",
-          "seconds": 202.789
-        },
-        {
-          "name": "@types/react-simple-maps",
-          "seconds": 202.789
-        },
-        {
-          "name": "aws-sdk",
-          "seconds": 202.789
-        },
-        {
-          "name": "@types/lodash",
-          "seconds": 202.789
-        },
-        {
-          "name": "redux-thunk",
-          "seconds": 202.789
-        },
-        {
-          "name": "reduxsauce",
-          "seconds": 202.789
-        },
-        {
-          "name": "react-fast-marquee",
-          "seconds": 202.789
-        },
-        {
-          "name": "seamless-immutable",
-          "seconds": 202.789
-        },
-        {
-          "name": "@types/redux-logger",
-          "seconds": 202.789
-        },
-        {
-          "name": "sass",
+          "name": "@gems/evd-client",
           "seconds": 202.789
         },
         {
@@ -147965,15 +147877,7 @@
           "seconds": 202.789
         },
         {
-          "name": "xlsx-js-style",
-          "seconds": 202.789
-        },
-        {
-          "name": "ramda",
-          "seconds": 202.789
-        },
-        {
-          "name": "file_size_url",
+          "name": "nookies",
           "seconds": 202.789
         },
         {
@@ -147981,11 +147885,27 @@
           "seconds": 202.789
         },
         {
-          "name": "lodash-es",
+          "name": "file_size_url",
           "seconds": 202.789
         },
         {
-          "name": "react-image-lightbox",
+          "name": "xlsx",
+          "seconds": 202.789
+        },
+        {
+          "name": "jspdf-autotable",
+          "seconds": 202.789
+        },
+        {
+          "name": "react-infinite-scroll-component",
+          "seconds": 202.789
+        },
+        {
+          "name": "xlsx-js-style",
+          "seconds": 202.789
+        },
+        {
+          "name": "reduxsauce",
           "seconds": 202.789
         },
         {
@@ -147993,7 +147913,87 @@
           "seconds": 202.789
         },
         {
+          "name": "react-fast-marquee",
+          "seconds": 202.789
+        },
+        {
+          "name": "aws-sdk",
+          "seconds": 202.789
+        },
+        {
+          "name": "sass",
+          "seconds": 202.789
+        },
+        {
+          "name": "redux-thunk",
+          "seconds": 202.789
+        },
+        {
+          "name": "html2canvas",
+          "seconds": 202.789
+        },
+        {
+          "name": "@types/querystringify",
+          "seconds": 202.789
+        },
+        {
+          "name": "@types/redux-logger",
+          "seconds": 202.789
+        },
+        {
+          "name": "env-cmd",
+          "seconds": 202.789
+        },
+        {
+          "name": "@types/react-dom",
+          "seconds": 202.789
+        },
+        {
+          "name": "@types/react-simple-maps",
+          "seconds": 202.789
+        },
+        {
+          "name": "seamless-immutable",
+          "seconds": 202.789
+        },
+        {
           "name": "@types/node",
+          "seconds": 202.789
+        },
+        {
+          "name": "@tanstack/react-query",
+          "seconds": 202.789
+        },
+        {
+          "name": "axios",
+          "seconds": 202.789
+        },
+        {
+          "name": "lodash",
+          "seconds": 202.789
+        },
+        {
+          "name": "ramda",
+          "seconds": 202.789
+        },
+        {
+          "name": "querystringify",
+          "seconds": 202.789
+        },
+        {
+          "name": "react-resizable",
+          "seconds": 202.789
+        },
+        {
+          "name": "react-image-lightbox",
+          "seconds": 202.789
+        },
+        {
+          "name": "@types/lodash",
+          "seconds": 202.789
+        },
+        {
+          "name": "react-chartjs-2",
           "seconds": 202.789
         },
         {
@@ -148001,39 +148001,7 @@
           "seconds": 191.59
         },
         {
-          "name": "TranslatorHook",
-          "seconds": 22.496
-        },
-        {
-          "name": "Form",
-          "seconds": 22.496
-        },
-        {
-          "name": "Row",
-          "seconds": 22.496
-        },
-        {
-          "name": "common",
-          "seconds": 22.496
-        },
-        {
-          "name": "StoreInput",
-          "seconds": 22.496
-        },
-        {
-          "name": "antd",
-          "seconds": 22.496
-        },
-        {
-          "name": "Card",
-          "seconds": 22.496
-        },
-        {
-          "name": "stringUtils",
-          "seconds": 22.496
-        },
-        {
-          "name": "RangeDatePicker",
+          "name": "formUtils",
           "seconds": 22.496
         },
         {
@@ -148041,51 +148009,15 @@
           "seconds": 22.496
         },
         {
-          "name": "Select",
+          "name": "Row",
           "seconds": 22.496
         },
         {
-          "name": "Response",
-          "seconds": 22.496
-        },
-        {
-          "name": "form",
-          "seconds": 22.496
-        },
-        {
-          "name": "StoreAccManagementTable",
-          "seconds": 22.496
-        },
-        {
-          "name": "accountBookRegister",
-          "seconds": 22.496
-        },
-        {
-          "name": "storeAccManagement",
+          "name": "Form",
           "seconds": 22.496
         },
         {
           "name": "customHooks",
-          "seconds": 22.496
-        },
-        {
-          "name": "permissionModule",
-          "seconds": 22.496
-        },
-        {
-          "name": "reduxes",
-          "seconds": 22.496
-        },
-        {
-          "name": "sweetAlert",
-          "seconds": 22.496
-        },
-        {
-          "name": "formUtils",
-          "seconds": 22.496
-        },
-        {
-          "name": "Button",
           "seconds": 22.496
         },
         {
@@ -148097,7 +148029,75 @@
           "seconds": 22.496
         },
         {
+          "name": "Card",
+          "seconds": 22.496
+        },
+        {
+          "name": "form",
+          "seconds": 22.496
+        },
+        {
+          "name": "reduxes",
+          "seconds": 22.496
+        },
+        {
+          "name": "Button",
+          "seconds": 22.496
+        },
+        {
+          "name": "RangeDatePicker",
+          "seconds": 22.496
+        },
+        {
+          "name": "StoreAccManagementTable",
+          "seconds": 22.496
+        },
+        {
+          "name": "permissionModule",
+          "seconds": 22.496
+        },
+        {
+          "name": "StoreInput",
+          "seconds": 22.496
+        },
+        {
+          "name": "accountBookRegister",
+          "seconds": 22.496
+        },
+        {
+          "name": "common",
+          "seconds": 22.496
+        },
+        {
+          "name": "stringUtils",
+          "seconds": 22.496
+        },
+        {
+          "name": "sweetAlert",
+          "seconds": 22.496
+        },
+        {
           "name": "Col",
+          "seconds": 22.496
+        },
+        {
+          "name": "TranslatorHook",
+          "seconds": 22.496
+        },
+        {
+          "name": "Select",
+          "seconds": 22.496
+        },
+        {
+          "name": "antd",
+          "seconds": 22.496
+        },
+        {
+          "name": "Response",
+          "seconds": 22.496
+        },
+        {
+          "name": "storeAccManagement",
           "seconds": 22.496
         },
         {
@@ -148105,7 +148105,11 @@
           "seconds": 11.199
         },
         {
-          "name": "node_modules/@types/react-modal",
+          "name": "node_modules/internmap",
+          "seconds": 1.067
+        },
+        {
+          "name": "node_modules/function-bind",
           "seconds": 1.067
         },
         {
@@ -148113,51 +148117,11 @@
           "seconds": 1.067
         },
         {
-          "name": "node_modules/date-fns",
+          "name": "node_modules/@types/react-modal",
           "seconds": 1.067
         },
         {
-          "name": "node_modules/compute-scroll-into-view",
-          "seconds": 1.067
-        },
-        {
-          "name": "node_modules/internmap",
-          "seconds": 1.067
-        },
-        {
-          "name": "node_modules/process-nextick-args",
-          "seconds": 1.067
-        },
-        {
-          "name": "node_modules/rgbcolor",
-          "seconds": 1.067
-        },
-        {
-          "name": "node_modules/rc-progress",
-          "seconds": 1.067
-        },
-        {
-          "name": "node_modules/eslint",
-          "seconds": 1.067
-        },
-        {
-          "name": "node_modules/querystring",
-          "seconds": 1.067
-        },
-        {
-          "name": "node_modules/eslint-visitor-keys",
-          "seconds": 1.067
-        },
-        {
-          "name": "node_modules/rc-checkbox",
-          "seconds": 1.067
-        },
-        {
-          "name": "node_modules/redux-saga",
-          "seconds": 1.067
-        },
-        {
-          "name": "node_modules/object.entries",
+          "name": "node_modules/string-convert",
           "seconds": 1.067
         },
         {
@@ -148173,47 +148137,11 @@
           "seconds": 1.067
         },
         {
-          "name": "node_modules/nanoid",
-          "seconds": 1.067
-        },
-        {
-          "name": "node_modules/string-convert",
-          "seconds": 1.067
-        },
-        {
-          "name": "node_modules/string.prototype.trimstart",
-          "seconds": 1.067
-        },
-        {
-          "name": "node_modules/sprintf-js",
-          "seconds": 1.067
-        },
-        {
-          "name": "node_modules/@redux-saga/core",
-          "seconds": 1.067
-        },
-        {
-          "name": "node_modules/react-modal",
-          "seconds": 1.067
-        },
-        {
-          "name": "node_modules/lop",
+          "name": "node_modules/eslint-utils",
           "seconds": 1.067
         },
         {
           "name": "node_modules/@types/json5",
-          "seconds": 1.067
-        },
-        {
-          "name": "node_modules/@redux-saga/types",
-          "seconds": 1.067
-        },
-        {
-          "name": "node_modules/@types/d3-color",
-          "seconds": 1.067
-        },
-        {
-          "name": "node_modules/has-bigints",
           "seconds": 1.067
         },
         {
@@ -148225,11 +148153,27 @@
           "seconds": 1.067
         },
         {
-          "name": "node_modules/env-cmd",
+          "name": "node_modules/rgbcolor",
           "seconds": 1.067
         },
         {
-          "name": "node_modules/@next/swc-linux-x64-gnu",
+          "name": "node_modules/object.entries",
+          "seconds": 1.067
+        },
+        {
+          "name": "node_modules/redux-saga",
+          "seconds": 1.067
+        },
+        {
+          "name": "node_modules/eslint-visitor-keys",
+          "seconds": 1.067
+        },
+        {
+          "name": "node_modules/sprintf-js",
+          "seconds": 1.067
+        },
+        {
+          "name": "node_modules/@redux-saga/types",
           "seconds": 1.067
         },
         {
@@ -148237,11 +148181,7 @@
           "seconds": 1.067
         },
         {
-          "name": "node_modules/url-file-size",
-          "seconds": 1.067
-        },
-        {
-          "name": "node_modules/eslint-utils",
+          "name": "node_modules/@types/d3-color",
           "seconds": 1.067
         },
         {
@@ -148249,7 +148189,59 @@
           "seconds": 1.067
         },
         {
+          "name": "node_modules/env-cmd",
+          "seconds": 1.067
+        },
+        {
+          "name": "node_modules/process-nextick-args",
+          "seconds": 1.067
+        },
+        {
+          "name": "node_modules/string.prototype.trimstart",
+          "seconds": 1.067
+        },
+        {
+          "name": "node_modules/date-fns",
+          "seconds": 1.067
+        },
+        {
+          "name": "node_modules/@next/swc-linux-x64-gnu",
+          "seconds": 1.067
+        },
+        {
+          "name": "node_modules/@redux-saga/core",
+          "seconds": 1.067
+        },
+        {
           "name": "node_modules/strip-json-comments",
+          "seconds": 1.067
+        },
+        {
+          "name": "node_modules/has-bigints",
+          "seconds": 1.067
+        },
+        {
+          "name": "node_modules/eslint",
+          "seconds": 1.067
+        },
+        {
+          "name": "node_modules/codepage",
+          "seconds": 1.067
+        },
+        {
+          "name": "node_modules/react-modal",
+          "seconds": 1.067
+        },
+        {
+          "name": "node_modules/querystring",
+          "seconds": 1.067
+        },
+        {
+          "name": "node_modules/compute-scroll-into-view",
+          "seconds": 1.067
+        },
+        {
+          "name": "node_modules/lop",
           "seconds": 1.067
         },
         {
@@ -148257,19 +148249,27 @@
           "seconds": 1.067
         },
         {
-          "name": "node_modules/function-bind",
+          "name": "node_modules/rc-progress",
           "seconds": 1.067
         },
         {
-          "name": "node_modules/codepage",
+          "name": "node_modules/rc-checkbox",
+          "seconds": 1.067
+        },
+        {
+          "name": "node_modules/url-file-size",
+          "seconds": 1.067
+        },
+        {
+          "name": "node_modules/nanoid",
           "seconds": 1.067
         }
       ],
       "ai": {
         "ai_additions": 482,
         "ai_deletions": 11,
-        "human_additions": 3,
-        "human_deletions": 0,
+        "human_additions": 14,
+        "human_deletions": 13,
         "input_tokens": 441580,
         "cached_input_tokens": 11071104,
         "output_tokens": 45475,
@@ -148381,7 +148381,25 @@
           {
             "name": "ria-fe-tsms",
             "start_minute": 1424.833,
-            "duration_seconds": 244.637,
+            "duration_seconds": 117.334,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "hsafe-mobile",
+            "start_minute": 1426.8,
+            "duration_seconds": 41.568,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 11,
+            "human_deletions": 13
+          },
+          {
+            "name": "ria-fe-tsms",
+            "start_minute": 1427.483,
+            "duration_seconds": 85.735,
             "ai_additions": 0,
             "ai_deletions": 0,
             "human_additions": 0,
@@ -148527,11 +148545,20 @@
           {
             "name": "Bash",
             "start_minute": 1425.4,
-            "duration_seconds": 125.023,
+            "duration_seconds": 83.455,
             "ai_additions": 0,
             "ai_deletions": 0,
             "human_additions": 0,
             "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 1426.8,
+            "duration_seconds": 41.568,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 11,
+            "human_deletions": 13
           },
           {
             "name": "Other",
@@ -148871,7 +148898,25 @@
           {
             "name": "AI Coding",
             "start_minute": 1425.4,
-            "duration_seconds": 874.216,
+            "duration_seconds": 83.455,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Coding",
+            "start_minute": 1426.8,
+            "duration_seconds": 41.568,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 11,
+            "human_deletions": 13
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 1427.483,
+            "duration_seconds": 749.193,
             "ai_additions": 34,
             "ai_deletions": 0,
             "human_additions": 3,
@@ -148990,7 +149035,25 @@
           {
             "name": "VS Code",
             "start_minute": 1425.4,
-            "duration_seconds": 210.758,
+            "duration_seconds": 83.455,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 1426.8,
+            "duration_seconds": 41.568,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 11,
+            "human_deletions": 13
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 1427.483,
+            "duration_seconds": 85.735,
             "ai_additions": 0,
             "ai_deletions": 0,
             "human_additions": 0,
@@ -149145,7 +149208,25 @@
           {
             "name": "Windows",
             "start_minute": 1425.4,
-            "duration_seconds": 874.216,
+            "duration_seconds": 83.455,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 1426.8,
+            "duration_seconds": 41.568,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 11,
+            "human_deletions": 13
+          },
+          {
+            "name": "Windows",
+            "start_minute": 1427.483,
+            "duration_seconds": 749.193,
             "ai_additions": 34,
             "ai_deletions": 0,
             "human_additions": 3,
@@ -149237,7 +149318,25 @@
           {
             "name": "Alexander",
             "start_minute": 1424.833,
-            "duration_seconds": 908.095,
+            "duration_seconds": 117.334,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 1426.8,
+            "duration_seconds": 41.568,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 11,
+            "human_deletions": 13
+          },
+          {
+            "name": "Alexander",
+            "start_minute": 1427.483,
+            "duration_seconds": 749.193,
             "ai_additions": 34,
             "ai_deletions": 0,
             "human_additions": 3,
@@ -149248,18 +149347,18 @@
     },
     {
       "date": "2026-09-20",
-      "seconds": 4981.346,
+      "seconds": 5223.822,
       "projects": [
         {
           "name": "ria-fe-tsms",
-          "seconds": 3796.172,
-          "ai_additions": 389,
+          "seconds": 3982.921,
+          "ai_additions": 445,
           "ai_deletions": 68,
           "human_additions": 6,
           "human_deletions": 0,
-          "input_tokens": 415649,
-          "cached_input_tokens": 11011584,
-          "output_tokens": 64451,
+          "input_tokens": 437489,
+          "cached_input_tokens": 12737024,
+          "output_tokens": 72238,
           "prompt_length_sum": 4732,
           "prompt_length_avg": 394,
           "prompt_length_avg_per_session": 394,
@@ -149268,19 +149367,19 @@
           "prompts_avg_per_session": 12,
           "prompts_median_per_session": 12,
           "sessions": 1,
-          "cost": 3.807027,
+          "cost": 4.289237,
           "models": [
             {
               "name": "GPT",
-              "lines": 457.0,
-              "cost": 3.807027
+              "lines": 513.0,
+              "cost": 4.289237
             }
           ],
-          "tokens": 11491684
+          "tokens": 13246751
         },
         {
           "name": "gems-service-tsms",
-          "seconds": 835.638,
+          "seconds": 879.564,
           "ai_additions": 0,
           "ai_deletions": 0,
           "human_additions": 0,
@@ -149308,7 +149407,7 @@
         },
         {
           "name": "purchase-portal-fe",
-          "seconds": 227.229,
+          "seconds": 233.21,
           "ai_additions": 0,
           "ai_deletions": 0,
           "human_additions": 21,
@@ -149358,7 +149457,7 @@
         },
         {
           "name": "schedule-service-tsms",
-          "seconds": 3.675,
+          "seconds": 9.495,
           "ai_additions": 0,
           "ai_deletions": 0,
           "human_additions": 0,
@@ -149382,23 +149481,27 @@
       "languages": [
         {
           "name": "TypeScript",
-          "seconds": 2581.977
+          "seconds": 2700.313
         },
         {
           "name": "Other",
-          "seconds": 835.638
+          "seconds": 774.888
         },
         {
           "name": "JSON",
-          "seconds": 501.262
+          "seconds": 529.687
         },
         {
           "name": "JavaScript",
-          "seconds": 479.222
+          "seconds": 525.191
         },
         {
           "name": "Bash",
           "seconds": 357.764
+        },
+        {
+          "name": "Java Properties",
+          "seconds": 114.171
         },
         {
           "name": "TSConfig",
@@ -149415,32 +149518,28 @@
         {
           "name": "YAML",
           "seconds": 6.864
-        },
-        {
-          "name": "Java Properties",
-          "seconds": 3.675
         }
       ],
       "editors": [
         {
           "name": "Codex Vscode",
-          "seconds": 3970.134
+          "seconds": 4134.882
         },
         {
           "name": "VS Code",
-          "seconds": 1011.212
+          "seconds": 1088.94
         }
       ],
       "operating_systems": [
         {
           "name": "Windows",
-          "seconds": 4981.346
+          "seconds": 5223.822
         }
       ],
       "machines": [
         {
           "name": "Alexander",
-          "seconds": 4740.395
+          "seconds": 4982.871
         },
         {
           "name": "ALEXANDER-II",
@@ -149450,17 +149549,17 @@
       "categories": [
         {
           "name": "AI Coding",
-          "seconds": 4424.39
+          "seconds": 4632.621
         },
         {
           "name": "Coding",
-          "seconds": 556.956
+          "seconds": 591.201
         }
       ],
       "dependencies": [
         {
           "name": "react",
-          "seconds": 2399.253
+          "seconds": 2540.033
         },
         {
           "name": "evd-client",
@@ -149480,71 +149579,71 @@
         },
         {
           "name": "@gems/ui",
-          "seconds": 410.903
-        },
-        {
-          "name": "typescript",
-          "seconds": 410.903
+          "seconds": 433.347
         },
         {
           "name": "@types/node",
-          "seconds": 410.903
+          "seconds": 433.347
+        },
+        {
+          "name": "react-resizable",
+          "seconds": 431.81
+        },
+        {
+          "name": "typescript",
+          "seconds": 429.462
         },
         {
           "name": "StoreAccEvdFileList",
           "seconds": 409.655
         },
         {
-          "name": "react-resizable",
-          "seconds": 409.366
-        },
-        {
-          "name": "lodash-es",
-          "seconds": 387.094
-        },
-        {
-          "name": "react-custom-scrollbars-2",
-          "seconds": 387.094
-        },
-        {
           "name": "react-toastify",
-          "seconds": 387.094
-        },
-        {
-          "name": "@types/querystringify",
-          "seconds": 387.094
-        },
-        {
-          "name": "@fullcalendar/react",
-          "seconds": 387.094
-        },
-        {
-          "name": "exceljs",
-          "seconds": 387.094
-        },
-        {
-          "name": "qs",
-          "seconds": 387.094
+          "seconds": 409.538
         },
         {
           "name": "@fullcalendar/daygrid",
-          "seconds": 387.094
+          "seconds": 409.538
+        },
+        {
+          "name": "react-custom-scrollbars-2",
+          "seconds": 409.538
+        },
+        {
+          "name": "qs",
+          "seconds": 405.653
         },
         {
           "name": "@types/jquery",
-          "seconds": 387.094
+          "seconds": 405.653
         },
         {
           "name": "jspdf",
-          "seconds": 387.094
-        },
-        {
-          "name": "@types/js-cookie",
-          "seconds": 387.094
+          "seconds": 405.653
         },
         {
           "name": "redux-thunk",
-          "seconds": 387.094
+          "seconds": 405.653
+        },
+        {
+          "name": "@fullcalendar/react",
+          "seconds": 405.653
+        },
+        {
+          "name": "exceljs",
+          "seconds": 405.653
+        },
+        {
+          "name": "@types/querystringify",
+          "seconds": 405.653
+        },
+        {
+          "name": "@types/js-cookie",
+          "seconds": 405.653
+        },
+        {
+          "name": "lodash-es",
+          "seconds": 405.653
         },
         {
           "name": "next",
@@ -149552,7 +149651,7 @@
         },
         {
           "name": "npm",
-          "seconds": 314.396
+          "seconds": 318.281
         },
         {
           "name": "react-dom",
@@ -149564,14 +149663,34 @@
         },
         {
           "name": "react-redux",
-          "seconds": 308.324
+          "seconds": 312.209
+        },
+        {
+          "name": "nookies",
+          "seconds": 294.472
+        },
+        {
+          "name": "@types/lodash",
+          "seconds": 294.472
         },
         {
           "name": "react-color",
-          "seconds": 290.587
+          "seconds": 294.472
         },
         {
-          "name": "sharp",
+          "name": "react-super-responsive-table",
+          "seconds": 294.472
+        },
+        {
+          "name": "redux-saga",
+          "seconds": 294.472
+        },
+        {
+          "name": "@tinymce/tinymce-react",
+          "seconds": 294.472
+        },
+        {
+          "name": "file_size_url",
           "seconds": 290.587
         },
         {
@@ -149579,11 +149698,15 @@
           "seconds": 290.587
         },
         {
-          "name": "reduxsauce",
+          "name": "uuid",
           "seconds": 290.587
         },
         {
-          "name": "react-super-responsive-table",
+          "name": "sharp",
+          "seconds": 290.587
+        },
+        {
+          "name": "cookie",
           "seconds": 290.587
         },
         {
@@ -149591,15 +149714,11 @@
           "seconds": 290.587
         },
         {
-          "name": "redux-saga",
+          "name": "aws-sdk",
           "seconds": 290.587
         },
         {
-          "name": "nookies",
-          "seconds": 290.587
-        },
-        {
-          "name": "uuid",
+          "name": "react-player",
           "seconds": 290.587
         },
         {
@@ -149611,63 +149730,127 @@
           "seconds": 290.587
         },
         {
-          "name": "aws-sdk",
+          "name": "reduxsauce",
           "seconds": 290.587
         },
         {
-          "name": "cookie",
-          "seconds": 290.587
-        },
-        {
-          "name": "file_size_url",
-          "seconds": 290.587
-        },
-        {
-          "name": "react-player",
-          "seconds": 290.587
-        },
-        {
-          "name": "@tinymce/tinymce-react",
-          "seconds": 290.587
-        },
-        {
-          "name": "@types/lodash",
-          "seconds": 290.587
+          "name": "antd",
+          "seconds": 178.059
         },
         {
           "name": "react-draggable",
           "seconds": 161.912
         },
         {
-          "name": "antd",
-          "seconds": 159.5
-        },
-        {
           "name": "redux-logger",
           "seconds": 150.947
         },
         {
-          "name": "eslint",
-          "seconds": 120.316
+          "name": "@types/react",
+          "seconds": 138.875
         },
         {
-          "name": "@types/react",
-          "seconds": 120.316
+          "name": "eslint",
+          "seconds": 138.875
         },
         {
           "name": "lodash",
-          "seconds": 113.419
+          "seconds": 135.863
         },
         {
-          "name": "springframework.data",
-          "seconds": 97.904
+          "name": "ramda",
+          "seconds": 118.951
+        },
+        {
+          "name": "suneditor",
+          "seconds": 118.951
+        },
+        {
+          "name": "@types/react-simple-maps",
+          "seconds": 118.951
+        },
+        {
+          "name": "js-cookie",
+          "seconds": 118.951
+        },
+        {
+          "name": "@types/uuid",
+          "seconds": 118.951
+        },
+        {
+          "name": "react-fast-marquee",
+          "seconds": 118.951
+        },
+        {
+          "name": "react-simple-maps",
+          "seconds": 118.951
+        },
+        {
+          "name": "chart.js",
+          "seconds": 118.951
+        },
+        {
+          "name": "url-file-size",
+          "seconds": 118.951
+        },
+        {
+          "name": "html2canvas",
+          "seconds": 115.066
+        },
+        {
+          "name": "@fullcalendar/interaction",
+          "seconds": 115.066
+        },
+        {
+          "name": "@types/react-modal",
+          "seconds": 115.066
+        },
+        {
+          "name": "caniuse-lite",
+          "seconds": 115.066
+        },
+        {
+          "name": "suneditor-react",
+          "seconds": 115.066
+        },
+        {
+          "name": "@types/cookie",
+          "seconds": 115.066
+        },
+        {
+          "name": "redux-persist",
+          "seconds": 115.066
+        },
+        {
+          "name": "react-infinite-scroll-component",
+          "seconds": 115.066
+        },
+        {
+          "name": "seamless-immutable",
+          "seconds": 115.066
+        },
+        {
+          "name": "redux",
+          "seconds": 115.066
         },
         {
           "name": "lotte.chamomile",
           "seconds": 97.904
         },
         {
+          "name": "lombok.extern",
+          "seconds": 97.904
+        },
+        {
+          "name": "springframework.data",
+          "seconds": 97.904
+        },
+        {
           "name": "springframework.stereotype",
+          "seconds": 97.904
+        },
+        {
+          "name": "springframework.http",
           "seconds": 97.904
         },
         {
@@ -149679,92 +149862,8 @@
           "seconds": 97.904
         },
         {
-          "name": "lombok.extern",
-          "seconds": 97.904
-        },
-        {
-          "name": "springframework.http",
-          "seconds": 97.904
-        },
-        {
           "name": "springframework.util",
           "seconds": 97.904
-        },
-        {
-          "name": "seamless-immutable",
-          "seconds": 96.507
-        },
-        {
-          "name": "@types/react-modal",
-          "seconds": 96.507
-        },
-        {
-          "name": "@types/react-simple-maps",
-          "seconds": 96.507
-        },
-        {
-          "name": "redux",
-          "seconds": 96.507
-        },
-        {
-          "name": "suneditor-react",
-          "seconds": 96.507
-        },
-        {
-          "name": "@types/cookie",
-          "seconds": 96.507
-        },
-        {
-          "name": "react-simple-maps",
-          "seconds": 96.507
-        },
-        {
-          "name": "react-fast-marquee",
-          "seconds": 96.507
-        },
-        {
-          "name": "suneditor",
-          "seconds": 96.507
-        },
-        {
-          "name": "url-file-size",
-          "seconds": 96.507
-        },
-        {
-          "name": "chart.js",
-          "seconds": 96.507
-        },
-        {
-          "name": "react-infinite-scroll-component",
-          "seconds": 96.507
-        },
-        {
-          "name": "caniuse-lite",
-          "seconds": 96.507
-        },
-        {
-          "name": "js-cookie",
-          "seconds": 96.507
-        },
-        {
-          "name": "ramda",
-          "seconds": 96.507
-        },
-        {
-          "name": "@types/uuid",
-          "seconds": 96.507
-        },
-        {
-          "name": "redux-persist",
-          "seconds": 96.507
-        },
-        {
-          "name": "html2canvas",
-          "seconds": 96.507
-        },
-        {
-          "name": "@fullcalendar/interaction",
-          "seconds": 96.507
         },
         {
           "name": "http",
@@ -149775,71 +149874,7 @@
           "seconds": 96.478
         },
         {
-          "name": "node_modules/qs",
-          "seconds": 56.11
-        },
-        {
-          "name": "node_modules/expand-template",
-          "seconds": 56.11
-        },
-        {
-          "name": "node_modules/@types/jquery",
-          "seconds": 56.11
-        },
-        {
-          "name": "node_modules/has-property-descriptors",
-          "seconds": 56.11
-        },
-        {
-          "name": "node_modules/zod",
-          "seconds": 56.11
-        },
-        {
-          "name": "node_modules/wmf",
-          "seconds": 56.11
-        },
-        {
-          "name": "node_modules/dir-glob",
-          "seconds": 56.11
-        },
-        {
-          "name": "node_modules/immediate",
-          "seconds": 56.11
-        },
-        {
-          "name": "node_modules/process-nextick-args",
-          "seconds": 56.11
-        },
-        {
-          "name": "node_modules/react-simple-maps",
-          "seconds": 56.11
-        },
-        {
-          "name": "node_modules/codepage",
-          "seconds": 56.11
-        },
-        {
-          "name": "node_modules/type-fest",
-          "seconds": 56.11
-        },
-        {
-          "name": "node_modules/shallowequal",
-          "seconds": 56.11
-        },
-        {
-          "name": "node_modules/to-regex-range",
-          "seconds": 56.11
-        },
-        {
-          "name": "node_modules/which-boxed-primitive",
-          "seconds": 56.11
-        },
-        {
-          "name": "node_modules/readdir-glob",
-          "seconds": 56.11
-        },
-        {
-          "name": "node_modules/rc-upload",
+          "name": "node_modules/raf",
           "seconds": 56.11
         },
         {
@@ -149847,19 +149882,11 @@
           "seconds": 56.11
         },
         {
-          "name": "node_modules/json5",
+          "name": "node_modules/react-simple-maps",
           "seconds": 56.11
         },
         {
-          "name": "node_modules/date-fns",
-          "seconds": 56.11
-        },
-        {
-          "name": "node_modules/esutils",
-          "seconds": 56.11
-        },
-        {
-          "name": "node_modules/suneditor",
+          "name": "node_modules/is-string",
           "seconds": 56.11
         },
         {
@@ -149867,31 +149894,35 @@
           "seconds": 56.11
         },
         {
-          "name": "node_modules/flat-cache",
+          "name": "node_modules/immediate",
           "seconds": 56.11
         },
         {
-          "name": "node_modules/raf",
+          "name": "node_modules/suneditor",
           "seconds": 56.11
         },
         {
-          "name": "node_modules/chartjs-plugin-datalabels",
+          "name": "node_modules/shallowequal",
           "seconds": 56.11
         },
         {
-          "name": "node_modules/d3-array",
+          "name": "node_modules/esutils",
           "seconds": 56.11
         },
         {
-          "name": "node_modules/regexpp",
+          "name": "node_modules/to-regex-range",
           "seconds": 56.11
         },
         {
-          "name": "node_modules/pptx-preview/node_modules/tslib",
+          "name": "node_modules/debug",
           "seconds": 56.11
         },
         {
-          "name": "node_modules/hoist-non-react-statics",
+          "name": "node_modules/dir-glob",
+          "seconds": 56.11
+        },
+        {
+          "name": "node_modules/expand-template",
           "seconds": 56.11
         },
         {
@@ -149899,11 +149930,63 @@
           "seconds": 56.11
         },
         {
+          "name": "node_modules/zod",
+          "seconds": 56.11
+        },
+        {
+          "name": "node_modules/@types/jquery",
+          "seconds": 56.11
+        },
+        {
+          "name": "node_modules/which-boxed-primitive",
+          "seconds": 56.11
+        },
+        {
+          "name": "node_modules/d3-array",
+          "seconds": 56.11
+        },
+        {
+          "name": "node_modules/codepage",
+          "seconds": 56.11
+        },
+        {
+          "name": "node_modules/date-fns",
+          "seconds": 56.11
+        },
+        {
+          "name": "node_modules/chartjs-plugin-datalabels",
+          "seconds": 56.11
+        },
+        {
+          "name": "node_modules/wmf",
+          "seconds": 56.11
+        },
+        {
+          "name": "node_modules/type-fest",
+          "seconds": 56.11
+        },
+        {
+          "name": "node_modules/json5",
+          "seconds": 56.11
+        },
+        {
           "name": "node_modules/lazystream/node_modules/readable-stream",
           "seconds": 56.11
         },
         {
-          "name": "node_modules/@types/qs",
+          "name": "node_modules/has-property-descriptors",
+          "seconds": 56.11
+        },
+        {
+          "name": "node_modules/pptx-preview/node_modules/tslib",
+          "seconds": 56.11
+        },
+        {
+          "name": "node_modules/@types/node",
+          "seconds": 56.11
+        },
+        {
+          "name": "node_modules/color",
           "seconds": 56.11
         },
         {
@@ -149915,31 +149998,51 @@
           "seconds": 56.11
         },
         {
+          "name": "node_modules/readdir-glob",
+          "seconds": 56.11
+        },
+        {
           "name": "node_modules/buffer-crc32",
           "seconds": 56.11
         },
         {
-          "name": "node_modules/@types/node",
+          "name": "node_modules/hoist-non-react-statics",
           "seconds": 56.11
         },
         {
-          "name": "node_modules/is-string",
+          "name": "node_modules/rc-upload",
           "seconds": 56.11
         },
         {
-          "name": "node_modules/color",
+          "name": "node_modules/@types/qs",
           "seconds": 56.11
         },
         {
-          "name": "node_modules/debug",
+          "name": "node_modules/process-nextick-args",
           "seconds": 56.11
         },
         {
-          "name": "node_modules/which-collection",
+          "name": "node_modules/regexpp",
+          "seconds": 56.11
+        },
+        {
+          "name": "node_modules/qs",
+          "seconds": 56.11
+        },
+        {
+          "name": "node_modules/flat-cache",
+          "seconds": 56.11
+        },
+        {
+          "name": "node_modules/supports-color",
+          "seconds": 39.825
+        },
+        {
+          "name": "node_modules/@babel/helper-module-transforms",
           "seconds": 33.844
         },
         {
-          "name": "node_modules/csstype",
+          "name": "node_modules/@esbuild/linux-ppc64",
           "seconds": 33.844
         },
         {
@@ -149947,7 +150050,19 @@
           "seconds": 33.844
         },
         {
-          "name": "node_modules/zrender",
+          "name": "node_modules/@rc-component/notification",
+          "seconds": 33.844
+        },
+        {
+          "name": "node_modules/@react-pdf/primitives",
+          "seconds": 33.844
+        },
+        {
+          "name": "node_modules/@rc-component/form",
+          "seconds": 33.844
+        },
+        {
+          "name": "node_modules/@rc-component/tabs",
           "seconds": 33.844
         },
         {
@@ -149955,23 +150070,31 @@
           "seconds": 33.844
         },
         {
+          "name": "node_modules/hermes-parser",
+          "seconds": 33.844
+        },
+        {
+          "name": "node_modules/csstype",
+          "seconds": 33.844
+        },
+        {
+          "name": "node_modules/p-locate",
+          "seconds": 33.844
+        },
+        {
+          "name": "node_modules/keyv",
+          "seconds": 33.844
+        },
+        {
+          "name": "node_modules/which-collection",
+          "seconds": 33.844
+        },
+        {
           "name": "node_modules/archiver-utils/node_modules/safe-buffer",
           "seconds": 33.844
         },
         {
-          "name": "node_modules/lightningcss-darwin-x64",
-          "seconds": 33.844
-        },
-        {
-          "name": "node_modules/@rc-component/input",
-          "seconds": 33.844
-        },
-        {
-          "name": "node_modules/path-key",
-          "seconds": 33.844
-        },
-        {
-          "name": "node_modules/hermes-parser",
+          "name": "node_modules/@react-pdf/reconciler/node_modules/scheduler",
           "seconds": 33.844
         },
         {
@@ -149983,15 +150106,7 @@
           "seconds": 33.844
         },
         {
-          "name": "node_modules/@rc-component/dialog",
-          "seconds": 33.844
-        },
-        {
-          "name": "node_modules/picocolors",
-          "seconds": 33.844
-        },
-        {
-          "name": "node_modules/keyv",
+          "name": "node_modules/@rc-component/input",
           "seconds": 33.844
         },
         {
@@ -149999,19 +150114,19 @@
           "seconds": 33.844
         },
         {
-          "name": "node_modules/@tailwindcss/oxide-linux-arm64-gnu",
+          "name": "node_modules/lightningcss-darwin-x64",
           "seconds": 33.844
         },
         {
-          "name": "node_modules/@fontsource/roboto",
+          "name": "node_modules/@typescript-eslint/scope-manager",
           "seconds": 33.844
         },
         {
-          "name": "node_modules/@react-pdf/primitives",
+          "name": "node_modules/@rc-component/dialog",
           "seconds": 33.844
         },
         {
-          "name": "node_modules/lodash.difference",
+          "name": "node_modules/@esbuild/linux-riscv64",
           "seconds": 33.844
         },
         {
@@ -150019,27 +150134,19 @@
           "seconds": 33.844
         },
         {
-          "name": "node_modules/@react-pdf/reconciler/node_modules/scheduler",
+          "name": "node_modules/path-key",
           "seconds": 33.844
         },
         {
-          "name": "node_modules/@rc-component/tabs",
+          "name": "node_modules/picocolors",
           "seconds": 33.844
         },
         {
-          "name": "node_modules/@noble/hashes",
+          "name": "node_modules/tapable",
           "seconds": 33.844
         },
         {
-          "name": "node_modules/@rc-component/form",
-          "seconds": 33.844
-        },
-        {
-          "name": "node_modules/css-line-break",
-          "seconds": 33.844
-        },
-        {
-          "name": "node_modules/levn",
+          "name": "node_modules/@fontsource/roboto",
           "seconds": 33.844
         },
         {
@@ -150051,23 +150158,19 @@
           "seconds": 33.844
         },
         {
-          "name": "node_modules/xmlchars",
+          "name": "node_modules/zrender",
           "seconds": 33.844
         },
         {
-          "name": "node_modules/@typescript-eslint/scope-manager",
+          "name": "node_modules/lodash.difference",
           "seconds": 33.844
         },
         {
-          "name": "node_modules/@esbuild/linux-ppc64",
+          "name": "node_modules/css-line-break",
           "seconds": 33.844
         },
         {
-          "name": "node_modules/@babel/helper-module-transforms",
-          "seconds": 33.844
-        },
-        {
-          "name": "node_modules/@rc-component/notification",
+          "name": "node_modules/levn",
           "seconds": 33.844
         },
         {
@@ -150075,7 +150178,7 @@
           "seconds": 33.844
         },
         {
-          "name": "node_modules/p-locate",
+          "name": "node_modules/@tailwindcss/oxide-linux-arm64-gnu",
           "seconds": 33.844
         },
         {
@@ -150083,32 +150186,20 @@
           "seconds": 33.844
         },
         {
-          "name": "node_modules/tapable",
+          "name": "node_modules/@noble/hashes",
           "seconds": 33.844
         },
         {
-          "name": "node_modules/supports-color",
+          "name": "node_modules/xmlchars",
           "seconds": 33.844
         },
         {
-          "name": "node_modules/@esbuild/linux-riscv64",
-          "seconds": 33.844
+          "name": "axios",
+          "seconds": 27.694
         },
         {
-          "name": "@eslint/js",
-          "seconds": 23.809
-        },
-        {
-          "name": "vite",
-          "seconds": 23.809
-        },
-        {
-          "name": "i18next",
-          "seconds": 23.809
-        },
-        {
-          "name": "@fontsource/roboto",
-          "seconds": 23.809
+          "name": "@gems/evd-client",
+          "seconds": 27.694
         },
         {
           "name": "@ant-design/icons",
@@ -150119,43 +150210,7 @@
           "seconds": 23.809
         },
         {
-          "name": "jwt-decode",
-          "seconds": 23.809
-        },
-        {
-          "name": "zustand",
-          "seconds": 23.809
-        },
-        {
-          "name": "clsx",
-          "seconds": 23.809
-        },
-        {
-          "name": "eslint-plugin-react-refresh",
-          "seconds": 23.809
-        },
-        {
-          "name": "react-i18next",
-          "seconds": 23.809
-        },
-        {
-          "name": "dayjs",
-          "seconds": 23.809
-        },
-        {
-          "name": "i18next-browser-languagedetector",
-          "seconds": 23.809
-        },
-        {
-          "name": "@gems/user-core",
-          "seconds": 23.809
-        },
-        {
-          "name": "tailwindcss",
-          "seconds": 23.809
-        },
-        {
-          "name": "eslint-plugin-react-hooks",
+          "name": "globals",
           "seconds": 23.809
         },
         {
@@ -150163,31 +150218,7 @@
           "seconds": 23.809
         },
         {
-          "name": "eslint-plugin-react",
-          "seconds": 23.809
-        },
-        {
-          "name": "axios",
-          "seconds": 23.809
-        },
-        {
-          "name": "@tanstack/react-router",
-          "seconds": 23.809
-        },
-        {
-          "name": "globals",
-          "seconds": 23.809
-        },
-        {
-          "name": "@gems/auth-core",
-          "seconds": 23.809
-        },
-        {
-          "name": "@tailwindcss/vite",
-          "seconds": 23.809
-        },
-        {
-          "name": "@gems/evd-client",
+          "name": "@vitejs/plugin-react",
           "seconds": 23.809
         },
         {
@@ -150195,7 +150226,75 @@
           "seconds": 23.809
         },
         {
-          "name": "@vitejs/plugin-react",
+          "name": "clsx",
+          "seconds": 23.809
+        },
+        {
+          "name": "eslint-plugin-react-hooks",
+          "seconds": 23.809
+        },
+        {
+          "name": "react-i18next",
+          "seconds": 23.809
+        },
+        {
+          "name": "@gems/auth-core",
+          "seconds": 23.809
+        },
+        {
+          "name": "tailwindcss",
+          "seconds": 23.809
+        },
+        {
+          "name": "@fontsource/roboto",
+          "seconds": 23.809
+        },
+        {
+          "name": "dayjs",
+          "seconds": 23.809
+        },
+        {
+          "name": "i18next",
+          "seconds": 23.809
+        },
+        {
+          "name": "jwt-decode",
+          "seconds": 23.809
+        },
+        {
+          "name": "eslint-plugin-react-refresh",
+          "seconds": 23.809
+        },
+        {
+          "name": "vite",
+          "seconds": 23.809
+        },
+        {
+          "name": "i18next-browser-languagedetector",
+          "seconds": 23.809
+        },
+        {
+          "name": "@tanstack/react-router",
+          "seconds": 23.809
+        },
+        {
+          "name": "eslint-plugin-react",
+          "seconds": 23.809
+        },
+        {
+          "name": "zustand",
+          "seconds": 23.809
+        },
+        {
+          "name": "@tailwindcss/vite",
+          "seconds": 23.809
+        },
+        {
+          "name": "@gems/user-core",
+          "seconds": 23.809
+        },
+        {
+          "name": "@eslint/js",
           "seconds": 23.809
         },
         {
@@ -150207,39 +150306,7 @@
           "seconds": 17.737
         },
         {
-          "name": "customHooks",
-          "seconds": 16.912
-        },
-        {
-          "name": "Button",
-          "seconds": 16.912
-        },
-        {
-          "name": "permissionModule",
-          "seconds": 16.912
-        },
-        {
-          "name": "storeDailyStockMaster",
-          "seconds": 16.912
-        },
-        {
-          "name": "Col",
-          "seconds": 16.912
-        },
-        {
-          "name": "timeUtils",
-          "seconds": 16.912
-        },
-        {
-          "name": "EvdEvidenceSection",
-          "seconds": 16.912
-        },
-        {
-          "name": "stringUtils",
-          "seconds": 16.912
-        },
-        {
-          "name": "form",
+          "name": "InputNumber",
           "seconds": 16.912
         },
         {
@@ -150247,39 +150314,11 @@
           "seconds": 16.912
         },
         {
-          "name": "StoreAccManagementContainer",
-          "seconds": 16.912
-        },
-        {
-          "name": "CodeInput",
-          "seconds": 16.912
-        },
-        {
-          "name": "FormWrapper",
-          "seconds": 16.912
-        },
-        {
           "name": "Spin",
           "seconds": 16.912
         },
         {
-          "name": "moment",
-          "seconds": 16.912
-        },
-        {
-          "name": "Select",
-          "seconds": 16.912
-        },
-        {
-          "name": "InputNumber",
-          "seconds": 16.912
-        },
-        {
-          "name": "DatePicker",
-          "seconds": 16.912
-        },
-        {
-          "name": "Input",
+          "name": "customHooks",
           "seconds": 16.912
         },
         {
@@ -150287,15 +150326,7 @@
           "seconds": 16.912
         },
         {
-          "name": "Row",
-          "seconds": 16.912
-        },
-        {
-          "name": "AccountSlipConfirm.module",
-          "seconds": 16.912
-        },
-        {
-          "name": "storeAccManagement",
+          "name": "moment",
           "seconds": 16.912
         },
         {
@@ -150303,7 +150334,31 @@
           "seconds": 16.912
         },
         {
-          "name": "sweetAlert",
+          "name": "TranslatorHook",
+          "seconds": 16.912
+        },
+        {
+          "name": "Input",
+          "seconds": 16.912
+        },
+        {
+          "name": "DatePicker",
+          "seconds": 16.912
+        },
+        {
+          "name": "EvdEvidenceSection",
+          "seconds": 16.912
+        },
+        {
+          "name": "FormWrapper",
+          "seconds": 16.912
+        },
+        {
+          "name": "Col",
+          "seconds": 16.912
+        },
+        {
+          "name": "AccountSlipConfirm.module",
           "seconds": 16.912
         },
         {
@@ -150311,39 +150366,267 @@
           "seconds": 16.912
         },
         {
+          "name": "storeDailyStockMaster",
+          "seconds": 16.912
+        },
+        {
+          "name": "CodeInput",
+          "seconds": 16.912
+        },
+        {
+          "name": "Select",
+          "seconds": 16.912
+        },
+        {
+          "name": "permissionModule",
+          "seconds": 16.912
+        },
+        {
+          "name": "StoreAccManagementContainer",
+          "seconds": 16.912
+        },
+        {
+          "name": "Row",
+          "seconds": 16.912
+        },
+        {
           "name": "Form",
           "seconds": 16.912
         },
         {
-          "name": "TranslatorHook",
+          "name": "stringUtils",
           "seconds": 16.912
         },
         {
-          "name": "app",
-          "seconds": 0.825
+          "name": "storeAccManagement",
+          "seconds": 16.912
         },
         {
-          "name": "styles",
-          "seconds": 0.825
+          "name": "form",
+          "seconds": 16.912
         },
         {
-          "name": "head",
-          "seconds": 0.825
+          "name": "sweetAlert",
+          "seconds": 16.912
+        },
+        {
+          "name": "Button",
+          "seconds": 16.912
+        },
+        {
+          "name": "timeUtils",
+          "seconds": 16.912
+        },
+        {
+          "name": "node_modules/once",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/is-boolean-object",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/jszip/node_modules/readable-stream",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/lodash.escaperegexp",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/@tailwindcss/oxide-linux-arm64-musl",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/balanced-match",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/@types/pako",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/@types/prop-types",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/@react-pdf/stylesheet",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/detect-libc",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/@types/trusted-types",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/color-string",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/lodash.isequal",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/scheduler",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/zrender/node_modules/tslib",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/is-weakref",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/typed-array-byte-length",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/deep-is",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/shebang-command",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/esrecurse",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/big-integer",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/zustand",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/tailwindcss",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/brotli",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/get-symbol-description",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/eslint-visitor-keys",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/is-typed-array",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/safe-array-concat",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/lie",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/tinyglobby",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/@tanstack/react-store",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/prop-types/node_modules/react-is",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/async-function",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/jiti",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/antd",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/@rc-component/select",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/core-js",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/react",
+          "seconds": 5.981
+        },
+        {
+          "name": "node_modules/internal-slot",
+          "seconds": 5.981
+        },
+        {
+          "name": "eslint-config-next",
+          "seconds": 3.885
+        },
+        {
+          "name": "@types/redux-logger",
+          "seconds": 3.885
+        },
+        {
+          "name": "file-saver",
+          "seconds": 3.885
+        },
+        {
+          "name": "next-themes",
+          "seconds": 3.885
+        },
+        {
+          "name": "react-chartjs-2",
+          "seconds": 3.885
+        },
+        {
+          "name": "react-image-lightbox",
+          "seconds": 3.885
+        },
+        {
+          "name": "sass",
+          "seconds": 3.885
+        },
+        {
+          "name": "@types/ramda",
+          "seconds": 3.885
+        },
+        {
+          "name": "env-cmd",
+          "seconds": 3.885
+        },
+        {
+          "name": "@fullcalendar/core",
+          "seconds": 3.885
+        },
+        {
+          "name": "aws-s3-upload-ash",
+          "seconds": 3.885
+        },
+        {
+          "name": "jspdf-autotable",
+          "seconds": 3.885
+        },
+        {
+          "name": "@types/react-resizable",
+          "seconds": 3.885
         },
         {
           "name": "router",
-          "seconds": 0.825
-        },
-        {
-          "name": "CookiesService",
-          "seconds": 0.825
-        },
-        {
-          "name": "fadux",
-          "seconds": 0.825
-        },
-        {
-          "name": "RouteChangeHandler",
           "seconds": 0.825
         },
         {
@@ -150351,18 +150634,42 @@
           "seconds": 0.825
         },
         {
+          "name": "RouteChangeHandler",
+          "seconds": 0.825
+        },
+        {
+          "name": "head",
+          "seconds": 0.825
+        },
+        {
+          "name": "styles",
+          "seconds": 0.825
+        },
+        {
+          "name": "CookiesService",
+          "seconds": 0.825
+        },
+        {
           "name": "not-found",
+          "seconds": 0.825
+        },
+        {
+          "name": "fadux",
+          "seconds": 0.825
+        },
+        {
+          "name": "app",
           "seconds": 0.825
         }
       ],
       "ai": {
-        "ai_additions": 389,
+        "ai_additions": 445,
         "ai_deletions": 68,
         "human_additions": 27,
         "human_deletions": 21,
-        "input_tokens": 626395,
-        "cached_input_tokens": 15784576,
-        "output_tokens": 90652,
+        "input_tokens": 648235,
+        "cached_input_tokens": 17510016,
+        "output_tokens": 98439,
         "prompt_length_sum": 11921,
         "prompt_length_avg": 662,
         "prompt_length_avg_per_session": 1853,
@@ -150371,12 +150678,12 @@
         "prompts_avg_per_session": 9,
         "prompts_median_per_session": 9,
         "sessions": 2,
-        "cost": 5.276468,
+        "cost": 5.758678,
         "models": [
           {
             "name": "GPT",
-            "lines": 457.0,
-            "cost": 5.276468
+            "lines": 513.0,
+            "cost": 5.758678
           }
         ]
       },
@@ -150629,6 +150936,60 @@
             "name": "schedule-service-tsms",
             "start_minute": 105.217,
             "duration_seconds": 3.675,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ria-fe-tsms",
+            "start_minute": 105.283,
+            "duration_seconds": 18.559,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 105.583,
+            "duration_seconds": 43.926,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ria-fe-tsms",
+            "start_minute": 106.317,
+            "duration_seconds": 164.305,
+            "ai_additions": 56,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "schedule-service-tsms",
+            "start_minute": 1290.75,
+            "duration_seconds": 5.82,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ria-fe-tsms",
+            "start_minute": 1290.833,
+            "duration_seconds": 3.885,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "purchase-portal-fe",
+            "start_minute": 1290.9,
+            "duration_seconds": 5.981,
             "ai_additions": 0,
             "ai_deletions": 0,
             "human_additions": 0,
@@ -151177,18 +151538,63 @@
             "human_deletions": 0
           },
           {
-            "name": "Other",
+            "name": "Java Properties",
             "start_minute": 104.2,
-            "duration_seconds": 60.75,
+            "duration_seconds": 64.425,
             "ai_additions": 0,
             "ai_deletions": 0,
             "human_additions": 0,
             "human_deletions": 0
           },
           {
+            "name": "JSON",
+            "start_minute": 105.283,
+            "duration_seconds": 18.559,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 0
+          },
+          {
             "name": "Java Properties",
-            "start_minute": 105.217,
-            "duration_seconds": 3.675,
+            "start_minute": 105.583,
+            "duration_seconds": 43.926,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "JavaScript",
+            "start_minute": 106.317,
+            "duration_seconds": 45.969,
+            "ai_additions": 13,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 107.083,
+            "duration_seconds": 118.336,
+            "ai_additions": 32,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java Properties",
+            "start_minute": 1290.75,
+            "duration_seconds": 5.82,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "JSON",
+            "start_minute": 1290.833,
+            "duration_seconds": 9.866,
             "ai_additions": 0,
             "ai_deletions": 0,
             "human_additions": 0,
@@ -151335,6 +151741,33 @@
             "name": "AI Coding",
             "start_minute": 94.9,
             "duration_seconds": 622.79,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Coding",
+            "start_minute": 105.283,
+            "duration_seconds": 18.559,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 105.583,
+            "duration_seconds": 208.231,
+            "ai_additions": 56,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Coding",
+            "start_minute": 1290.75,
+            "duration_seconds": 15.686,
             "ai_additions": 0,
             "ai_deletions": 0,
             "human_additions": 0,
@@ -151620,6 +152053,51 @@
             "ai_deletions": 0,
             "human_additions": 0,
             "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 105.283,
+            "duration_seconds": 18.559,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 105.583,
+            "duration_seconds": 0.443,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 105.6,
+            "duration_seconds": 43.483,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 106.317,
+            "duration_seconds": 164.305,
+            "ai_additions": 56,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 1290.75,
+            "duration_seconds": 15.686,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
           }
         ],
         "os": [
@@ -151766,6 +152244,33 @@
             "ai_deletions": 0,
             "human_additions": 0,
             "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 105.283,
+            "duration_seconds": 18.559,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 105.583,
+            "duration_seconds": 208.231,
+            "ai_additions": 56,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 1290.75,
+            "duration_seconds": 15.686,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
           }
         ],
         "machine": [
@@ -151889,13 +152394,60 @@
           {
             "name": "Alexander",
             "start_minute": 80.967,
-            "duration_seconds": 1458.286,
-            "ai_additions": 158,
+            "duration_seconds": 1685.076,
+            "ai_additions": 214,
             "ai_deletions": 12,
             "human_additions": 23,
             "human_deletions": 0
+          },
+          {
+            "name": "Alexander",
+            "start_minute": 1290.75,
+            "duration_seconds": 15.686,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
           }
         ]
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "seconds": 0.0,
+      "projects": [],
+      "languages": [],
+      "editors": [],
+      "operating_systems": [],
+      "machines": [],
+      "categories": [],
+      "dependencies": [],
+      "ai": {
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "input_tokens": 0,
+        "cached_input_tokens": 0,
+        "output_tokens": 0,
+        "prompt_length_sum": 0,
+        "prompt_length_avg": 0,
+        "prompt_length_avg_per_session": 0,
+        "prompt_length_median_per_session": 0,
+        "prompt_events": 0,
+        "prompts_avg_per_session": 0,
+        "prompts_median_per_session": 0,
+        "sessions": 0,
+        "cost": 0.0,
+        "models": []
+      },
+      "timelines": {
+        "project": [],
+        "language": [],
+        "category": [],
+        "editor": [],
+        "os": [],
+        "machine": []
       }
     }
   ]
