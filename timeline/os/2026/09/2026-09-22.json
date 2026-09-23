@@ -30,9 +30,9 @@
     {
       "time": 1790043862.79,
       "project": "gems-service-tsms",
-      "ai_input_tokens": 755575,
-      "ai_cached_input_tokens": 10272512,
-      "ai_output_tokens": 67624,
+      "ai_input_tokens": 901847,
+      "ai_cached_input_tokens": 13014528,
+      "ai_output_tokens": 72622,
       "duration": 1459.93,
       "ai_additions": 616,
       "ai_model_line_changes": {
@@ -43,22 +43,22 @@
       "human_additions": 0,
       "human_deletions": 0,
       "ai_model_costs": {
-        "GPT": 11.963749,
+        "GPT": 12.053841,
         "Codex-Vscode": 11.50359
       },
-      "ai_sessions": 6,
-      "ai_prompt_length_sum": 7031,
-      "ai_prompt_events_total": 8,
+      "ai_sessions": 7,
+      "ai_prompt_length_sum": 7113,
+      "ai_prompt_events_total": 9,
       "_is_ai_coding": true,
       "_is_manual_coding": false,
       "ai_coding_seconds": 1459.93,
       "manual_coding_seconds": 0.0,
       "os": "Windows",
-      "ai_prompt_length_avg": 879,
+      "ai_prompt_length_avg": 790,
       "ai_prompt_events_avg_per_session": 1,
       "ai_prompt_events_median_per_session": 1,
-      "ai_prompt_length_avg_per_session": 708,
-      "ai_prompt_length_median_per_session": 603
+      "ai_prompt_length_avg_per_session": 618,
+      "ai_prompt_length_median_per_session": 236
     },
     {
       "time": 1790045322.72,
@@ -90,9 +90,9 @@
     {
       "time": 1790045324.783,
       "project": "system-service-tsms-v2",
-      "ai_input_tokens": 297493,
-      "ai_cached_input_tokens": 4331776,
-      "ai_output_tokens": 30260,
+      "ai_input_tokens": 299386,
+      "ai_cached_input_tokens": 4481024,
+      "ai_output_tokens": 31590,
       "duration": 1308.03,
       "ai_additions": 27,
       "ai_model_line_changes": {
@@ -102,9 +102,9 @@
       "human_additions": 0,
       "human_deletions": 0,
       "ai_model_costs": {
-        "GPT": 7.390849
+        "GPT": 7.395809
       },
-      "ai_sessions": 5,
+      "ai_sessions": 6,
       "ai_prompt_length_sum": 3794,
       "ai_prompt_events_total": 5,
       "_is_ai_coding": true,
@@ -415,10 +415,10 @@
     {
       "time": 1790068434.379,
       "project": "gems-service-tsms",
-      "ai_input_tokens": 207126,
-      "ai_cached_input_tokens": 7957632,
-      "ai_output_tokens": 21067,
-      "duration": 2648.537,
+      "ai_input_tokens": 208471,
+      "ai_cached_input_tokens": 8174976,
+      "ai_output_tokens": 21095,
+      "duration": 3136.604,
       "ai_additions": 70,
       "ai_model_line_changes": {
         "GPT": 70
@@ -427,14 +427,14 @@
       "human_additions": 0,
       "human_deletions": 0,
       "ai_model_costs": {
-        "GPT": 2.258583
+        "GPT": 2.305078
       },
       "ai_sessions": 2,
       "ai_prompt_length_sum": 2960,
       "ai_prompt_events_total": 5,
       "_is_ai_coding": true,
       "_is_manual_coding": false,
-      "ai_coding_seconds": 2648.537,
+      "ai_coding_seconds": 3136.604,
       "manual_coding_seconds": 0.0,
       "os": "Windows",
       "ai_prompt_length_avg": 592,
@@ -442,6 +442,64 @@
       "ai_prompt_events_median_per_session": 2,
       "ai_prompt_length_avg_per_session": 496,
       "ai_prompt_length_median_per_session": 496
+    },
+    {
+      "time": 1790071570.983,
+      "project": "ria-fe-tsms",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 437.09,
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 1,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": false,
+      "_is_manual_coding": true,
+      "ai_coding_seconds": 0.0,
+      "manual_coding_seconds": 437.09,
+      "os": "Windows",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1790072008.073,
+      "project": "schedule-service-tsms",
+      "ai_input_tokens": 125661,
+      "ai_cached_input_tokens": 2871296,
+      "ai_output_tokens": 11368,
+      "duration": 1501.99,
+      "ai_additions": 11,
+      "ai_model_line_changes": {
+        "GPT": 11
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.961998
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 1052,
+      "ai_prompt_events_total": 5,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 1501.99,
+      "manual_coding_seconds": 0.0,
+      "os": "Windows",
+      "ai_prompt_length_avg": 210,
+      "ai_prompt_events_avg_per_session": 2,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 217,
+      "ai_prompt_length_median_per_session": 216
     }
   ],
   "start": "2026-09-21T17:00:00Z",
