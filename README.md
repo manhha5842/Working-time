@@ -2,14 +2,14 @@
 
 Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 
-> Last updated: **2026-09-27 04:56 ICT**
+> Last updated: **2026-09-28 05:01 ICT**
 
 ## Overview
 
 | Metric | Coding time |
 |---|---:|
 | Today | **0m** |
-| This week | **23h 17m** |
+| This week | **0m** |
 | This month | **94h 53m** |
 | This year | **232h** |
 | All archived time | **232h** |
@@ -21,13 +21,13 @@ Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 
 | Day | Date | Coding time |
 |---|---|---:|
-| Mon | 2026-09-21 | 7h 2m |
 | Tue | 2026-09-22 | 5h 39m |
 | Wed | 2026-09-23 | 4h 12m |
 | Thu | 2026-09-24 | 2h 10m |
 | Fri | 2026-09-25 | 3h 53m |
 | Sat | 2026-09-26 | 23m |
 | Sun | 2026-09-27 | 0m |
+| Mon | 2026-09-28 | 0m |
 
 ## Top Languages
 
