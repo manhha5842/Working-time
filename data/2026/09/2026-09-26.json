@@ -1,6 +1,63 @@
 {
   "data": [
     {
+      "languages": [
+        {
+          "name": "TypeScript",
+          "total_seconds": 921.337,
+          "digital": "0:15:21",
+          "decimal": "0.25",
+          "text": "15 mins",
+          "hours": 0,
+          "minutes": 15,
+          "seconds": 21,
+          "percent": 66.18
+        },
+        {
+          "name": "Markdown",
+          "total_seconds": 315.922,
+          "digital": "0:05:15",
+          "decimal": "0.08",
+          "text": "5 mins",
+          "hours": 0,
+          "minutes": 5,
+          "seconds": 15,
+          "percent": 22.69
+        },
+        {
+          "name": "Other",
+          "total_seconds": 121.82,
+          "digital": "0:02:01",
+          "decimal": "0.03",
+          "text": "2 mins",
+          "hours": 0,
+          "minutes": 2,
+          "seconds": 1,
+          "percent": 8.75
+        },
+        {
+          "name": "Dart",
+          "total_seconds": 19.624,
+          "digital": "0:00:19",
+          "decimal": "0.00",
+          "text": "19 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 19,
+          "percent": 1.41
+        },
+        {
+          "name": "YAML",
+          "total_seconds": 13.471,
+          "digital": "0:00:13",
+          "decimal": "0.00",
+          "text": "13 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 13,
+          "percent": 0.97
+        }
+      ],
       "grand_total": {
         "hours": 0,
         "minutes": 23,
@@ -38,13 +95,220 @@
         "ai_prompt_length_avg_per_session": 8,
         "ai_prompt_length_median_per_session": 8
       },
-      "range": {
-        "start": "2026-09-25T17:00:00Z",
-        "end": "2026-09-26T16:59:59Z",
-        "date": "2026-09-26",
-        "text": "Sat Sep 26th 2026",
-        "timezone": "Asia/Ho_Chi_Minh"
-      },
+      "editors": [
+        {
+          "name": "Codex Vscode",
+          "total_seconds": 1237.259,
+          "ai_additions": 135,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "ai_model_line_changes": {
+            "GPT": 135
+          },
+          "ai_input_tokens": 116445,
+          "ai_cached_input_tokens": 10125696,
+          "ai_output_tokens": 28639,
+          "ai_prompt_length_sum": 8,
+          "ai_prompt_events_total": 1,
+          "ai_model_costs": {
+            "GPT": 0.127223
+          },
+          "ai_model_breakdown": [
+            {
+              "name": "GPT",
+              "lines": 135,
+              "cost": 0.127223
+            }
+          ],
+          "ai_model_total_cost": 0.127223,
+          "ai_prompt_length_avg": 8,
+          "ai_prompt_length_avg_per_session": 8,
+          "ai_prompt_length_median_per_session": 8,
+          "ai_prompt_events_avg_per_session": 1,
+          "ai_prompt_events_median_per_session": 1,
+          "ai_sessions": 1,
+          "digital": "0:20:37",
+          "decimal": "0.33",
+          "text": "20 mins",
+          "hours": 0,
+          "minutes": 20,
+          "seconds": 37,
+          "percent": 88.87
+        },
+        {
+          "name": "VS Code",
+          "total_seconds": 154.915,
+          "ai_additions": 0,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "ai_model_line_changes": {},
+          "ai_input_tokens": 0,
+          "ai_cached_input_tokens": 0,
+          "ai_output_tokens": 0,
+          "ai_prompt_length_sum": 0,
+          "ai_prompt_events_total": 0,
+          "ai_model_costs": {},
+          "ai_model_breakdown": [],
+          "ai_model_total_cost": 0,
+          "ai_prompt_length_avg": 0,
+          "ai_prompt_length_avg_per_session": 0,
+          "ai_prompt_length_median_per_session": 0,
+          "ai_prompt_events_avg_per_session": 0,
+          "ai_prompt_events_median_per_session": 0,
+          "ai_sessions": 0,
+          "digital": "0:02:34",
+          "decimal": "0.03",
+          "text": "2 mins",
+          "hours": 0,
+          "minutes": 2,
+          "seconds": 34,
+          "percent": 11.13
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "Windows",
+          "total_seconds": 1392.174,
+          "digital": "0:23:12",
+          "decimal": "0.38",
+          "text": "23 mins",
+          "hours": 0,
+          "minutes": 23,
+          "seconds": 12,
+          "percent": 100.0
+        }
+      ],
+      "categories": [
+        {
+          "name": "AI Coding",
+          "total_seconds": 1237.259,
+          "digital": "0:20:37",
+          "decimal": "0.33",
+          "text": "20 mins",
+          "hours": 0,
+          "minutes": 20,
+          "seconds": 37,
+          "percent": 88.87
+        },
+        {
+          "name": "Coding",
+          "total_seconds": 154.915,
+          "digital": "0:02:34",
+          "decimal": "0.03",
+          "text": "2 mins",
+          "hours": 0,
+          "minutes": 2,
+          "seconds": 34,
+          "percent": 11.13
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "antd",
+          "total_seconds": 665.413,
+          "digital": "0:11:05",
+          "decimal": "0.18",
+          "text": "11 mins",
+          "hours": 0,
+          "minutes": 11,
+          "seconds": 5,
+          "percent": 14.29
+        },
+        {
+          "name": "react",
+          "total_seconds": 665.413,
+          "digital": "0:11:05",
+          "decimal": "0.18",
+          "text": "11 mins",
+          "hours": 0,
+          "minutes": 11,
+          "seconds": 5,
+          "percent": 14.29
+        },
+        {
+          "name": "react-redux",
+          "total_seconds": 665.413,
+          "digital": "0:11:05",
+          "decimal": "0.18",
+          "text": "11 mins",
+          "hours": 0,
+          "minutes": 11,
+          "seconds": 5,
+          "percent": 14.29
+        },
+        {
+          "name": "reduxes",
+          "total_seconds": 665.413,
+          "digital": "0:11:05",
+          "decimal": "0.18",
+          "text": "11 mins",
+          "hours": 0,
+          "minutes": 11,
+          "seconds": 5,
+          "percent": 14.29
+        },
+        {
+          "name": "evd-client",
+          "total_seconds": 665.413,
+          "digital": "0:11:05",
+          "decimal": "0.18",
+          "text": "11 mins",
+          "hours": 0,
+          "minutes": 11,
+          "seconds": 5,
+          "percent": 14.29
+        },
+        {
+          "name": "TranslatorHook",
+          "total_seconds": 665.413,
+          "digital": "0:11:05",
+          "decimal": "0.18",
+          "text": "11 mins",
+          "hours": 0,
+          "minutes": 11,
+          "seconds": 5,
+          "percent": 14.29
+        },
+        {
+          "name": "auth",
+          "total_seconds": 665.413,
+          "digital": "0:11:05",
+          "decimal": "0.18",
+          "text": "11 mins",
+          "hours": 0,
+          "minutes": 11,
+          "seconds": 5,
+          "percent": 14.29
+        }
+      ],
+      "machines": [
+        {
+          "name": "Alexander",
+          "total_seconds": 1237.259,
+          "machine_name_id": "3f433f30-8901-4ceb-8644-07cd20c36fb0",
+          "digital": "0:20:37",
+          "decimal": "0.33",
+          "text": "20 mins",
+          "hours": 0,
+          "minutes": 20,
+          "seconds": 37,
+          "percent": 88.87
+        },
+        {
+          "name": "ALEXANDER-II",
+          "total_seconds": 154.915,
+          "machine_name_id": "70f830f7-6da3-42cc-a833-1dfac3600243",
+          "digital": "0:02:34",
+          "decimal": "0.03",
+          "text": "2 mins",
+          "hours": 0,
+          "minutes": 2,
+          "seconds": 34,
+          "percent": 11.13
+        }
+      ],
       "projects": [
         {
           "name": "ria-fe-tsms",
@@ -158,277 +422,13 @@
           "percent": 0.96
         }
       ],
-      "languages": [
-        {
-          "name": "TypeScript",
-          "total_seconds": 921.337,
-          "digital": "0:15:21",
-          "decimal": "0.25",
-          "text": "15 mins",
-          "hours": 0,
-          "minutes": 15,
-          "seconds": 21,
-          "percent": 66.18
-        },
-        {
-          "name": "Markdown",
-          "total_seconds": 315.922,
-          "digital": "0:05:15",
-          "decimal": "0.08",
-          "text": "5 mins",
-          "hours": 0,
-          "minutes": 5,
-          "seconds": 15,
-          "percent": 22.69
-        },
-        {
-          "name": "Other",
-          "total_seconds": 121.82,
-          "digital": "0:02:01",
-          "decimal": "0.03",
-          "text": "2 mins",
-          "hours": 0,
-          "minutes": 2,
-          "seconds": 1,
-          "percent": 8.75
-        },
-        {
-          "name": "Dart",
-          "total_seconds": 19.624,
-          "digital": "0:00:19",
-          "decimal": "0.00",
-          "text": "19 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 19,
-          "percent": 1.41
-        },
-        {
-          "name": "YAML",
-          "total_seconds": 13.471,
-          "digital": "0:00:13",
-          "decimal": "0.00",
-          "text": "13 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 13,
-          "percent": 0.97
-        }
-      ],
-      "dependencies": [
-        {
-          "name": "antd",
-          "total_seconds": 665.413,
-          "digital": "0:11:05",
-          "decimal": "0.18",
-          "text": "11 mins",
-          "hours": 0,
-          "minutes": 11,
-          "seconds": 5,
-          "percent": 14.29
-        },
-        {
-          "name": "react",
-          "total_seconds": 665.413,
-          "digital": "0:11:05",
-          "decimal": "0.18",
-          "text": "11 mins",
-          "hours": 0,
-          "minutes": 11,
-          "seconds": 5,
-          "percent": 14.29
-        },
-        {
-          "name": "react-redux",
-          "total_seconds": 665.413,
-          "digital": "0:11:05",
-          "decimal": "0.18",
-          "text": "11 mins",
-          "hours": 0,
-          "minutes": 11,
-          "seconds": 5,
-          "percent": 14.29
-        },
-        {
-          "name": "reduxes",
-          "total_seconds": 665.413,
-          "digital": "0:11:05",
-          "decimal": "0.18",
-          "text": "11 mins",
-          "hours": 0,
-          "minutes": 11,
-          "seconds": 5,
-          "percent": 14.29
-        },
-        {
-          "name": "evd-client",
-          "total_seconds": 665.413,
-          "digital": "0:11:05",
-          "decimal": "0.18",
-          "text": "11 mins",
-          "hours": 0,
-          "minutes": 11,
-          "seconds": 5,
-          "percent": 14.29
-        },
-        {
-          "name": "TranslatorHook",
-          "total_seconds": 665.413,
-          "digital": "0:11:05",
-          "decimal": "0.18",
-          "text": "11 mins",
-          "hours": 0,
-          "minutes": 11,
-          "seconds": 5,
-          "percent": 14.29
-        },
-        {
-          "name": "auth",
-          "total_seconds": 665.413,
-          "digital": "0:11:05",
-          "decimal": "0.18",
-          "text": "11 mins",
-          "hours": 0,
-          "minutes": 11,
-          "seconds": 5,
-          "percent": 14.29
-        }
-      ],
-      "machines": [
-        {
-          "name": "Alexander",
-          "total_seconds": 1237.259,
-          "machine_name_id": "3f433f30-8901-4ceb-8644-07cd20c36fb0",
-          "digital": "0:20:37",
-          "decimal": "0.33",
-          "text": "20 mins",
-          "hours": 0,
-          "minutes": 20,
-          "seconds": 37,
-          "percent": 88.87
-        },
-        {
-          "name": "ALEXANDER-II",
-          "total_seconds": 154.915,
-          "machine_name_id": "70f830f7-6da3-42cc-a833-1dfac3600243",
-          "digital": "0:02:34",
-          "decimal": "0.03",
-          "text": "2 mins",
-          "hours": 0,
-          "minutes": 2,
-          "seconds": 34,
-          "percent": 11.13
-        }
-      ],
-      "editors": [
-        {
-          "name": "Codex Vscode",
-          "total_seconds": 1237.259,
-          "ai_additions": 135,
-          "ai_deletions": 0,
-          "human_additions": 0,
-          "human_deletions": 0,
-          "ai_model_line_changes": {
-            "GPT": 135
-          },
-          "ai_input_tokens": 116445,
-          "ai_cached_input_tokens": 10125696,
-          "ai_output_tokens": 28639,
-          "ai_prompt_length_sum": 8,
-          "ai_prompt_events_total": 1,
-          "ai_model_costs": {
-            "GPT": 0.127223
-          },
-          "ai_model_breakdown": [
-            {
-              "name": "GPT",
-              "lines": 135,
-              "cost": 0.127223
-            }
-          ],
-          "ai_model_total_cost": 0.127223,
-          "ai_prompt_length_avg": 8,
-          "ai_prompt_length_avg_per_session": 8,
-          "ai_prompt_length_median_per_session": 8,
-          "ai_prompt_events_avg_per_session": 1,
-          "ai_prompt_events_median_per_session": 1,
-          "ai_sessions": 1,
-          "digital": "0:20:37",
-          "decimal": "0.33",
-          "text": "20 mins",
-          "hours": 0,
-          "minutes": 20,
-          "seconds": 37,
-          "percent": 88.87
-        },
-        {
-          "name": "VS Code",
-          "total_seconds": 154.915,
-          "ai_additions": 0,
-          "ai_deletions": 0,
-          "human_additions": 0,
-          "human_deletions": 0,
-          "ai_model_line_changes": {},
-          "ai_input_tokens": 0,
-          "ai_cached_input_tokens": 0,
-          "ai_output_tokens": 0,
-          "ai_prompt_length_sum": 0,
-          "ai_prompt_events_total": 0,
-          "ai_model_costs": {},
-          "ai_model_breakdown": [],
-          "ai_model_total_cost": 0,
-          "ai_prompt_length_avg": 0,
-          "ai_prompt_length_avg_per_session": 0,
-          "ai_prompt_length_median_per_session": 0,
-          "ai_prompt_events_avg_per_session": 0,
-          "ai_prompt_events_median_per_session": 0,
-          "ai_sessions": 0,
-          "digital": "0:02:34",
-          "decimal": "0.03",
-          "text": "2 mins",
-          "hours": 0,
-          "minutes": 2,
-          "seconds": 34,
-          "percent": 11.13
-        }
-      ],
-      "operating_systems": [
-        {
-          "name": "Windows",
-          "total_seconds": 1392.174,
-          "digital": "0:23:12",
-          "decimal": "0.38",
-          "text": "23 mins",
-          "hours": 0,
-          "minutes": 23,
-          "seconds": 12,
-          "percent": 100.0
-        }
-      ],
-      "categories": [
-        {
-          "name": "AI Coding",
-          "total_seconds": 1237.259,
-          "digital": "0:20:37",
-          "decimal": "0.33",
-          "text": "20 mins",
-          "hours": 0,
-          "minutes": 20,
-          "seconds": 37,
-          "percent": 88.87
-        },
-        {
-          "name": "Coding",
-          "total_seconds": 154.915,
-          "digital": "0:02:34",
-          "decimal": "0.03",
-          "text": "2 mins",
-          "hours": 0,
-          "minutes": 2,
-          "seconds": 34,
-          "percent": 11.13
-        }
-      ]
+      "range": {
+        "start": "2026-09-25T17:00:00Z",
+        "end": "2026-09-26T16:59:59Z",
+        "date": "2026-09-26",
+        "text": "Sat Sep 26th 2026",
+        "timezone": "Asia/Ho_Chi_Minh"
+      }
     }
   ],
   "start": "2026-09-25T17:00:00Z",
