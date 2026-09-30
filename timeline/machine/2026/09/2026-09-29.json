@@ -2170,13 +2170,13 @@
       "ai_cached_input_tokens": 630016,
       "ai_output_tokens": 7587,
       "machine_name_id": "3bbb7c24-3c09-4836-8ebb-fa9b1c7efb94",
-      "duration": 213.273,
+      "duration": 475.806,
       "ai_additions": 7,
       "ai_model_line_changes": {
         "GPT": 7
       },
       "ai_deletions": 0,
-      "human_additions": 0,
+      "human_additions": 1,
       "human_deletions": 0,
       "ai_model_costs": {
         "GPT": 0.013128
@@ -2580,7 +2580,7 @@
       "ai_additions": 0,
       "ai_model_line_changes": {},
       "ai_deletions": 0,
-      "human_additions": 0,
+      "human_additions": 1,
       "human_deletions": 0,
       "ai_model_costs": {
         "GPT": 0.004611
@@ -2602,7 +2602,7 @@
       "ai_cached_input_tokens": 461824,
       "ai_output_tokens": 2909,
       "machine_name_id": "83250247-5f29-41ac-9430-75a7a205c03f",
-      "duration": 8.603,
+      "duration": 7.978,
       "ai_additions": 0,
       "ai_model_line_changes": {},
       "ai_deletions": 0,
@@ -2622,17 +2622,17 @@
       "ai_prompt_length_median_per_session": 95
     },
     {
-      "time": 1790678133.1,
-      "project": "gems-service-tsms",
+      "time": 1790678132.475,
+      "project": "system-service-tsms-v2",
       "ai_input_tokens": 4635,
       "ai_cached_input_tokens": 481792,
       "ai_output_tokens": 1587,
       "machine_name_id": "3bbb7c24-3c09-4836-8ebb-fa9b1c7efb94",
-      "duration": 64.837,
+      "duration": 65.462,
       "ai_additions": 0,
       "ai_model_line_changes": {},
       "ai_deletions": 0,
-      "human_additions": 0,
+      "human_additions": 8,
       "human_deletions": 0,
       "ai_model_costs": {
         "GPT": 0.006075
@@ -2808,20 +2808,18 @@
     {
       "time": 1790678700.77,
       "project": "timesheet-claim",
-      "ai_input_tokens": 87916,
-      "ai_cached_input_tokens": 3435776,
-      "ai_output_tokens": 20388,
+      "ai_input_tokens": 29896,
+      "ai_cached_input_tokens": 731264,
+      "ai_output_tokens": 2414,
       "machine_name_id": "83250247-5f29-41ac-9430-75a7a205c03f",
-      "duration": 396.6,
-      "ai_additions": 7,
-      "ai_model_line_changes": {
-        "GPT": 7
-      },
+      "duration": 0.248,
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
       "ai_deletions": 0,
       "human_additions": 0,
       "human_deletions": 0,
       "ai_model_costs": {
-        "GPT": 0.053343
+        "GPT": 0.011509
       },
       "ai_sessions": 1,
       "ai_prompt_length_sum": 0,
@@ -2832,6 +2830,60 @@
       "ai_prompt_events_median_per_session": 0,
       "ai_prompt_length_avg_per_session": 0,
       "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1790678701.018,
+      "project": "system-service-tsms-v2",
+      "ai_input_tokens": 3050,
+      "ai_cached_input_tokens": 85760,
+      "ai_output_tokens": 1866,
+      "machine_name_id": "3bbb7c24-3c09-4836-8ebb-fa9b1c7efb94",
+      "duration": 91.152,
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.002096
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "machine": "ALEXANDER-II",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1790678792.17,
+      "project": "timesheet-claim",
+      "ai_input_tokens": 88828,
+      "ai_cached_input_tokens": 3343872,
+      "ai_output_tokens": 25316,
+      "machine_name_id": "83250247-5f29-41ac-9430-75a7a205c03f",
+      "duration": 493.803,
+      "ai_additions": 7,
+      "ai_model_line_changes": {
+        "GPT": 7
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.054979
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 9,
+      "ai_prompt_events_total": 1,
+      "machine": "Alexander",
+      "ai_prompt_length_avg": 9,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 9,
+      "ai_prompt_length_median_per_session": 9
     }
   ],
   "start": "2026-09-28T17:00:00Z",
