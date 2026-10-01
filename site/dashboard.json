@@ -1,20 +1,20 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-01T05:57:12.729682+07:00",
+  "generated_at": "2026-10-02T06:05:28.181193+07:00",
   "timezone": "Asia/Ho_Chi_Minh",
   "archive": {
     "first_date": "2026-07-30",
-    "last_date": "2026-10-01",
-    "archived_days": 64,
+    "last_date": "2026-10-02",
+    "archived_days": 65,
     "active_days": 55
   },
   "overview": {
-    "today_seconds": 2654.641,
-    "week_seconds": 66959.683,
-    "month_seconds": 2654.641,
-    "year_seconds": 902191.346,
-    "all_archived_seconds": 902191.346,
-    "daily_average_seconds": 16403.479,
+    "today_seconds": 0.0,
+    "week_seconds": 90083.878,
+    "month_seconds": 25264.009,
+    "year_seconds": 925315.541,
+    "all_archived_seconds": 925315.541,
+    "daily_average_seconds": 16823.919,
     "active_days": 55,
     "best_day": {
       "date": "2026-07-30",
@@ -182991,11 +182991,11 @@
     },
     {
       "date": "2026-09-30",
-      "seconds": 20426.005,
+      "seconds": 20940.832,
       "projects": [
         {
           "name": "gems-service-tsms",
-          "seconds": 6879.305,
+          "seconds": 7393.415,
           "ai_additions": 298,
           "ai_deletions": 0,
           "human_additions": 1,
@@ -183023,11 +183023,11 @@
         },
         {
           "name": "system-service-tsms-v2",
-          "seconds": 6203.871,
+          "seconds": 6204.588,
           "ai_additions": 502,
           "ai_deletions": 47,
-          "human_additions": 1,
-          "human_deletions": 0,
+          "human_additions": 2,
+          "human_deletions": 345,
           "input_tokens": 757390,
           "cached_input_tokens": 22386176,
           "output_tokens": 159151,
@@ -183170,11 +183170,11 @@
       "languages": [
         {
           "name": "Markdown",
-          "seconds": 5577.159
+          "seconds": 6091.269
         },
         {
           "name": "Java",
-          "seconds": 4633.101
+          "seconds": 4633.818
         },
         {
           "name": "Dart",
@@ -183216,23 +183216,23 @@
       "editors": [
         {
           "name": "Codex Vscode",
-          "seconds": 19127.135
+          "seconds": 19641.245
         },
         {
           "name": "VS Code",
-          "seconds": 1298.87
+          "seconds": 1299.587
         }
       ],
       "operating_systems": [
         {
           "name": "Windows",
-          "seconds": 20426.005
+          "seconds": 20940.832
         }
       ],
       "machines": [
         {
           "name": "ALEXANDER-II",
-          "seconds": 19911.998
+          "seconds": 20426.825
         },
         {
           "name": "Alexander",
@@ -183242,11 +183242,11 @@
       "categories": [
         {
           "name": "AI Coding",
-          "seconds": 19370.733
+          "seconds": 19884.843
         },
         {
           "name": "Coding",
-          "seconds": 931.474
+          "seconds": 932.191
         },
         {
           "name": "Writing Docs",
@@ -183260,15 +183260,15 @@
       "dependencies": [
         {
           "name": "vn.grs",
-          "seconds": 3351.91
+          "seconds": 3352.627
         },
         {
           "name": "springframework.context",
-          "seconds": 2362.023
+          "seconds": 2362.74
         },
         {
           "name": "springframework.web",
-          "seconds": 1413.178
+          "seconds": 1413.895
         },
         {
           "name": "TranslatorHook",
@@ -183280,27 +183280,27 @@
         },
         {
           "name": "springframework.beans",
-          "seconds": 1209.596
-        },
-        {
-          "name": "lombok.Getter",
-          "seconds": 1172.951
+          "seconds": 1210.313
         },
         {
           "name": "lombok.Setter",
           "seconds": 1172.951
         },
         {
+          "name": "lombok.Getter",
+          "seconds": 1172.951
+        },
+        {
           "name": "springframework.stereotype",
-          "seconds": 1005.262
+          "seconds": 1005.979
         },
         {
           "name": "slf4j.Logger",
-          "seconds": 1000.895
+          "seconds": 1001.612
         },
         {
           "name": "slf4j.LoggerFactory",
-          "seconds": 1000.895
+          "seconds": 1001.612
         },
         {
           "name": "common",
@@ -183331,15 +183331,7 @@
           "seconds": 759.017
         },
         {
-          "name": "apache.poi",
-          "seconds": 740.144
-        },
-        {
-          "name": "amazonaws.util",
-          "seconds": 740.144
-        },
-        {
-          "name": "amazonaws.services",
+          "name": "amazonaws.AmazonServiceException",
           "seconds": 740.144
         },
         {
@@ -183347,12 +183339,20 @@
           "seconds": 740.144
         },
         {
-          "name": "amazonaws.AmazonServiceException",
+          "name": "amazonaws.services",
+          "seconds": 740.144
+        },
+        {
+          "name": "amazonaws.util",
+          "seconds": 740.144
+        },
+        {
+          "name": "apache.poi",
           "seconds": 740.144
         },
         {
           "name": "io.swagger",
-          "seconds": 656.447
+          "seconds": 657.164
         },
         {
           "name": "junit.jupiter",
@@ -183360,6 +183360,10 @@
         },
         {
           "name": "axios",
+          "seconds": 545.315
+        },
+        {
+          "name": "Api",
           "seconds": 545.315
         },
         {
@@ -183375,12 +183379,8 @@
           "seconds": 545.315
         },
         {
-          "name": "Api",
-          "seconds": 545.315
-        },
-        {
           "name": "springframework.http",
-          "seconds": 529.82
+          "seconds": 530.537
         },
         {
           "name": "react",
@@ -183391,27 +183391,15 @@
           "seconds": 509.571
         },
         {
-          "name": "reduxes",
-          "seconds": 404.963
-        },
-        {
           "name": "react-redux",
           "seconds": 404.963
         },
         {
+          "name": "reduxes",
+          "seconds": 404.963
+        },
+        {
           "name": "moment",
-          "seconds": 390.022
-        },
-        {
-          "name": "sweetAlert",
-          "seconds": 390.022
-        },
-        {
-          "name": "Button",
-          "seconds": 390.022
-        },
-        {
-          "name": "antd",
           "seconds": 390.022
         },
         {
@@ -183427,31 +183415,27 @@
           "seconds": 390.022
         },
         {
-          "name": "dynamic",
-          "seconds": 356.702
+          "name": "antd",
+          "seconds": 390.022
+        },
+        {
+          "name": "sweetAlert",
+          "seconds": 390.022
+        },
+        {
+          "name": "Button",
+          "seconds": 390.022
         },
         {
           "name": "EvdEvidenceSection",
           "seconds": 356.702
         },
         {
-          "name": "FormWrapper",
-          "seconds": 270.258
+          "name": "dynamic",
+          "seconds": 356.702
         },
         {
           "name": "Form",
-          "seconds": 270.258
-        },
-        {
-          "name": "Response",
-          "seconds": 270.258
-        },
-        {
-          "name": "Row",
-          "seconds": 270.258
-        },
-        {
-          "name": "Select",
           "seconds": 270.258
         },
         {
@@ -183459,7 +183443,23 @@
           "seconds": 270.258
         },
         {
+          "name": "FormWrapper",
+          "seconds": 270.258
+        },
+        {
           "name": "Col",
+          "seconds": 270.258
+        },
+        {
+          "name": "Select",
+          "seconds": 270.258
+        },
+        {
+          "name": "Row",
+          "seconds": 270.258
+        },
+        {
+          "name": "Response",
           "seconds": 270.258
         },
         {
@@ -183471,7 +183471,11 @@
           "seconds": 238.528
         },
         {
-          "name": "storeDailyStockMaster",
+          "name": "InvoiceInquiryModal",
+          "seconds": 236.938
+        },
+        {
+          "name": "Spin",
           "seconds": 236.938
         },
         {
@@ -183483,19 +183487,7 @@
           "seconds": 236.938
         },
         {
-          "name": "InputNumber",
-          "seconds": 236.938
-        },
-        {
-          "name": "InvoiceInquiryModal",
-          "seconds": 236.938
-        },
-        {
-          "name": "AccountSlipConfirm.module",
-          "seconds": 236.938
-        },
-        {
-          "name": "DatePicker",
+          "name": "storeDailyStockMaster",
           "seconds": 236.938
         },
         {
@@ -183503,19 +183495,27 @@
           "seconds": 236.938
         },
         {
+          "name": "DatePicker",
+          "seconds": 236.938
+        },
+        {
           "name": "Input",
           "seconds": 236.938
         },
         {
-          "name": "Spin",
+          "name": "InputNumber",
           "seconds": 236.938
         },
         {
-          "name": "lombok.NoArgsConstructor",
-          "seconds": 216.13
+          "name": "AccountSlipConfirm.module",
+          "seconds": 236.938
         },
         {
           "name": "lombok.AllArgsConstructor",
+          "seconds": 216.13
+        },
+        {
+          "name": "lombok.NoArgsConstructor",
           "seconds": 216.13
         },
         {
@@ -183523,15 +183523,11 @@
           "seconds": 199.17
         },
         {
-          "name": "springframework.data",
-          "seconds": 199.17
-        },
-        {
-          "name": "springframework.core",
-          "seconds": 199.17
-        },
-        {
           "name": "mybatis.spring",
+          "seconds": 199.17
+        },
+        {
+          "name": "springframework.data",
           "seconds": 199.17
         },
         {
@@ -183539,23 +183535,27 @@
           "seconds": 199.17
         },
         {
-          "name": "evd-client",
-          "seconds": 134.705
+          "name": "springframework.core",
+          "seconds": 199.17
         },
         {
           "name": "auth",
           "seconds": 134.705
         },
         {
+          "name": "evd-client",
+          "seconds": 134.705
+        },
+        {
           "name": "springframework.ui",
-          "seconds": 128.96
+          "seconds": 129.677
         },
         {
           "name": "mockito.Mockito",
           "seconds": 128.913
         },
         {
-          "name": "EditStoreAccForm",
+          "name": "Modal",
           "seconds": 119.764
         },
         {
@@ -183571,7 +183571,7 @@
           "seconds": 119.764
         },
         {
-          "name": "Modal",
+          "name": "EditStoreAccForm",
           "seconds": 119.764
         },
         {
@@ -183587,19 +183587,11 @@
           "seconds": 33.32
         },
         {
-          "name": "StoreAccManagementTable",
-          "seconds": 33.32
-        },
-        {
           "name": "RangeDatePicker",
           "seconds": 33.32
         },
         {
-          "name": "Card",
-          "seconds": 33.32
-        },
-        {
-          "name": "exportFile",
+          "name": "StoreAccManagementTable",
           "seconds": 33.32
         },
         {
@@ -183607,7 +183599,15 @@
           "seconds": 33.32
         },
         {
+          "name": "exportFile",
+          "seconds": 33.32
+        },
+        {
           "name": "uuid",
+          "seconds": 33.32
+        },
+        {
+          "name": "Card",
           "seconds": 33.32
         },
         {
@@ -183615,7 +183615,7 @@
           "seconds": 23.324
         },
         {
-          "name": "button",
+          "name": "types",
           "seconds": 15.901
         },
         {
@@ -183623,19 +183623,7 @@
           "seconds": 15.901
         },
         {
-          "name": "LanguageContext",
-          "seconds": 15.901
-        },
-        {
-          "name": "types",
-          "seconds": 15.901
-        },
-        {
           "name": "lucide-react",
-          "seconds": 15.901
-        },
-        {
-          "name": "card",
           "seconds": 15.901
         },
         {
@@ -183643,19 +183631,27 @@
           "seconds": 15.901
         },
         {
-          "name": "springframework.test",
-          "seconds": 2.286
+          "name": "button",
+          "seconds": 15.901
+        },
+        {
+          "name": "LanguageContext",
+          "seconds": 15.901
+        },
+        {
+          "name": "card",
+          "seconds": 15.901
         },
         {
           "name": "mockito.ArgumentMatchers",
           "seconds": 2.286
         },
         {
-          "name": "ManagerCodeSaga",
-          "seconds": 1.59
+          "name": "springframework.test",
+          "seconds": 2.286
         },
         {
-          "name": "StUseMaterialDailyMSaga",
+          "name": "productMaster",
           "seconds": 1.59
         },
         {
@@ -183663,27 +183659,11 @@
           "seconds": 1.59
         },
         {
-          "name": "StoreAccManagementMonthlyListSaga",
-          "seconds": 1.59
-        },
-        {
-          "name": "storeDailyReport",
-          "seconds": 1.59
-        },
-        {
           "name": "StInventoryByItemSaga",
           "seconds": 1.59
         },
         {
-          "name": "DailyPaymentMethodSaga",
-          "seconds": 1.59
-        },
-        {
-          "name": "settingUpClosingDate",
-          "seconds": 1.59
-        },
-        {
-          "name": "productMaster",
+          "name": "StoreAccManagementMonthlyListSaga",
           "seconds": 1.59
         },
         {
@@ -183691,35 +183671,31 @@
           "seconds": 1.59
         },
         {
+          "name": "DailyPaymentMethodSaga",
+          "seconds": 1.59
+        },
+        {
+          "name": "StUseMaterialDailyMSaga",
+          "seconds": 1.59
+        },
+        {
+          "name": "ManagerCodeSaga",
+          "seconds": 1.59
+        },
+        {
+          "name": "settingUpClosingDate",
+          "seconds": 1.59
+        },
+        {
           "name": "virtualBankAccount",
           "seconds": 1.59
         },
         {
-          "name": "accountBookDisplay",
+          "name": "storeDailyReport",
           "seconds": 1.59
         },
         {
-          "name": "storeAccountBookManagement",
-          "seconds": 1.59
-        },
-        {
-          "name": "StoreAccountBookManagementSaga",
-          "seconds": 1.59
-        },
-        {
-          "name": "PromotionReportSaga",
-          "seconds": 1.59
-        },
-        {
-          "name": "PromotionEventSaga",
-          "seconds": 1.59
-        },
-        {
-          "name": "VirtualBankAccountSaga",
-          "seconds": 1.59
-        },
-        {
-          "name": "PromotionManagementSaga",
+          "name": "storeMonthlyReport",
           "seconds": 1.59
         },
         {
@@ -183727,15 +183703,19 @@
           "seconds": 1.59
         },
         {
-          "name": "LotteMembersItemSalesSaga",
+          "name": "accountBookDisplay",
           "seconds": 1.59
         },
         {
-          "name": "CloseMasterSaga",
+          "name": "InfoDayOffSaga",
           "seconds": 1.59
         },
         {
-          "name": "StoreDeliveryReqCheckingSaga",
+          "name": "masterOfAccount",
+          "seconds": 1.59
+        },
+        {
+          "name": "InfoDayDailyCloseHQRegSaga",
           "seconds": 1.59
         },
         {
@@ -183743,7 +183723,59 @@
           "seconds": 1.59
         },
         {
-          "name": "InfoDayDailyCloseHQRegSaga",
+          "name": "StoreAccountBookManagementSaga",
+          "seconds": 1.59
+        },
+        {
+          "name": "StActualInventoryCountSaga",
+          "seconds": 1.59
+        },
+        {
+          "name": "VirtualBankAccountSaga",
+          "seconds": 1.59
+        },
+        {
+          "name": "CloseMasterSaga",
+          "seconds": 1.59
+        },
+        {
+          "name": "LotteMembersItemSalesSaga",
+          "seconds": 1.59
+        },
+        {
+          "name": "PromotionReportSaga",
+          "seconds": 1.59
+        },
+        {
+          "name": "StoreMonthlyReportSimpleSaga",
+          "seconds": 1.59
+        },
+        {
+          "name": "storeMonthlyReportSimple",
+          "seconds": 1.59
+        },
+        {
+          "name": "MaterialMasterSaga",
+          "seconds": 1.59
+        },
+        {
+          "name": "BorrowingLendingReportSaga",
+          "seconds": 1.59
+        },
+        {
+          "name": "advancedMoneyManagement",
+          "seconds": 1.59
+        },
+        {
+          "name": "StoreDeliveryReqCheckingSaga",
+          "seconds": 1.59
+        },
+        {
+          "name": "PromotionManagementSaga",
+          "seconds": 1.59
+        },
+        {
+          "name": "PromotionEventSaga",
           "seconds": 1.59
         },
         {
@@ -183755,59 +183787,27 @@
           "seconds": 1.59
         },
         {
-          "name": "BorrowingLendingReportSaga",
-          "seconds": 1.59
-        },
-        {
-          "name": "StoreMonthlyReportSimpleSaga",
-          "seconds": 1.59
-        },
-        {
-          "name": "storeMonthlyReport",
-          "seconds": 1.59
-        },
-        {
-          "name": "InfoDayOffSaga",
-          "seconds": 1.59
-        },
-        {
-          "name": "StActualInventoryCountSaga",
-          "seconds": 1.59
-        },
-        {
-          "name": "storeMonthlyReportSimple",
-          "seconds": 1.59
-        },
-        {
-          "name": "masterOfAccount",
-          "seconds": 1.59
-        },
-        {
-          "name": "WeeklySalesStatusSaga",
-          "seconds": 1.59
-        },
-        {
-          "name": "MaterialMasterSaga",
-          "seconds": 1.59
-        },
-        {
-          "name": "advancedMoneyManagement",
-          "seconds": 1.59
-        },
-        {
           "name": "ProductMasterSingleSaga",
           "seconds": 1.59
         },
         {
           "name": "DirectStoreHeadofficeSaga",
           "seconds": 1.59
+        },
+        {
+          "name": "storeAccountBookManagement",
+          "seconds": 1.59
+        },
+        {
+          "name": "WeeklySalesStatusSaga",
+          "seconds": 1.59
         }
       ],
       "ai": {
         "ai_additions": 1302,
         "ai_deletions": 110,
-        "human_additions": 9,
-        "human_deletions": 0,
+        "human_additions": 10,
+        "human_deletions": 345,
         "input_tokens": 3254692,
         "cached_input_tokens": 68756480,
         "output_tokens": 557778,
@@ -184927,11 +184927,20 @@
           {
             "name": "gems-service-tsms",
             "start_minute": 1030.583,
-            "duration_seconds": 131.802,
+            "duration_seconds": 645.912,
             "ai_additions": 0,
             "ai_deletions": 0,
             "human_additions": 0,
             "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 1041.333,
+            "duration_seconds": 0.717,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 345
           },
           {
             "name": "ria-fe-tsms",
@@ -186306,11 +186315,20 @@
           {
             "name": "Markdown",
             "start_minute": 1029.917,
-            "duration_seconds": 171.427,
+            "duration_seconds": 685.537,
             "ai_additions": 4,
             "ai_deletions": 0,
             "human_additions": 0,
             "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 1041.333,
+            "duration_seconds": 0.717,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 345
           },
           {
             "name": "TypeScript",
@@ -186659,11 +186677,20 @@
           {
             "name": "AI Coding",
             "start_minute": 1022.5,
-            "duration_seconds": 615.88,
+            "duration_seconds": 1129.99,
             "ai_additions": 46,
             "ai_deletions": 0,
             "human_additions": 0,
             "human_deletions": 0
+          },
+          {
+            "name": "Coding",
+            "start_minute": 1041.333,
+            "duration_seconds": 0.717,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 345
           },
           {
             "name": "AI Coding",
@@ -187039,11 +187066,20 @@
           {
             "name": "Codex Vscode",
             "start_minute": 1022.5,
-            "duration_seconds": 615.88,
+            "duration_seconds": 1129.99,
             "ai_additions": 46,
             "ai_deletions": 0,
             "human_additions": 0,
             "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 1041.333,
+            "duration_seconds": 0.717,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 345
           },
           {
             "name": "Codex Vscode",
@@ -187275,11 +187311,20 @@
           {
             "name": "Windows",
             "start_minute": 1022.5,
-            "duration_seconds": 615.88,
+            "duration_seconds": 1129.99,
             "ai_additions": 46,
             "ai_deletions": 0,
             "human_additions": 0,
             "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 1041.333,
+            "duration_seconds": 0.717,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 345
           },
           {
             "name": "Windows",
@@ -187448,11 +187493,11 @@
           {
             "name": "ALEXANDER-II",
             "start_minute": 1022.5,
-            "duration_seconds": 615.88,
+            "duration_seconds": 1130.707,
             "ai_additions": 46,
             "ai_deletions": 0,
-            "human_additions": 0,
-            "human_deletions": 0
+            "human_additions": 1,
+            "human_deletions": 345
           },
           {
             "name": "ALEXANDER-II",
@@ -187468,46 +187513,124 @@
     },
     {
       "date": "2026-10-01",
-      "seconds": 2654.641,
+      "seconds": 25264.009,
       "projects": [
         {
           "name": "gems-service-tsms",
-          "seconds": 2548.887,
+          "seconds": 16447.054,
+          "ai_additions": 550,
+          "ai_deletions": 25,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 1691565,
+          "cached_input_tokens": 39874816,
+          "output_tokens": 218166,
+          "prompt_length_sum": 23757,
+          "prompt_length_avg": 389,
+          "prompt_length_avg_per_session": 815,
+          "prompt_length_median_per_session": 164,
+          "prompt_events": 61,
+          "prompts_avg_per_session": 8,
+          "prompts_median_per_session": 7,
+          "sessions": 8,
+          "cost": 9.76698,
+          "models": [
+            {
+              "name": "GPT",
+              "lines": 575.0,
+              "cost": 9.76698
+            }
+          ],
+          "tokens": 41784547
+        },
+        {
+          "name": "system-service-tsms-v2",
+          "seconds": 7305.472,
+          "ai_additions": 2064,
+          "ai_deletions": 38,
+          "human_additions": 10,
+          "human_deletions": 4,
+          "input_tokens": 700480,
+          "cached_input_tokens": 18364288,
+          "output_tokens": 126277,
+          "prompt_length_sum": 3273,
+          "prompt_length_avg": 182,
+          "prompt_length_avg_per_session": 388,
+          "prompt_length_median_per_session": 264,
+          "prompt_events": 18,
+          "prompts_avg_per_session": 4,
+          "prompts_median_per_session": 2,
+          "sessions": 4,
+          "cost": 4.907432,
+          "models": [
+            {
+              "name": "GPT",
+              "lines": 2102.0,
+              "cost": 4.907432
+            }
+          ],
+          "tokens": 19191045
+        },
+        {
+          "name": "ria-fe-tsms",
+          "seconds": 1491.519,
+          "ai_additions": 341,
+          "ai_deletions": 27,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 154016,
+          "cached_input_tokens": 2050816,
+          "output_tokens": 18840,
+          "prompt_length_sum": 120,
+          "prompt_length_avg": 120,
+          "prompt_length_avg_per_session": 120,
+          "prompt_length_median_per_session": 120,
+          "prompt_events": 1,
+          "prompts_avg_per_session": 0,
+          "prompts_median_per_session": 0,
+          "sessions": 2,
+          "cost": 0.790588,
+          "models": [
+            {
+              "name": "GPT",
+              "lines": 368.0,
+              "cost": 0.790588
+            }
+          ],
+          "tokens": 2223672
+        },
+        {
+          "name": "purchase-portal-fe",
+          "seconds": 19.964,
           "ai_additions": 0,
           "ai_deletions": 0,
           "human_additions": 0,
           "human_deletions": 0,
-          "input_tokens": 214361,
-          "cached_input_tokens": 8772608,
-          "output_tokens": 26184,
-          "prompt_length_sum": 1970,
-          "prompt_length_avg": 328,
-          "prompt_length_avg_per_session": 254,
-          "prompt_length_median_per_session": 254,
-          "prompt_events": 6,
-          "prompts_avg_per_session": 3,
-          "prompts_median_per_session": 3,
-          "sessions": 2,
-          "cost": 2.414691,
-          "models": [
-            {
-              "name": "GPT",
-              "lines": 0.0,
-              "cost": 2.414691
-            }
-          ],
-          "tokens": 9013153
+          "input_tokens": 0,
+          "cached_input_tokens": 0,
+          "output_tokens": 0,
+          "prompt_length_sum": 0,
+          "prompt_length_avg": 0,
+          "prompt_length_avg_per_session": 0,
+          "prompt_length_median_per_session": 0,
+          "prompt_events": 0,
+          "prompts_avg_per_session": 0,
+          "prompts_median_per_session": 0,
+          "sessions": 0,
+          "cost": 0.0,
+          "models": [],
+          "tokens": 0
         },
         {
-          "name": "system-service-tsms-v2",
-          "seconds": 105.754,
-          "ai_additions": 22,
+          "name": "memories",
+          "seconds": 0.0,
+          "ai_additions": 7,
           "ai_deletions": 0,
           "human_additions": 0,
           "human_deletions": 0,
-          "input_tokens": 12948,
-          "cached_input_tokens": 415872,
-          "output_tokens": 2481,
+          "input_tokens": 2489,
+          "cached_input_tokens": 417408,
+          "output_tokens": 1052,
           "prompt_length_sum": 0,
           "prompt_length_avg": 0,
           "prompt_length_avg_per_session": 0,
@@ -187516,18 +187639,18 @@
           "prompts_avg_per_session": 0,
           "prompts_median_per_session": 0,
           "sessions": 1,
-          "cost": 0.13388,
+          "cost": 0.057239,
           "models": [
             {
               "name": "GPT",
-              "lines": 22.0,
-              "cost": 0.13388
+              "lines": 7.0,
+              "cost": 0.057239
             }
           ],
-          "tokens": 431301
+          "tokens": 420949
         },
         {
-          "name": "ria-fe-tsms",
+          "name": "schedule-service-tsms",
           "seconds": 0.0,
           "ai_additions": 0,
           "ai_deletions": 0,
@@ -187543,7 +187666,7 @@
           "prompt_events": 0,
           "prompts_avg_per_session": 0,
           "prompts_median_per_session": 0,
-          "sessions": 1,
+          "sessions": 0,
           "cost": 0.0,
           "models": [],
           "tokens": 0
@@ -187552,80 +187675,340 @@
       "languages": [
         {
           "name": "Markdown",
-          "seconds": 2548.887
+          "seconds": 12901.101
         },
         {
           "name": "Java",
-          "seconds": 105.754
+          "seconds": 6252.148
+        },
+        {
+          "name": "PowerShell",
+          "seconds": 1630.938
+        },
+        {
+          "name": "SQL",
+          "seconds": 1525.945
+        },
+        {
+          "name": "TypeScript",
+          "seconds": 1192.365
+        },
+        {
+          "name": "Java Properties",
+          "seconds": 1024.922
+        },
+        {
+          "name": "JavaScript",
+          "seconds": 302.387
+        },
+        {
+          "name": "XML",
+          "seconds": 275.089
+        },
+        {
+          "name": "Other",
+          "seconds": 82.083
+        },
+        {
+          "name": "CSV",
+          "seconds": 77.031
         }
       ],
       "editors": [
         {
           "name": "Codex Vscode",
-          "seconds": 2654.641
+          "seconds": 22004.072
+        },
+        {
+          "name": "VS Code",
+          "seconds": 3259.937
         }
       ],
       "operating_systems": [
         {
           "name": "Windows",
-          "seconds": 2654.641
+          "seconds": 25264.009
         }
       ],
       "machines": [
         {
           "name": "ALEXANDER-II",
-          "seconds": 2654.641
+          "seconds": 25264.009
         }
       ],
       "categories": [
         {
           "name": "AI Coding",
-          "seconds": 2654.641
+          "seconds": 24165.325
+        },
+        {
+          "name": "Coding",
+          "seconds": 1083.0
+        },
+        {
+          "name": "Writing Tests",
+          "seconds": 15.684
         }
       ],
       "dependencies": [
         {
-          "name": "fasterxml.jackson",
-          "seconds": 105.754
-        },
-        {
-          "name": "springframework.beans",
-          "seconds": 105.754
-        },
-        {
-          "name": "springframework.util",
-          "seconds": 105.754
-        },
-        {
-          "name": "springframework.stereotype",
-          "seconds": 105.754
+          "name": "vn.grs",
+          "seconds": 2458.451
         },
         {
           "name": "springframework.context",
-          "seconds": 105.754
+          "seconds": 1898.86
+        },
+        {
+          "name": "fasterxml.jackson",
+          "seconds": 1709.674
+        },
+        {
+          "name": "junit.jupiter",
+          "seconds": 1524.704
+        },
+        {
+          "name": "mockito.Mockito",
+          "seconds": 1498.607
+        },
+        {
+          "name": "springframework.stereotype",
+          "seconds": 1262.346
+        },
+        {
+          "name": "springframework.beans",
+          "seconds": 1116.75
+        },
+        {
+          "name": "mockito.ArgumentMatchers",
+          "seconds": 1101.48
+        },
+        {
+          "name": "lombok.Data",
+          "seconds": 1016.403
         },
         {
           "name": "springframework.http",
-          "seconds": 69.956
+          "seconds": 915.294
         },
         {
-          "name": "springframework.web",
-          "seconds": 69.956
+          "name": "springframework.boot",
+          "seconds": 677.272
         },
         {
-          "name": "amazonaws.AmazonServiceException",
-          "seconds": 35.798
-        },
-        {
-          "name": "lombok.extern",
-          "seconds": 35.798
-        },
-        {
-          "name": "sap.conn",
-          "seconds": 35.798
+          "name": "springframework.test",
+          "seconds": 624.033
         },
         {
           "name": "springframework.transaction",
+          "seconds": 598.437
+        },
+        {
+          "name": "springframework.util",
+          "seconds": 545.162
+        },
+        {
+          "name": "springframework.data",
+          "seconds": 538.293
+        },
+        {
+          "name": "springframework.web",
+          "seconds": 529.503
+        },
+        {
+          "name": "springframework.orm",
+          "seconds": 497.854
+        },
+        {
+          "name": "Api",
+          "seconds": 381.371
+        },
+        {
+          "name": "react",
+          "seconds": 362.396
+        },
+        {
+          "name": "TranslatorHook",
+          "seconds": 342.432
+        },
+        {
+          "name": "lombok.Getter",
+          "seconds": 322.108
+        },
+        {
+          "name": "lombok.Setter",
+          "seconds": 304.257
+        },
+        {
+          "name": "springframework.security",
+          "seconds": 256.862
+        },
+        {
+          "name": "hibernate.cfg",
+          "seconds": 252.466
+        },
+        {
+          "name": "hibernate.SessionFactory",
+          "seconds": 252.466
+        },
+        {
+          "name": "springframework.core",
+          "seconds": 251.888
+        },
+        {
+          "name": "apache.ibatis",
+          "seconds": 245.388
+        },
+        {
+          "name": "mybatis.spring",
+          "seconds": 245.388
+        },
+        {
+          "name": "antd",
+          "seconds": 202.315
+        },
+        {
+          "name": "common",
+          "seconds": 162.055
+        },
+        {
+          "name": "io.swagger",
+          "seconds": 144.661
+        },
+        {
+          "name": "lodash",
+          "seconds": 126.649
+        },
+        {
+          "name": "hibernate.boot",
+          "seconds": 100.727
+        },
+        {
+          "name": "MembershipSaga",
+          "seconds": 100.497
+        },
+        {
+          "name": "axios",
+          "seconds": 100.497
+        },
+        {
+          "name": "axiosClient",
+          "seconds": 100.497
+        },
+        {
+          "name": "querystringify",
+          "seconds": 100.497
+        },
+        {
+          "name": "apache.http",
+          "seconds": 89.259
+        },
+        {
+          "name": "Button",
+          "seconds": 61.558
+        },
+        {
+          "name": "storeAccManagement",
+          "seconds": 61.558
+        },
+        {
+          "name": "Row",
+          "seconds": 61.558
+        },
+        {
+          "name": "Col",
+          "seconds": 61.558
+        },
+        {
+          "name": "Response",
+          "seconds": 61.558
+        },
+        {
+          "name": "moment",
+          "seconds": 61.558
+        },
+        {
+          "name": "stringUtils",
+          "seconds": 61.558
+        },
+        {
+          "name": "formUtils",
+          "seconds": 61.558
+        },
+        {
+          "name": "sweetAlert",
+          "seconds": 61.558
+        },
+        {
+          "name": "reduxes",
+          "seconds": 61.558
+        },
+        {
+          "name": "customHooks",
+          "seconds": 61.558
+        },
+        {
+          "name": "FormWrapper",
+          "seconds": 61.558
+        },
+        {
+          "name": "form",
+          "seconds": 61.558
+        },
+        {
+          "name": "Select",
+          "seconds": 61.558
+        },
+        {
+          "name": "permissionModule",
+          "seconds": 61.558
+        },
+        {
+          "name": "react-redux",
+          "seconds": 61.558
+        },
+        {
+          "name": "Form",
+          "seconds": 61.558
+        },
+        {
+          "name": "uuid",
+          "seconds": 61.558
+        },
+        {
+          "name": "StoreAccBudget",
+          "seconds": 61.558
+        },
+        {
+          "name": "slf4j.Logger",
+          "seconds": 53.776
+        },
+        {
+          "name": "slf4j.LoggerFactory",
+          "seconds": 53.776
+        },
+        {
+          "name": "sap.conn",
+          "seconds": 53.776
+        },
+        {
+          "name": "springframework.mock",
+          "seconds": 40.439
+        },
+        {
+          "name": "lombok.extern",
+          "seconds": 36.933
+        },
+        {
+          "name": "amazonaws.util",
+          "seconds": 35.798
+        },
+        {
+          "name": "apache.poi",
+          "seconds": 35.798
+        },
+        {
+          "name": "amazonaws.AmazonServiceException",
           "seconds": 35.798
         },
         {
@@ -187633,48 +188016,208 @@
           "seconds": 35.798
         },
         {
-          "name": "vn.grs",
-          "seconds": 35.798
+          "name": "accountBookRegister",
+          "seconds": 35.406
         },
         {
-          "name": "amazonaws.util",
-          "seconds": 35.798
+          "name": "Card",
+          "seconds": 35.406
         },
         {
-          "name": "slf4j.Logger",
-          "seconds": 35.798
+          "name": "getStoreAccStatusLabel",
+          "seconds": 35.406
         },
         {
-          "name": "slf4j.LoggerFactory",
-          "seconds": 35.798
+          "name": "RangeDatePicker",
+          "seconds": 35.406
         },
         {
-          "name": "apache.poi",
-          "seconds": 35.798
+          "name": "StoreInput",
+          "seconds": 35.406
+        },
+        {
+          "name": "exportFile",
+          "seconds": 35.406
+        },
+        {
+          "name": "StoreAccManagementTable",
+          "seconds": 35.406
+        },
+        {
+          "name": "AccountSlipConfirm.module",
+          "seconds": 26.152
+        },
+        {
+          "name": "StoreAccManagementContainer",
+          "seconds": 26.152
+        },
+        {
+          "name": "InvoiceInquiryModal",
+          "seconds": 26.152
+        },
+        {
+          "name": "timeUtils",
+          "seconds": 26.152
+        },
+        {
+          "name": "CodeInput",
+          "seconds": 26.152
+        },
+        {
+          "name": "storeDailyStockMaster",
+          "seconds": 26.152
+        },
+        {
+          "name": "EvdEvidenceSection",
+          "seconds": 26.152
+        },
+        {
+          "name": "Spin",
+          "seconds": 26.152
+        },
+        {
+          "name": "dynamic",
+          "seconds": 26.152
+        },
+        {
+          "name": "DatePicker",
+          "seconds": 26.152
+        },
+        {
+          "name": "accountSlipConfirm",
+          "seconds": 26.152
+        },
+        {
+          "name": "Input",
+          "seconds": 26.152
+        },
+        {
+          "name": "InputNumber",
+          "seconds": 26.152
+        },
+        {
+          "name": "icons",
+          "seconds": 19.964
+        },
+        {
+          "name": "react-router",
+          "seconds": 19.964
+        },
+        {
+          "name": "trello",
+          "seconds": 19.964
+        },
+        {
+          "name": "react-i18next",
+          "seconds": 19.964
+        },
+        {
+          "name": "api",
+          "seconds": 19.964
+        },
+        {
+          "name": "navigation",
+          "seconds": 19.964
+        },
+        {
+          "name": "user-core",
+          "seconds": 19.964
+        },
+        {
+          "name": "data",
+          "seconds": 19.964
+        },
+        {
+          "name": "userStore",
+          "seconds": 19.964
+        },
+        {
+          "name": "jwt-decode",
+          "seconds": 19.964
+        },
+        {
+          "name": "lucide-react",
+          "seconds": 19.964
+        },
+        {
+          "name": "react-query",
+          "seconds": 19.964
+        },
+        {
+          "name": "epa.dev.lotteria",
+          "seconds": 19.964
+        },
+        {
+          "name": "ui",
+          "seconds": 19.964
+        },
+        {
+          "name": "user",
+          "seconds": 19.964
+        },
+        {
+          "name": "useNotificationSse",
+          "seconds": 19.964
+        },
+        {
+          "name": "purAuthorizationStore",
+          "seconds": 19.964
+        },
+        {
+          "name": "bell",
+          "seconds": 19.964
+        },
+        {
+          "name": "arrow-reverse",
+          "seconds": 19.964
+        },
+        {
+          "name": "purNavigation",
+          "seconds": 19.964
+        },
+        {
+          "name": "authSession",
+          "seconds": 19.964
+        },
+        {
+          "name": "purAuthorizationApi",
+          "seconds": 19.964
+        },
+        {
+          "name": "purPermissions",
+          "seconds": 19.964
+        },
+        {
+          "name": "i18next",
+          "seconds": 19.964
+        },
+        {
+          "name": "notificationText",
+          "seconds": 19.964
         }
       ],
       "ai": {
-        "ai_additions": 22,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "input_tokens": 227309,
-        "cached_input_tokens": 9188480,
-        "output_tokens": 28665,
-        "prompt_length_sum": 1970,
-        "prompt_length_avg": 328,
-        "prompt_length_avg_per_session": 254,
-        "prompt_length_median_per_session": 254,
-        "prompt_events": 6,
-        "prompts_avg_per_session": 3,
-        "prompts_median_per_session": 3,
-        "sessions": 2,
-        "cost": 2.548571,
+        "ai_additions": 2962,
+        "ai_deletions": 90,
+        "human_additions": 10,
+        "human_deletions": 4,
+        "input_tokens": 2548550,
+        "cached_input_tokens": 60707328,
+        "output_tokens": 364335,
+        "prompt_length_sum": 27150,
+        "prompt_length_avg": 339,
+        "prompt_length_avg_per_session": 780,
+        "prompt_length_median_per_session": 205,
+        "prompt_events": 80,
+        "prompts_avg_per_session": 10,
+        "prompts_median_per_session": 7,
+        "sessions": 8,
+        "cost": 15.522239,
         "models": [
           {
             "name": "GPT",
-            "lines": 22.0,
-            "cost": 2.548571
+            "lines": 3052.0,
+            "cost": 15.522239
           }
         ]
       },
@@ -187710,10 +188253,793 @@
           {
             "name": "gems-service-tsms",
             "start_minute": 40.4,
-            "duration_seconds": 415.958,
+            "duration_seconds": 946.393,
             "ai_additions": 0,
             "ai_deletions": 0,
             "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ria-fe-tsms",
+            "start_minute": 56.167,
+            "duration_seconds": 297.85,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 61.133,
+            "duration_seconds": 146.328,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 570.417,
+            "duration_seconds": 1613.676,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 597.317,
+            "duration_seconds": 360.746,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 603.317,
+            "duration_seconds": 517.407,
+            "ai_additions": 2,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 611.95,
+            "duration_seconds": 160.268,
+            "ai_additions": 6,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 614.617,
+            "duration_seconds": 42.915,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 615.333,
+            "duration_seconds": 0.614,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 615.35,
+            "duration_seconds": 1678.272,
+            "ai_additions": 2,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 643.317,
+            "duration_seconds": 511.216,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 651.833,
+            "duration_seconds": 1402.777,
+            "ai_additions": 3,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 829.117,
+            "duration_seconds": 64.242,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 847.5,
+            "duration_seconds": 1269.38,
+            "ai_additions": 4,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 884.583,
+            "duration_seconds": 302.188,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ria-fe-tsms",
+            "start_minute": 889.617,
+            "duration_seconds": 111.052,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 891.467,
+            "duration_seconds": 136.593,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 893.75,
+            "duration_seconds": 173.609,
+            "ai_additions": 179,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 896.633,
+            "duration_seconds": 40.514,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 897.317,
+            "duration_seconds": 299.042,
+            "ai_additions": 330,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ria-fe-tsms",
+            "start_minute": 902.3,
+            "duration_seconds": 123.498,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 904.35,
+            "duration_seconds": 76.094,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ria-fe-tsms",
+            "start_minute": 905.633,
+            "duration_seconds": 207.116,
+            "ai_additions": 144,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 909.083,
+            "duration_seconds": 356.183,
+            "ai_additions": 189,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ria-fe-tsms",
+            "start_minute": 915.017,
+            "duration_seconds": 35.406,
+            "ai_additions": 4,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 915.6,
+            "duration_seconds": 48.856,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "purchase-portal-fe",
+            "start_minute": 916.417,
+            "duration_seconds": 19.964,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 916.75,
+            "duration_seconds": 130.717,
+            "ai_additions": 6,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ria-fe-tsms",
+            "start_minute": 918.933,
+            "duration_seconds": 112.461,
+            "ai_additions": 19,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 920.8,
+            "duration_seconds": 93.7,
+            "ai_additions": 24,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ria-fe-tsms",
+            "start_minute": 922.367,
+            "duration_seconds": 302.387,
+            "ai_additions": 117,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 927.4,
+            "duration_seconds": 162.8,
+            "ai_additions": 11,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 930.117,
+            "duration_seconds": 423.814,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 937.183,
+            "duration_seconds": 172.855,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 940.067,
+            "duration_seconds": 326.879,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 945.517,
+            "duration_seconds": 897.954,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 960.483,
+            "duration_seconds": 32.492,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 961.017,
+            "duration_seconds": 107.239,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 962.8,
+            "duration_seconds": 139.303,
+            "ai_additions": 23,
+            "ai_deletions": 30,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ria-fe-tsms",
+            "start_minute": 965.133,
+            "duration_seconds": 34.138,
+            "ai_additions": 8,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 965.7,
+            "duration_seconds": 132.615,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 967.9,
+            "duration_seconds": 97.397,
+            "ai_additions": 2,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 969.533,
+            "duration_seconds": 135.752,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 971.8,
+            "duration_seconds": 229.868,
+            "ai_additions": 2,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 975.617,
+            "duration_seconds": 17.284,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 975.917,
+            "duration_seconds": 18.927,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 976.233,
+            "duration_seconds": 48.614,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 977.033,
+            "duration_seconds": 107.226,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 978.817,
+            "duration_seconds": 144.163,
+            "ai_additions": 19,
+            "ai_deletions": 8,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 981.233,
+            "duration_seconds": 13.568,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 981.45,
+            "duration_seconds": 31.79,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 981.983,
+            "duration_seconds": 85.585,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 983.417,
+            "duration_seconds": 616.525,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 993.683,
+            "duration_seconds": 74.323,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 7,
+            "human_deletions": 4
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 994.917,
+            "duration_seconds": 27.193,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 1016.4,
+            "duration_seconds": 41.909,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 1017.1,
+            "duration_seconds": 363.789,
+            "ai_additions": 341,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 1023.167,
+            "duration_seconds": 101.844,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 1024.867,
+            "duration_seconds": 7.004,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 1024.983,
+            "duration_seconds": 127.62,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 1027.117,
+            "duration_seconds": 219.211,
+            "ai_additions": 526,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 1030.767,
+            "duration_seconds": 187.254,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 1033.883,
+            "duration_seconds": 812.13,
+            "ai_additions": 11,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 1047.417,
+            "duration_seconds": 292.186,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 1052.283,
+            "duration_seconds": 28.5,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 1052.767,
+            "duration_seconds": 34.946,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 1053.35,
+            "duration_seconds": 42.908,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 1054.067,
+            "duration_seconds": 34.934,
+            "ai_additions": 72,
+            "ai_deletions": 13,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 1054.65,
+            "duration_seconds": 23.239,
+            "ai_additions": 23,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 1055.033,
+            "duration_seconds": 129.506,
+            "ai_additions": 0,
+            "ai_deletions": 12,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 1057.183,
+            "duration_seconds": 8.083,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 1057.317,
+            "duration_seconds": 25.812,
+            "ai_additions": 219,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 1057.75,
+            "duration_seconds": 0.168,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 1057.75,
+            "duration_seconds": 203.468,
+            "ai_additions": 191,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 1061.15,
+            "duration_seconds": 11.805,
+            "ai_additions": 2,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 1061.35,
+            "duration_seconds": 332.631,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 1066.883,
+            "duration_seconds": 488.503,
+            "ai_additions": 42,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 1204.7,
+            "duration_seconds": 17.841,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 1254.233,
+            "duration_seconds": 58.044,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 1255.2,
+            "duration_seconds": 6.041,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 1255.3,
+            "duration_seconds": 1457.251,
+            "ai_additions": 2,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ria-fe-tsms",
+            "start_minute": 1279.583,
+            "duration_seconds": 166.269,
+            "ai_additions": 1,
+            "ai_deletions": 13,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ria-fe-tsms",
+            "start_minute": 1282.35,
+            "duration_seconds": 16.731,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 1282.633,
+            "duration_seconds": 409.578,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 1289.467,
+            "duration_seconds": 1044.512,
+            "ai_additions": 153,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ria-fe-tsms",
+            "start_minute": 1306.867,
+            "duration_seconds": 84.611,
+            "ai_additions": 9,
+            "ai_deletions": 14,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 1308.283,
+            "duration_seconds": 571.546,
+            "ai_additions": 81,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 1365.95,
+            "duration_seconds": 15.684,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
             "human_deletions": 0
           }
         ],
@@ -187748,10 +189074,901 @@
           {
             "name": "Markdown",
             "start_minute": 40.4,
-            "duration_seconds": 415.958,
+            "duration_seconds": 946.393,
             "ai_additions": 0,
             "ai_deletions": 0,
             "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 56.167,
+            "duration_seconds": 297.85,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 61.133,
+            "duration_seconds": 146.328,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 570.417,
+            "duration_seconds": 1613.676,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java Properties",
+            "start_minute": 597.317,
+            "duration_seconds": 360.746,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 603.317,
+            "duration_seconds": 517.407,
+            "ai_additions": 2,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 611.95,
+            "duration_seconds": 56.494,
+            "ai_additions": 4,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "PowerShell",
+            "start_minute": 612.883,
+            "duration_seconds": 66.545,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 614.0,
+            "duration_seconds": 37.229,
+            "ai_additions": 2,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 614.617,
+            "duration_seconds": 42.915,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "PowerShell",
+            "start_minute": 615.333,
+            "duration_seconds": 0.614,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 615.35,
+            "duration_seconds": 695.397,
+            "ai_additions": 2,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 626.933,
+            "duration_seconds": 982.875,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "PowerShell",
+            "start_minute": 643.317,
+            "duration_seconds": 511.216,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 651.833,
+            "duration_seconds": 1402.777,
+            "ai_additions": 3,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 829.117,
+            "duration_seconds": 64.242,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 847.5,
+            "duration_seconds": 1269.38,
+            "ai_additions": 4,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 884.583,
+            "duration_seconds": 302.188,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 889.617,
+            "duration_seconds": 111.052,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "SQL",
+            "start_minute": 891.467,
+            "duration_seconds": 136.593,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 893.75,
+            "duration_seconds": 173.609,
+            "ai_additions": 179,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "SQL",
+            "start_minute": 896.633,
+            "duration_seconds": 11.736,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "SQL",
+            "start_minute": 896.833,
+            "duration_seconds": 28.778,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 897.317,
+            "duration_seconds": 299.042,
+            "ai_additions": 330,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 902.3,
+            "duration_seconds": 123.498,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "SQL",
+            "start_minute": 904.35,
+            "duration_seconds": 76.094,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 905.633,
+            "duration_seconds": 207.116,
+            "ai_additions": 144,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 909.083,
+            "duration_seconds": 95.805,
+            "ai_additions": 13,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "XML",
+            "start_minute": 910.667,
+            "duration_seconds": 146.718,
+            "ai_additions": 4,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 913.117,
+            "duration_seconds": 113.66,
+            "ai_additions": 172,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 915.017,
+            "duration_seconds": 35.406,
+            "ai_additions": 4,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 915.6,
+            "duration_seconds": 48.856,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 916.417,
+            "duration_seconds": 19.964,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 916.75,
+            "duration_seconds": 130.717,
+            "ai_additions": 6,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 918.933,
+            "duration_seconds": 112.461,
+            "ai_additions": 19,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 920.8,
+            "duration_seconds": 93.7,
+            "ai_additions": 24,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "JavaScript",
+            "start_minute": 922.367,
+            "duration_seconds": 302.387,
+            "ai_additions": 117,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 927.4,
+            "duration_seconds": 162.8,
+            "ai_additions": 11,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 930.117,
+            "duration_seconds": 423.814,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 937.183,
+            "duration_seconds": 172.855,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java Properties",
+            "start_minute": 940.067,
+            "duration_seconds": 69.302,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java Properties",
+            "start_minute": 941.217,
+            "duration_seconds": 17.535,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java Properties",
+            "start_minute": 941.517,
+            "duration_seconds": 240.042,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 945.517,
+            "duration_seconds": 897.954,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java Properties",
+            "start_minute": 960.483,
+            "duration_seconds": 32.492,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 961.017,
+            "duration_seconds": 107.239,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 962.8,
+            "duration_seconds": 52.464,
+            "ai_additions": 4,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 963.683,
+            "duration_seconds": 71.182,
+            "ai_additions": 19,
+            "ai_deletions": 18,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java Properties",
+            "start_minute": 964.867,
+            "duration_seconds": 15.657,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 965.133,
+            "duration_seconds": 34.138,
+            "ai_additions": 8,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 965.7,
+            "duration_seconds": 182.912,
+            "ai_additions": 3,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java Properties",
+            "start_minute": 968.75,
+            "duration_seconds": 47.1,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 969.533,
+            "duration_seconds": 365.62,
+            "ai_additions": 9,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java Properties",
+            "start_minute": 975.617,
+            "duration_seconds": 17.284,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 975.917,
+            "duration_seconds": 18.927,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 976.233,
+            "duration_seconds": 48.614,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 977.033,
+            "duration_seconds": 107.226,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java Properties",
+            "start_minute": 978.817,
+            "duration_seconds": 144.163,
+            "ai_additions": 0,
+            "ai_deletions": 8,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 981.233,
+            "duration_seconds": 13.568,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 981.45,
+            "duration_seconds": 31.79,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 981.983,
+            "duration_seconds": 391.266,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "SQL",
+            "start_minute": 988.5,
+            "duration_seconds": 310.844,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java Properties",
+            "start_minute": 993.683,
+            "duration_seconds": 1.081,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 0
+          },
+          {
+            "name": "PowerShell",
+            "start_minute": 993.7,
+            "duration_seconds": 8.371,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 1
+          },
+          {
+            "name": "Java Properties",
+            "start_minute": 993.85,
+            "duration_seconds": 52.402,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 3
+          },
+          {
+            "name": "PowerShell",
+            "start_minute": 994.717,
+            "duration_seconds": 12.469,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 5,
+            "human_deletions": 0
+          },
+          {
+            "name": "SQL",
+            "start_minute": 994.917,
+            "duration_seconds": 27.193,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 1016.4,
+            "duration_seconds": 719.214,
+            "ai_additions": 682,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 1028.4,
+            "duration_seconds": 61.86,
+            "ai_additions": 6,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "PowerShell",
+            "start_minute": 1029.417,
+            "duration_seconds": 39.864,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 1030.083,
+            "duration_seconds": 459.436,
+            "ai_additions": 167,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "CSV",
+            "start_minute": 1037.75,
+            "duration_seconds": 77.031,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "PowerShell",
+            "start_minute": 1039.033,
+            "duration_seconds": 503.356,
+            "ai_additions": 9,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 1047.417,
+            "duration_seconds": 398.54,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 1054.067,
+            "duration_seconds": 45.347,
+            "ai_additions": 34,
+            "ai_deletions": 10,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java Properties",
+            "start_minute": 1054.817,
+            "duration_seconds": 12.826,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 1055.033,
+            "duration_seconds": 1.135,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "XML",
+            "start_minute": 1055.05,
+            "duration_seconds": 128.371,
+            "ai_additions": 0,
+            "ai_deletions": 12,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java Properties",
+            "start_minute": 1057.183,
+            "duration_seconds": 8.083,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 1057.317,
+            "duration_seconds": 25.812,
+            "ai_additions": 219,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java Properties",
+            "start_minute": 1057.75,
+            "duration_seconds": 0.168,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 1057.75,
+            "duration_seconds": 102.565,
+            "ai_additions": 41,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1059.467,
+            "duration_seconds": 100.903,
+            "ai_additions": 2,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1061.15,
+            "duration_seconds": 11.805,
+            "ai_additions": 2,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 1061.35,
+            "duration_seconds": 40.892,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1062.033,
+            "duration_seconds": 291.739,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "PowerShell",
+            "start_minute": 1066.883,
+            "duration_seconds": 488.503,
+            "ai_additions": 42,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 1204.7,
+            "duration_seconds": 17.841,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "SQL",
+            "start_minute": 1254.233,
+            "duration_seconds": 58.044,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java Properties",
+            "start_minute": 1255.2,
+            "duration_seconds": 6.041,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "SQL",
+            "start_minute": 1255.3,
+            "duration_seconds": 876.663,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1269.917,
+            "duration_seconds": 580.588,
+            "ai_additions": 2,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 1279.583,
+            "duration_seconds": 166.269,
+            "ai_additions": 1,
+            "ai_deletions": 13,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1282.35,
+            "duration_seconds": 16.731,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1282.633,
+            "duration_seconds": 409.578,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 1289.467,
+            "duration_seconds": 842.794,
+            "ai_additions": 2,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 1303.517,
+            "duration_seconds": 201.718,
+            "ai_additions": 150,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 1306.867,
+            "duration_seconds": 84.611,
+            "ai_additions": 9,
+            "ai_deletions": 14,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 1308.283,
+            "duration_seconds": 571.546,
+            "ai_additions": 81,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 1365.95,
+            "duration_seconds": 15.684,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
             "human_deletions": 0
           }
         ],
@@ -187759,10 +189976,253 @@
           {
             "name": "AI Coding",
             "start_minute": 3.083,
-            "duration_seconds": 2654.641,
+            "duration_seconds": 3185.076,
             "ai_additions": 22,
             "ai_deletions": 0,
             "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Coding",
+            "start_minute": 56.167,
+            "duration_seconds": 297.85,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 61.133,
+            "duration_seconds": 146.328,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 570.417,
+            "duration_seconds": 2695.012,
+            "ai_additions": 8,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Coding",
+            "start_minute": 615.333,
+            "duration_seconds": 0.614,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 615.35,
+            "duration_seconds": 1678.272,
+            "ai_additions": 2,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Coding",
+            "start_minute": 643.317,
+            "duration_seconds": 511.216,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 651.833,
+            "duration_seconds": 1402.777,
+            "ai_additions": 3,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 829.117,
+            "duration_seconds": 64.242,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 847.5,
+            "duration_seconds": 1269.38,
+            "ai_additions": 4,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 884.583,
+            "duration_seconds": 723.442,
+            "ai_additions": 271,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Coding",
+            "start_minute": 896.633,
+            "duration_seconds": 11.736,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 896.833,
+            "duration_seconds": 327.82,
+            "ai_additions": 330,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Coding",
+            "start_minute": 902.3,
+            "duration_seconds": 123.498,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 904.35,
+            "duration_seconds": 2211.655,
+            "ai_additions": 583,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Coding",
+            "start_minute": 941.217,
+            "duration_seconds": 17.535,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 941.517,
+            "duration_seconds": 3130.482,
+            "ai_additions": 62,
+            "ai_deletions": 38,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Coding",
+            "start_minute": 993.683,
+            "duration_seconds": 101.516,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 7,
+            "human_deletions": 4
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 1016.4,
+            "duration_seconds": 2304.648,
+            "ai_additions": 973,
+            "ai_deletions": 13,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Coding",
+            "start_minute": 1054.817,
+            "duration_seconds": 12.826,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 1055.033,
+            "duration_seconds": 163.401,
+            "ai_additions": 219,
+            "ai_deletions": 12,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Coding",
+            "start_minute": 1057.75,
+            "duration_seconds": 0.168,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 1057.75,
+            "duration_seconds": 1036.407,
+            "ai_additions": 237,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 1204.7,
+            "duration_seconds": 17.841,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 1254.233,
+            "duration_seconds": 58.044,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Coding",
+            "start_minute": 1255.2,
+            "duration_seconds": 6.041,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 1255.3,
+            "duration_seconds": 3750.498,
+            "ai_additions": 247,
+            "ai_deletions": 27,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Writing Tests",
+            "start_minute": 1365.95,
+            "duration_seconds": 15.684,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
             "human_deletions": 0
           }
         ],
@@ -187770,10 +190230,550 @@
           {
             "name": "Codex Vscode",
             "start_minute": 3.083,
-            "duration_seconds": 2654.641,
+            "duration_seconds": 3185.076,
             "ai_additions": 22,
             "ai_deletions": 0,
             "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 56.167,
+            "duration_seconds": 297.85,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 61.133,
+            "duration_seconds": 146.328,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 570.417,
+            "duration_seconds": 1613.676,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 597.317,
+            "duration_seconds": 360.746,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 603.317,
+            "duration_seconds": 668.455,
+            "ai_additions": 8,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 614.467,
+            "duration_seconds": 9.22,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 614.617,
+            "duration_seconds": 42.915,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 615.333,
+            "duration_seconds": 0.614,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 615.35,
+            "duration_seconds": 1678.272,
+            "ai_additions": 2,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 643.317,
+            "duration_seconds": 511.216,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 651.833,
+            "duration_seconds": 1402.777,
+            "ai_additions": 3,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 829.117,
+            "duration_seconds": 64.242,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 847.5,
+            "duration_seconds": 1269.38,
+            "ai_additions": 4,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 884.583,
+            "duration_seconds": 302.188,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 889.617,
+            "duration_seconds": 111.052,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 891.467,
+            "duration_seconds": 310.202,
+            "ai_additions": 271,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 896.633,
+            "duration_seconds": 11.736,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 896.833,
+            "duration_seconds": 28.778,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 897.317,
+            "duration_seconds": 299.042,
+            "ai_additions": 330,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 902.3,
+            "duration_seconds": 123.498,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 904.35,
+            "duration_seconds": 723.655,
+            "ai_additions": 406,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 916.417,
+            "duration_seconds": 19.964,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 916.75,
+            "duration_seconds": 802.065,
+            "ai_additions": 177,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 930.117,
+            "duration_seconds": 423.814,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 937.183,
+            "duration_seconds": 172.855,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 940.067,
+            "duration_seconds": 69.302,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 941.217,
+            "duration_seconds": 17.535,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 941.517,
+            "duration_seconds": 240.042,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 945.517,
+            "duration_seconds": 897.954,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 960.483,
+            "duration_seconds": 32.492,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 961.017,
+            "duration_seconds": 230.885,
+            "ai_additions": 23,
+            "ai_deletions": 30,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 964.867,
+            "duration_seconds": 15.657,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 965.133,
+            "duration_seconds": 217.05,
+            "ai_additions": 11,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 968.75,
+            "duration_seconds": 47.1,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 969.533,
+            "duration_seconds": 365.62,
+            "ai_additions": 9,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 975.617,
+            "duration_seconds": 17.284,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 975.917,
+            "duration_seconds": 18.927,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 976.233,
+            "duration_seconds": 14.084,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 976.467,
+            "duration_seconds": 205.975,
+            "ai_additions": 19,
+            "ai_deletions": 8,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 979.9,
+            "duration_seconds": 79.944,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 981.233,
+            "duration_seconds": 13.568,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 981.45,
+            "duration_seconds": 31.79,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 981.983,
+            "duration_seconds": 702.11,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 993.683,
+            "duration_seconds": 101.516,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 7,
+            "human_deletions": 4
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 1016.4,
+            "duration_seconds": 1280.374,
+            "ai_additions": 869,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 1037.75,
+            "duration_seconds": 77.031,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 1039.033,
+            "duration_seconds": 947.243,
+            "ai_additions": 104,
+            "ai_deletions": 13,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 1054.817,
+            "duration_seconds": 12.826,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 1055.033,
+            "duration_seconds": 129.506,
+            "ai_additions": 0,
+            "ai_deletions": 12,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 1057.183,
+            "duration_seconds": 8.083,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 1057.317,
+            "duration_seconds": 25.812,
+            "ai_additions": 219,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 1057.75,
+            "duration_seconds": 0.168,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 1057.75,
+            "duration_seconds": 1036.407,
+            "ai_additions": 237,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 1204.7,
+            "duration_seconds": 17.841,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 1254.233,
+            "duration_seconds": 58.044,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 1255.2,
+            "duration_seconds": 6.041,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 1255.3,
+            "duration_seconds": 301.793,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 1260.333,
+            "duration_seconds": 574.87,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 1269.917,
+            "duration_seconds": 2873.835,
+            "ai_additions": 247,
+            "ai_deletions": 27,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 1365.95,
+            "duration_seconds": 15.684,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
             "human_deletions": 0
           }
         ],
@@ -187781,10 +190781,253 @@
           {
             "name": "Windows",
             "start_minute": 3.083,
-            "duration_seconds": 2654.641,
+            "duration_seconds": 3185.076,
             "ai_additions": 22,
             "ai_deletions": 0,
             "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 56.167,
+            "duration_seconds": 297.85,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 61.133,
+            "duration_seconds": 146.328,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 570.417,
+            "duration_seconds": 2695.012,
+            "ai_additions": 8,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 615.333,
+            "duration_seconds": 0.614,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 615.35,
+            "duration_seconds": 1678.272,
+            "ai_additions": 2,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 643.317,
+            "duration_seconds": 511.216,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 651.833,
+            "duration_seconds": 1402.777,
+            "ai_additions": 3,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 829.117,
+            "duration_seconds": 64.242,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 847.5,
+            "duration_seconds": 1269.38,
+            "ai_additions": 4,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 884.583,
+            "duration_seconds": 723.442,
+            "ai_additions": 271,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 896.633,
+            "duration_seconds": 11.736,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 896.833,
+            "duration_seconds": 327.82,
+            "ai_additions": 330,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 902.3,
+            "duration_seconds": 123.498,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 904.35,
+            "duration_seconds": 2211.655,
+            "ai_additions": 583,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 941.217,
+            "duration_seconds": 17.535,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 941.517,
+            "duration_seconds": 3130.482,
+            "ai_additions": 62,
+            "ai_deletions": 38,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 993.683,
+            "duration_seconds": 101.516,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 7,
+            "human_deletions": 4
+          },
+          {
+            "name": "Windows",
+            "start_minute": 1016.4,
+            "duration_seconds": 2304.648,
+            "ai_additions": 973,
+            "ai_deletions": 13,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 1054.817,
+            "duration_seconds": 12.826,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 1055.033,
+            "duration_seconds": 163.401,
+            "ai_additions": 219,
+            "ai_deletions": 12,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 1057.75,
+            "duration_seconds": 0.168,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 1057.75,
+            "duration_seconds": 1036.407,
+            "ai_additions": 237,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 1204.7,
+            "duration_seconds": 17.841,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 1254.233,
+            "duration_seconds": 58.044,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 1255.2,
+            "duration_seconds": 6.041,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 1255.3,
+            "duration_seconds": 3750.498,
+            "ai_additions": 247,
+            "ai_deletions": 27,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 1365.95,
+            "duration_seconds": 15.684,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
             "human_deletions": 0
           }
         ],
@@ -187792,13 +191035,123 @@
           {
             "name": "ALEXANDER-II",
             "start_minute": 3.083,
-            "duration_seconds": 2654.641,
-            "ai_additions": 22,
+            "duration_seconds": 3629.254,
+            "ai_additions": 23,
             "ai_deletions": 0,
             "human_additions": 0,
             "human_deletions": 0
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 570.417,
+            "duration_seconds": 6287.891,
+            "ai_additions": 13,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 0
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 829.117,
+            "duration_seconds": 64.242,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 847.5,
+            "duration_seconds": 1269.38,
+            "ai_additions": 4,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 884.583,
+            "duration_seconds": 6647.684,
+            "ai_additions": 1246,
+            "ai_deletions": 38,
+            "human_additions": 7,
+            "human_deletions": 4
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 1016.4,
+            "duration_seconds": 3517.45,
+            "ai_additions": 1429,
+            "ai_deletions": 25,
+            "human_additions": 1,
+            "human_deletions": 0
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 1204.7,
+            "duration_seconds": 17.841,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 1254.233,
+            "duration_seconds": 3814.583,
+            "ai_additions": 247,
+            "ai_deletions": 27,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 1365.95,
+            "duration_seconds": 15.684,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 0
           }
         ]
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "seconds": 0.0,
+      "projects": [],
+      "languages": [],
+      "editors": [],
+      "operating_systems": [],
+      "machines": [],
+      "categories": [],
+      "dependencies": [],
+      "ai": {
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "input_tokens": 0,
+        "cached_input_tokens": 0,
+        "output_tokens": 0,
+        "prompt_length_sum": 0,
+        "prompt_length_avg": 0,
+        "prompt_length_avg_per_session": 0,
+        "prompt_length_median_per_session": 0,
+        "prompt_events": 0,
+        "prompts_avg_per_session": 0,
+        "prompts_median_per_session": 0,
+        "sessions": 0,
+        "cost": 0.0,
+        "models": []
+      },
+      "timelines": {
+        "project": [],
+        "language": [],
+        "category": [],
+        "editor": [],
+        "os": [],
+        "machine": []
       }
     }
   ]
