@@ -11,7 +11,7 @@
           "hours": 0,
           "minutes": 40,
           "seconds": 12,
-          "percent": 27.22
+          "percent": 25.48
         },
         {
           "name": "Bash",
@@ -22,18 +22,18 @@
           "hours": 0,
           "minutes": 39,
           "seconds": 28,
-          "percent": 26.73
+          "percent": 25.02
         },
         {
           "name": "Java",
-          "total_seconds": 2037.245,
-          "digital": "0:33:57",
+          "total_seconds": 2039.36,
+          "digital": "0:33:59",
           "decimal": "0.55",
           "text": "33 mins",
           "hours": 0,
           "minutes": 33,
-          "seconds": 57,
-          "percent": 22.99
+          "seconds": 59,
+          "percent": 21.54
         },
         {
           "name": "SQL",
@@ -44,18 +44,29 @@
           "hours": 0,
           "minutes": 13,
           "seconds": 30,
-          "percent": 9.15
+          "percent": 8.56
         },
         {
-          "name": "TypeScript",
-          "total_seconds": 730.811,
-          "digital": "0:12:10",
+          "name": "XML",
+          "total_seconds": 774.326,
+          "digital": "0:12:54",
           "decimal": "0.20",
           "text": "12 mins",
           "hours": 0,
           "minutes": 12,
-          "seconds": 10,
-          "percent": 8.25
+          "seconds": 54,
+          "percent": 8.18
+        },
+        {
+          "name": "TypeScript",
+          "total_seconds": 731.679,
+          "digital": "0:12:11",
+          "decimal": "0.20",
+          "text": "12 mins",
+          "hours": 0,
+          "minutes": 12,
+          "seconds": 11,
+          "percent": 7.73
         },
         {
           "name": "Java Properties",
@@ -66,18 +77,7 @@
           "hours": 0,
           "minutes": 4,
           "seconds": 27,
-          "percent": 3.02
-        },
-        {
-          "name": "XML",
-          "total_seconds": 171.177,
-          "digital": "0:02:51",
-          "decimal": "0.03",
-          "text": "2 mins",
-          "hours": 0,
-          "minutes": 2,
-          "seconds": 51,
-          "percent": 1.93
+          "percent": 2.82
         },
         {
           "name": "YAML",
@@ -88,7 +88,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 53,
-          "percent": 0.6
+          "percent": 0.56
         },
         {
           "name": "PowerShell",
@@ -99,20 +99,20 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 10,
-          "percent": 0.12
+          "percent": 0.11
         }
       ],
       "grand_total": {
         "hours": 2,
-        "minutes": 27,
-        "total_seconds": 8862.051,
-        "digital": "2:27",
-        "decimal": "2.45",
-        "text": "2 hrs 27 mins",
+        "minutes": 37,
+        "total_seconds": 9468.183,
+        "digital": "2:37",
+        "decimal": "2.62",
+        "text": "2 hrs 37 mins",
         "ai_additions": 0,
         "ai_deletions": 5,
         "human_additions": 7,
-        "human_deletions": 20,
+        "human_deletions": 21,
         "ai_model_line_changes": {
           "GPT": 5
         },
@@ -152,38 +152,8 @@
       },
       "editors": [
         {
-          "name": "VS Code",
-          "total_seconds": 4388.804,
-          "ai_additions": 0,
-          "ai_deletions": 0,
-          "human_additions": 7,
-          "human_deletions": 20,
-          "ai_model_line_changes": {},
-          "ai_input_tokens": 0,
-          "ai_cached_input_tokens": 0,
-          "ai_output_tokens": 0,
-          "ai_prompt_length_sum": 0,
-          "ai_prompt_events_total": 0,
-          "ai_model_costs": {},
-          "ai_model_breakdown": [],
-          "ai_model_total_cost": 0,
-          "ai_prompt_length_avg": 0,
-          "ai_prompt_length_avg_per_session": 0,
-          "ai_prompt_length_median_per_session": 0,
-          "ai_prompt_events_avg_per_session": 0,
-          "ai_prompt_events_median_per_session": 0,
-          "ai_sessions": 0,
-          "digital": "1:13:08",
-          "decimal": "1.22",
-          "text": "1 hr 13 mins",
-          "hours": 1,
-          "minutes": 13,
-          "seconds": 8,
-          "percent": 49.52
-        },
-        {
           "name": "Codex Vscode",
-          "total_seconds": 3847.698,
+          "total_seconds": 4450.847,
           "ai_additions": 0,
           "ai_deletions": 5,
           "human_additions": 0,
@@ -216,13 +186,43 @@
           "ai_prompt_events_avg_per_session": 27,
           "ai_prompt_events_median_per_session": 27,
           "ai_sessions": 1,
-          "digital": "1:04:07",
-          "decimal": "1.07",
-          "text": "1 hr 4 mins",
+          "digital": "1:14:10",
+          "decimal": "1.23",
+          "text": "1 hr 14 mins",
           "hours": 1,
-          "minutes": 4,
-          "seconds": 7,
-          "percent": 43.42
+          "minutes": 14,
+          "seconds": 10,
+          "percent": 47.01
+        },
+        {
+          "name": "VS Code",
+          "total_seconds": 4391.787,
+          "ai_additions": 0,
+          "ai_deletions": 0,
+          "human_additions": 7,
+          "human_deletions": 21,
+          "ai_model_line_changes": {},
+          "ai_input_tokens": 0,
+          "ai_cached_input_tokens": 0,
+          "ai_output_tokens": 0,
+          "ai_prompt_length_sum": 0,
+          "ai_prompt_events_total": 0,
+          "ai_model_costs": {},
+          "ai_model_breakdown": [],
+          "ai_model_total_cost": 0,
+          "ai_prompt_length_avg": 0,
+          "ai_prompt_length_avg_per_session": 0,
+          "ai_prompt_length_median_per_session": 0,
+          "ai_prompt_events_avg_per_session": 0,
+          "ai_prompt_events_median_per_session": 0,
+          "ai_sessions": 0,
+          "digital": "1:13:11",
+          "decimal": "1.22",
+          "text": "1 hr 13 mins",
+          "hours": 1,
+          "minutes": 13,
+          "seconds": 11,
+          "percent": 46.38
         },
         {
           "name": "Copilot CLI",
@@ -269,44 +269,44 @@
           "hours": 0,
           "minutes": 10,
           "seconds": 25,
-          "percent": 7.06
+          "percent": 6.61
         }
       ],
       "operating_systems": [
         {
           "name": "Windows",
-          "total_seconds": 8862.051,
-          "digital": "2:27:42",
-          "decimal": "2.45",
-          "text": "2 hrs 27 mins",
+          "total_seconds": 9468.183,
+          "digital": "2:37:48",
+          "decimal": "2.62",
+          "text": "2 hrs 37 mins",
           "hours": 2,
-          "minutes": 27,
-          "seconds": 42,
+          "minutes": 37,
+          "seconds": 48,
           "percent": 100.0
         }
       ],
       "categories": [
         {
           "name": "AI Coding",
-          "total_seconds": 5080.541,
-          "digital": "1:24:40",
-          "decimal": "1.40",
-          "text": "1 hr 24 mins",
+          "total_seconds": 5683.69,
+          "digital": "1:34:43",
+          "decimal": "1.57",
+          "text": "1 hr 34 mins",
           "hours": 1,
-          "minutes": 24,
-          "seconds": 40,
-          "percent": 57.33
+          "minutes": 34,
+          "seconds": 43,
+          "percent": 60.03
         },
         {
           "name": "Coding",
-          "total_seconds": 3716.889,
-          "digital": "1:01:56",
+          "total_seconds": 3719.872,
+          "digital": "1:01:59",
           "decimal": "1.02",
           "text": "1 hr 1 min",
           "hours": 1,
           "minutes": 1,
-          "seconds": 56,
-          "percent": 41.94
+          "seconds": 59,
+          "percent": 39.29
         },
         {
           "name": "Writing Tests",
@@ -317,7 +317,7 @@
           "hours": 0,
           "minutes": 1,
           "seconds": 4,
-          "percent": 0.73
+          "percent": 0.68
         }
       ],
       "dependencies": [
@@ -330,18 +330,18 @@
           "hours": 0,
           "minutes": 28,
           "seconds": 46,
-          "percent": 22.63
+          "percent": 22.58
         },
         {
           "name": "lotte.chamomile",
-          "total_seconds": 1673.411,
-          "digital": "0:27:53",
+          "total_seconds": 1675.526,
+          "digital": "0:27:55",
           "decimal": "0.45",
           "text": "27 mins",
           "hours": 0,
           "minutes": 27,
-          "seconds": 53,
-          "percent": 21.93
+          "seconds": 55,
+          "percent": 21.9
         },
         {
           "name": "assertj.core",
@@ -352,7 +352,7 @@
           "hours": 0,
           "minutes": 27,
           "seconds": 49,
-          "percent": 21.87
+          "percent": 21.82
         },
         {
           "name": "lombok.Getter",
@@ -363,7 +363,7 @@
           "hours": 0,
           "minutes": 4,
           "seconds": 8,
-          "percent": 3.26
+          "percent": 3.25
         },
         {
           "name": "react",
@@ -385,7 +385,7 @@
           "hours": 0,
           "minutes": 3,
           "seconds": 55,
-          "percent": 3.09
+          "percent": 3.08
         },
         {
           "name": "Api",
@@ -444,25 +444,14 @@
         },
         {
           "name": "fasterxml.jackson",
-          "total_seconds": 71.311,
-          "digital": "0:01:11",
+          "total_seconds": 73.426,
+          "digital": "0:01:13",
           "decimal": "0.02",
           "text": "1 min",
           "hours": 0,
           "minutes": 1,
-          "seconds": 11,
-          "percent": 0.93
-        },
-        {
-          "name": "vite",
-          "total_seconds": 69.101,
-          "digital": "0:01:09",
-          "decimal": "0.02",
-          "text": "1 min",
-          "hours": 0,
-          "minutes": 1,
-          "seconds": 9,
-          "percent": 0.91
+          "seconds": 13,
+          "percent": 0.96
         },
         {
           "name": "node:path",
@@ -473,7 +462,7 @@
           "hours": 0,
           "minutes": 1,
           "seconds": 9,
-          "percent": 0.91
+          "percent": 0.9
         },
         {
           "name": "plugin-react",
@@ -484,7 +473,29 @@
           "hours": 0,
           "minutes": 1,
           "seconds": 9,
-          "percent": 0.91
+          "percent": 0.9
+        },
+        {
+          "name": "vite",
+          "total_seconds": 69.101,
+          "digital": "0:01:09",
+          "decimal": "0.02",
+          "text": "1 min",
+          "hours": 0,
+          "minutes": 1,
+          "seconds": 9,
+          "percent": 0.9
+        },
+        {
+          "name": "springframework.http",
+          "total_seconds": 66.882,
+          "digital": "0:01:06",
+          "decimal": "0.02",
+          "text": "1 min",
+          "hours": 0,
+          "minutes": 1,
+          "seconds": 6,
+          "percent": 0.87
         },
         {
           "name": "env",
@@ -509,18 +520,7 @@
           "percent": 0.86
         },
         {
-          "name": "authSession",
-          "total_seconds": 65.599,
-          "digital": "0:01:05",
-          "decimal": "0.02",
-          "text": "1 min",
-          "hours": 0,
-          "minutes": 1,
-          "seconds": 5,
-          "percent": 0.86
-        },
-        {
-          "name": "toSupportedLang",
+          "name": "evd-client",
           "total_seconds": 65.599,
           "digital": "0:01:05",
           "decimal": "0.02",
@@ -542,7 +542,7 @@
           "percent": 0.86
         },
         {
-          "name": "evd-client",
+          "name": "toSupportedLang",
           "total_seconds": 65.599,
           "digital": "0:01:05",
           "decimal": "0.02",
@@ -553,15 +553,15 @@
           "percent": 0.86
         },
         {
-          "name": "springframework.http",
-          "total_seconds": 64.767,
-          "digital": "0:01:04",
+          "name": "authSession",
+          "total_seconds": 65.599,
+          "digital": "0:01:05",
           "decimal": "0.02",
           "text": "1 min",
           "hours": 0,
           "minutes": 1,
-          "seconds": 4,
-          "percent": 0.85
+          "seconds": 5,
+          "percent": 0.86
         },
         {
           "name": "springframework.context",
@@ -609,25 +609,25 @@
         },
         {
           "name": "springframework.stereotype",
-          "total_seconds": 29.236,
-          "digital": "0:00:29",
+          "total_seconds": 31.351,
+          "digital": "0:00:31",
           "decimal": "0.00",
-          "text": "29 secs",
+          "text": "31 secs",
           "hours": 0,
           "minutes": 0,
-          "seconds": 29,
-          "percent": 0.38
+          "seconds": 31,
+          "percent": 0.41
         },
         {
           "name": "springframework.util",
-          "total_seconds": 24.137,
-          "digital": "0:00:24",
+          "total_seconds": 26.252,
+          "digital": "0:00:26",
           "decimal": "0.00",
-          "text": "24 secs",
+          "text": "26 secs",
           "hours": 0,
           "minutes": 0,
-          "seconds": 24,
-          "percent": 0.32
+          "seconds": 26,
+          "percent": 0.34
         },
         {
           "name": "apache.ibatis",
@@ -642,14 +642,25 @@
         },
         {
           "name": "springframework.data",
-          "total_seconds": 11.115,
+          "total_seconds": 11.954,
           "digital": "0:00:11",
           "decimal": "0.00",
           "text": "11 secs",
           "hours": 0,
           "minutes": 0,
           "seconds": 11,
-          "percent": 0.15
+          "percent": 0.16
+        },
+        {
+          "name": "springframework.web",
+          "total_seconds": 9.795,
+          "digital": "0:00:09",
+          "decimal": "0.00",
+          "text": "9 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 9,
+          "percent": 0.13
         },
         {
           "name": "lombok.Builder",
@@ -663,8 +674,8 @@
           "percent": 0.11
         },
         {
-          "name": "springframework.web",
-          "total_seconds": 8.519,
+          "name": "lombok.extern",
+          "total_seconds": 8.274,
           "digital": "0:00:08",
           "decimal": "0.00",
           "text": "8 secs",
@@ -685,17 +696,6 @@
           "percent": 0.09
         },
         {
-          "name": "lombok.extern",
-          "total_seconds": 6.159,
-          "digital": "0:00:06",
-          "decimal": "0.00",
-          "text": "6 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 6,
-          "percent": 0.08
-        },
-        {
           "name": "springframework.boot",
           "total_seconds": 5.933,
           "digital": "0:00:05",
@@ -707,19 +707,19 @@
           "percent": 0.08
         },
         {
-          "name": "jakarta.validation",
-          "total_seconds": 4.466,
-          "digital": "0:00:04",
+          "name": "lombok.RequiredArgsConstructor",
+          "total_seconds": 5.194,
+          "digital": "0:00:05",
           "decimal": "0.00",
-          "text": "4 secs",
+          "text": "5 secs",
           "hours": 0,
           "minutes": 0,
-          "seconds": 4,
-          "percent": 0.06
+          "seconds": 5,
+          "percent": 0.07
         },
         {
-          "name": "lombok.RequiredArgsConstructor",
-          "total_seconds": 4.355,
+          "name": "jakarta.validation",
+          "total_seconds": 4.466,
           "digital": "0:00:04",
           "decimal": "0.00",
           "text": "4 secs",
@@ -752,14 +752,36 @@
         },
         {
           "name": "springframework.beans",
-          "total_seconds": 1.123,
+          "total_seconds": 2.399,
+          "digital": "0:00:02",
+          "decimal": "0.00",
+          "text": "2 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 2,
+          "percent": 0.03
+        },
+        {
+          "name": "jakarta.servlet",
+          "total_seconds": 1.276,
           "digital": "0:00:01",
           "decimal": "0.00",
           "text": "1 sec",
           "hours": 0,
           "minutes": 0,
           "seconds": 1,
-          "percent": 0.01
+          "percent": 0.02
+        },
+        {
+          "name": "github.benmanes",
+          "total_seconds": 1.276,
+          "digital": "0:00:01",
+          "decimal": "0.00",
+          "text": "1 sec",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 1,
+          "percent": 0.02
         },
         {
           "name": "springframework.jdbc",
@@ -776,25 +798,25 @@
       "machines": [
         {
           "name": "ALEXANDER-II",
-          "total_seconds": 8862.051,
+          "total_seconds": 9468.183,
           "machine_name_id": "ced9c921-00ab-4f60-a5ca-5d3ab311c32f",
-          "digital": "2:27:42",
-          "decimal": "2.45",
-          "text": "2 hrs 27 mins",
+          "digital": "2:37:48",
+          "decimal": "2.62",
+          "text": "2 hrs 37 mins",
           "hours": 2,
-          "minutes": 27,
-          "seconds": 42,
+          "minutes": 37,
+          "seconds": 48,
           "percent": 100.0
         }
       ],
       "projects": [
         {
           "name": "purchase-portal-be",
-          "total_seconds": 4608.42,
+          "total_seconds": 5213.684,
           "ai_additions": 0,
           "ai_deletions": 0,
           "human_additions": 0,
-          "human_deletions": 0,
+          "human_deletions": 1,
           "ai_model_line_changes": {},
           "ai_input_tokens": 207333,
           "ai_cached_input_tokens": 5745536,
@@ -829,17 +851,17 @@
           "ai_prompt_events_avg_per_session": 14,
           "ai_prompt_events_median_per_session": 14,
           "ai_sessions": 2,
-          "digital": "1:16:48",
-          "decimal": "1.27",
-          "text": "1 hr 16 mins",
+          "digital": "1:26:53",
+          "decimal": "1.43",
+          "text": "1 hr 26 mins",
           "hours": 1,
-          "minutes": 16,
-          "seconds": 48,
-          "percent": 52.0
+          "minutes": 26,
+          "seconds": 53,
+          "percent": 55.07
         },
         {
           "name": "purchase-portal-fe",
-          "total_seconds": 2621.72,
+          "total_seconds": 2622.588,
           "ai_additions": 0,
           "ai_deletions": 5,
           "human_additions": 7,
@@ -872,13 +894,13 @@
           "ai_prompt_events_avg_per_session": 0,
           "ai_prompt_events_median_per_session": 0,
           "ai_sessions": 1,
-          "digital": "0:43:41",
+          "digital": "0:43:42",
           "decimal": "0.72",
           "text": "43 mins",
           "hours": 0,
           "minutes": 43,
-          "seconds": 41,
-          "percent": 29.58
+          "seconds": 42,
+          "percent": 27.7
         },
         {
           "name": "gems-service-tsms",
@@ -908,7 +930,7 @@
           "hours": 0,
           "minutes": 19,
           "seconds": 19,
-          "percent": 13.08
+          "percent": 12.25
         },
         {
           "name": "schedule-service-tsms",
@@ -938,7 +960,7 @@
           "hours": 0,
           "minutes": 4,
           "seconds": 27,
-          "percent": 3.02
+          "percent": 2.82
         },
         {
           "name": "ria-fe-tsms",
@@ -968,7 +990,7 @@
           "hours": 0,
           "minutes": 3,
           "seconds": 0,
-          "percent": 2.04
+          "percent": 1.91
         },
         {
           "name": "system-service-tsms-v2",
@@ -998,7 +1020,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 24,
-          "percent": 0.28
+          "percent": 0.26
         }
       ],
       "range": {
@@ -1013,18 +1035,18 @@
   "start": "2026-10-07T17:00:00Z",
   "end": "2026-10-08T16:59:59Z",
   "cumulative_total": {
-    "seconds": 8862.051,
-    "text": "2 hrs 27 mins",
-    "digital": "2:27",
-    "decimal": "2.45"
+    "seconds": 9468.183,
+    "text": "2 hrs 37 mins",
+    "digital": "2:37",
+    "decimal": "2.62"
   },
   "daily_average": {
     "holidays": 0,
     "days_minus_holidays": 1,
     "days_including_holidays": 1,
-    "seconds": 6450,
-    "seconds_including_other_language": 8862,
-    "text": "1 hr 47 mins",
-    "text_including_other_language": "2 hrs 27 mins"
+    "seconds": 7056,
+    "seconds_including_other_language": 9468,
+    "text": "1 hr 57 mins",
+    "text_including_other_language": "2 hrs 37 mins"
   }
 }
