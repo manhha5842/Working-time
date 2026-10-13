@@ -1448,7 +1448,7 @@
       "ai_input_tokens": 0,
       "ai_cached_input_tokens": 0,
       "ai_output_tokens": 0,
-      "duration": 81.125,
+      "duration": 0.032,
       "ai_model_breakdown": [
         {
           "name": "GPT",
@@ -1474,12 +1474,12 @@
       "ai_prompt_length_median_per_session": 0
     },
     {
-      "time": 1791517674.743,
+      "time": 1791517593.65,
       "project": "gems-service-tsms",
       "ai_input_tokens": 177272,
       "ai_cached_input_tokens": 2926208,
       "ai_output_tokens": 26274,
-      "duration": 983.054,
+      "duration": 1064.147,
       "ai_model_breakdown": [
         {
           "name": "GPT",
@@ -4484,18 +4484,77 @@
     {
       "time": 1791535823.707,
       "project": "purchase-portal-fe",
-      "ai_input_tokens": 20424,
-      "ai_cached_input_tokens": 1155712,
-      "ai_output_tokens": 7991,
-      "duration": 806.311,
+      "ai_input_tokens": 7148,
+      "ai_cached_input_tokens": 500224,
+      "ai_output_tokens": 2737,
+      "duration": 463.672,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.007086,
+          "input_tokens": 7148,
+          "output_tokens": 2737,
+          "cached_input_tokens": 500224
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 12,
+      "human_deletions": 18,
+      "ai_model_costs": {
+        "GPT": 0.007086
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1791536287.379,
+      "project": "purchase-portal-be",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 5.801,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1791536293.18,
+      "project": "purchase-portal-fe",
+      "ai_input_tokens": 13276,
+      "ai_cached_input_tokens": 655488,
+      "ai_output_tokens": 5254,
+      "duration": 336.838,
       "ai_model_breakdown": [
         {
           "name": "GPT",
           "lines": 20,
-          "cost": 0.017595,
-          "input_tokens": 20424,
-          "output_tokens": 7991,
-          "cached_input_tokens": 1155712
+          "cost": 0.010509,
+          "input_tokens": 13276,
+          "output_tokens": 5254,
+          "cached_input_tokens": 655488
         }
       ],
       "ai_additions": 11,
@@ -4503,10 +4562,10 @@
         "GPT": 20
       },
       "ai_deletions": 9,
-      "human_additions": 19,
-      "human_deletions": 19,
+      "human_additions": 7,
+      "human_deletions": 1,
       "ai_model_costs": {
-        "GPT": 0.017595
+        "GPT": 0.010509
       },
       "ai_sessions": 1,
       "ai_prompt_length_sum": 61,

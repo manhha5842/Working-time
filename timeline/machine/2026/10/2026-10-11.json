@@ -39,38 +39,40 @@
     {
       "time": 1791737165.224,
       "project": "Muahangre",
-      "ai_input_tokens": 42552,
-      "ai_cached_input_tokens": 208640,
-      "ai_output_tokens": 996,
+      "ai_input_tokens": 128845,
+      "ai_cached_input_tokens": 2626944,
+      "ai_output_tokens": 21204,
       "machine_name_id": "30304179-a2c6-408f-89eb-bf898e11ef1d",
-      "duration": 60.462,
+      "duration": 833.776,
       "ai_model_breakdown": [
         {
           "name": "GPT",
-          "lines": 0,
-          "cost": 0.115928,
-          "input_tokens": 42552,
-          "output_tokens": 996,
-          "cached_input_tokens": 208640
+          "lines": 230,
+          "cost": 0.732425,
+          "input_tokens": 128845,
+          "output_tokens": 21204,
+          "cached_input_tokens": 2626944
         }
       ],
-      "ai_additions": 0,
-      "ai_model_line_changes": {},
+      "ai_additions": 230,
+      "ai_model_line_changes": {
+        "GPT": 230
+      },
       "ai_deletions": 0,
       "human_additions": 0,
       "human_deletions": 0,
       "ai_model_costs": {
-        "GPT": 0.115928
+        "GPT": 0.732425
       },
       "ai_sessions": 1,
-      "ai_prompt_length_sum": 27,
-      "ai_prompt_events_total": 2,
+      "ai_prompt_length_sum": 102,
+      "ai_prompt_events_total": 3,
       "machine": "ALEXANDER-II",
-      "ai_prompt_length_avg": 14,
-      "ai_prompt_events_avg_per_session": 2,
-      "ai_prompt_events_median_per_session": 2,
-      "ai_prompt_length_avg_per_session": 14,
-      "ai_prompt_length_median_per_session": 14
+      "ai_prompt_length_avg": 34,
+      "ai_prompt_events_avg_per_session": 3,
+      "ai_prompt_events_median_per_session": 3,
+      "ai_prompt_length_avg_per_session": 34,
+      "ai_prompt_length_median_per_session": 34
     }
   ],
   "start": "2026-10-10T17:00:00Z",
