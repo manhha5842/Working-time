@@ -1,6 +1,30 @@
 {
   "data": [
     {
+      "languages": [
+        {
+          "name": "Python",
+          "total_seconds": 698.891,
+          "digital": "0:11:38",
+          "decimal": "0.18",
+          "text": "11 mins",
+          "hours": 0,
+          "minutes": 11,
+          "seconds": 38,
+          "percent": 63.06
+        },
+        {
+          "name": "TypeScript",
+          "total_seconds": 409.43,
+          "digital": "0:06:49",
+          "decimal": "0.10",
+          "text": "6 mins",
+          "hours": 0,
+          "minutes": 6,
+          "seconds": 49,
+          "percent": 36.94
+        }
+      ],
       "grand_total": {
         "hours": 0,
         "minutes": 18,
@@ -41,37 +65,29 @@
         "ai_prompt_length_avg_per_session": 21,
         "ai_prompt_length_median_per_session": 21
       },
-      "range": {
-        "start": "2026-10-10T17:00:00Z",
-        "end": "2026-10-11T16:59:59Z",
-        "date": "2026-10-11",
-        "text": "Sun Oct 11th 2026",
-        "timezone": "Asia/Ho_Chi_Minh"
-      },
-      "projects": [
+      "editors": [
         {
-          "name": "Muahangre",
-          "total_seconds": 984.138,
-          "ai_additions": 120,
+          "name": "Codex Vscode",
+          "total_seconds": 1108.321,
+          "ai_additions": 230,
           "ai_deletions": 0,
           "human_additions": 0,
           "human_deletions": 0,
           "ai_model_line_changes": {
-            "GPT": 120
+            "GPT": 230
           },
           "ai_input_tokens": 394599,
           "ai_cached_input_tokens": 3753472,
           "ai_output_tokens": 23606,
           "ai_prompt_length_sum": 110,
           "ai_prompt_events_total": 4,
-          "color": null,
           "ai_model_costs": {
             "GPT": 1.400605
           },
           "ai_model_breakdown": [
             {
               "name": "GPT",
-              "lines": 120,
+              "lines": 230,
               "cost": 1.400605,
               "input_tokens": 394599,
               "output_tokens": 23606,
@@ -85,79 +101,39 @@
           "ai_prompt_events_avg_per_session": 2,
           "ai_prompt_events_median_per_session": 2,
           "ai_sessions": 2,
-          "digital": "0:16:24",
-          "decimal": "0.27",
-          "text": "16 mins",
+          "digital": "0:18:28",
+          "decimal": "0.30",
+          "text": "18 mins",
           "hours": 0,
-          "minutes": 16,
-          "seconds": 24,
-          "percent": 88.8
-        },
-        {
-          "name": "gems-service-tsms",
-          "total_seconds": 124.183,
-          "ai_additions": 110,
-          "ai_deletions": 0,
-          "human_additions": 0,
-          "human_deletions": 0,
-          "ai_model_line_changes": {
-            "GPT": 110
-          },
-          "ai_input_tokens": 0,
-          "ai_cached_input_tokens": 0,
-          "ai_output_tokens": 0,
-          "ai_prompt_length_sum": 0,
-          "ai_prompt_events_total": 0,
-          "color": null,
-          "ai_model_costs": {},
-          "ai_model_breakdown": [
-            {
-              "name": "GPT",
-              "lines": 110,
-              "cost": 0.0,
-              "input_tokens": 0,
-              "output_tokens": 0,
-              "cached_input_tokens": 0
-            }
-          ],
-          "ai_model_total_cost": 0.0,
-          "ai_prompt_length_avg": 0,
-          "ai_prompt_length_avg_per_session": 0,
-          "ai_prompt_length_median_per_session": 0,
-          "ai_prompt_events_avg_per_session": 0,
-          "ai_prompt_events_median_per_session": 0,
-          "ai_sessions": 1,
-          "digital": "0:02:04",
-          "decimal": "0.03",
-          "text": "2 mins",
-          "hours": 0,
-          "minutes": 2,
-          "seconds": 4,
-          "percent": 11.2
+          "minutes": 18,
+          "seconds": 28,
+          "percent": 100.0
         }
       ],
-      "languages": [
+      "operating_systems": [
         {
-          "name": "Python",
-          "total_seconds": 698.891,
-          "digital": "0:11:38",
-          "decimal": "0.18",
-          "text": "11 mins",
+          "name": "Windows",
+          "total_seconds": 1108.321,
+          "digital": "0:18:28",
+          "decimal": "0.30",
+          "text": "18 mins",
           "hours": 0,
-          "minutes": 11,
-          "seconds": 38,
-          "percent": 63.06
-        },
+          "minutes": 18,
+          "seconds": 28,
+          "percent": 100.0
+        }
+      ],
+      "categories": [
         {
-          "name": "TypeScript",
-          "total_seconds": 409.43,
-          "digital": "0:06:49",
-          "decimal": "0.10",
-          "text": "6 mins",
+          "name": "AI Coding",
+          "total_seconds": 1108.321,
+          "digital": "0:18:28",
+          "decimal": "0.30",
+          "text": "18 mins",
           "hours": 0,
-          "minutes": 6,
-          "seconds": 49,
-          "percent": 36.94
+          "minutes": 18,
+          "seconds": 28,
+          "percent": 100.0
         }
       ],
       "dependencies": [
@@ -517,29 +493,30 @@
           "percent": 100.0
         }
       ],
-      "editors": [
+      "projects": [
         {
-          "name": "Codex Vscode",
-          "total_seconds": 1108.321,
-          "ai_additions": 230,
+          "name": "Muahangre",
+          "total_seconds": 984.138,
+          "ai_additions": 120,
           "ai_deletions": 0,
           "human_additions": 0,
           "human_deletions": 0,
           "ai_model_line_changes": {
-            "GPT": 230
+            "GPT": 120
           },
           "ai_input_tokens": 394599,
           "ai_cached_input_tokens": 3753472,
           "ai_output_tokens": 23606,
           "ai_prompt_length_sum": 110,
           "ai_prompt_events_total": 4,
+          "color": null,
           "ai_model_costs": {
             "GPT": 1.400605
           },
           "ai_model_breakdown": [
             {
               "name": "GPT",
-              "lines": 230,
+              "lines": 120,
               "cost": 1.400605,
               "input_tokens": 394599,
               "output_tokens": 23606,
@@ -553,41 +530,64 @@
           "ai_prompt_events_avg_per_session": 2,
           "ai_prompt_events_median_per_session": 2,
           "ai_sessions": 2,
-          "digital": "0:18:28",
-          "decimal": "0.30",
-          "text": "18 mins",
+          "digital": "0:16:24",
+          "decimal": "0.27",
+          "text": "16 mins",
           "hours": 0,
-          "minutes": 18,
-          "seconds": 28,
-          "percent": 100.0
+          "minutes": 16,
+          "seconds": 24,
+          "percent": 88.8
+        },
+        {
+          "name": "gems-service-tsms",
+          "total_seconds": 124.183,
+          "ai_additions": 110,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "ai_model_line_changes": {
+            "GPT": 110
+          },
+          "ai_input_tokens": 0,
+          "ai_cached_input_tokens": 0,
+          "ai_output_tokens": 0,
+          "ai_prompt_length_sum": 0,
+          "ai_prompt_events_total": 0,
+          "color": null,
+          "ai_model_costs": {},
+          "ai_model_breakdown": [
+            {
+              "name": "GPT",
+              "lines": 110,
+              "cost": 0.0,
+              "input_tokens": 0,
+              "output_tokens": 0,
+              "cached_input_tokens": 0
+            }
+          ],
+          "ai_model_total_cost": 0.0,
+          "ai_prompt_length_avg": 0,
+          "ai_prompt_length_avg_per_session": 0,
+          "ai_prompt_length_median_per_session": 0,
+          "ai_prompt_events_avg_per_session": 0,
+          "ai_prompt_events_median_per_session": 0,
+          "ai_sessions": 1,
+          "digital": "0:02:04",
+          "decimal": "0.03",
+          "text": "2 mins",
+          "hours": 0,
+          "minutes": 2,
+          "seconds": 4,
+          "percent": 11.2
         }
       ],
-      "operating_systems": [
-        {
-          "name": "Windows",
-          "total_seconds": 1108.321,
-          "digital": "0:18:28",
-          "decimal": "0.30",
-          "text": "18 mins",
-          "hours": 0,
-          "minutes": 18,
-          "seconds": 28,
-          "percent": 100.0
-        }
-      ],
-      "categories": [
-        {
-          "name": "AI Coding",
-          "total_seconds": 1108.321,
-          "digital": "0:18:28",
-          "decimal": "0.30",
-          "text": "18 mins",
-          "hours": 0,
-          "minutes": 18,
-          "seconds": 28,
-          "percent": 100.0
-        }
-      ]
+      "range": {
+        "start": "2026-10-10T17:00:00Z",
+        "end": "2026-10-11T16:59:59Z",
+        "date": "2026-10-11",
+        "text": "Sun Oct 11th 2026",
+        "timezone": "Asia/Ho_Chi_Minh"
+      }
     }
   ],
   "start": "2026-10-10T17:00:00Z",
