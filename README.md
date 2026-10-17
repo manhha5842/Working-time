@@ -2,7 +2,7 @@
 
 Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 
-> Last updated: **2026-10-17 05:01 ICT**
+> Last updated: **2026-10-18 04:23 ICT**
 
 ## Overview
 
@@ -21,13 +21,13 @@ Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 
 | Day | Date | Coding time |
 |---|---|---:|
-| Sun | 2026-10-11 | 18m |
 | Mon | 2026-10-12 | 7h 56m |
 | Tue | 2026-10-13 | 5h 39m |
 | Wed | 2026-10-14 | 4h 57m |
 | Thu | 2026-10-15 | 4h 37m |
 | Fri | 2026-10-16 | 6h 34m |
 | Sat | 2026-10-17 | 0m |
+| Sun | 2026-10-18 | 0m |
 
 ## Top Languages
 
