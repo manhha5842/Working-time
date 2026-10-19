@@ -565,22 +565,30 @@
     {
       "time": 1792145568.487,
       "project": "Lotte",
-      "ai_input_tokens": 119124,
-      "ai_cached_input_tokens": 518656,
-      "ai_output_tokens": 3051,
+      "ai_input_tokens": 435644,
+      "ai_cached_input_tokens": 14942592,
+      "ai_output_tokens": 23884,
       "category": "AI Coding",
-      "duration": 230.708,
+      "duration": 3694.526,
       "ai_model_breakdown": [
         {
           "name": "GPT",
           "lines": 0,
-          "cost": 0.320623,
-          "input_tokens": 119124,
-          "output_tokens": 3051,
-          "cached_input_tokens": 518656
+          "cost": 2.604387,
+          "input_tokens": 435644,
+          "output_tokens": 23884,
+          "cached_input_tokens": 14942592
         },
         {
           "name": "Opencode-Cli",
+          "lines": 0,
+          "cost": 0.0,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        },
+        {
+          "name": "Vscode",
           "lines": 0,
           "cost": 0.0,
           "input_tokens": 0,
@@ -594,16 +602,16 @@
       "human_additions": 0,
       "human_deletions": 0,
       "ai_model_costs": {
-        "GPT": 0.320623
+        "GPT": 2.604387
       },
-      "ai_sessions": 1,
-      "ai_prompt_length_sum": 209,
-      "ai_prompt_events_total": 2,
-      "ai_prompt_length_avg": 104,
-      "ai_prompt_events_avg_per_session": 2,
-      "ai_prompt_events_median_per_session": 2,
-      "ai_prompt_length_avg_per_session": 104,
-      "ai_prompt_length_median_per_session": 104
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 1070,
+      "ai_prompt_events_total": 17,
+      "ai_prompt_length_avg": 63,
+      "ai_prompt_events_avg_per_session": 8,
+      "ai_prompt_events_median_per_session": 8,
+      "ai_prompt_length_avg_per_session": 81,
+      "ai_prompt_length_median_per_session": 80
     }
   ],
   "start": "2026-10-15T17:00:00Z",
