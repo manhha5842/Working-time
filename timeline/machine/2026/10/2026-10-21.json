@@ -3,19 +3,19 @@
     {
       "time": 1792515600.0,
       "project": "system-service-tsms-v2",
-      "ai_input_tokens": 98781,
-      "ai_cached_input_tokens": 3193984,
-      "ai_output_tokens": 9924,
+      "ai_input_tokens": 189343,
+      "ai_cached_input_tokens": 4682624,
+      "ai_output_tokens": 23586,
       "machine_name_id": "f074c83f-c360-4eda-a649-bb565d106764",
-      "duration": 2123.585,
+      "duration": 3977.141,
       "ai_model_breakdown": [
         {
           "name": "GPT",
-          "lines": 22,
-          "cost": 0.6162,
-          "input_tokens": 98781,
-          "output_tokens": 9924,
-          "cached_input_tokens": 3193984
+          "lines": 275,
+          "cost": 1.082807,
+          "input_tokens": 189343,
+          "output_tokens": 23586,
+          "cached_input_tokens": 4682624
         },
         {
           "name": "Codex-Vscode",
@@ -26,25 +26,236 @@
           "cached_input_tokens": 0
         }
       ],
-      "ai_additions": 22,
+      "ai_additions": 275,
       "ai_model_line_changes": {
-        "GPT": 22
+        "GPT": 275
       },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 1,
+      "ai_model_costs": {
+        "GPT": 1.082807
+      },
+      "ai_sessions": 4,
+      "ai_prompt_length_sum": 12123,
+      "ai_prompt_events_total": 7,
+      "machine": "ALEXANDER-II",
+      "ai_prompt_length_avg": 1732,
+      "ai_prompt_events_avg_per_session": 2,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 1467,
+      "ai_prompt_length_median_per_session": 1854
+    },
+    {
+      "time": 1792547780.644,
+      "project": "Muahangre",
+      "ai_input_tokens": 279861,
+      "ai_cached_input_tokens": 3302528,
+      "ai_output_tokens": 2875,
+      "machine_name_id": "bf969ed4-f539-417b-b39f-572a54028e5f",
+      "duration": 736.616,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.918727,
+          "input_tokens": 279861,
+          "output_tokens": 2875,
+          "cached_input_tokens": 3302528
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
       "ai_deletions": 0,
       "human_additions": 0,
       "human_deletions": 0,
       "ai_model_costs": {
-        "GPT": 0.6162
+        "GPT": 0.918727
       },
-      "ai_sessions": 3,
-      "ai_prompt_length_sum": 10455,
-      "ai_prompt_events_total": 6,
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
       "machine": "ALEXANDER-II",
-      "ai_prompt_length_avg": 1742,
-      "ai_prompt_events_avg_per_session": 2,
-      "ai_prompt_events_median_per_session": 2,
-      "ai_prompt_length_avg_per_session": 1400,
-      "ai_prompt_length_median_per_session": 2039
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792555925.396,
+      "project": "timesheet-claim",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "machine_name_id": "bf969ed4-f539-417b-b39f-572a54028e5f",
+      "duration": 0.0,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "machine": "ALEXANDER-II",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792558404.671,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 1643655,
+      "ai_cached_input_tokens": 53823488,
+      "ai_output_tokens": 171021,
+      "machine_name_id": "bf969ed4-f539-417b-b39f-572a54028e5f",
+      "duration": 10408.479,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 1287,
+          "cost": 9.434594,
+          "input_tokens": 1643655,
+          "output_tokens": 171021,
+          "cached_input_tokens": 53823488
+        }
+      ],
+      "ai_additions": 1275,
+      "ai_model_line_changes": {
+        "GPT": 1287
+      },
+      "ai_deletions": 12,
+      "human_additions": 285,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 9.434594
+      },
+      "ai_sessions": 6,
+      "ai_prompt_length_sum": 10321,
+      "ai_prompt_events_total": 40,
+      "machine": "ALEXANDER-II",
+      "ai_prompt_length_avg": 258,
+      "ai_prompt_events_avg_per_session": 7,
+      "ai_prompt_events_median_per_session": 4,
+      "ai_prompt_length_avg_per_session": 214,
+      "ai_prompt_length_median_per_session": 162
+    },
+    {
+      "time": 1792569833.126,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 12714,
+      "ai_cached_input_tokens": 209664,
+      "ai_output_tokens": 610,
+      "machine_name_id": "bf969ed4-f539-417b-b39f-572a54028e5f",
+      "duration": 37.045,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.052495,
+          "input_tokens": 12714,
+          "output_tokens": 610,
+          "cached_input_tokens": 209664
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.052495
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 80,
+      "ai_prompt_events_total": 1,
+      "machine": "ALEXANDER-II",
+      "ai_prompt_length_avg": 80,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 80,
+      "ai_prompt_length_median_per_session": 80
+    },
+    {
+      "time": 1792571412.061,
+      "project": "pm-mobile",
+      "ai_input_tokens": 735807,
+      "ai_cached_input_tokens": 14838144,
+      "ai_output_tokens": 56239,
+      "machine_name_id": "bf969ed4-f539-417b-b39f-572a54028e5f",
+      "duration": 3505.187,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 598,
+          "cost": 3.295024,
+          "input_tokens": 735807,
+          "output_tokens": 56239,
+          "cached_input_tokens": 14838144
+        }
+      ],
+      "ai_additions": 598,
+      "ai_model_line_changes": {
+        "GPT": 598
+      },
+      "ai_deletions": 0,
+      "human_additions": 1,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 3.295024
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 3033,
+      "ai_prompt_events_total": 10,
+      "machine": "ALEXANDER-II",
+      "ai_prompt_length_avg": 303,
+      "ai_prompt_events_avg_per_session": 5,
+      "ai_prompt_events_median_per_session": 5,
+      "ai_prompt_length_avg_per_session": 207,
+      "ai_prompt_length_median_per_session": 207
+    },
+    {
+      "time": 1792577801.71,
+      "project": "schedule-service-tsms",
+      "ai_input_tokens": 68042,
+      "ai_cached_input_tokens": 3523072,
+      "ai_output_tokens": 8963,
+      "machine_name_id": "bf969ed4-f539-417b-b39f-572a54028e5f",
+      "duration": 876.379,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 34,
+          "cost": 0.578022,
+          "input_tokens": 68042,
+          "output_tokens": 8963,
+          "cached_input_tokens": 3523072
+        }
+      ],
+      "ai_additions": 25,
+      "ai_model_line_changes": {
+        "GPT": 34
+      },
+      "ai_deletions": 9,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.578022
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 462,
+      "ai_prompt_events_total": 3,
+      "machine": "ALEXANDER-II",
+      "ai_prompt_length_avg": 154,
+      "ai_prompt_events_avg_per_session": 3,
+      "ai_prompt_events_median_per_session": 3,
+      "ai_prompt_length_avg_per_session": 154,
+      "ai_prompt_length_median_per_session": 154
     }
   ],
   "start": "2026-10-20T17:00:00Z",
