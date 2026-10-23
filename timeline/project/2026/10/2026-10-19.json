@@ -162,7 +162,7 @@
       "ai_input_tokens": 0,
       "ai_cached_input_tokens": 0,
       "ai_output_tokens": 0,
-      "duration": 463.792,
+      "duration": 399.781,
       "ai_model_breakdown": [
         {
           "name": "Vscode",
@@ -198,17 +198,48 @@
       "ai_prompt_length_median_per_session": 4
     },
     {
+      "time": 1792376290.047,
+      "project": "ria-fe-tsms",
+      "ai_input_tokens": 27022,
+      "ai_cached_input_tokens": 22400,
+      "ai_output_tokens": 615,
+      "duration": 64.011,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 27022,
+          "output_tokens": 615,
+          "cached_input_tokens": 22400
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.003234
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 33,
+      "ai_prompt_events_total": 1,
+      "color": null,
+      "ai_prompt_length_avg": 33,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 33,
+      "ai_prompt_length_median_per_session": 33
+    },
+    {
       "time": 1792376354.058,
       "project": "purchase-portal-be",
       "ai_input_tokens": 0,
       "ai_cached_input_tokens": 0,
       "ai_output_tokens": 0,
-      "duration": 205.887,
+      "duration": 33.221,
       "ai_model_breakdown": [
         {
           "name": "Vscode",
-          "lines": 0,
-          "cost": 0.0,
           "input_tokens": 0,
           "output_tokens": 0,
           "cached_input_tokens": 0
@@ -231,20 +262,18 @@
       "ai_prompt_length_median_per_session": 0
     },
     {
-      "time": 1792376559.945,
-      "project": "gems-service-tsms",
-      "ai_input_tokens": 104023,
-      "ai_cached_input_tokens": 2910976,
-      "ai_output_tokens": 27321,
-      "duration": 855.206,
+      "time": 1792376387.279,
+      "project": "ria-fe-tsms",
+      "ai_input_tokens": 63293,
+      "ai_cached_input_tokens": 278528,
+      "ai_output_tokens": 1305,
+      "duration": 30.204,
       "ai_model_breakdown": [
         {
           "name": "GPT",
-          "lines": 0,
-          "cost": 0.053175,
-          "input_tokens": 104023,
-          "output_tokens": 27321,
-          "cached_input_tokens": 2910976
+          "input_tokens": 63293,
+          "output_tokens": 1305,
+          "cached_input_tokens": 278528
         }
       ],
       "ai_additions": 0,
@@ -253,36 +282,470 @@
       "human_additions": 0,
       "human_deletions": 0,
       "ai_model_costs": {
-        "GPT": 0.053175
+        "GPT": 0.167489
       },
       "ai_sessions": 1,
-      "ai_prompt_length_sum": 297,
-      "ai_prompt_events_total": 4,
+      "ai_prompt_length_sum": 36,
+      "ai_prompt_events_total": 1,
       "color": null,
-      "ai_prompt_length_avg": 74,
-      "ai_prompt_events_avg_per_session": 4,
-      "ai_prompt_events_median_per_session": 4,
-      "ai_prompt_length_avg_per_session": 74,
-      "ai_prompt_length_median_per_session": 74
+      "ai_prompt_length_avg": 36,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 36,
+      "ai_prompt_length_median_per_session": 36
     },
     {
-      "time": 1792377415.151,
-      "project": "timesheet-claim",
-      "ai_input_tokens": 12636,
-      "ai_cached_input_tokens": 12544,
-      "ai_output_tokens": 472,
-      "duration": 11.049,
+      "time": 1792376417.483,
+      "project": "purchase-portal-be",
+      "ai_input_tokens": 19641,
+      "ai_cached_input_tokens": 560256,
+      "ai_output_tokens": 2380,
+      "duration": 88.943,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 17,
+          "cost": 0.119108,
+          "input_tokens": 19641,
+          "output_tokens": 2380,
+          "cached_input_tokens": 560256
+        },
+        {
+          "name": "Vscode",
+          "lines": 0,
+          "cost": 0.0,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 9,
+      "ai_model_line_changes": {
+        "GPT": 17
+      },
+      "ai_deletions": 8,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.119108
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792376506.426,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 82522,
+      "ai_cached_input_tokens": 3143040,
+      "ai_output_tokens": 13937,
+      "duration": 239.976,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 48,
+          "cost": 0.43156,
+          "input_tokens": 82522,
+          "output_tokens": 13937,
+          "cached_input_tokens": 3143040
+        }
+      ],
+      "ai_additions": 48,
+      "ai_model_line_changes": {
+        "GPT": 48
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.43156
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 446,
+      "ai_prompt_events_total": 4,
+      "color": null,
+      "ai_prompt_length_avg": 112,
+      "ai_prompt_events_avg_per_session": 2,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 156,
+      "ai_prompt_length_median_per_session": 156
+    },
+    {
+      "time": 1792376746.402,
+      "project": "purchase-portal-be",
+      "ai_input_tokens": 3092,
+      "ai_cached_input_tokens": 280832,
+      "ai_output_tokens": 1801,
+      "duration": 1.742,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 3092,
+          "output_tokens": 1801,
+          "cached_input_tokens": 280832
+        }
+      ],
+      "ai_additions": 37,
+      "ai_model_line_changes": {
+        "GPT": 37
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.052277
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792376748.144,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 2231,
+      "ai_cached_input_tokens": 65920,
+      "ai_output_tokens": 266,
+      "duration": 62.341,
       "ai_model_breakdown": [
         {
           "name": "GPT",
           "lines": 0,
-          "cost": 0.001625,
-          "input_tokens": 12636,
-          "output_tokens": 472,
-          "cached_input_tokens": 12544
-        },
+          "cost": 0.001015,
+          "input_tokens": 2231,
+          "output_tokens": 266,
+          "cached_input_tokens": 65920
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.001015
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792376810.485,
+      "project": "purchase-portal-be",
+      "ai_input_tokens": 15938,
+      "ai_cached_input_tokens": 1048448,
+      "ai_output_tokens": 7161,
+      "duration": 127.117,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 83,
+          "cost": 0.208331,
+          "input_tokens": 15938,
+          "output_tokens": 7161,
+          "cached_input_tokens": 1048448
+        }
+      ],
+      "ai_additions": 83,
+      "ai_model_line_changes": {
+        "GPT": 83
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.208331
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792376937.602,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 913,
+      "ai_cached_input_tokens": 157440,
+      "ai_output_tokens": 980,
+      "duration": 0.0,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 913,
+          "output_tokens": 980,
+          "cached_input_tokens": 157440
+        }
+      ],
+      "ai_additions": 2,
+      "ai_model_line_changes": {
+        "GPT": 2
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.02737
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792376937.602,
+      "project": "Lotte",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 30.581,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 2,
+      "ai_model_line_changes": {
+        "GPT": 2
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792376968.183,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 41786,
+      "ai_cached_input_tokens": 1721984,
+      "ai_output_tokens": 6436,
+      "duration": 228.037,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 17,
+          "cost": 0.260161,
+          "input_tokens": 41786,
+          "output_tokens": 6436,
+          "cached_input_tokens": 1721984
+        }
+      ],
+      "ai_additions": 17,
+      "ai_model_line_changes": {
+        "GPT": 17
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.260161
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 257,
+      "ai_prompt_events_total": 2,
+      "color": null,
+      "ai_prompt_length_avg": 128,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 128,
+      "ai_prompt_length_median_per_session": 128
+    },
+    {
+      "time": 1792377196.22,
+      "project": "purchase-portal-fe",
+      "ai_input_tokens": 16164,
+      "ai_cached_input_tokens": 764800,
+      "ai_output_tokens": 2214,
+      "duration": 1.072,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 6,
+          "cost": 0.130948,
+          "input_tokens": 16164,
+          "output_tokens": 2214,
+          "cached_input_tokens": 764800
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {
+        "GPT": 6
+      },
+      "ai_deletions": 6,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.130948
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792377197.292,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 28218,
+      "ai_cached_input_tokens": 954496,
+      "ai_output_tokens": 11585,
+      "duration": 118.914,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.01816,
+          "input_tokens": 28218,
+          "output_tokens": 11585,
+          "cached_input_tokens": 954496
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.01816
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792377316.206,
+      "project": "purchase-portal-fe",
+      "ai_input_tokens": 9975,
+      "ai_cached_input_tokens": 819840,
+      "ai_output_tokens": 5241,
+      "duration": 10.868,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 9975,
+          "output_tokens": 5241,
+          "cached_input_tokens": 819840
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.154344
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792377327.074,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 18963,
+      "ai_cached_input_tokens": 1033088,
+      "ai_output_tokens": 8502,
+      "duration": 88.077,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.016479,
+          "input_tokens": 18963,
+          "output_tokens": 8502,
+          "cached_input_tokens": 1033088
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.016479
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792377415.151,
+      "project": "timesheet-claim",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 7.304,
+      "ai_model_breakdown": [
         {
           "name": "Vscode",
+          "lines": 0,
+          "cost": 0.0,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        },
+        {
+          "name": "GPT",
           "lines": 0,
           "cost": 0.0,
           "input_tokens": 0,
@@ -295,9 +758,7 @@
       "ai_deletions": 0,
       "human_additions": 0,
       "human_deletions": 0,
-      "ai_model_costs": {
-        "GPT": 0.001625
-      },
+      "ai_model_costs": {},
       "ai_sessions": 1,
       "ai_prompt_length_sum": 5469,
       "ai_prompt_events_total": 1,
@@ -307,6 +768,72 @@
       "ai_prompt_events_median_per_session": 1,
       "ai_prompt_length_avg_per_session": 5469,
       "ai_prompt_length_median_per_session": 5469
+    },
+    {
+      "time": 1792377422.455,
+      "project": "purchase-portal-fe",
+      "ai_input_tokens": 5136,
+      "ai_cached_input_tokens": 422400,
+      "ai_output_tokens": 3686,
+      "duration": 1.246,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 5136,
+          "output_tokens": 3686,
+          "cached_input_tokens": 422400
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.089372
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792377423.701,
+      "project": "timesheet-claim",
+      "ai_input_tokens": 12636,
+      "ai_cached_input_tokens": 12544,
+      "ai_output_tokens": 472,
+      "duration": 2.499,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 12636,
+          "output_tokens": 472,
+          "cached_input_tokens": 12544
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.001625
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
     },
     {
       "time": 1792377426.2,
@@ -448,7 +975,7 @@
       "ai_input_tokens": 3524,
       "ai_cached_input_tokens": 131072,
       "ai_output_tokens": 1958,
-      "duration": 5.94,
+      "duration": 0.177,
       "ai_model_breakdown": [
         {
           "name": "GPT",
@@ -464,6 +991,78 @@
       "human_deletions": 0,
       "ai_model_costs": {
         "GPT": 0.002642
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792377468.944,
+      "project": "purchase-portal-be",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 0.0,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 21,
+          "cost": 0.0,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 16,
+      "ai_model_line_changes": {
+        "GPT": 21
+      },
+      "ai_deletions": 5,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792377468.944,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 1343,
+      "ai_cached_input_tokens": 215296,
+      "ai_output_tokens": 2180,
+      "duration": 5.763,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 8,
+          "cost": 0.046016,
+          "input_tokens": 1343,
+          "output_tokens": 2180,
+          "cached_input_tokens": 215296
+        }
+      ],
+      "ai_additions": 8,
+      "ai_model_line_changes": {
+        "GPT": 8
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.046016
       },
       "ai_sessions": 1,
       "ai_prompt_length_sum": 0,
@@ -513,18 +1112,16 @@
     {
       "time": 1792377487.01,
       "project": "gems-service-tsms",
-      "ai_input_tokens": 10106,
-      "ai_cached_input_tokens": 411392,
-      "ai_output_tokens": 4841,
-      "duration": 262.761,
+      "ai_input_tokens": 2648,
+      "ai_cached_input_tokens": 134400,
+      "ai_output_tokens": 1142,
+      "duration": 4.937,
       "ai_model_breakdown": [
         {
           "name": "GPT",
-          "lines": 0,
-          "cost": 0.007546,
-          "input_tokens": 10106,
-          "output_tokens": 4841,
-          "cached_input_tokens": 411392
+          "input_tokens": 2648,
+          "output_tokens": 1142,
+          "cached_input_tokens": 134400
         }
       ],
       "ai_additions": 0,
@@ -533,7 +1130,116 @@
       "human_additions": 0,
       "human_deletions": 0,
       "ai_model_costs": {
-        "GPT": 0.007546
+        "GPT": 0.00218
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792377491.947,
+      "project": "purchase-portal-be",
+      "ai_input_tokens": 3801,
+      "ai_cached_input_tokens": 435072,
+      "ai_output_tokens": 1430,
+      "duration": 17.298,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 20,
+          "cost": 0.065409,
+          "input_tokens": 3801,
+          "output_tokens": 1430,
+          "cached_input_tokens": 435072
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {
+        "GPT": 20
+      },
+      "ai_deletions": 20,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.065409
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792377509.245,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 7458,
+      "ai_cached_input_tokens": 276992,
+      "ai_output_tokens": 3699,
+      "duration": 28.787,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.005366,
+          "input_tokens": 7458,
+          "output_tokens": 3699,
+          "cached_input_tokens": 276992
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.005366
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792377538.032,
+      "project": "purchase-portal-be",
+      "ai_input_tokens": 16763,
+      "ai_cached_input_tokens": 1348992,
+      "ai_output_tokens": 7233,
+      "duration": 211.739,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 54,
+          "cost": 0.240755,
+          "input_tokens": 16763,
+          "output_tokens": 7233,
+          "cached_input_tokens": 1348992
+        }
+      ],
+      "ai_additions": 24,
+      "ai_model_line_changes": {
+        "GPT": 54
+      },
+      "ai_deletions": 30,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.240755
       },
       "ai_sessions": 1,
       "ai_prompt_length_sum": 0,
@@ -548,55 +1254,18 @@
     {
       "time": 1792377749.771,
       "project": "timesheet-claim",
-      "ai_input_tokens": 459573,
-      "ai_cached_input_tokens": 2606592,
-      "ai_output_tokens": 37624,
-      "duration": 295.598,
-      "ai_model_breakdown": [
-        {
-          "name": "GPT",
-          "lines": 35,
-          "cost": 0.090836,
-          "input_tokens": 459573,
-          "output_tokens": 37624,
-          "cached_input_tokens": 2606592
-        }
-      ],
-      "ai_additions": 29,
-      "ai_model_line_changes": {
-        "GPT": 35
-      },
-      "ai_deletions": 6,
-      "human_additions": 0,
-      "human_deletions": 0,
-      "ai_model_costs": {
-        "GPT": 0.090836
-      },
-      "ai_sessions": 2,
-      "ai_prompt_length_sum": 703,
-      "ai_prompt_events_total": 3,
-      "color": null,
-      "ai_prompt_length_avg": 234,
-      "ai_prompt_events_avg_per_session": 2,
-      "ai_prompt_events_median_per_session": 2,
-      "ai_prompt_length_avg_per_session": 213,
-      "ai_prompt_length_median_per_session": 213
-    },
-    {
-      "time": 1792378045.369,
-      "project": "gems-service-tsms",
-      "ai_input_tokens": 34319,
-      "ai_cached_input_tokens": 622976,
-      "ai_output_tokens": 2820,
-      "duration": 52.096,
+      "ai_input_tokens": 393032,
+      "ai_cached_input_tokens": 388224,
+      "ai_output_tokens": 4994,
+      "duration": 63.398,
       "ai_model_breakdown": [
         {
           "name": "GPT",
           "lines": 0,
-          "cost": 0.011073,
-          "input_tokens": 34319,
-          "output_tokens": 2820,
-          "cached_input_tokens": 622976
+          "cost": 0.045682,
+          "input_tokens": 393032,
+          "output_tokens": 4994,
+          "cached_input_tokens": 388224
         }
       ],
       "ai_additions": 0,
@@ -605,7 +1274,320 @@
       "human_additions": 0,
       "human_deletions": 0,
       "ai_model_costs": {
-        "GPT": 0.011073
+        "GPT": 0.045682
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 507,
+      "ai_prompt_events_total": 1,
+      "color": null,
+      "ai_prompt_length_avg": 507,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 507,
+      "ai_prompt_length_median_per_session": 507
+    },
+    {
+      "time": 1792377813.169,
+      "project": "purchase-portal-fe",
+      "ai_input_tokens": 1858,
+      "ai_cached_input_tokens": 499200,
+      "ai_output_tokens": 962,
+      "duration": 29.21,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 1858,
+          "output_tokens": 962,
+          "cached_input_tokens": 499200
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {
+        "GPT": 2
+      },
+      "ai_deletions": 2,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.063256
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792377842.379,
+      "project": "timesheet-claim",
+      "ai_input_tokens": 9836,
+      "ai_cached_input_tokens": 498944,
+      "ai_output_tokens": 6381,
+      "duration": 37.87,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 9836,
+          "output_tokens": 6381,
+          "cached_input_tokens": 498944
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.009164
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792377880.249,
+      "project": "purchase-portal-fe",
+      "ai_input_tokens": 8722,
+      "ai_cached_input_tokens": 759424,
+      "ai_output_tokens": 4882,
+      "duration": 9.401,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 8722,
+          "output_tokens": 4882,
+          "cached_input_tokens": 759424
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.142206
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792377889.65,
+      "project": "timesheet-claim",
+      "ai_input_tokens": 21032,
+      "ai_cached_input_tokens": 1002624,
+      "ai_output_tokens": 11717,
+      "duration": 54.532,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 28,
+          "cost": 0.017988,
+          "input_tokens": 21032,
+          "output_tokens": 11717,
+          "cached_input_tokens": 1002624
+        }
+      ],
+      "ai_additions": 28,
+      "ai_model_line_changes": {
+        "GPT": 28
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.017988
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 196,
+      "ai_prompt_events_total": 2,
+      "color": null,
+      "ai_prompt_length_avg": 98,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 98,
+      "ai_prompt_length_median_per_session": 98
+    },
+    {
+      "time": 1792377944.182,
+      "project": "purchase-portal-fe",
+      "ai_input_tokens": 3792,
+      "ai_cached_input_tokens": 519936,
+      "ai_output_tokens": 2993,
+      "duration": 37.589,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 3792,
+          "output_tokens": 2993,
+          "cached_input_tokens": 519936
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.089508
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792377981.771,
+      "project": "timesheet-claim",
+      "ai_input_tokens": 9056,
+      "ai_cached_input_tokens": 220800,
+      "ai_output_tokens": 3228,
+      "duration": 32.957,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 2,
+          "cost": 0.004728,
+          "input_tokens": 9056,
+          "output_tokens": 3228,
+          "cached_input_tokens": 220800
+        }
+      ],
+      "ai_additions": 1,
+      "ai_model_line_changes": {
+        "GPT": 2
+      },
+      "ai_deletions": 1,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.004728
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792378014.728,
+      "project": "purchase-portal-fe",
+      "ai_input_tokens": 5533,
+      "ai_cached_input_tokens": 792320,
+      "ai_output_tokens": 2097,
+      "duration": 3.709,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 5533,
+          "output_tokens": 2097,
+          "cached_input_tokens": 792320
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.111268
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792378018.437,
+      "project": "timesheet-claim",
+      "ai_input_tokens": 26617,
+      "ai_cached_input_tokens": 496000,
+      "ai_output_tokens": 11304,
+      "duration": 26.932,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 5,
+          "cost": 0.013274,
+          "input_tokens": 26617,
+          "output_tokens": 11304,
+          "cached_input_tokens": 496000
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {
+        "GPT": 5
+      },
+      "ai_deletions": 5,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.013274
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792378045.369,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 1275,
+      "ai_cached_input_tokens": 144000,
+      "ai_output_tokens": 604,
+      "duration": 13.752,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.00187,
+          "input_tokens": 1275,
+          "output_tokens": 604,
+          "cached_input_tokens": 144000
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.00187
       },
       "ai_sessions": 1,
       "ai_prompt_length_sum": 27,
@@ -616,6 +1598,76 @@
       "ai_prompt_events_median_per_session": 1,
       "ai_prompt_length_avg_per_session": 27,
       "ai_prompt_length_median_per_session": 27
+    },
+    {
+      "time": 1792378059.121,
+      "project": "purchase-portal-be",
+      "ai_input_tokens": 2463,
+      "ai_cached_input_tokens": 535936,
+      "ai_output_tokens": 1463,
+      "duration": 3.443,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 2463,
+          "output_tokens": 1463,
+          "cached_input_tokens": 535936
+        }
+      ],
+      "ai_additions": 2,
+      "ai_model_line_changes": {
+        "GPT": 2
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.07315
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792378062.564,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 33044,
+      "ai_cached_input_tokens": 478976,
+      "ai_output_tokens": 2216,
+      "duration": 34.901,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.009203,
+          "input_tokens": 33044,
+          "output_tokens": 2216,
+          "cached_input_tokens": 478976
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.009203
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
     },
     {
       "time": 1792378097.465,
@@ -653,37 +1705,39 @@
     {
       "time": 1792378098.442,
       "project": "gems-service-tsms",
-      "ai_input_tokens": 23431,
-      "ai_cached_input_tokens": 394368,
-      "ai_output_tokens": 3173,
+      "ai_input_tokens": 28301,
+      "ai_cached_input_tokens": 935936,
+      "ai_output_tokens": 4918,
       "duration": 37.878,
       "ai_model_breakdown": [
         {
           "name": "GPT",
-          "lines": 0,
-          "cost": 0.007872,
-          "input_tokens": 23431,
-          "output_tokens": 3173,
-          "cached_input_tokens": 394368
+          "lines": 2,
+          "cost": 0.089219,
+          "input_tokens": 28301,
+          "output_tokens": 4918,
+          "cached_input_tokens": 935936
         }
       ],
-      "ai_additions": 0,
-      "ai_model_line_changes": {},
+      "ai_additions": 2,
+      "ai_model_line_changes": {
+        "GPT": 2
+      },
       "ai_deletions": 0,
       "human_additions": 0,
       "human_deletions": 0,
       "ai_model_costs": {
-        "GPT": 0.007872
+        "GPT": 0.089219
       },
-      "ai_sessions": 1,
-      "ai_prompt_length_sum": 0,
-      "ai_prompt_events_total": 0,
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 110,
+      "ai_prompt_events_total": 1,
       "color": null,
-      "ai_prompt_length_avg": 0,
+      "ai_prompt_length_avg": 110,
       "ai_prompt_events_avg_per_session": 0,
       "ai_prompt_events_median_per_session": 0,
-      "ai_prompt_length_avg_per_session": 0,
-      "ai_prompt_length_median_per_session": 0
+      "ai_prompt_length_avg_per_session": 110,
+      "ai_prompt_length_median_per_session": 110
     },
     {
       "time": 1792378136.32,
@@ -721,16 +1775,18 @@
     {
       "time": 1792378136.863,
       "project": "gems-service-tsms",
-      "ai_input_tokens": 0,
-      "ai_cached_input_tokens": 0,
-      "ai_output_tokens": 0,
+      "ai_input_tokens": 25186,
+      "ai_cached_input_tokens": 2850304,
+      "ai_output_tokens": 5317,
       "duration": 343.339,
       "ai_model_breakdown": [
         {
           "name": "GPT",
-          "input_tokens": 0,
-          "output_tokens": 0,
-          "cached_input_tokens": 0
+          "lines": 0,
+          "cost": 0.388572,
+          "input_tokens": 25186,
+          "output_tokens": 5317,
+          "cached_input_tokens": 2850304
         }
       ],
       "ai_additions": 0,
@@ -738,16 +1794,18 @@
       "ai_deletions": 0,
       "human_additions": 0,
       "human_deletions": 0,
-      "ai_model_costs": {},
-      "ai_sessions": 1,
-      "ai_prompt_length_sum": 0,
-      "ai_prompt_events_total": 0,
+      "ai_model_costs": {
+        "GPT": 0.388572
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 144,
+      "ai_prompt_events_total": 2,
       "color": null,
-      "ai_prompt_length_avg": 0,
-      "ai_prompt_events_avg_per_session": 0,
-      "ai_prompt_events_median_per_session": 0,
-      "ai_prompt_length_avg_per_session": 0,
-      "ai_prompt_length_median_per_session": 0
+      "ai_prompt_length_avg": 72,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 72,
+      "ai_prompt_length_median_per_session": 72
     },
     {
       "time": 1792378480.202,
@@ -789,18 +1847,18 @@
     {
       "time": 1792378639.606,
       "project": "gems-service-tsms",
-      "ai_input_tokens": 12908,
-      "ai_cached_input_tokens": 246016,
-      "ai_output_tokens": 1962,
+      "ai_input_tokens": 16596,
+      "ai_cached_input_tokens": 840832,
+      "ai_output_tokens": 2285,
       "duration": 31.846,
       "ai_model_breakdown": [
         {
           "name": "GPT",
           "lines": 0,
-          "cost": 0.004732,
-          "input_tokens": 12908,
-          "output_tokens": 1962,
-          "cached_input_tokens": 246016
+          "cost": 0.07482,
+          "input_tokens": 16596,
+          "output_tokens": 2285,
+          "cached_input_tokens": 840832
         }
       ],
       "ai_additions": 0,
@@ -809,17 +1867,17 @@
       "human_additions": 0,
       "human_deletions": 0,
       "ai_model_costs": {
-        "GPT": 0.004732
+        "GPT": 0.07482
       },
-      "ai_sessions": 1,
-      "ai_prompt_length_sum": 52,
-      "ai_prompt_events_total": 1,
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 97,
+      "ai_prompt_events_total": 2,
       "color": null,
-      "ai_prompt_length_avg": 52,
+      "ai_prompt_length_avg": 48,
       "ai_prompt_events_avg_per_session": 1,
       "ai_prompt_events_median_per_session": 1,
-      "ai_prompt_length_avg_per_session": 52,
-      "ai_prompt_length_median_per_session": 52
+      "ai_prompt_length_avg_per_session": 48,
+      "ai_prompt_length_median_per_session": 48
     },
     {
       "time": 1792378671.452,
@@ -942,39 +2000,309 @@
     {
       "time": 1792378715.186,
       "project": "timesheet-claim",
-      "ai_input_tokens": 191839,
-      "ai_cached_input_tokens": 6923264,
-      "ai_output_tokens": 70978,
-      "duration": 1410.844,
+      "ai_input_tokens": 1464,
+      "ai_cached_input_tokens": 86016,
+      "ai_output_tokens": 1608,
+      "duration": 33.216,
       "ai_model_breakdown": [
         {
           "name": "GPT",
-          "lines": 120,
-          "cost": 0.123906,
-          "input_tokens": 191839,
-          "output_tokens": 70978,
-          "cached_input_tokens": 6923264
+          "input_tokens": 1464,
+          "output_tokens": 1608,
+          "cached_input_tokens": 86016
         }
       ],
-      "ai_additions": 86,
-      "ai_model_line_changes": {
-        "GPT": 120
-      },
-      "ai_deletions": 34,
-      "human_additions": 1,
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
       "human_deletions": 0,
       "ai_model_costs": {
-        "GPT": 0.123906
+        "GPT": 0.001811
       },
-      "ai_sessions": 2,
-      "ai_prompt_length_sum": 1465,
-      "ai_prompt_events_total": 7,
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 401,
+      "ai_prompt_events_total": 1,
       "color": null,
-      "ai_prompt_length_avg": 209,
-      "ai_prompt_events_avg_per_session": 4,
-      "ai_prompt_events_median_per_session": 4,
-      "ai_prompt_length_avg_per_session": 267,
-      "ai_prompt_length_median_per_session": 266
+      "ai_prompt_length_avg": 401,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 401,
+      "ai_prompt_length_median_per_session": 401
+    },
+    {
+      "time": 1792378748.402,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 2732,
+      "ai_cached_input_tokens": 903168,
+      "ai_output_tokens": 444,
+      "duration": 0.752,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 2732,
+          "output_tokens": 444,
+          "cached_input_tokens": 903168
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.100221
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 33,
+      "ai_prompt_events_total": 1,
+      "color": null,
+      "ai_prompt_length_avg": 33,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 33,
+      "ai_prompt_length_median_per_session": 33
+    },
+    {
+      "time": 1792378749.154,
+      "project": "timesheet-claim",
+      "ai_input_tokens": 6779,
+      "ai_cached_input_tokens": 548096,
+      "ai_output_tokens": 4107,
+      "duration": 95.693,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 6779,
+          "output_tokens": 4107,
+          "cached_input_tokens": 548096
+        }
+      ],
+      "ai_additions": 1,
+      "ai_model_line_changes": {
+        "GPT": 1
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.008212
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792378844.847,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 7452,
+      "ai_cached_input_tokens": 912896,
+      "ai_output_tokens": 1976,
+      "duration": 38.89,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 7452,
+          "output_tokens": 1976,
+          "cached_input_tokens": 912896
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.125954
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 107,
+      "ai_prompt_events_total": 1,
+      "color": null,
+      "ai_prompt_length_avg": 107,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 107,
+      "ai_prompt_length_median_per_session": 107
+    },
+    {
+      "time": 1792378883.737,
+      "project": "timesheet-claim",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 24.868,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.0,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 1,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 400,
+      "ai_prompt_events_total": 1,
+      "color": null,
+      "ai_prompt_length_avg": 400,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 400,
+      "ai_prompt_length_median_per_session": 400
+    },
+    {
+      "time": 1792378908.605,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 2766,
+      "ai_cached_input_tokens": 310016,
+      "ai_output_tokens": 553,
+      "duration": 0.622,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 2766,
+          "output_tokens": 553,
+          "cached_input_tokens": 310016
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.042064
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792378909.227,
+      "project": "timesheet-claim",
+      "ai_input_tokens": 2489,
+      "ai_cached_input_tokens": 93184,
+      "ai_output_tokens": 255,
+      "duration": 50.429,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.001308,
+          "input_tokens": 2489,
+          "output_tokens": 255,
+          "cached_input_tokens": 93184
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.001308
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792378959.656,
+      "project": "product-service-tsms",
+      "ai_input_tokens": 4944,
+      "ai_cached_input_tokens": 627072,
+      "ai_output_tokens": 3487,
+      "duration": 25.187,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.107465,
+          "input_tokens": 4944,
+          "output_tokens": 3487,
+          "cached_input_tokens": 627072
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.107465
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792378984.843,
+      "project": "timesheet-claim",
+      "ai_input_tokens": 181107,
+      "ai_cached_input_tokens": 6195968,
+      "ai_output_tokens": 65008,
+      "duration": 1141.187,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 119,
+          "cost": 0.112575,
+          "input_tokens": 181107,
+          "output_tokens": 65008,
+          "cached_input_tokens": 6195968
+        }
+      ],
+      "ai_additions": 85,
+      "ai_model_line_changes": {
+        "GPT": 119
+      },
+      "ai_deletions": 34,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.112575
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 664,
+      "ai_prompt_events_total": 5,
+      "color": null,
+      "ai_prompt_length_avg": 133,
+      "ai_prompt_events_avg_per_session": 5,
+      "ai_prompt_events_median_per_session": 5,
+      "ai_prompt_length_avg_per_session": 133,
+      "ai_prompt_length_median_per_session": 133
     },
     {
       "time": 1792381308.754,
@@ -1759,18 +3087,133 @@
     {
       "time": 1792389368.126,
       "project": "Lotte",
-      "ai_input_tokens": 267976,
-      "ai_cached_input_tokens": 8220928,
-      "ai_output_tokens": 20384,
-      "duration": 1605.046,
+      "ai_input_tokens": 9890,
+      "ai_cached_input_tokens": 93824,
+      "ai_output_tokens": 242,
+      "duration": 117.421,
       "ai_model_breakdown": [
         {
           "name": "GPT",
           "lines": 0,
-          "cost": 0.57967,
-          "input_tokens": 267976,
-          "output_tokens": 20384,
-          "cached_input_tokens": 8220928
+          "cost": 0.031582,
+          "input_tokens": 9890,
+          "output_tokens": 242,
+          "cached_input_tokens": 93824
+        },
+        {
+          "name": "Opencode-Cli",
+          "lines": 0,
+          "cost": 0.0,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.031582
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 35117,
+      "ai_prompt_events_total": 1,
+      "color": null,
+      "ai_prompt_length_avg": 35117,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 35117,
+      "ai_prompt_length_median_per_session": 35117
+    },
+    {
+      "time": 1792389485.547,
+      "project": "ria-fe-tsms",
+      "ai_input_tokens": 4760,
+      "ai_cached_input_tokens": 91392,
+      "ai_output_tokens": 1260,
+      "duration": 23.089,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 10,
+          "cost": 0.031259,
+          "input_tokens": 4760,
+          "output_tokens": 1260,
+          "cached_input_tokens": 91392
+        }
+      ],
+      "ai_additions": 4,
+      "ai_model_line_changes": {
+        "GPT": 10
+      },
+      "ai_deletions": 6,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.031259
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792389508.636,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 6346,
+      "ai_cached_input_tokens": 693504,
+      "ai_output_tokens": 1388,
+      "duration": 0.0,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 6346,
+          "output_tokens": 1388,
+          "cached_input_tokens": 693504
+        }
+      ],
+      "ai_additions": 2,
+      "ai_model_line_changes": {
+        "GPT": 2
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.095922
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792389508.636,
+      "project": "Lotte",
+      "ai_input_tokens": 258086,
+      "ai_cached_input_tokens": 8127104,
+      "ai_output_tokens": 20142,
+      "duration": 1464.536,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 1,
+          "cost": 0.548088,
+          "input_tokens": 258086,
+          "output_tokens": 20142,
+          "cached_input_tokens": 8127104
         },
         {
           "name": "Opencode-Cli",
@@ -1789,23 +3232,25 @@
           "cached_input_tokens": 0
         }
       ],
-      "ai_additions": 0,
-      "ai_model_line_changes": {},
+      "ai_additions": 1,
+      "ai_model_line_changes": {
+        "GPT": 1
+      },
       "ai_deletions": 0,
       "human_additions": 0,
       "human_deletions": 0,
       "ai_model_costs": {
-        "GPT": 0.57967
+        "GPT": 0.548088
       },
-      "ai_sessions": 3,
-      "ai_prompt_length_sum": 87507,
-      "ai_prompt_events_total": 21,
+      "ai_sessions": 4,
+      "ai_prompt_length_sum": 52390,
+      "ai_prompt_events_total": 20,
       "color": null,
-      "ai_prompt_length_avg": 4167,
-      "ai_prompt_events_avg_per_session": 7,
-      "ai_prompt_events_median_per_session": 3,
-      "ai_prompt_length_avg_per_session": 5090,
-      "ai_prompt_length_median_per_session": 3475
+      "ai_prompt_length_avg": 2620,
+      "ai_prompt_events_avg_per_session": 5,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 1194,
+      "ai_prompt_length_median_per_session": 54
     },
     {
       "time": 1792390973.172,
@@ -2144,7 +3589,7 @@
       "ai_input_tokens": 0,
       "ai_cached_input_tokens": 0,
       "ai_output_tokens": 0,
-      "duration": 761.221,
+      "duration": 481.678,
       "ai_model_breakdown": [
         {
           "name": "Vscode",
@@ -2172,12 +3617,47 @@
       "ai_prompt_length_median_per_session": 0
     },
     {
+      "time": 1792392907.531,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 67717,
+      "ai_cached_input_tokens": 592768,
+      "ai_output_tokens": 3466,
+      "duration": 279.543,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.22937,
+          "input_tokens": 67717,
+          "output_tokens": 3466,
+          "cached_input_tokens": 592768
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.22937
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 72,
+      "ai_prompt_events_total": 1,
+      "color": null,
+      "ai_prompt_length_avg": 72,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 72,
+      "ai_prompt_length_median_per_session": 72
+    },
+    {
       "time": 1792393187.074,
       "project": "Lotte",
       "ai_input_tokens": 13929,
       "ai_cached_input_tokens": 489856,
       "ai_output_tokens": 916,
-      "duration": 20.357,
+      "duration": 217.541,
       "ai_model_breakdown": [
         {
           "name": "GPT",
@@ -2215,12 +3695,189 @@
       "ai_prompt_length_median_per_session": 137
     },
     {
+      "time": 1792393404.615,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 19068,
+      "ai_cached_input_tokens": 478208,
+      "ai_output_tokens": 1061,
+      "duration": 159.135,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.096567,
+          "input_tokens": 19068,
+          "output_tokens": 1061,
+          "cached_input_tokens": 478208
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.096567
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 211,
+      "ai_prompt_events_total": 2,
+      "color": null,
+      "ai_prompt_length_avg": 106,
+      "ai_prompt_events_avg_per_session": 2,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 106,
+      "ai_prompt_length_median_per_session": 106
+    },
+    {
+      "time": 1792393563.75,
+      "project": "ria-fe-tsms",
+      "ai_input_tokens": 20281,
+      "ai_cached_input_tokens": 713472,
+      "ai_output_tokens": 4608,
+      "duration": 117.324,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 12,
+          "cost": 0.15799,
+          "input_tokens": 20281,
+          "output_tokens": 4608,
+          "cached_input_tokens": 713472
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {
+        "GPT": 12
+      },
+      "ai_deletions": 12,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.15799
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792393681.074,
+      "project": "Lotte",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 0.0,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 4,
+          "cost": 0.0,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 4,
+      "ai_model_line_changes": {
+        "GPT": 4
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792393681.074,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 7803,
+      "ai_cached_input_tokens": 476032,
+      "ai_output_tokens": 2162,
+      "duration": 47.412,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 7803,
+          "output_tokens": 2162,
+          "cached_input_tokens": 476032
+        }
+      ],
+      "ai_additions": 2,
+      "ai_model_line_changes": {
+        "GPT": 2
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.084829
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792393728.486,
+      "project": "purchase-portal-fe",
+      "ai_input_tokens": 238896,
+      "ai_cached_input_tokens": 2153216,
+      "ai_output_tokens": 7620,
+      "duration": 895.501,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.769313,
+          "input_tokens": 238896,
+          "output_tokens": 7620,
+          "cached_input_tokens": 2153216
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.769313
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 348,
+      "ai_prompt_events_total": 2,
+      "color": null,
+      "ai_prompt_length_avg": 174,
+      "ai_prompt_events_avg_per_session": 2,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 174,
+      "ai_prompt_length_median_per_session": 174
+    },
+    {
       "time": 1792394623.987,
       "project": "Lotte",
       "ai_input_tokens": 10652,
       "ai_cached_input_tokens": 436224,
       "ai_output_tokens": 756,
-      "duration": 443.409,
+      "duration": 15.846,
       "ai_model_breakdown": [
         {
           "name": "GPT",
@@ -2256,6 +3913,208 @@
       "ai_prompt_events_median_per_session": 1,
       "ai_prompt_length_avg_per_session": 78,
       "ai_prompt_length_median_per_session": 78
+    },
+    {
+      "time": 1792394639.833,
+      "project": "purchase-portal-fe",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 16.641,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792394656.474,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 2423,
+      "ai_cached_input_tokens": 211328,
+      "ai_output_tokens": 2130,
+      "duration": 45.23,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 2423,
+          "output_tokens": 2130,
+          "cached_input_tokens": 211328
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.047279
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792394701.704,
+      "project": "Lotte",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 0.0,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 2,
+      "ai_model_line_changes": {
+        "GPT": 2
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792394701.704,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 6411,
+      "ai_cached_input_tokens": 647040,
+      "ai_output_tokens": 3290,
+      "duration": 0.0,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 6411,
+          "output_tokens": 3290,
+          "cached_input_tokens": 647040
+        }
+      ],
+      "ai_additions": 2,
+      "ai_model_line_changes": {
+        "GPT": 2
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.110426
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792394701.704,
+      "project": "Lotte",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 63.894,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 2,
+          "cost": 0.0,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 2,
+      "ai_model_line_changes": {
+        "GPT": 2
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792394765.598,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 18865,
+      "ai_cached_input_tokens": 1350272,
+      "ai_output_tokens": 1989,
+      "duration": 301.798,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.192647,
+          "input_tokens": 18865,
+          "output_tokens": 1989,
+          "cached_input_tokens": 1350272
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.192647
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 382,
+      "ai_prompt_events_total": 1,
+      "color": null,
+      "ai_prompt_length_avg": 382,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 382,
+      "ai_prompt_length_median_per_session": 382
     },
     {
       "time": 1792395067.396,
@@ -2311,7 +4170,7 @@
       "ai_input_tokens": 0,
       "ai_cached_input_tokens": 0,
       "ai_output_tokens": 0,
-      "duration": 213.86,
+      "duration": 78.707,
       "ai_model_breakdown": [],
       "ai_additions": 0,
       "ai_model_line_changes": {},
@@ -2330,20 +4189,55 @@
       "ai_prompt_length_median_per_session": 0
     },
     {
-      "time": 1792395300.298,
-      "project": "Lotte",
-      "ai_input_tokens": 176457,
-      "ai_cached_input_tokens": 6547072,
-      "ai_output_tokens": 7395,
-      "duration": 1594.523,
+      "time": 1792395165.145,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 12617,
+      "ai_cached_input_tokens": 1704064,
+      "ai_output_tokens": 4507,
+      "duration": 135.153,
       "ai_model_breakdown": [
         {
           "name": "GPT",
           "lines": 0,
-          "cost": 1.081571,
-          "input_tokens": 176457,
-          "output_tokens": 7395,
-          "cached_input_tokens": 6547072
+          "cost": 0.240711,
+          "input_tokens": 12617,
+          "output_tokens": 4507,
+          "cached_input_tokens": 1704064
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.240711
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 189,
+      "ai_prompt_events_total": 1,
+      "color": null,
+      "ai_prompt_length_avg": 189,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 189,
+      "ai_prompt_length_median_per_session": 189
+    },
+    {
+      "time": 1792395300.298,
+      "project": "Lotte",
+      "ai_input_tokens": 7080,
+      "ai_cached_input_tokens": 298368,
+      "ai_output_tokens": 159,
+      "duration": 16.397,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.045587,
+          "input_tokens": 7080,
+          "output_tokens": 159,
+          "cached_input_tokens": 298368
         },
         {
           "name": "Opencode-Cli",
@@ -2360,33 +4254,44 @@
       "human_additions": 0,
       "human_deletions": 0,
       "ai_model_costs": {
-        "GPT": 1.081571
+        "GPT": 0.045587
       },
-      "ai_sessions": 2,
-      "ai_prompt_length_sum": 294,
-      "ai_prompt_events_total": 4,
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 27,
+      "ai_prompt_events_total": 1,
       "color": null,
-      "ai_prompt_length_avg": 74,
-      "ai_prompt_events_avg_per_session": 2,
-      "ai_prompt_events_median_per_session": 2,
-      "ai_prompt_length_avg_per_session": 74,
-      "ai_prompt_length_median_per_session": 73
+      "ai_prompt_length_avg": 27,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 27,
+      "ai_prompt_length_median_per_session": 27
     },
     {
-      "time": 1792396894.821,
+      "time": 1792395316.695,
       "project": "purchase-portal-be",
       "ai_input_tokens": 0,
       "ai_cached_input_tokens": 0,
       "ai_output_tokens": 0,
-      "duration": 786.334,
-      "ai_model_breakdown": [],
-      "ai_additions": 0,
-      "ai_model_line_changes": {},
+      "duration": 0.0,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 15,
+          "cost": 0.0,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 15,
+      "ai_model_line_changes": {
+        "GPT": 15
+      },
       "ai_deletions": 0,
       "human_additions": 0,
       "human_deletions": 0,
       "ai_model_costs": {},
-      "ai_sessions": 0,
+      "ai_sessions": 1,
       "ai_prompt_length_sum": 0,
       "ai_prompt_events_total": 0,
       "color": null,
@@ -2395,6 +4300,337 @@
       "ai_prompt_events_median_per_session": 0,
       "ai_prompt_length_avg_per_session": 0,
       "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792395316.695,
+      "project": "product-service-tsms",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 0.0,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792395316.695,
+      "project": "purchase-portal-be",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 4.739,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 10,
+          "cost": 0.0,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 10,
+      "ai_model_line_changes": {
+        "GPT": 10
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792395321.434,
+      "project": "Lotte",
+      "ai_input_tokens": 21362,
+      "ai_cached_input_tokens": 816384,
+      "ai_output_tokens": 505,
+      "duration": 35.297,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.129412,
+          "input_tokens": 21362,
+          "output_tokens": 505,
+          "cached_input_tokens": 816384
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.129412
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792395356.731,
+      "project": "ria-fe-tsms",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 0.0,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 3,
+          "cost": 0.0,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 3,
+      "ai_model_line_changes": {
+        "GPT": 3
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792395356.731,
+      "project": "purchase-portal-be",
+      "ai_input_tokens": 1432,
+      "ai_cached_input_tokens": 255616,
+      "ai_output_tokens": 2027,
+      "duration": 1.136,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 1432,
+          "output_tokens": 2027,
+          "cached_input_tokens": 255616
+        }
+      ],
+      "ai_additions": 2,
+      "ai_model_line_changes": {
+        "GPT": 2
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.048696
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792395357.867,
+      "project": "Lotte",
+      "ai_input_tokens": 8058,
+      "ai_cached_input_tokens": 313344,
+      "ai_output_tokens": 311,
+      "duration": 76.657,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.05056,
+          "input_tokens": 8058,
+          "output_tokens": 311,
+          "cached_input_tokens": 313344
+        },
+        {
+          "name": "Opencode-Cli",
+          "lines": 0,
+          "cost": 0.0,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.05056
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 102,
+      "ai_prompt_events_total": 1,
+      "color": null,
+      "ai_prompt_length_avg": 102,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 102,
+      "ai_prompt_length_median_per_session": 102
+    },
+    {
+      "time": 1792395434.524,
+      "project": "purchase-portal-be",
+      "ai_input_tokens": 23154,
+      "ai_cached_input_tokens": 3419520,
+      "ai_output_tokens": 11475,
+      "duration": 565.833,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 38,
+          "cost": 0.50301,
+          "input_tokens": 23154,
+          "output_tokens": 11475,
+          "cached_input_tokens": 3419520
+        }
+      ],
+      "ai_additions": 38,
+      "ai_model_line_changes": {
+        "GPT": 38
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.50301
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 75,
+      "ai_prompt_events_total": 2,
+      "color": null,
+      "ai_prompt_length_avg": 38,
+      "ai_prompt_events_avg_per_session": 2,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 38,
+      "ai_prompt_length_median_per_session": 38
+    },
+    {
+      "time": 1792396000.357,
+      "project": "Lotte",
+      "ai_input_tokens": 139957,
+      "ai_cached_input_tokens": 5118976,
+      "ai_output_tokens": 6420,
+      "duration": 555.481,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.856012,
+          "input_tokens": 139957,
+          "output_tokens": 6420,
+          "cached_input_tokens": 5118976
+        },
+        {
+          "name": "Opencode-Cli",
+          "lines": 0,
+          "cost": 0.0,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.856012
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 165,
+      "ai_prompt_events_total": 2,
+      "color": null,
+      "ai_prompt_length_avg": 82,
+      "ai_prompt_events_avg_per_session": 2,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 82,
+      "ai_prompt_length_median_per_session": 82
+    },
+    {
+      "time": 1792396555.838,
+      "project": "purchase-portal-be",
+      "ai_input_tokens": 53798,
+      "ai_cached_input_tokens": 7421312,
+      "ai_output_tokens": 17036,
+      "duration": 1125.317,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 5,
+          "cost": 1.020088,
+          "input_tokens": 53798,
+          "output_tokens": 17036,
+          "cached_input_tokens": 7421312
+        }
+      ],
+      "ai_additions": 2,
+      "ai_model_line_changes": {
+        "GPT": 5
+      },
+      "ai_deletions": 3,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 1.020088
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 186,
+      "ai_prompt_events_total": 3,
+      "color": null,
+      "ai_prompt_length_avg": 62,
+      "ai_prompt_events_avg_per_session": 3,
+      "ai_prompt_events_median_per_session": 3,
+      "ai_prompt_length_avg_per_session": 62,
+      "ai_prompt_length_median_per_session": 62
     },
     {
       "time": 1792397681.155,
@@ -2570,7 +4806,7 @@
       "ai_input_tokens": 0,
       "ai_cached_input_tokens": 0,
       "ai_output_tokens": 0,
-      "duration": 142.916,
+      "duration": 37.652,
       "ai_model_breakdown": [],
       "ai_additions": 0,
       "ai_model_line_changes": {},
@@ -2589,18 +4825,143 @@
       "ai_prompt_length_median_per_session": 0
     },
     {
+      "time": 1792399496.137,
+      "project": "purchase-portal-be",
+      "ai_input_tokens": 522,
+      "ai_cached_input_tokens": 347008,
+      "ai_output_tokens": 187,
+      "duration": 40.445,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 522,
+          "output_tokens": 187,
+          "cached_input_tokens": 347008
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.037615
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 67,
+      "ai_prompt_events_total": 1,
+      "color": null,
+      "ai_prompt_length_avg": 67,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 67,
+      "ai_prompt_length_median_per_session": 67
+    },
+    {
+      "time": 1792399536.582,
+      "project": "ria-fe-tsms",
+      "ai_input_tokens": 3826,
+      "ai_cached_input_tokens": 1046272,
+      "ai_output_tokens": 1779,
+      "duration": 64.819,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 3826,
+          "output_tokens": 1779,
+          "cached_input_tokens": 1046272
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {
+        "GPT": 1
+      },
+      "ai_deletions": 1,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.130069
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
       "time": 1792399601.401,
       "project": "gems-service-tsms",
       "ai_input_tokens": 0,
       "ai_cached_input_tokens": 0,
       "ai_output_tokens": 0,
-      "duration": 68.343,
+      "duration": 44.315,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 1,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792399645.716,
+      "project": "ria-fe-tsms",
+      "ai_input_tokens": 4979,
+      "ai_cached_input_tokens": 701824,
+      "ai_output_tokens": 791,
+      "duration": 2.096,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 4979,
+          "output_tokens": 791,
+          "cached_input_tokens": 701824
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.08805
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 109,
+      "ai_prompt_events_total": 1,
+      "color": null,
+      "ai_prompt_length_avg": 109,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 109,
+      "ai_prompt_length_median_per_session": 109
+    },
+    {
+      "time": 1792399647.812,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 21.932,
       "ai_model_breakdown": [],
       "ai_additions": 0,
       "ai_model_line_changes": {},
       "ai_deletions": 0,
       "human_additions": 1,
-      "human_deletions": 1,
+      "human_deletions": 0,
       "ai_model_costs": {},
       "ai_sessions": 0,
       "ai_prompt_length_sum": 0,
@@ -2618,12 +4979,12 @@
       "ai_input_tokens": 0,
       "ai_cached_input_tokens": 0,
       "ai_output_tokens": 0,
-      "duration": 351.158,
+      "duration": 33.198,
       "ai_model_breakdown": [],
       "ai_additions": 0,
       "ai_model_line_changes": {},
       "ai_deletions": 0,
-      "human_additions": 1,
+      "human_additions": 0,
       "human_deletions": 2,
       "ai_model_costs": {},
       "ai_sessions": 0,
@@ -2637,17 +4998,168 @@
       "ai_prompt_length_median_per_session": 0
     },
     {
-      "time": 1792400020.902,
-      "project": "product-service-tsms",
+      "time": 1792399702.942,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 5402,
+      "ai_cached_input_tokens": 1429120,
+      "ai_output_tokens": 2515,
+      "duration": 23.58,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 5,
+          "cost": 0.178866,
+          "input_tokens": 5402,
+          "output_tokens": 2515,
+          "cached_input_tokens": 1429120
+        }
+      ],
+      "ai_additions": 1,
+      "ai_model_line_changes": {
+        "GPT": 5
+      },
+      "ai_deletions": 4,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.178866
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792399726.522,
+      "project": "ria-fe-tsms",
       "ai_input_tokens": 0,
       "ai_cached_input_tokens": 0,
       "ai_output_tokens": 0,
-      "duration": 136.325,
+      "duration": 259.598,
       "ai_model_breakdown": [],
       "ai_additions": 0,
       "ai_model_line_changes": {},
       "ai_deletions": 0,
       "human_additions": 1,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792399986.12,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 2593,
+      "ai_cached_input_tokens": 1081344,
+      "ai_output_tokens": 2003,
+      "duration": 34.782,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 2593,
+          "output_tokens": 2003,
+          "cached_input_tokens": 1081344
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.13335
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 465,
+      "ai_prompt_events_total": 1,
+      "color": null,
+      "ai_prompt_length_avg": 465,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 465,
+      "ai_prompt_length_median_per_session": 465
+    },
+    {
+      "time": 1792400020.902,
+      "project": "product-service-tsms",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 54.533,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 1,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792400075.435,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 4197,
+      "ai_cached_input_tokens": 1091328,
+      "ai_output_tokens": 1660,
+      "duration": 22.028,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 4197,
+          "output_tokens": 1660,
+          "cached_input_tokens": 1091328
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.134127
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 52,
+      "ai_prompt_events_total": 1,
+      "color": null,
+      "ai_prompt_length_avg": 52,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 52,
+      "ai_prompt_length_median_per_session": 52
+    },
+    {
+      "time": 1792400097.463,
+      "project": "product-service-tsms",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 59.764,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
       "human_deletions": 2,
       "ai_model_costs": {},
       "ai_sessions": 0,
@@ -2666,13 +5178,13 @@
       "ai_input_tokens": 0,
       "ai_cached_input_tokens": 0,
       "ai_output_tokens": 0,
-      "duration": 189.669,
+      "duration": 88.691,
       "ai_model_breakdown": [],
       "ai_additions": 0,
       "ai_model_line_changes": {},
       "ai_deletions": 0,
       "human_additions": 1,
-      "human_deletions": 4,
+      "human_deletions": 0,
       "ai_model_costs": {},
       "ai_sessions": 0,
       "ai_prompt_length_sum": 0,
@@ -2685,20 +5197,18 @@
       "ai_prompt_length_median_per_session": 0
     },
     {
-      "time": 1792400346.896,
+      "time": 1792400245.918,
       "project": "gems-service-tsms",
-      "ai_input_tokens": 6078571,
-      "ai_cached_input_tokens": 146038144,
-      "ai_output_tokens": 873245,
-      "duration": 14.212,
+      "ai_input_tokens": 34029,
+      "ai_cached_input_tokens": 168960,
+      "ai_output_tokens": 700,
+      "duration": 36.737,
       "ai_model_breakdown": [
         {
           "name": "GPT",
-          "lines": 0,
-          "cost": 2.504861,
-          "input_tokens": 6078571,
-          "output_tokens": 873245,
-          "cached_input_tokens": 146038144
+          "input_tokens": 34029,
+          "output_tokens": 700,
+          "cached_input_tokens": 168960
         }
       ],
       "ai_additions": 0,
@@ -2707,9 +5217,112 @@
       "human_additions": 0,
       "human_deletions": 0,
       "ai_model_costs": {
-        "GPT": 2.504861
+        "GPT": 0.091954
       },
       "ai_sessions": 1,
+      "ai_prompt_length_sum": 103,
+      "ai_prompt_events_total": 1,
+      "color": null,
+      "ai_prompt_length_avg": 103,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 103,
+      "ai_prompt_length_median_per_session": 103
+    },
+    {
+      "time": 1792400282.655,
+      "project": "ria-fe-tsms",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 10.587,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 2,
+          "cost": 0.0,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {
+        "GPT": 2
+      },
+      "ai_deletions": 2,
+      "human_additions": 0,
+      "human_deletions": 4,
+      "ai_model_costs": {},
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792400293.242,
+      "project": "Lotte",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 0.0,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792400293.242,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 6083022,
+      "ai_cached_input_tokens": 146269568,
+      "ai_output_tokens": 874582,
+      "duration": 67.866,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 2,
+          "cost": 2.550275,
+          "input_tokens": 6083022,
+          "output_tokens": 874582,
+          "cached_input_tokens": 146269568
+        }
+      ],
+      "ai_additions": 2,
+      "ai_model_line_changes": {
+        "GPT": 2
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 2.550275
+      },
+      "ai_sessions": 2,
       "ai_prompt_length_sum": 0,
       "ai_prompt_events_total": 0,
       "color": null,
@@ -2803,18 +5416,18 @@
     {
       "time": 1792400381.366,
       "project": "gems-service-tsms",
-      "ai_input_tokens": 6270052,
-      "ai_cached_input_tokens": 146954880,
-      "ai_output_tokens": 882623,
+      "ai_input_tokens": 6271495,
+      "ai_cached_input_tokens": 147074688,
+      "ai_output_tokens": 882901,
       "duration": 342.539,
       "ai_model_breakdown": [
         {
           "name": "GPT",
           "lines": 0,
-          "cost": 2.793958,
-          "input_tokens": 6270052,
-          "output_tokens": 882623,
-          "cached_input_tokens": 146954880
+          "cost": 2.811605,
+          "input_tokens": 6271495,
+          "output_tokens": 882901,
+          "cached_input_tokens": 147074688
         }
       ],
       "ai_additions": 0,
@@ -2823,17 +5436,17 @@
       "human_additions": 0,
       "human_deletions": 0,
       "ai_model_costs": {
-        "GPT": 2.793958
+        "GPT": 2.811605
       },
-      "ai_sessions": 2,
-      "ai_prompt_length_sum": 3726,
-      "ai_prompt_events_total": 2,
+      "ai_sessions": 3,
+      "ai_prompt_length_sum": 4088,
+      "ai_prompt_events_total": 4,
       "color": null,
-      "ai_prompt_length_avg": 1863,
+      "ai_prompt_length_avg": 1022,
       "ai_prompt_events_avg_per_session": 1,
       "ai_prompt_events_median_per_session": 1,
-      "ai_prompt_length_avg_per_session": 1863,
-      "ai_prompt_length_median_per_session": 1863
+      "ai_prompt_length_avg_per_session": 1302,
+      "ai_prompt_length_median_per_session": 181
     },
     {
       "time": 1792400723.905,
@@ -2862,16 +5475,53 @@
     {
       "time": 1792400731.338,
       "project": "gems-service-tsms",
-      "ai_input_tokens": 4627,
-      "ai_cached_input_tokens": 114944,
-      "ai_output_tokens": 1178,
-      "duration": 30.242,
+      "ai_input_tokens": 10171,
+      "ai_cached_input_tokens": 370304,
+      "ai_output_tokens": 2368,
+      "duration": 14.452,
       "ai_model_breakdown": [
         {
           "name": "GPT",
-          "input_tokens": 4627,
-          "output_tokens": 1178,
-          "cached_input_tokens": 114944
+          "lines": 2,
+          "cost": 0.081052,
+          "input_tokens": 10171,
+          "output_tokens": 2368,
+          "cached_input_tokens": 370304
+        }
+      ],
+      "ai_additions": 2,
+      "ai_model_line_changes": {
+        "GPT": 2
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.081052
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792400745.79,
+      "project": "Lotte",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 15.79,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
         }
       ],
       "ai_additions": 0,
@@ -2879,9 +5529,7 @@
       "ai_deletions": 0,
       "human_additions": 0,
       "human_deletions": 0,
-      "ai_model_costs": {
-        "GPT": 0.032528
-      },
+      "ai_model_costs": {},
       "ai_sessions": 1,
       "ai_prompt_length_sum": 0,
       "ai_prompt_events_total": 0,
@@ -3153,15 +5801,70 @@
     {
       "time": 1792400910.244,
       "project": "product-service-tsms",
-      "ai_input_tokens": 690,
-      "ai_cached_input_tokens": 150528,
-      "ai_output_tokens": 1076,
-      "duration": 25.719,
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 9.824,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 1,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792400920.068,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 4155,
+      "ai_cached_input_tokens": 199424,
+      "ai_output_tokens": 475,
+      "duration": 15.895,
       "ai_model_breakdown": [
         {
           "name": "GPT",
-          "lines": 2,
-          "cost": 0.027193,
+          "input_tokens": 4155,
+          "output_tokens": 475,
+          "cached_input_tokens": 199424
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.033002
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 448,
+      "ai_prompt_events_total": 1,
+      "color": null,
+      "ai_prompt_length_avg": 448,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 448,
+      "ai_prompt_length_median_per_session": 448
+    },
+    {
+      "time": 1792400935.963,
+      "project": "product-service-tsms",
+      "ai_input_tokens": 690,
+      "ai_cached_input_tokens": 150528,
+      "ai_output_tokens": 1076,
+      "duration": 0.0,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
           "input_tokens": 690,
           "output_tokens": 1076,
           "cached_input_tokens": 150528
@@ -3172,7 +5875,7 @@
         "GPT": 2
       },
       "ai_deletions": 0,
-      "human_additions": 1,
+      "human_additions": 0,
       "human_deletions": 0,
       "ai_model_costs": {
         "GPT": 0.027193
@@ -3190,23 +5893,93 @@
     {
       "time": 1792400935.963,
       "project": "purchase-portal-be",
-      "ai_input_tokens": 14932,
-      "ai_cached_input_tokens": 774400,
-      "ai_output_tokens": 4662,
-      "duration": 111.755,
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 16.709,
       "ai_model_breakdown": [
         {
           "name": "GPT",
-          "lines": 51,
+          "lines": 18,
+          "cost": 0.0,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 18,
+      "ai_model_line_changes": {
+        "GPT": 18
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792400952.672,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 8470,
+      "ai_cached_input_tokens": 297856,
+      "ai_output_tokens": 1243,
+      "duration": 7.499,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 8470,
+          "output_tokens": 1243,
+          "cached_input_tokens": 297856
+        }
+      ],
+      "ai_additions": 2,
+      "ai_model_line_changes": {
+        "GPT": 2
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.059156
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792400960.171,
+      "project": "purchase-portal-be",
+      "ai_input_tokens": 14932,
+      "ai_cached_input_tokens": 774400,
+      "ai_output_tokens": 4662,
+      "duration": 87.547,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 33,
           "cost": 0.153924,
           "input_tokens": 14932,
           "output_tokens": 4662,
           "cached_input_tokens": 774400
         }
       ],
-      "ai_additions": 51,
+      "ai_additions": 33,
       "ai_model_line_changes": {
-        "GPT": 51
+        "GPT": 33
       },
       "ai_deletions": 0,
       "human_additions": 0,
@@ -3534,7 +6307,7 @@
       "ai_input_tokens": 0,
       "ai_cached_input_tokens": 0,
       "ai_output_tokens": 0,
-      "duration": 21.916,
+      "duration": 14.205,
       "ai_model_breakdown": [
         {
           "name": "GPT",
@@ -3564,20 +6337,119 @@
       "ai_prompt_length_median_per_session": 0
     },
     {
+      "time": 1792401429.66,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 14506,
+      "ai_cached_input_tokens": 485504,
+      "ai_output_tokens": 1597,
+      "duration": 7.711,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 14506,
+          "output_tokens": 1597,
+          "cached_input_tokens": 485504
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.093532
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 137,
+      "ai_prompt_events_total": 1,
+      "color": null,
+      "ai_prompt_length_avg": 137,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 137,
+      "ai_prompt_length_median_per_session": 137
+    },
+    {
       "time": 1792401437.371,
       "project": "purchase-portal-fe",
-      "ai_input_tokens": 45117,
-      "ai_cached_input_tokens": 916992,
-      "ai_output_tokens": 12505,
-      "duration": 73.497,
+      "ai_input_tokens": 36121,
+      "ai_cached_input_tokens": 409728,
+      "ai_output_tokens": 9082,
+      "duration": 56.015,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 36121,
+          "output_tokens": 9082,
+          "cached_input_tokens": 409728
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.01225
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792401493.386,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 9769,
+      "ai_cached_input_tokens": 284160,
+      "ai_output_tokens": 1545,
+      "duration": 16.402,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 9769,
+          "output_tokens": 1545,
+          "cached_input_tokens": 284160
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.063404
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792401509.788,
+      "project": "purchase-portal-fe",
+      "ai_input_tokens": 8996,
+      "ai_cached_input_tokens": 507264,
+      "ai_output_tokens": 3423,
+      "duration": 1.08,
       "ai_model_breakdown": [
         {
           "name": "GPT",
           "lines": 30,
-          "cost": 0.019934,
-          "input_tokens": 45117,
-          "output_tokens": 12505,
-          "cached_input_tokens": 916992
+          "cost": 0.007684,
+          "input_tokens": 8996,
+          "output_tokens": 3423,
+          "cached_input_tokens": 507264
         }
       ],
       "ai_additions": 30,
@@ -3588,7 +6460,7 @@
       "human_additions": 0,
       "human_deletions": 0,
       "ai_model_costs": {
-        "GPT": 0.019934
+        "GPT": 0.007684
       },
       "ai_sessions": 1,
       "ai_prompt_length_sum": 0,
@@ -3674,7 +6546,7 @@
       "ai_input_tokens": 2329,
       "ai_cached_input_tokens": 412928,
       "ai_output_tokens": 2458,
-      "duration": 55.908,
+      "duration": 9.993,
       "ai_model_breakdown": [
         {
           "name": "GPT",
@@ -3691,6 +6563,107 @@
       "ai_model_costs": {
         "GPT": 0.070531
       },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792401584.353,
+      "project": "Lotte",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 0.0,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 2,
+      "ai_model_line_changes": {
+        "GPT": 2
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792401584.353,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 6645,
+      "ai_cached_input_tokens": 432000,
+      "ai_output_tokens": 2369,
+      "duration": 0.0,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 6645,
+          "output_tokens": 2369,
+          "cached_input_tokens": 432000
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.08018
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792401584.353,
+      "project": "Lotte",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 45.915,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 4,
+          "cost": 0.0,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 4,
+      "ai_model_line_changes": {
+        "GPT": 4
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
       "ai_sessions": 1,
       "ai_prompt_length_sum": 0,
       "ai_prompt_events_total": 0,
@@ -3764,7 +6737,7 @@
       "ai_input_tokens": 0,
       "ai_cached_input_tokens": 0,
       "ai_output_tokens": 0,
-      "duration": 0.0,
+      "duration": 93.646,
       "ai_model_breakdown": [
         {
           "name": "GPT",
@@ -3788,6 +6761,41 @@
       "ai_prompt_events_median_per_session": 0,
       "ai_prompt_length_avg_per_session": 0,
       "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792401756.468,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 274929,
+      "ai_cached_input_tokens": 5511808,
+      "ai_output_tokens": 12540,
+      "duration": 1102.346,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 1.226439,
+          "input_tokens": 274929,
+          "output_tokens": 12540,
+          "cached_input_tokens": 5511808
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 1.226439
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 968,
+      "ai_prompt_events_total": 6,
+      "color": null,
+      "ai_prompt_length_avg": 161,
+      "ai_prompt_events_avg_per_session": 6,
+      "ai_prompt_events_median_per_session": 6,
+      "ai_prompt_length_avg_per_session": 161,
+      "ai_prompt_length_median_per_session": 161
     },
     {
       "time": 1792402858.814,
@@ -3960,29 +6968,25 @@
     {
       "time": 1792403435.186,
       "project": "system-service-tsms-v2",
-      "ai_input_tokens": 28128,
-      "ai_cached_input_tokens": 1047168,
-      "ai_output_tokens": 4473,
-      "duration": 135.159,
+      "ai_input_tokens": 13883,
+      "ai_cached_input_tokens": 595328,
+      "ai_output_tokens": 2155,
+      "duration": 43.434,
       "ai_model_breakdown": [
         {
           "name": "GPT",
-          "lines": 17,
-          "cost": 0.205703,
-          "input_tokens": 28128,
-          "output_tokens": 4473,
-          "cached_input_tokens": 1047168
+          "input_tokens": 13883,
+          "output_tokens": 2155,
+          "cached_input_tokens": 595328
         }
       ],
-      "ai_additions": 17,
-      "ai_model_line_changes": {
-        "GPT": 17
-      },
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
       "ai_deletions": 0,
       "human_additions": 0,
       "human_deletions": 0,
       "ai_model_costs": {
-        "GPT": 0.205703
+        "GPT": 0.108849
       },
       "ai_sessions": 1,
       "ai_prompt_length_sum": 39,
@@ -3993,6 +6997,76 @@
       "ai_prompt_events_median_per_session": 1,
       "ai_prompt_length_avg_per_session": 39,
       "ai_prompt_length_median_per_session": 39
+    },
+    {
+      "time": 1792403478.62,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 1124,
+      "ai_cached_input_tokens": 317312,
+      "ai_output_tokens": 449,
+      "duration": 22.737,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 1124,
+          "output_tokens": 449,
+          "cached_input_tokens": 317312
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.038469
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 30,
+      "ai_prompt_events_total": 1,
+      "color": null,
+      "ai_prompt_length_avg": 30,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 30,
+      "ai_prompt_length_median_per_session": 30
+    },
+    {
+      "time": 1792403501.357,
+      "project": "system-service-tsms-v2",
+      "ai_input_tokens": 14245,
+      "ai_cached_input_tokens": 451840,
+      "ai_output_tokens": 2318,
+      "duration": 68.988,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 17,
+          "cost": 0.096854,
+          "input_tokens": 14245,
+          "output_tokens": 2318,
+          "cached_input_tokens": 451840
+        }
+      ],
+      "ai_additions": 17,
+      "ai_model_line_changes": {
+        "GPT": 17
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.096854
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
     },
     {
       "time": 1792403570.345,
@@ -4024,7 +7098,7 @@
       "ai_input_tokens": 6593,
       "ai_cached_input_tokens": 622720,
       "ai_output_tokens": 2410,
-      "duration": 39.423,
+      "duration": 16.526,
       "ai_model_breakdown": [
         {
           "name": "GPT",
@@ -4054,20 +7128,20 @@
       "ai_prompt_length_median_per_session": 0
     },
     {
-      "time": 1792403611.807,
+      "time": 1792403588.91,
       "project": "gems-service-tsms",
-      "ai_input_tokens": 43781,
-      "ai_cached_input_tokens": 3127040,
-      "ai_output_tokens": 10426,
-      "duration": 1104.066,
+      "ai_input_tokens": 209473,
+      "ai_cached_input_tokens": 4805632,
+      "ai_output_tokens": 12992,
+      "duration": 1126.963,
       "ai_model_breakdown": [
         {
           "name": "GPT",
           "lines": 4,
-          "cost": 0.504526,
-          "input_tokens": 43781,
-          "output_tokens": 10426,
-          "cached_input_tokens": 3127040
+          "cost": 1.029429,
+          "input_tokens": 209473,
+          "output_tokens": 12992,
+          "cached_input_tokens": 4805632
         }
       ],
       "ai_additions": 4,
@@ -4078,17 +7152,17 @@
       "human_additions": 0,
       "human_deletions": 0,
       "ai_model_costs": {
-        "GPT": 0.504526
+        "GPT": 1.029429
       },
-      "ai_sessions": 1,
-      "ai_prompt_length_sum": 443,
-      "ai_prompt_events_total": 2,
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 1287,
+      "ai_prompt_events_total": 6,
       "color": null,
-      "ai_prompt_length_avg": 222,
-      "ai_prompt_events_avg_per_session": 2,
-      "ai_prompt_events_median_per_session": 2,
-      "ai_prompt_length_avg_per_session": 222,
-      "ai_prompt_length_median_per_session": 222
+      "ai_prompt_length_avg": 214,
+      "ai_prompt_events_avg_per_session": 3,
+      "ai_prompt_events_median_per_session": 3,
+      "ai_prompt_length_avg_per_session": 216,
+      "ai_prompt_length_median_per_session": 216
     },
     {
       "time": 1792404715.873,
@@ -4117,35 +7191,37 @@
     {
       "time": 1792404751.02,
       "project": "gems-service-tsms",
-      "ai_input_tokens": 614,
-      "ai_cached_input_tokens": 168320,
-      "ai_output_tokens": 301,
+      "ai_input_tokens": 16318,
+      "ai_cached_input_tokens": 928000,
+      "ai_output_tokens": 7875,
       "duration": 23.463,
       "ai_model_breakdown": [
         {
           "name": "GPT",
-          "lines": 0,
-          "cost": 0.02107,
-          "input_tokens": 614,
-          "output_tokens": 301,
-          "cached_input_tokens": 168320
+          "lines": 219,
+          "cost": 0.204186,
+          "input_tokens": 16318,
+          "output_tokens": 7875,
+          "cached_input_tokens": 928000
         }
       ],
-      "ai_additions": 0,
-      "ai_model_line_changes": {},
+      "ai_additions": 219,
+      "ai_model_line_changes": {
+        "GPT": 219
+      },
       "ai_deletions": 0,
       "human_additions": 0,
       "human_deletions": 0,
       "ai_model_costs": {
-        "GPT": 0.02107
+        "GPT": 0.204186
       },
-      "ai_sessions": 1,
+      "ai_sessions": 2,
       "ai_prompt_length_sum": 46,
       "ai_prompt_events_total": 1,
       "color": null,
       "ai_prompt_length_avg": 46,
-      "ai_prompt_events_avg_per_session": 1,
-      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
       "ai_prompt_length_avg_per_session": 46,
       "ai_prompt_length_median_per_session": 46
     },
@@ -4231,31 +7307,160 @@
     {
       "time": 1792404804.106,
       "project": "system-service-tsms-v2",
-      "ai_input_tokens": 18130,
-      "ai_cached_input_tokens": 2484480,
-      "ai_output_tokens": 7267,
-      "duration": 165.509,
+      "ai_input_tokens": 8280,
+      "ai_cached_input_tokens": 859648,
+      "ai_output_tokens": 4037,
+      "duration": 13.66,
       "ai_model_breakdown": [
         {
           "name": "GPT",
-          "lines": 16,
-          "cost": 0.357378,
-          "input_tokens": 18130,
-          "output_tokens": 7267,
-          "cached_input_tokens": 2484480
+          "input_tokens": 8280,
+          "output_tokens": 4037,
+          "cached_input_tokens": 859648
         }
       ],
-      "ai_additions": 16,
+      "ai_additions": 7,
       "ai_model_line_changes": {
-        "GPT": 16
+        "GPT": 7
       },
       "ai_deletions": 0,
       "human_additions": 0,
       "human_deletions": 0,
       "ai_model_costs": {
-        "GPT": 0.357378
+        "GPT": 0.142895
       },
       "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792404817.766,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 12411,
+      "ai_cached_input_tokens": 1027072,
+      "ai_output_tokens": 3696,
+      "duration": 58.515,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 65,
+          "cost": 0.16449,
+          "input_tokens": 12411,
+          "output_tokens": 3696,
+          "cached_input_tokens": 1027072
+        }
+      ],
+      "ai_additions": 65,
+      "ai_model_line_changes": {
+        "GPT": 65
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.16449
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792404876.281,
+      "project": "system-service-tsms-v2",
+      "ai_input_tokens": 9850,
+      "ai_cached_input_tokens": 1624832,
+      "ai_output_tokens": 3230,
+      "duration": 49.044,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 9,
+          "cost": 0.214483,
+          "input_tokens": 9850,
+          "output_tokens": 3230,
+          "cached_input_tokens": 1624832
+        }
+      ],
+      "ai_additions": 9,
+      "ai_model_line_changes": {
+        "GPT": 9
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.214483
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792404925.325,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 4969,
+      "ai_cached_input_tokens": 1278464,
+      "ai_output_tokens": 2252,
+      "duration": 39.414,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 4969,
+          "output_tokens": 2252,
+          "cached_input_tokens": 1278464
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.160304
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792404964.739,
+      "project": "system-service-tsms-v2",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 4.876,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
       "ai_prompt_length_sum": 0,
       "ai_prompt_events_total": 0,
       "color": null,
@@ -4306,7 +7511,7 @@
       "ai_input_tokens": 0,
       "ai_cached_input_tokens": 0,
       "ai_output_tokens": 0,
-      "duration": 3.412,
+      "duration": 2.739,
       "ai_model_breakdown": [],
       "ai_additions": 0,
       "ai_model_line_changes": {},
@@ -4325,18 +7530,20 @@
       "ai_prompt_length_median_per_session": 0
     },
     {
-      "time": 1792405002.443,
+      "time": 1792405001.77,
       "project": "gems-service-tsms",
-      "ai_input_tokens": 1903,
-      "ai_cached_input_tokens": 375808,
-      "ai_output_tokens": 275,
-      "duration": 25.336,
+      "ai_input_tokens": 3119,
+      "ai_cached_input_tokens": 591616,
+      "ai_output_tokens": 858,
+      "duration": 14.515,
       "ai_model_breakdown": [
         {
           "name": "GPT",
-          "input_tokens": 1903,
-          "output_tokens": 275,
-          "cached_input_tokens": 375808
+          "lines": 0,
+          "cost": 0.07398,
+          "input_tokens": 3119,
+          "output_tokens": 858,
+          "cached_input_tokens": 591616
         }
       ],
       "ai_additions": 0,
@@ -4345,8 +7552,109 @@
       "human_additions": 0,
       "human_deletions": 0,
       "ai_model_costs": {
-        "GPT": 0.044137
+        "GPT": 0.07398
       },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792405016.285,
+      "project": "Lotte",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 0.0,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 1,
+      "ai_model_line_changes": {
+        "GPT": 1
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792405016.285,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 1764,
+      "ai_cached_input_tokens": 434560,
+      "ai_output_tokens": 1080,
+      "duration": 0.0,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 1764,
+          "output_tokens": 1080,
+          "cached_input_tokens": 434560
+        }
+      ],
+      "ai_additions": 6,
+      "ai_model_line_changes": {
+        "GPT": 6
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.057784
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792405016.285,
+      "project": "Lotte",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 11.494,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 1,
+      "ai_model_line_changes": {
+        "GPT": 1
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
       "ai_sessions": 1,
       "ai_prompt_length_sum": 0,
       "ai_prompt_events_total": 0,
@@ -4481,7 +7789,7 @@
       "ai_input_tokens": 0,
       "ai_cached_input_tokens": 0,
       "ai_output_tokens": 0,
-      "duration": 539.01,
+      "duration": 3.024,
       "ai_model_breakdown": [],
       "ai_additions": 0,
       "ai_model_line_changes": {},
@@ -4500,76 +7808,236 @@
       "ai_prompt_length_median_per_session": 0
     },
     {
-      "time": 1792405577.791,
+      "time": 1792405041.805,
       "project": "gems-service-tsms",
-      "ai_input_tokens": 27641,
-      "ai_cached_input_tokens": 3473792,
-      "ai_output_tokens": 5553,
-      "duration": 289.211,
+      "ai_input_tokens": 3351,
+      "ai_cached_input_tokens": 880000,
+      "ai_output_tokens": 1512,
+      "duration": 7.069,
       "ai_model_breakdown": [
         {
           "name": "GPT",
-          "lines": 0,
-          "cost": 0.458189,
-          "input_tokens": 27641,
-          "output_tokens": 5553,
-          "cached_input_tokens": 3473792
+          "input_tokens": 3351,
+          "output_tokens": 1512,
+          "cached_input_tokens": 880000
         }
       ],
+      "ai_additions": 2,
+      "ai_model_line_changes": {
+        "GPT": 2
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.109822
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 60,
+      "ai_prompt_events_total": 1,
+      "color": null,
+      "ai_prompt_length_avg": 60,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 60,
+      "ai_prompt_length_median_per_session": 60
+    },
+    {
+      "time": 1792405048.874,
+      "project": "product-service-tsms",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 177.65,
+      "ai_model_breakdown": [],
       "ai_additions": 0,
       "ai_model_line_changes": {},
       "ai_deletions": 0,
       "human_additions": 0,
       "human_deletions": 0,
-      "ai_model_costs": {
-        "GPT": 0.458189
-      },
-      "ai_sessions": 1,
-      "ai_prompt_length_sum": 243,
-      "ai_prompt_events_total": 2,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
       "color": null,
-      "ai_prompt_length_avg": 122,
-      "ai_prompt_events_avg_per_session": 2,
-      "ai_prompt_events_median_per_session": 2,
-      "ai_prompt_length_avg_per_session": 122,
-      "ai_prompt_length_median_per_session": 122
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
     },
     {
-      "time": 1792407393.45,
+      "time": 1792405226.524,
       "project": "gems-service-tsms",
-      "ai_input_tokens": 73224,
-      "ai_cached_input_tokens": 8975232,
-      "ai_output_tokens": 18053,
-      "duration": 832.21,
+      "ai_input_tokens": 146684,
+      "ai_cached_input_tokens": 7139200,
+      "ai_output_tokens": 19635,
+      "duration": 1165.53,
       "ai_model_breakdown": [
         {
           "name": "GPT",
-          "lines": 6,
-          "cost": 1.224503,
-          "input_tokens": 73224,
-          "output_tokens": 18053,
-          "cached_input_tokens": 8975232
+          "lines": 70,
+          "cost": 1.203636,
+          "input_tokens": 146684,
+          "output_tokens": 19635,
+          "cached_input_tokens": 7139200
         }
       ],
-      "ai_additions": 6,
+      "ai_additions": 70,
       "ai_model_line_changes": {
-        "GPT": 6
+        "GPT": 70
       },
       "ai_deletions": 0,
       "human_additions": 0,
       "human_deletions": 0,
       "ai_model_costs": {
-        "GPT": 1.224503
+        "GPT": 1.203636
       },
-      "ai_sessions": 1,
-      "ai_prompt_length_sum": 325,
-      "ai_prompt_events_total": 4,
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 730,
+      "ai_prompt_events_total": 6,
       "color": null,
-      "ai_prompt_length_avg": 81,
-      "ai_prompt_events_avg_per_session": 4,
-      "ai_prompt_events_median_per_session": 4,
-      "ai_prompt_length_avg_per_session": 81,
-      "ai_prompt_length_median_per_session": 81
+      "ai_prompt_length_avg": 122,
+      "ai_prompt_events_avg_per_session": 3,
+      "ai_prompt_events_median_per_session": 3,
+      "ai_prompt_length_avg_per_session": 122,
+      "ai_prompt_length_median_per_session": 122
+    },
+    {
+      "time": 1792406392.054,
+      "project": "Lotte",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 0.0,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 4,
+      "ai_model_line_changes": {
+        "GPT": 4
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792406392.054,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 0.0,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 1,
+      "ai_model_line_changes": {
+        "GPT": 1
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792406392.054,
+      "project": "Lotte",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 0.0,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 2,
+      "ai_model_line_changes": {
+        "GPT": 2
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1792406392.054,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 82575,
+      "ai_cached_input_tokens": 11252608,
+      "ai_output_tokens": 21682,
+      "duration": 1833.606,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 13,
+          "cost": 1.507233,
+          "input_tokens": 82575,
+          "output_tokens": 21682,
+          "cached_input_tokens": 11252608
+        }
+      ],
+      "ai_additions": 13,
+      "ai_model_line_changes": {
+        "GPT": 13
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 1.507233
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 447,
+      "ai_prompt_events_total": 6,
+      "color": null,
+      "ai_prompt_length_avg": 74,
+      "ai_prompt_events_avg_per_session": 3,
+      "ai_prompt_events_median_per_session": 3,
+      "ai_prompt_length_avg_per_session": 71,
+      "ai_prompt_length_median_per_session": 71
     },
     {
       "time": 1792423212.622,
@@ -4651,6 +8119,8 @@
       "ai_model_breakdown": [
         {
           "name": "GPT",
+          "lines": 1,
+          "cost": 0.197028,
           "input_tokens": 23607,
           "output_tokens": 1741,
           "cached_input_tokens": 644608
@@ -4666,15 +8136,15 @@
       "ai_model_costs": {
         "GPT": 0.197028
       },
-      "ai_sessions": 1,
-      "ai_prompt_length_sum": 0,
-      "ai_prompt_events_total": 0,
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 45,
+      "ai_prompt_events_total": 1,
       "color": null,
-      "ai_prompt_length_avg": 0,
+      "ai_prompt_length_avg": 45,
       "ai_prompt_events_avg_per_session": 0,
       "ai_prompt_events_median_per_session": 0,
-      "ai_prompt_length_avg_per_session": 0,
-      "ai_prompt_length_median_per_session": 0
+      "ai_prompt_length_avg_per_session": 45,
+      "ai_prompt_length_median_per_session": 45
     },
     {
       "time": 1792423643.774,

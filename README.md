@@ -2,78 +2,78 @@
 
 Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 
-> Last updated: **2026-10-23 05:14 ICT**
+> Last updated: **2026-10-24 05:00 ICT**
 
 ## Overview
 
 | Metric | Coding time |
 |---|---:|
 | Today | **0m** |
-| This week | **19h 13m** |
-| This month | **87h 38m** |
-| This year | **337h 39m** |
-| All archived time | **337h 39m** |
-| Daily average (active days) | **4h 45m** |
-| Active days | **71** |
-| Best day | **2026-07-30 (8h 30m)** |
+| This week | **31h 56m** |
+| This month | **100h 21m** |
+| This year | **350h 22m** |
+| All archived time | **350h 22m** |
+| Daily average (active days) | **4h 48m** |
+| Active days | **73** |
+| Best day | **2026-10-19 (8h 38m)** |
 
 ## Last 7 Days
 
 | Day | Date | Coding time |
 |---|---|---:|
-| Sat | 2026-10-17 | 0m |
 | Sun | 2026-10-18 | 0m |
-| Mon | 2026-10-19 | 7h 29m |
+| Mon | 2026-10-19 | 8h 38m |
 | Tue | 2026-10-20 | 6h 19m |
 | Wed | 2026-10-21 | 5h 26m |
-| Thu | 2026-10-22 | 0m |
-| Fri | 2026-10-23 | 0m |
+| Thu | 2026-10-22 | 5h 38m |
+| Fri | 2026-10-23 | 5h 56m |
+| Sat | 2026-10-24 | 0m |
 
 ## Top Languages
 
 | Language | Time | Share |
 |---|---:|---:|
-| Markdown | 71h 58m | 21.3% |
-| TypeScript | 62h 10m | 18.4% |
-| Other | 48h 59m | 14.5% |
-| Java | 47h 22m | 14.0% |
-| Dart | 27h 4m | 8.0% |
-| SQL | 17h 25m | 5.2% |
-| Java Properties | 12h 24m | 3.7% |
-| JavaScript | 9h 24m | 2.8% |
+| Markdown | 79h 1m | 22.6% |
+| TypeScript | 62h 29m | 17.8% |
+| Other | 49h 39m | 14.2% |
+| Java | 47h 49m | 13.6% |
+| Dart | 30h 14m | 8.6% |
+| SQL | 17h 36m | 5.0% |
+| Java Properties | 12h 23m | 3.5% |
+| JavaScript | 9h 24m | 2.7% |
 
 ## Top Projects
 
 | Project | Time | Share |
 |---|---:|---:|
-| gems-service-tsms | 70h 35m | 20.9% |
-| purchase-portal-be | 66h 13m | 19.6% |
-| purchase-portal-fe | 51h 12m | 15.2% |
-| hsafe-mobile | 44h 3m | 13.0% |
-| timesheet-claim | 30h 21m | 9.0% |
-| ria-fe-tsms | 12h 1m | 3.6% |
-| Zerun-pro-max | 11h 16m | 3.3% |
-| Lotte | 10h 30m | 3.1% |
+| gems-service-tsms | 73h 54m | 21.1% |
+| purchase-portal-be | 66h 46m | 19.1% |
+| purchase-portal-fe | 51h 49m | 14.8% |
+| hsafe-mobile | 44h 3m | 12.6% |
+| timesheet-claim | 30h 18m | 8.6% |
+| ria-fe-tsms | 12h | 3.4% |
+| Zerun-pro-max | 11h 16m | 3.2% |
+| pm-mobile | 10h 22m | 3.0% |
 
 ## All Projects
 
 | Project | Time | Share |
 |---|---:|---:|
-| gems-service-tsms | 70h 35m | 20.9% |
-| purchase-portal-be | 66h 13m | 19.6% |
-| purchase-portal-fe | 51h 12m | 15.2% |
-| hsafe-mobile | 44h 3m | 13.0% |
-| timesheet-claim | 30h 21m | 9.0% |
-| ria-fe-tsms | 12h 1m | 3.6% |
-| Zerun-pro-max | 11h 16m | 3.3% |
-| Lotte | 10h 30m | 3.1% |
-| system-service-tsms-v2 | 10h 9m | 3.0% |
-| Muahangre | 9h 23m | 2.8% |
-| shopee-seeding-bot-develop | 8h 7m | 2.4% |
-| schedule-service-tsms | 5h 50m | 1.7% |
+| gems-service-tsms | 73h 54m | 21.1% |
+| purchase-portal-be | 66h 46m | 19.1% |
+| purchase-portal-fe | 51h 49m | 14.8% |
+| hsafe-mobile | 44h 3m | 12.6% |
+| timesheet-claim | 30h 18m | 8.6% |
+| ria-fe-tsms | 12h | 3.4% |
+| Zerun-pro-max | 11h 16m | 3.2% |
+| pm-mobile | 10h 22m | 3.0% |
+| Lotte | 10h 13m | 2.9% |
+| system-service-tsms-v2 | 10h 7m | 2.9% |
+| Muahangre | 9h 27m | 2.7% |
+| shopee-seeding-bot-develop | 8h 7m | 2.3% |
+| schedule-service-tsms | 5h 46m | 1.6% |
 | website | 2h 52m | 0.8% |
-| pm-mobile | 1h 49m | 0.5% |
-| product-service-tsms | 1h 22m | 0.4% |
+| product-service-tsms | 1h 26m | 0.4% |
 | firstaid.hsafe.net | 57m | 0.3% |
 | Projects | 18m | 0.1% |
 | realtime-voice-chat | 8m | 0.0% |
@@ -100,20 +100,20 @@ Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 
 | Editor | Time | Share |
 |---|---:|---:|
-| Codex Vscode | 207h 38m | 61.5% |
-| VS Code | 120h 31m | 35.7% |
-| Opencode Cli | 7h 11m | 2.1% |
-| OpenCode | 47m | 0.2% |
+| Codex Vscode | 218h 1m | 62.2% |
+| VS Code | 123h 9m | 35.1% |
+| Opencode Cli | 6h 51m | 2.0% |
+| OpenCode | 44m | 0.2% |
 | Antigravity Desktop | 23m | 0.1% |
 | CLI | 21m | 0.1% |
 | Android Studio | 19m | 0.1% |
-| Codex CLI | 15m | 0.1% |
+| Copilot CLI | 18m | 0.1% |
 
 ## Operating Systems
 
 | OS | Time | Share |
 |---|---:|---:|
-| Windows | 337h 39m | 100.0% |
+| Windows | 350h 22m | 100.0% |
 
 ## How it works
 
