@@ -1,64 +1,266 @@
 {
   "data": [
     {
+      "languages": [
+        {
+          "name": "Markdown",
+          "total_seconds": 147.388,
+          "digital": "0:02:27",
+          "decimal": "0.03",
+          "text": "2 mins",
+          "hours": 0,
+          "minutes": 2,
+          "seconds": 27,
+          "percent": 78.85
+        },
+        {
+          "name": "Other",
+          "total_seconds": 39.525,
+          "digital": "0:00:39",
+          "decimal": "0.00",
+          "text": "39 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 39,
+          "percent": 21.15
+        }
+      ],
       "grand_total": {
         "hours": 0,
-        "minutes": 0,
-        "total_seconds": 0.0,
-        "digital": "0:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "ai_additions": 0,
+        "minutes": 3,
+        "total_seconds": 186.913,
+        "digital": "0:03",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "ai_additions": 69,
         "ai_deletions": 0,
         "human_additions": 0,
         "human_deletions": 0,
-        "ai_model_line_changes": {},
-        "ai_input_tokens": 0,
-        "ai_cached_input_tokens": 0,
-        "ai_output_tokens": 0,
+        "ai_model_line_changes": {
+          "GPT": 69
+        },
+        "ai_input_tokens": 559568,
+        "ai_cached_input_tokens": 3207680,
+        "ai_output_tokens": 9598,
         "ai_prompt_length_sum": 0,
         "ai_prompt_events_total": 0,
-        "ai_sessions": 0,
-        "ai_model_costs": {},
-        "ai_model_breakdown": [],
-        "ai_model_total_cost": 0,
+        "ai_sessions": 2,
+        "ai_model_costs": {
+          "GPT": 1.535885
+        },
+        "ai_model_breakdown": [
+          {
+            "name": "GPT",
+            "lines": 69,
+            "cost": 1.535885,
+            "input_tokens": 559568,
+            "output_tokens": 9598,
+            "cached_input_tokens": 3207680
+          }
+        ],
+        "ai_model_total_cost": 1.535885,
         "ai_prompt_length_avg": 0,
         "ai_prompt_events_avg_per_session": 0,
         "ai_prompt_events_median_per_session": 0,
         "ai_prompt_length_avg_per_session": 0,
         "ai_prompt_length_median_per_session": 0
       },
+      "editors": [
+        {
+          "name": "Codex Vscode",
+          "total_seconds": 186.913,
+          "ai_additions": 69,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "ai_model_line_changes": {
+            "GPT": 69
+          },
+          "ai_input_tokens": 559568,
+          "ai_cached_input_tokens": 3207680,
+          "ai_output_tokens": 9598,
+          "ai_prompt_length_sum": 0,
+          "ai_prompt_events_total": 0,
+          "ai_model_costs": {
+            "GPT": 1.535885
+          },
+          "ai_model_breakdown": [
+            {
+              "name": "GPT",
+              "lines": 69,
+              "cost": 1.535885,
+              "input_tokens": 559568,
+              "output_tokens": 9598,
+              "cached_input_tokens": 3207680
+            }
+          ],
+          "ai_model_total_cost": 1.535885,
+          "ai_prompt_length_avg": 0,
+          "ai_prompt_length_avg_per_session": 0,
+          "ai_prompt_length_median_per_session": 0,
+          "ai_prompt_events_avg_per_session": 0,
+          "ai_prompt_events_median_per_session": 0,
+          "ai_sessions": 2,
+          "digital": "0:03:06",
+          "decimal": "0.05",
+          "text": "3 mins",
+          "hours": 0,
+          "minutes": 3,
+          "seconds": 6,
+          "percent": 100.0
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "Windows",
+          "total_seconds": 186.913,
+          "digital": "0:03:06",
+          "decimal": "0.05",
+          "text": "3 mins",
+          "hours": 0,
+          "minutes": 3,
+          "seconds": 6,
+          "percent": 100.0
+        }
+      ],
+      "categories": [
+        {
+          "name": "AI Coding",
+          "total_seconds": 186.913,
+          "digital": "0:03:06",
+          "decimal": "0.05",
+          "text": "3 mins",
+          "hours": 0,
+          "minutes": 3,
+          "seconds": 6,
+          "percent": 100.0
+        }
+      ],
+      "dependencies": [],
+      "machines": [
+        {
+          "name": "ALEXANDER-II",
+          "total_seconds": 186.913,
+          "machine_name_id": "465f62df-2187-4ce0-80e5-1065a10b286a",
+          "digital": "0:03:06",
+          "decimal": "0.05",
+          "text": "3 mins",
+          "hours": 0,
+          "minutes": 3,
+          "seconds": 6,
+          "percent": 100.0
+        }
+      ],
+      "projects": [
+        {
+          "name": "pm-mobile",
+          "total_seconds": 147.388,
+          "ai_additions": 69,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "ai_model_line_changes": {
+            "GPT": 69
+          },
+          "ai_input_tokens": 370540,
+          "ai_cached_input_tokens": 2759680,
+          "ai_output_tokens": 8067,
+          "ai_prompt_length_sum": 0,
+          "ai_prompt_events_total": 0,
+          "ai_model_costs": {
+            "GPT": 1.097719
+          },
+          "ai_model_breakdown": [
+            {
+              "name": "GPT",
+              "lines": 69,
+              "cost": 1.097719,
+              "input_tokens": 370540,
+              "output_tokens": 8067,
+              "cached_input_tokens": 2759680
+            }
+          ],
+          "ai_model_total_cost": 1.097719,
+          "ai_prompt_length_avg": 0,
+          "ai_prompt_length_avg_per_session": 0,
+          "ai_prompt_length_median_per_session": 0,
+          "ai_prompt_events_avg_per_session": 0,
+          "ai_prompt_events_median_per_session": 0,
+          "ai_sessions": 1,
+          "digital": "0:02:27",
+          "decimal": "0.03",
+          "text": "2 mins",
+          "hours": 0,
+          "minutes": 2,
+          "seconds": 27,
+          "percent": 78.85
+        },
+        {
+          "name": "Muahangre",
+          "total_seconds": 39.525,
+          "ai_additions": 0,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "ai_model_line_changes": {},
+          "ai_input_tokens": 189028,
+          "ai_cached_input_tokens": 448000,
+          "ai_output_tokens": 1531,
+          "ai_prompt_length_sum": 0,
+          "ai_prompt_events_total": 0,
+          "ai_model_costs": {
+            "GPT": 0.438166
+          },
+          "ai_model_breakdown": [
+            {
+              "name": "GPT",
+              "lines": 0,
+              "cost": 0.438166,
+              "input_tokens": 189028,
+              "output_tokens": 1531,
+              "cached_input_tokens": 448000
+            }
+          ],
+          "ai_model_total_cost": 0.438166,
+          "ai_prompt_length_avg": 0,
+          "ai_prompt_length_avg_per_session": 0,
+          "ai_prompt_length_median_per_session": 0,
+          "ai_prompt_events_avg_per_session": 0,
+          "ai_prompt_events_median_per_session": 0,
+          "ai_sessions": 1,
+          "digital": "0:00:39",
+          "decimal": "0.00",
+          "text": "39 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 39,
+          "percent": 21.15
+        }
+      ],
       "range": {
         "start": "2026-10-23T17:00:00Z",
         "end": "2026-10-24T16:59:59Z",
         "date": "2026-10-24",
         "text": "Sat Oct 24th 2026",
         "timezone": "Asia/Ho_Chi_Minh"
-      },
-      "projects": [],
-      "languages": [],
-      "dependencies": [],
-      "machines": [],
-      "editors": [],
-      "operating_systems": [],
-      "categories": []
+      }
     }
   ],
   "start": "2026-10-23T17:00:00Z",
   "end": "2026-10-24T16:59:59Z",
   "cumulative_total": {
-    "seconds": 0.0,
-    "text": "0 secs",
-    "digital": "0:00",
-    "decimal": "0.00"
+    "seconds": 186.913,
+    "text": "3 mins",
+    "digital": "0:03",
+    "decimal": "0.05"
   },
   "daily_average": {
-    "holidays": 1,
-    "days_minus_holidays": 0,
+    "holidays": 0,
+    "days_minus_holidays": 1,
     "days_including_holidays": 1,
-    "seconds": 0,
-    "seconds_including_other_language": 0,
-    "text": "0 secs",
-    "text_including_other_language": "0 secs"
+    "seconds": 147,
+    "seconds_including_other_language": 187,
+    "text": "2 mins",
+    "text_including_other_language": "3 mins"
   }
 }
