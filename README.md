@@ -2,79 +2,79 @@
 
 Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 
-> Last updated: **2026-10-27 06:05 ICT**
+> Last updated: **2026-10-28 05:55 ICT**
 
 ## Overview
 
 | Metric | Coding time |
 |---|---:|
 | Today | **0m** |
-| This week | **7h 17m** |
-| This month | **107h 43m** |
-| This year | **357h 44m** |
-| All archived time | **357h 44m** |
-| Daily average (active days) | **4h 42m** |
-| Active days | **76** |
+| This week | **14h** |
+| This month | **114h 26m** |
+| This year | **364h 27m** |
+| All archived time | **364h 27m** |
+| Daily average (active days) | **4h 44m** |
+| Active days | **77** |
 | Best day | **2026-10-19 (8h 38m)** |
 
 ## Last 7 Days
 
 | Day | Date | Coding time |
 |---|---|---:|
-| Wed | 2026-10-21 | 5h 26m |
 | Thu | 2026-10-22 | 5h 38m |
 | Fri | 2026-10-23 | 5h 56m |
 | Sat | 2026-10-24 | 3m |
 | Sun | 2026-10-25 | 2m |
-| Mon | 2026-10-26 | 7h 17m |
-| Tue | 2026-10-27 | 0m |
+| Mon | 2026-10-26 | 7h 25m |
+| Tue | 2026-10-27 | 6h 35m |
+| Wed | 2026-10-28 | 0m |
 
 ## Top Languages
 
 | Language | Time | Share |
 |---|---:|---:|
-| Markdown | 80h 56m | 22.6% |
-| TypeScript | 62h 49m | 17.6% |
-| Other | 50h 59m | 14.3% |
-| Java | 49h 1m | 13.7% |
-| Dart | 30h 25m | 8.5% |
-| SQL | 17h 36m | 4.9% |
-| Java Properties | 12h 23m | 3.5% |
-| Python | 10h 33m | 2.9% |
+| Markdown | 84h 6m | 23.1% |
+| TypeScript | 62h 49m | 17.2% |
+| Other | 52h 8m | 14.3% |
+| Java | 49h 11m | 13.5% |
+| Dart | 30h 57m | 8.5% |
+| SQL | 17h 39m | 4.8% |
+| Java Properties | 12h 23m | 3.4% |
+| Python | 11h 52m | 3.3% |
 
 ## Top Projects
 
 | Project | Time | Share |
 |---|---:|---:|
-| gems-service-tsms | 77h | 21.5% |
-| purchase-portal-be | 66h 48m | 18.7% |
-| purchase-portal-fe | 51h 49m | 14.5% |
-| hsafe-mobile | 44h 14m | 12.4% |
-| timesheet-claim | 30h 18m | 8.5% |
+| gems-service-tsms | 81h 5m | 22.3% |
+| purchase-portal-be | 66h 56m | 18.4% |
+| purchase-portal-fe | 51h 49m | 14.2% |
+| hsafe-mobile | 44h 14m | 12.1% |
+| timesheet-claim | 30h 18m | 8.3% |
+| pm-mobile | 12h 39m | 3.5% |
 | ria-fe-tsms | 12h 19m | 3.4% |
-| pm-mobile | 12h 2m | 3.4% |
 | Zerun-pro-max | 11h 16m | 3.1% |
 
 ## All Projects
 
 | Project | Time | Share |
 |---|---:|---:|
-| gems-service-tsms | 77h | 21.5% |
-| purchase-portal-be | 66h 48m | 18.7% |
-| purchase-portal-fe | 51h 49m | 14.5% |
-| hsafe-mobile | 44h 14m | 12.4% |
-| timesheet-claim | 30h 18m | 8.5% |
+| gems-service-tsms | 81h 5m | 22.3% |
+| purchase-portal-be | 66h 56m | 18.4% |
+| purchase-portal-fe | 51h 49m | 14.2% |
+| hsafe-mobile | 44h 14m | 12.1% |
+| timesheet-claim | 30h 18m | 8.3% |
+| pm-mobile | 12h 39m | 3.5% |
 | ria-fe-tsms | 12h 19m | 3.4% |
-| pm-mobile | 12h 2m | 3.4% |
 | Zerun-pro-max | 11h 16m | 3.1% |
-| Lotte | 10h 16m | 2.9% |
+| Lotte | 10h 16m | 2.8% |
 | system-service-tsms-v2 | 10h 11m | 2.8% |
-| Muahangre | 9h 42m | 2.7% |
-| shopee-seeding-bot-develop | 8h 7m | 2.3% |
+| Muahangre | 9h 43m | 2.7% |
+| shopee-seeding-bot-develop | 8h 7m | 2.2% |
 | schedule-service-tsms | 5h 51m | 1.6% |
+| 3D | 3h 23m | 0.9% |
 | website | 2h 52m | 0.8% |
-| 3D | 1h 37m | 0.5% |
-| product-service-tsms | 1h 26m | 0.4% |
+| product-service-tsms | 1h 30m | 0.4% |
 | firstaid.hsafe.net | 57m | 0.3% |
 | Projects | 18m | 0.1% |
 | realtime-voice-chat | 8m | 0.0% |
@@ -93,6 +93,7 @@ Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 | flutter | 0m | 0.0% |
 | org.springframework.web.bind.annotation | 0m | 0.0% |
 | call_3laNqny9PAa4V1HhuZsTDlfz__vscode-1788538586664 | 0m | 0.0% |
+| pm-docs | 0m | 0.0% |
 | lib | 0m | 0.0% |
 | Unknown Project | 0m | 0.0% |
 | layout | 0m | 0.0% |
@@ -101,8 +102,8 @@ Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 
 | Editor | Time | Share |
 |---|---:|---:|
-| Codex Vscode | 222h 23m | 62.2% |
-| VS Code | 126h 6m | 35.2% |
+| Codex Vscode | 225h 18m | 61.8% |
+| VS Code | 129h 54m | 35.6% |
 | Opencode Cli | 6h 51m | 1.9% |
 | OpenCode | 44m | 0.2% |
 | Antigravity Desktop | 27m | 0.1% |
@@ -114,7 +115,7 @@ Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 
 | OS | Time | Share |
 |---|---:|---:|
-| Windows | 357h 44m | 100.0% |
+| Windows | 364h 27m | 100.0% |
 
 ## How it works
 

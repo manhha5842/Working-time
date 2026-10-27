@@ -1672,7 +1672,7 @@
       "ai_input_tokens": 67088,
       "ai_cached_input_tokens": 1548672,
       "ai_output_tokens": 29226,
-      "duration": 602.69,
+      "duration": 416.069,
       "ai_model_breakdown": [
         {
           "name": "GPT",
@@ -1698,7 +1698,7 @@
       "ai_prompt_events_total": 1,
       "_is_ai_coding": true,
       "_is_manual_coding": false,
-      "ai_coding_seconds": 602.69,
+      "ai_coding_seconds": 416.069,
       "manual_coding_seconds": 0.0,
       "editor": "VS Code",
       "ai_prompt_length_avg": 71,
@@ -1708,38 +1708,66 @@
       "ai_prompt_length_median_per_session": 71
     },
     {
+      "time": 1793006704.692,
+      "project": "pm-mobile",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 186.621,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": false,
+      "_is_manual_coding": true,
+      "ai_coding_seconds": 0.0,
+      "manual_coding_seconds": 186.621,
+      "editor": "VS Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
       "time": 1793006891.313,
       "project": "gems-service-tsms",
-      "ai_input_tokens": 592949,
-      "ai_cached_input_tokens": 6838912,
-      "ai_output_tokens": 65037,
-      "duration": 1822.469,
+      "ai_input_tokens": 576969,
+      "ai_cached_input_tokens": 5169792,
+      "ai_output_tokens": 54795,
+      "duration": 1746.702,
       "ai_model_breakdown": [
         {
           "name": "GPT",
-          "lines": 540,
-          "cost": 0.160205,
-          "input_tokens": 592949,
-          "output_tokens": 65037,
-          "cached_input_tokens": 6838912
+          "lines": 538,
+          "cost": 0.136795,
+          "input_tokens": 576969,
+          "output_tokens": 54795,
+          "cached_input_tokens": 5169792
         }
       ],
-      "ai_additions": 537,
+      "ai_additions": 536,
       "ai_model_line_changes": {
-        "GPT": 540
+        "GPT": 538
       },
-      "ai_deletions": 3,
+      "ai_deletions": 2,
       "human_additions": 0,
       "human_deletions": 0,
       "ai_model_costs": {
-        "GPT": 0.160205
+        "GPT": 0.136795
       },
       "ai_sessions": 2,
       "ai_prompt_length_sum": 1727,
       "ai_prompt_events_total": 7,
       "_is_ai_coding": true,
       "_is_manual_coding": false,
-      "ai_coding_seconds": 1822.469,
+      "ai_coding_seconds": 1746.702,
       "manual_coding_seconds": 0.0,
       "editor": "Codex Vscode",
       "ai_prompt_length_avg": 247,
@@ -1747,6 +1775,144 @@
       "ai_prompt_events_median_per_session": 4,
       "ai_prompt_length_avg_per_session": 178,
       "ai_prompt_length_median_per_session": 178
+    },
+    {
+      "time": 1793008638.015,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 4.759,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": false,
+      "_is_manual_coding": true,
+      "ai_coding_seconds": 0.0,
+      "manual_coding_seconds": 4.759,
+      "editor": "VS Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1793008642.774,
+      "project": "pm-mobile",
+      "ai_input_tokens": 12258,
+      "ai_cached_input_tokens": 1095552,
+      "ai_output_tokens": 7087,
+      "duration": 13.853,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 1,
+          "cost": 0.015725,
+          "input_tokens": 12258,
+          "output_tokens": 7087,
+          "cached_input_tokens": 1095552
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {
+        "GPT": 1
+      },
+      "ai_deletions": 1,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.015725
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 13.853,
+      "manual_coding_seconds": 0.0,
+      "editor": "Codex Vscode",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1793008656.627,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 43.401,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 1,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": false,
+      "_is_manual_coding": true,
+      "ai_coding_seconds": 0.0,
+      "manual_coding_seconds": 43.401,
+      "editor": "VS Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1793008700.028,
+      "project": "pm-mobile",
+      "ai_input_tokens": 3722,
+      "ai_cached_input_tokens": 573568,
+      "ai_output_tokens": 3155,
+      "duration": 13.754,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 1,
+          "cost": 0.007685,
+          "input_tokens": 3722,
+          "output_tokens": 3155,
+          "cached_input_tokens": 573568
+        }
+      ],
+      "ai_additions": 1,
+      "ai_model_line_changes": {
+        "GPT": 1
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.007685
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 13.754,
+      "manual_coding_seconds": 0.0,
+      "editor": "Codex Vscode",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
     },
     {
       "time": 1793009698.952,
@@ -1834,7 +2000,7 @@
       "ai_input_tokens": 174179,
       "ai_cached_input_tokens": 640384,
       "ai_output_tokens": 8054,
-      "duration": 221.725,
+      "duration": 236.244,
       "ai_model_breakdown": [
         {
           "name": "GPT",
@@ -1860,7 +2026,7 @@
       "ai_prompt_events_total": 2,
       "_is_ai_coding": true,
       "_is_manual_coding": false,
-      "ai_coding_seconds": 221.725,
+      "ai_coding_seconds": 236.244,
       "manual_coding_seconds": 0.0,
       "editor": "Codex Vscode",
       "ai_prompt_length_avg": 140,
@@ -1868,6 +2034,47 @@
       "ai_prompt_events_median_per_session": 1,
       "ai_prompt_length_avg_per_session": 140,
       "ai_prompt_length_median_per_session": 140
+    },
+    {
+      "time": 1793032380.419,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 299640,
+      "ai_cached_input_tokens": 3117568,
+      "ai_output_tokens": 22374,
+      "duration": 462.961,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 59,
+          "cost": 0.459593,
+          "input_tokens": 299640,
+          "output_tokens": 22374,
+          "cached_input_tokens": 3117568
+        }
+      ],
+      "ai_additions": 58,
+      "ai_model_line_changes": {
+        "GPT": 59
+      },
+      "ai_deletions": 1,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.459593
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 462.961,
+      "manual_coding_seconds": 0.0,
+      "editor": "VS Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
     }
   ],
   "start": "2026-10-25T17:00:00Z",
