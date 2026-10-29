@@ -1,20 +1,20 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-29T06:07:04.066010+07:00",
+  "generated_at": "2026-10-30T06:13:57.191554+07:00",
   "timezone": "Asia/Ho_Chi_Minh",
   "archive": {
     "first_date": "2026-07-30",
-    "last_date": "2026-10-29",
-    "archived_days": 92,
+    "last_date": "2026-10-30",
+    "archived_days": 93,
     "active_days": 79
   },
   "overview": {
-    "today_seconds": 3764.376,
-    "week_seconds": 74703.681,
-    "month_seconds": 436263.635,
-    "year_seconds": 1336315.167,
-    "all_archived_seconds": 1336315.167,
-    "daily_average_seconds": 16915.382,
+    "today_seconds": 0.0,
+    "week_seconds": 82062.174,
+    "month_seconds": 443622.128,
+    "year_seconds": 1343673.66,
+    "all_archived_seconds": 1343673.66,
+    "daily_average_seconds": 17008.527,
     "active_days": 79,
     "best_day": {
       "date": "2026-10-19",
@@ -269661,60 +269661,32 @@
     },
     {
       "date": "2026-10-29",
-      "seconds": 3764.376,
+      "seconds": 11122.869,
       "projects": [
         {
-          "name": "3D",
-          "seconds": 1772.937,
-          "ai_additions": 0,
-          "ai_deletions": 0,
-          "human_additions": 0,
-          "human_deletions": 0,
-          "input_tokens": 174754,
-          "cached_input_tokens": 9469824,
-          "output_tokens": 23559,
-          "prompt_length_sum": 486,
-          "prompt_length_avg": 122,
-          "prompt_length_avg_per_session": 122,
-          "prompt_length_median_per_session": 122,
-          "prompt_events": 4,
-          "prompts_avg_per_session": 4,
-          "prompts_median_per_session": 4,
-          "sessions": 1,
-          "cost": 5.50103,
-          "models": [
-            {
-              "name": "GPT",
-              "lines": 0.0,
-              "cost": 5.50103
-            }
-          ],
-          "tokens": 9668137
-        },
-        {
           "name": "Muahangre",
-          "seconds": 1605.679,
-          "ai_additions": 189,
+          "seconds": 5810.503,
+          "ai_additions": 359,
           "ai_deletions": 0,
           "human_additions": 0,
           "human_deletions": 0,
-          "input_tokens": 263044,
-          "cached_input_tokens": 17223168,
-          "output_tokens": 53634,
-          "prompt_length_sum": 2272,
-          "prompt_length_avg": 252,
-          "prompt_length_avg_per_session": 150,
-          "prompt_length_median_per_session": 150,
-          "prompt_events": 9,
-          "prompts_avg_per_session": 4,
-          "prompts_median_per_session": 4,
+          "input_tokens": 642636,
+          "cached_input_tokens": 42230784,
+          "output_tokens": 139661,
+          "prompt_length_sum": 2280,
+          "prompt_length_avg": 228,
+          "prompt_length_avg_per_session": 135,
+          "prompt_length_median_per_session": 134,
+          "prompt_events": 10,
+          "prompts_avg_per_session": 5,
+          "prompts_median_per_session": 5,
           "sessions": 2,
-          "cost": 2.784746,
+          "cost": 6.904961,
           "models": [
             {
               "name": "GPT",
-              "lines": 189.0,
-              "cost": 2.784746
+              "lines": 359.0,
+              "cost": 6.904961
             },
             {
               "name": "Codex-Vscode",
@@ -269722,7 +269694,63 @@
               "cost": 0.0
             }
           ],
-          "tokens": 17539846
+          "tokens": 43013081
+        },
+        {
+          "name": "3D",
+          "seconds": 4732.333,
+          "ai_additions": 0,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 707956,
+          "cached_input_tokens": 25275648,
+          "output_tokens": 70445,
+          "prompt_length_sum": 522,
+          "prompt_length_avg": 104,
+          "prompt_length_avg_per_session": 104,
+          "prompt_length_median_per_session": 104,
+          "prompt_events": 5,
+          "prompts_avg_per_session": 5,
+          "prompts_median_per_session": 5,
+          "sessions": 1,
+          "cost": 8.616876,
+          "models": [
+            {
+              "name": "GPT",
+              "lines": 0.0,
+              "cost": 8.616876
+            }
+          ],
+          "tokens": 26054049
+        },
+        {
+          "name": "Lotte",
+          "seconds": 240.453,
+          "ai_additions": 58,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 0,
+          "cached_input_tokens": 0,
+          "output_tokens": 0,
+          "prompt_length_sum": 0,
+          "prompt_length_avg": 0,
+          "prompt_length_avg_per_session": 0,
+          "prompt_length_median_per_session": 0,
+          "prompt_events": 0,
+          "prompts_avg_per_session": 0,
+          "prompts_median_per_session": 0,
+          "sessions": 2,
+          "cost": 0.0,
+          "models": [
+            {
+              "name": "GPT",
+              "lines": 58.0,
+              "cost": 0.0
+            }
+          ],
+          "tokens": 0
         },
         {
           "name": "gems-service-tsms",
@@ -269807,58 +269835,30 @@
             }
           ],
           "tokens": 3273079
-        },
-        {
-          "name": "Lotte",
-          "seconds": 46.18,
-          "ai_additions": 8,
-          "ai_deletions": 0,
-          "human_additions": 0,
-          "human_deletions": 0,
-          "input_tokens": 0,
-          "cached_input_tokens": 0,
-          "output_tokens": 0,
-          "prompt_length_sum": 0,
-          "prompt_length_avg": 0,
-          "prompt_length_avg_per_session": 0,
-          "prompt_length_median_per_session": 0,
-          "prompt_events": 0,
-          "prompts_avg_per_session": 0,
-          "prompts_median_per_session": 0,
-          "sessions": 2,
-          "cost": 0.0,
-          "models": [
-            {
-              "name": "GPT",
-              "lines": 8.0,
-              "cost": 0.0
-            }
-          ],
-          "tokens": 0
         }
       ],
       "languages": [
         {
           "name": "Other",
-          "seconds": 1772.937
+          "seconds": 4732.333
         },
         {
           "name": "Python",
-          "seconds": 1565.374
+          "seconds": 4657.017
+        },
+        {
+          "name": "TypeScript",
+          "seconds": 1442.276
         },
         {
           "name": "Markdown",
           "seconds": 291.243
-        },
-        {
-          "name": "TypeScript",
-          "seconds": 134.822
         }
       ],
       "editors": [
         {
           "name": "Codex Vscode",
-          "seconds": 3579.751
+          "seconds": 10938.244
         },
         {
           "name": "VS Code",
@@ -269868,57 +269868,65 @@
       "operating_systems": [
         {
           "name": "Windows",
-          "seconds": 3764.376
+          "seconds": 11122.869
         }
       ],
       "machines": [
         {
           "name": "ALEXANDER-II",
-          "seconds": 3764.376
+          "seconds": 11122.869
         }
       ],
       "categories": [
         {
           "name": "AI Coding",
-          "seconds": 3764.376
+          "seconds": 11122.869
         }
       ],
       "dependencies": [
         {
-          "name": "time",
-          "seconds": 1565.374
-        },
-        {
-          "name": "datetime",
-          "seconds": 1565.374
-        },
-        {
-          "name": "json",
-          "seconds": 1528.278
-        },
-        {
-          "name": "bs4",
-          "seconds": 1482.098
+          "name": "backend",
+          "seconds": 4226.676
         },
         {
           "name": "pytest",
-          "seconds": 1482.098
+          "seconds": 3935.61
+        },
+        {
+          "name": "json",
+          "seconds": 3662.248
+        },
+        {
+          "name": "time",
+          "seconds": 3305.452
         },
         {
           "name": "test_engine",
-          "seconds": 1482.098
+          "seconds": 2977.937
         },
         {
-          "name": "backend",
-          "seconds": 1482.098
+          "name": "datetime",
+          "seconds": 2958.387
+        },
+        {
+          "name": "bs4",
+          "seconds": 2274.502
         },
         {
           "name": "test_news_automation",
-          "seconds": 1482.098
+          "seconds": 2030.263
+        },
+        {
+          "name": "copy",
+          "seconds": 1684.079
         },
         {
           "name": "test",
-          "seconds": 86.485
+          "seconds": 1393.939
+        },
+        {
+          "name": "threading",
+          "seconds": 347.065
         },
         {
           "name": "urllib",
@@ -269941,91 +269949,7 @@
           "seconds": 21.408
         },
         {
-          "name": "TranslatorHook",
-          "seconds": 15.165
-        },
-        {
-          "name": "react-redux",
-          "seconds": 15.165
-        },
-        {
-          "name": "formUtils",
-          "seconds": 15.165
-        },
-        {
-          "name": "Row",
-          "seconds": 15.165
-        },
-        {
-          "name": "accountingFieldRules",
-          "seconds": 15.165
-        },
-        {
-          "name": "Select",
-          "seconds": 15.165
-        },
-        {
-          "name": "sweetAlert",
-          "seconds": 15.165
-        },
-        {
-          "name": "reduxes",
-          "seconds": 15.165
-        },
-        {
-          "name": "lodash",
-          "seconds": 15.165
-        },
-        {
-          "name": "Form",
-          "seconds": 15.165
-        },
-        {
           "name": "Col",
-          "seconds": 15.165
-        },
-        {
-          "name": "customHooks",
-          "seconds": 15.165
-        },
-        {
-          "name": "DatePicker",
-          "seconds": 15.165
-        },
-        {
-          "name": "InputNumber",
-          "seconds": 15.165
-        },
-        {
-          "name": "antd",
-          "seconds": 15.165
-        },
-        {
-          "name": "form",
-          "seconds": 15.165
-        },
-        {
-          "name": "react",
-          "seconds": 15.165
-        },
-        {
-          "name": "Input",
-          "seconds": 15.165
-        },
-        {
-          "name": "stringUtils",
-          "seconds": 15.165
-        },
-        {
-          "name": "moment",
-          "seconds": 15.165
-        },
-        {
-          "name": "Button",
-          "seconds": 15.165
-        },
-        {
-          "name": "Response",
           "seconds": 15.165
         },
         {
@@ -270033,15 +269957,87 @@
           "seconds": 15.165
         },
         {
-          "name": "StoreInput",
+          "name": "Row",
           "seconds": 15.165
         },
         {
-          "name": "Card",
+          "name": "react",
           "seconds": 15.165
         },
         {
-          "name": "arrayUtils",
+          "name": "react-redux",
+          "seconds": 15.165
+        },
+        {
+          "name": "DatePicker",
+          "seconds": 15.165
+        },
+        {
+          "name": "lodash",
+          "seconds": 15.165
+        },
+        {
+          "name": "stringUtils",
+          "seconds": 15.165
+        },
+        {
+          "name": "form",
+          "seconds": 15.165
+        },
+        {
+          "name": "sweetAlert",
+          "seconds": 15.165
+        },
+        {
+          "name": "antd",
+          "seconds": 15.165
+        },
+        {
+          "name": "accountingFieldRules",
+          "seconds": 15.165
+        },
+        {
+          "name": "TranslatorHook",
+          "seconds": 15.165
+        },
+        {
+          "name": "Response",
+          "seconds": 15.165
+        },
+        {
+          "name": "Button",
+          "seconds": 15.165
+        },
+        {
+          "name": "Form",
+          "seconds": 15.165
+        },
+        {
+          "name": "formUtils",
+          "seconds": 15.165
+        },
+        {
+          "name": "Input",
+          "seconds": 15.165
+        },
+        {
+          "name": "Select",
+          "seconds": 15.165
+        },
+        {
+          "name": "moment",
+          "seconds": 15.165
+        },
+        {
+          "name": "customHooks",
+          "seconds": 15.165
+        },
+        {
+          "name": "reduxes",
+          "seconds": 15.165
+        },
+        {
+          "name": "InputNumber",
           "seconds": 15.165
         },
         {
@@ -270049,11 +270045,15 @@
           "seconds": 15.165
         },
         {
-          "name": "AdvancedMoneyRequestTable",
+          "name": "StoreInput",
           "seconds": 15.165
         },
         {
           "name": "RangeDatePicker",
+          "seconds": 15.165
+        },
+        {
+          "name": "Card",
           "seconds": 15.165
         },
         {
@@ -270065,12 +270065,24 @@
           "seconds": 15.165
         },
         {
+          "name": "TextArea",
+          "seconds": 15.165
+        },
+        {
+          "name": "arrayUtils",
+          "seconds": 15.165
+        },
+        {
+          "name": "AdvancedMoneyRequestTable",
+          "seconds": 15.165
+        },
+        {
           "name": "advancedMoneyRequest",
           "seconds": 15.165
         },
         {
-          "name": "TextArea",
-          "seconds": 15.165
+          "name": "CommonSaga",
+          "seconds": 11.644
         },
         {
           "name": "effects",
@@ -270083,34 +270095,30 @@
         {
           "name": "Api",
           "seconds": 11.644
-        },
-        {
-          "name": "CommonSaga",
-          "seconds": 11.644
         }
       ],
       "ai": {
-        "ai_additions": 264,
+        "ai_additions": 484,
         "ai_deletions": 5,
         "human_additions": 0,
         "human_deletions": 0,
-        "input_tokens": 661983,
-        "cached_input_tokens": 35645696,
-        "output_tokens": 92181,
-        "prompt_length_sum": 3527,
-        "prompt_length_avg": 252,
-        "prompt_length_avg_per_session": 298,
-        "prompt_length_median_per_session": 202,
-        "prompt_events": 14,
+        "input_tokens": 1574777,
+        "cached_input_tokens": 76459136,
+        "output_tokens": 225094,
+        "prompt_length_sum": 3571,
+        "prompt_length_avg": 223,
+        "prompt_length_avg_per_session": 286,
+        "prompt_length_median_per_session": 178,
+        "prompt_events": 16,
         "prompts_avg_per_session": 3,
-        "prompts_median_per_session": 2,
+        "prompts_median_per_session": 3,
         "sessions": 5,
-        "cost": 16.225804,
+        "cost": 23.461865,
         "models": [
           {
             "name": "GPT",
-            "lines": 269.0,
-            "cost": 16.225804
+            "lines": 489.0,
+            "cost": 23.461865
           },
           {
             "name": "Codex-Vscode",
@@ -270606,6 +270614,150 @@
             "ai_deletions": 0,
             "human_additions": 0,
             "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 62.733,
+            "duration_seconds": 169.91,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "3D",
+            "start_minute": 291.583,
+            "duration_seconds": 645.231,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 543.95,
+            "duration_seconds": 933.314,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "3D",
+            "start_minute": 559.5,
+            "duration_seconds": 6.977,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 559.617,
+            "duration_seconds": 40.495,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "3D",
+            "start_minute": 560.3,
+            "duration_seconds": 24.033,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 560.7,
+            "duration_seconds": 39.08,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "3D",
+            "start_minute": 561.35,
+            "duration_seconds": 70.397,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 562.517,
+            "duration_seconds": 124.655,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "3D",
+            "start_minute": 564.6,
+            "duration_seconds": 2212.758,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 733.85,
+            "duration_seconds": 180.431,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 736.867,
+            "duration_seconds": 1495.839,
+            "ai_additions": 127,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 761.783,
+            "duration_seconds": 166.634,
+            "ai_additions": 13,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 764.567,
+            "duration_seconds": 291.066,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 769.417,
+            "duration_seconds": 27.639,
+            "ai_additions": 36,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 769.883,
+            "duration_seconds": 930.034,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
           }
         ],
         "language": [
@@ -271085,15 +271237,141 @@
             "ai_deletions": 0,
             "human_additions": 0,
             "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 62.733,
+            "duration_seconds": 169.91,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 291.583,
+            "duration_seconds": 645.231,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 543.95,
+            "duration_seconds": 933.314,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 559.5,
+            "duration_seconds": 6.977,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 559.617,
+            "duration_seconds": 40.495,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 560.3,
+            "duration_seconds": 24.033,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 560.7,
+            "duration_seconds": 39.08,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 561.35,
+            "duration_seconds": 70.397,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 562.517,
+            "duration_seconds": 124.655,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 564.6,
+            "duration_seconds": 2212.758,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Python",
+            "start_minute": 733.85,
+            "duration_seconds": 3091.643,
+            "ai_additions": 220,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
           }
         ],
         "category": [
           {
             "name": "AI Coding",
             "start_minute": 0.0,
-            "duration_seconds": 3764.376,
+            "duration_seconds": 3934.286,
             "ai_additions": 264,
             "ai_deletions": 5,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 291.583,
+            "duration_seconds": 645.231,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 543.95,
+            "duration_seconds": 3451.709,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 733.85,
+            "duration_seconds": 3091.643,
+            "ai_additions": 220,
+            "ai_deletions": 0,
             "human_additions": 0,
             "human_deletions": 0
           }
@@ -271138,8 +271416,35 @@
           {
             "name": "Codex Vscode",
             "start_minute": 19.567,
-            "duration_seconds": 2590.253,
+            "duration_seconds": 2760.163,
             "ai_additions": 248,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 291.583,
+            "duration_seconds": 645.231,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 543.95,
+            "duration_seconds": 3451.709,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 733.85,
+            "duration_seconds": 3091.643,
+            "ai_additions": 220,
             "ai_deletions": 0,
             "human_additions": 0,
             "human_deletions": 0
@@ -271149,9 +271454,36 @@
           {
             "name": "Windows",
             "start_minute": 0.0,
-            "duration_seconds": 3764.376,
+            "duration_seconds": 3934.286,
             "ai_additions": 264,
             "ai_deletions": 5,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 291.583,
+            "duration_seconds": 645.231,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 543.95,
+            "duration_seconds": 3451.709,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 733.85,
+            "duration_seconds": 3091.643,
+            "ai_additions": 220,
+            "ai_deletions": 0,
             "human_additions": 0,
             "human_deletions": 0
           }
@@ -271160,13 +271492,78 @@
           {
             "name": "ALEXANDER-II",
             "start_minute": 0.0,
-            "duration_seconds": 3764.376,
+            "duration_seconds": 3934.286,
             "ai_additions": 264,
             "ai_deletions": 5,
             "human_additions": 0,
             "human_deletions": 0
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 291.583,
+            "duration_seconds": 645.231,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 543.95,
+            "duration_seconds": 3451.709,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 733.85,
+            "duration_seconds": 3091.643,
+            "ai_additions": 220,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
           }
         ]
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "seconds": 0.0,
+      "projects": [],
+      "languages": [],
+      "editors": [],
+      "operating_systems": [],
+      "machines": [],
+      "categories": [],
+      "dependencies": [],
+      "ai": {
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "input_tokens": 0,
+        "cached_input_tokens": 0,
+        "output_tokens": 0,
+        "prompt_length_sum": 0,
+        "prompt_length_avg": 0,
+        "prompt_length_avg_per_session": 0,
+        "prompt_length_median_per_session": 0,
+        "prompt_events": 0,
+        "prompts_avg_per_session": 0,
+        "prompts_median_per_session": 0,
+        "sessions": 0,
+        "cost": 0.0,
+        "models": []
+      },
+      "timelines": {
+        "project": [],
+        "language": [],
+        "category": [],
+        "editor": [],
+        "os": [],
+        "machine": []
       }
     }
   ]
