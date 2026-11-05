@@ -1,0 +1,96 @@
+{
+  "data": [
+    {
+      "time": 1793811600.0,
+      "project": "pm-mobile",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 256.985,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": false,
+      "_is_manual_coding": true,
+      "ai_coding_seconds": 0.0,
+      "manual_coding_seconds": 256.985,
+      "os": "Windows",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1793811856.985,
+      "project": "pm-mobile",
+      "ai_input_tokens": 1403255,
+      "ai_cached_input_tokens": 33618154,
+      "ai_output_tokens": 136940,
+      "duration": 4457.519,
+      "ai_model_breakdown": [
+        {
+          "name": "Sonnet",
+          "lines": 522,
+          "cost": 2.316176,
+          "input_tokens": 331798,
+          "output_tokens": 38143,
+          "cached_input_tokens": 6355762
+        },
+        {
+          "name": "Opus",
+          "lines": 168,
+          "cost": 7.534926,
+          "input_tokens": 704874,
+          "output_tokens": 58550,
+          "cached_input_tokens": 17722168
+        },
+        {
+          "name": "GPT",
+          "lines": 50,
+          "cost": 0.152186,
+          "input_tokens": 366583,
+          "output_tokens": 40247,
+          "cached_input_tokens": 9540224
+        }
+      ],
+      "ai_additions": 683,
+      "ai_model_line_changes": {
+        "Opus": 168,
+        "Sonnet": 522,
+        "GPT": 50
+      },
+      "ai_deletions": 57,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 7.534926,
+        "Sonnet": 2.316176,
+        "GPT": 0.152186
+      },
+      "ai_sessions": 10,
+      "ai_prompt_length_sum": 12023,
+      "ai_prompt_events_total": 27,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 4457.519,
+      "manual_coding_seconds": 0.0,
+      "os": "Windows",
+      "ai_prompt_length_avg": 445,
+      "ai_prompt_events_avg_per_session": 3,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 421,
+      "ai_prompt_length_median_per_session": 138
+    }
+  ],
+  "start": "2026-11-04T17:00:00Z",
+  "end": "2026-11-05T16:59:59Z",
+  "timezone": "Asia/Ho_Chi_Minh"
+}

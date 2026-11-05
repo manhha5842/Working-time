@@ -7592,7 +7592,7 @@
       "ai_input_tokens": 0,
       "ai_cached_input_tokens": 0,
       "ai_output_tokens": 0,
-      "duration": 887.53,
+      "duration": 387.933,
       "ai_model_breakdown": [
         {
           "name": "GPT",
@@ -7614,13 +7614,41 @@
       "ai_prompt_events_total": 2,
       "_is_ai_coding": true,
       "_is_manual_coding": false,
-      "ai_coding_seconds": 887.53,
+      "ai_coding_seconds": 387.933,
       "manual_coding_seconds": 0.0,
       "ai_prompt_length_avg": 54,
       "ai_prompt_events_avg_per_session": 2,
       "ai_prompt_events_median_per_session": 2,
       "ai_prompt_length_avg_per_session": 54,
       "ai_prompt_length_median_per_session": 54
+    },
+    {
+      "time": 1793696755.449,
+      "project": "pm-mobile",
+      "language": "Dart",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 499.597,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": false,
+      "_is_manual_coding": true,
+      "ai_coding_seconds": 0.0,
+      "manual_coding_seconds": 499.597,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
     },
     {
       "time": 1793697255.046,
@@ -8443,7 +8471,7 @@
         "GPT": 4
       },
       "ai_deletions": 4,
-      "human_additions": 0,
+      "human_additions": 3,
       "human_deletions": 0,
       "ai_model_costs": {
         "GPT": 0.02989
@@ -8460,6 +8488,45 @@
       "ai_prompt_events_median_per_session": 2,
       "ai_prompt_length_avg_per_session": 71,
       "ai_prompt_length_median_per_session": 71
+    },
+    {
+      "time": 1793702193.295,
+      "project": "pm-mobile",
+      "language": "Other",
+      "ai_input_tokens": 207202,
+      "ai_cached_input_tokens": 2498944,
+      "ai_output_tokens": 10322,
+      "duration": 971.077,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 1.296255,
+          "input_tokens": 207202,
+          "output_tokens": 10322,
+          "cached_input_tokens": 2498944
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 1.296255
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 269,
+      "ai_prompt_events_total": 4,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 971.077,
+      "manual_coding_seconds": 0.0,
+      "ai_prompt_length_avg": 67,
+      "ai_prompt_events_avg_per_session": 2,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 92,
+      "ai_prompt_length_median_per_session": 92
     }
   ],
   "start": "2026-11-02T17:00:00Z",

@@ -1,5 +1,391 @@
 {
-  "data": [],
+  "data": [
+    {
+      "time": 1793758880.259,
+      "project": "Muahangre",
+      "ai_input_tokens": 1350788,
+      "ai_cached_input_tokens": 46295808,
+      "ai_output_tokens": 130530,
+      "machine_name_id": "9d1f3f6d-1476-485c-aedd-5d6c6ed1d507",
+      "duration": 8944.605,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 88,
+          "cost": 40.260313,
+          "input_tokens": 1350788,
+          "output_tokens": 130530,
+          "cached_input_tokens": 46295808
+        },
+        {
+          "name": "Vscode",
+          "lines": 0,
+          "cost": 0.0,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        },
+        {
+          "name": "Codex-Vscode",
+          "lines": 0,
+          "cost": 0.0,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 88,
+      "ai_model_line_changes": {
+        "GPT": 88
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 40.260313
+      },
+      "ai_sessions": 9,
+      "ai_prompt_length_sum": 28313,
+      "ai_prompt_events_total": 54,
+      "machine": "ALEXANDER-II",
+      "ai_prompt_length_avg": 524,
+      "ai_prompt_events_avg_per_session": 6,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 985,
+      "ai_prompt_length_median_per_session": 835
+    },
+    {
+      "time": 1793769585.259,
+      "project": "pm-mobile",
+      "ai_input_tokens": 40238,
+      "ai_cached_input_tokens": 1842432,
+      "ai_output_tokens": 4300,
+      "machine_name_id": "b9e42740-b248-4efe-aa40-5638d5cef3ab",
+      "duration": 178.113,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 2.459812,
+          "input_tokens": 40238,
+          "output_tokens": 4300,
+          "cached_input_tokens": 1842432
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 2.459812
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 168,
+      "ai_prompt_events_total": 1,
+      "machine": "ALEXANDER-II",
+      "ai_prompt_length_avg": 168,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 168,
+      "ai_prompt_length_median_per_session": 168
+    },
+    {
+      "time": 1793775342.823,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 231012,
+      "ai_cached_input_tokens": 1219712,
+      "ai_output_tokens": 4744,
+      "machine_name_id": "b9e42740-b248-4efe-aa40-5638d5cef3ab",
+      "duration": 612.597,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 2.000968,
+          "input_tokens": 231012,
+          "output_tokens": 4744,
+          "cached_input_tokens": 1219712
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 2.000968
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 455,
+      "ai_prompt_events_total": 3,
+      "machine": "ALEXANDER-II",
+      "ai_prompt_length_avg": 152,
+      "ai_prompt_events_avg_per_session": 2,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 176,
+      "ai_prompt_length_median_per_session": 176
+    },
+    {
+      "time": 1793777110.103,
+      "project": "Lotte",
+      "ai_input_tokens": 1089945,
+      "ai_cached_input_tokens": 39624563,
+      "ai_output_tokens": 152534,
+      "machine_name_id": "b9e42740-b248-4efe-aa40-5638d5cef3ab",
+      "duration": 7575.58,
+      "ai_model_breakdown": [
+        {
+          "name": "Sonnet",
+          "lines": 419,
+          "cost": 2.582088,
+          "input_tokens": 178019,
+          "output_tokens": 56861,
+          "cached_input_tokens": 8287201
+        },
+        {
+          "name": "GPT",
+          "lines": 103,
+          "cost": 26.006131,
+          "input_tokens": 666328,
+          "output_tokens": 39972,
+          "cached_input_tokens": 19897344
+        },
+        {
+          "name": "Opus",
+          "lines": 58,
+          "cost": 4.384415,
+          "input_tokens": 245598,
+          "output_tokens": 55701,
+          "cached_input_tokens": 11440018
+        },
+        {
+          "name": "Codex-Vscode",
+          "lines": 0,
+          "cost": 0.0,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 525,
+      "ai_model_line_changes": {
+        "GPT": 103,
+        "Sonnet": 419,
+        "Opus": 58
+      },
+      "ai_deletions": 55,
+      "human_additions": 0,
+      "human_deletions": 36,
+      "ai_model_costs": {
+        "GPT": 26.006131,
+        "Sonnet": 2.582088,
+        "Opus": 4.384415
+      },
+      "ai_sessions": 9,
+      "ai_prompt_length_sum": 6716,
+      "ai_prompt_events_total": 36,
+      "machine": "ALEXANDER-II",
+      "ai_prompt_length_avg": 187,
+      "ai_prompt_events_avg_per_session": 4,
+      "ai_prompt_events_median_per_session": 3,
+      "ai_prompt_length_avg_per_session": 424,
+      "ai_prompt_length_median_per_session": 70
+    },
+    {
+      "time": 1793786433.554,
+      "project": "Lotte",
+      "ai_input_tokens": 652565,
+      "ai_cached_input_tokens": 36158188,
+      "ai_output_tokens": 141888,
+      "machine_name_id": "b9e42740-b248-4efe-aa40-5638d5cef3ab",
+      "duration": 5150.246,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 549,
+          "cost": 9.412761,
+          "input_tokens": 373183,
+          "output_tokens": 131277,
+          "cached_input_tokens": 26472428
+        },
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 13.01013,
+          "input_tokens": 279382,
+          "output_tokens": 10611,
+          "cached_input_tokens": 9685760
+        }
+      ],
+      "ai_additions": 548,
+      "ai_model_line_changes": {
+        "Opus": 549
+      },
+      "ai_deletions": 1,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 9.412761,
+        "GPT": 13.01013
+      },
+      "ai_sessions": 6,
+      "ai_prompt_length_sum": 45861,
+      "ai_prompt_events_total": 29,
+      "machine": "ALEXANDER-II",
+      "ai_prompt_length_avg": 1581,
+      "ai_prompt_events_avg_per_session": 5,
+      "ai_prompt_events_median_per_session": 5,
+      "ai_prompt_length_avg_per_session": 1533,
+      "ai_prompt_length_median_per_session": 89
+    },
+    {
+      "time": 1793799697.034,
+      "project": "pm-mobile",
+      "ai_input_tokens": 368688,
+      "ai_cached_input_tokens": 15335294,
+      "ai_output_tokens": 42409,
+      "machine_name_id": "b9e42740-b248-4efe-aa40-5638d5cef3ab",
+      "duration": 3221.155,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 194,
+          "cost": 5.389991,
+          "input_tokens": 368688,
+          "output_tokens": 42409,
+          "cached_input_tokens": 15335294
+        }
+      ],
+      "ai_additions": 193,
+      "ai_model_line_changes": {
+        "Opus": 194
+      },
+      "ai_deletions": 1,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 5.389991
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 4122,
+      "ai_prompt_events_total": 7,
+      "machine": "ALEXANDER-II",
+      "ai_prompt_length_avg": 589,
+      "ai_prompt_events_avg_per_session": 4,
+      "ai_prompt_events_median_per_session": 4,
+      "ai_prompt_length_avg_per_session": 676,
+      "ai_prompt_length_median_per_session": 676
+    },
+    {
+      "time": 1793804382.18,
+      "project": "pm-mobile",
+      "ai_input_tokens": 31634,
+      "ai_cached_input_tokens": 1066640,
+      "ai_output_tokens": 3838,
+      "machine_name_id": "b9e42740-b248-4efe-aa40-5638d5cef3ab",
+      "duration": 600.963,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 0,
+          "cost": 0.416625,
+          "input_tokens": 31634,
+          "output_tokens": 3838,
+          "cached_input_tokens": 1066640
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.416625
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "machine": "ALEXANDER-II",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1793807431.095,
+      "project": "pm-mobile",
+      "ai_input_tokens": 3627,
+      "ai_cached_input_tokens": 622931,
+      "ai_output_tokens": 1168,
+      "machine_name_id": "b9e42740-b248-4efe-aa40-5638d5cef3ab",
+      "duration": 13.621,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 0,
+          "cost": 0.162453,
+          "input_tokens": 3627,
+          "output_tokens": 1168,
+          "cached_input_tokens": 622931
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.162453
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "machine": "ALEXANDER-II",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1793811249.757,
+      "project": "pm-mobile",
+      "ai_input_tokens": 247,
+      "ai_cached_input_tokens": 320315,
+      "ai_output_tokens": 549,
+      "machine_name_id": "b9e42740-b248-4efe-aa40-5638d5cef3ab",
+      "duration": 349.243,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 0,
+          "cost": 0.076031,
+          "input_tokens": 247,
+          "output_tokens": 549,
+          "cached_input_tokens": 320315
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.076031
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 202,
+      "ai_prompt_events_total": 1,
+      "machine": "ALEXANDER-II",
+      "ai_prompt_length_avg": 202,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 202,
+      "ai_prompt_length_median_per_session": 202
+    }
+  ],
   "start": "2026-11-03T17:00:00Z",
   "end": "2026-11-04T16:59:59Z",
   "timezone": "Asia/Ho_Chi_Minh"
