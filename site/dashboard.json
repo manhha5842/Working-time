@@ -1,20 +1,20 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-11-06T07:06:10.254956+07:00",
+  "generated_at": "2026-11-07T06:42:41.000744+07:00",
   "timezone": "Asia/Ho_Chi_Minh",
   "archive": {
     "first_date": "2026-07-30",
-    "last_date": "2026-11-06",
-    "archived_days": 100,
+    "last_date": "2026-11-07",
+    "archived_days": 101,
     "active_days": 84
   },
   "overview": {
-    "today_seconds": 4246.181,
-    "week_seconds": 109535.747,
-    "month_seconds": 109535.747,
-    "year_seconds": 1453209.407,
-    "all_archived_seconds": 1453209.407,
-    "daily_average_seconds": 17300.112,
+    "today_seconds": 0.0,
+    "week_seconds": 132085.672,
+    "month_seconds": 132085.672,
+    "year_seconds": 1475759.332,
+    "all_archived_seconds": 1475759.332,
+    "daily_average_seconds": 17568.563,
     "active_days": 84,
     "best_day": {
       "date": "2026-10-19",
@@ -291964,172 +291964,453 @@
     },
     {
       "date": "2026-11-06",
-      "seconds": 4246.181,
+      "seconds": 26796.106,
       "projects": [
         {
-          "name": "pm-mobile",
-          "seconds": 3894.168,
-          "ai_additions": 114,
-          "ai_deletions": 5,
+          "name": "Lotte",
+          "seconds": 9594.204,
+          "ai_additions": 313,
+          "ai_deletions": 0,
           "human_additions": 0,
           "human_deletions": 0,
-          "input_tokens": 2170137,
-          "cached_input_tokens": 40805897,
-          "output_tokens": 141617,
-          "prompt_length_sum": 9692,
-          "prompt_length_avg": 323,
-          "prompt_length_avg_per_session": 733,
-          "prompt_length_median_per_session": 60,
-          "prompt_events": 30,
-          "prompts_avg_per_session": 4,
-          "prompts_median_per_session": 2,
-          "sessions": 7,
-          "cost": 12.911694,
+          "input_tokens": 1870848,
+          "cached_input_tokens": 59283812,
+          "output_tokens": 158278,
+          "prompt_length_sum": 60065,
+          "prompt_length_avg": 1073,
+          "prompt_length_avg_per_session": 942,
+          "prompt_length_median_per_session": 316,
+          "prompt_events": 56,
+          "prompts_avg_per_session": 9,
+          "prompts_median_per_session": 6,
+          "sessions": 6,
+          "cost": 21.237366,
           "models": [
+            {
+              "name": "Opus",
+              "lines": 313.0,
+              "cost": 19.630924
+            },
+            {
+              "name": "Sonnet",
+              "lines": 0.0,
+              "cost": 1.606442
+            }
+          ],
+          "tokens": 61312938
+        },
+        {
+          "name": "pm-mobile",
+          "seconds": 8537.169,
+          "ai_additions": 1366,
+          "ai_deletions": 7,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 2921564,
+          "cached_input_tokens": 84137807,
+          "output_tokens": 282457,
+          "prompt_length_sum": 57196,
+          "prompt_length_avg": 841,
+          "prompt_length_avg_per_session": 918,
+          "prompt_length_median_per_session": 70,
+          "prompt_events": 68,
+          "prompts_avg_per_session": 8,
+          "prompts_median_per_session": 5,
+          "sessions": 8,
+          "cost": 26.347428,
+          "models": [
+            {
+              "name": "Opus",
+              "lines": 1260.0,
+              "cost": 17.830626
+            },
             {
               "name": "GPT",
               "lines": 91.0,
               "cost": 0.149804
             },
             {
+              "name": "Sonnet",
+              "lines": 22.0,
+              "cost": 8.366998
+            }
+          ],
+          "tokens": 87341828
+        },
+        {
+          "name": "Muahangre",
+          "seconds": 2575.233,
+          "ai_additions": 420,
+          "ai_deletions": 1,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 1177473,
+          "cached_input_tokens": 49014235,
+          "output_tokens": 137472,
+          "prompt_length_sum": 28058,
+          "prompt_length_avg": 1754,
+          "prompt_length_avg_per_session": 1754,
+          "prompt_length_median_per_session": 1754,
+          "prompt_events": 16,
+          "prompts_avg_per_session": 8,
+          "prompts_median_per_session": 8,
+          "sessions": 2,
+          "cost": 16.665901,
+          "models": [
+            {
               "name": "Opus",
-              "lines": 21.0,
-              "cost": 6.980813
+              "lines": 421.0,
+              "cost": 16.069619
+            },
+            {
+              "name": "GPT",
+              "lines": 0.0,
+              "cost": 0.596282
+            }
+          ],
+          "tokens": 50329180
+        },
+        {
+          "name": "gems-service-tsms",
+          "seconds": 2506.687,
+          "ai_additions": 0,
+          "ai_deletions": 0,
+          "human_additions": 1,
+          "human_deletions": 0,
+          "input_tokens": 422689,
+          "cached_input_tokens": 16438934,
+          "output_tokens": 22925,
+          "prompt_length_sum": 5256,
+          "prompt_length_avg": 657,
+          "prompt_length_avg_per_session": 590,
+          "prompt_length_median_per_session": 56,
+          "prompt_events": 8,
+          "prompts_avg_per_session": 2,
+          "prompts_median_per_session": 2,
+          "sessions": 4,
+          "cost": 12.654562,
+          "models": [
+            {
+              "name": "GPT",
+              "lines": 0.0,
+              "cost": 10.909347
+            },
+            {
+              "name": "Opus",
+              "lines": 0.0,
+              "cost": 1.745215
+            },
+            {
+              "name": "Codex-Vscode",
+              "lines": 0.0,
+              "cost": 0.0
+            }
+          ],
+          "tokens": 16884548
+        },
+        {
+          "name": "schedule-service-tsms",
+          "seconds": 1332.9,
+          "ai_additions": 53,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 51009,
+          "cached_input_tokens": 9861905,
+          "output_tokens": 25632,
+          "prompt_length_sum": 144,
+          "prompt_length_avg": 24,
+          "prompt_length_avg_per_session": 19,
+          "prompt_length_median_per_session": 21,
+          "prompt_events": 6,
+          "prompts_avg_per_session": 2,
+          "prompts_median_per_session": 1,
+          "sessions": 3,
+          "cost": 2.689055,
+          "models": [
+            {
+              "name": "Opus",
+              "lines": 53.0,
+              "cost": 2.689055
+            }
+          ],
+          "tokens": 9938546
+        },
+        {
+          "name": "ria-fe-tsms",
+          "seconds": 852.001,
+          "ai_additions": 9,
+          "ai_deletions": 3,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 309105,
+          "cached_input_tokens": 9757445,
+          "output_tokens": 11994,
+          "prompt_length_sum": 282,
+          "prompt_length_avg": 70,
+          "prompt_length_avg_per_session": 73,
+          "prompt_length_median_per_session": 72,
+          "prompt_events": 4,
+          "prompts_avg_per_session": 1,
+          "prompts_median_per_session": 1,
+          "sessions": 3,
+          "cost": 6.980197,
+          "models": [
+            {
+              "name": "GPT",
+              "lines": 9.0,
+              "cost": 5.330136
             },
             {
               "name": "Sonnet",
-              "lines": 7.0,
-              "cost": 5.781077
+              "lines": 3.0,
+              "cost": 1.38753
+            },
+            {
+              "name": "Opus",
+              "lines": 0.0,
+              "cost": 0.262531
             }
           ],
-          "tokens": 43117651
+          "tokens": 10078544
         },
         {
-          "name": "Lotte",
-          "seconds": 277.633,
+          "name": "purchase-portal-be",
+          "seconds": 551.536,
           "ai_additions": 0,
           "ai_deletions": 0,
           "human_additions": 0,
           "human_deletions": 0,
-          "input_tokens": 184958,
-          "cached_input_tokens": 1401546,
-          "output_tokens": 5747,
-          "prompt_length_sum": 134,
-          "prompt_length_avg": 34,
-          "prompt_length_avg_per_session": 34,
-          "prompt_length_median_per_session": 34,
-          "prompt_events": 4,
-          "prompts_avg_per_session": 4,
-          "prompts_median_per_session": 4,
-          "sessions": 1,
-          "cost": 1.135082,
+          "input_tokens": 26130,
+          "cached_input_tokens": 4954609,
+          "output_tokens": 11274,
+          "prompt_length_sum": 269,
+          "prompt_length_avg": 134,
+          "prompt_length_avg_per_session": 134,
+          "prompt_length_median_per_session": 134,
+          "prompt_events": 2,
+          "prompts_avg_per_session": 1,
+          "prompts_median_per_session": 1,
+          "sessions": 2,
+          "cost": 1.320921,
           "models": [
             {
               "name": "Opus",
               "lines": 0.0,
-              "cost": 1.135082
+              "cost": 1.320921
             }
           ],
-          "tokens": 1592251
+          "tokens": 4992013
         },
         {
-          "name": "ria-fe-tsms",
-          "seconds": 74.38,
+          "name": "pm-docs",
+          "seconds": 377.121,
           "ai_additions": 0,
-          "ai_deletions": 3,
+          "ai_deletions": 0,
           "human_additions": 0,
           "human_deletions": 0,
-          "input_tokens": 265020,
-          "cached_input_tokens": 1595688,
-          "output_tokens": 2547,
-          "prompt_length_sum": 63,
-          "prompt_length_avg": 63,
-          "prompt_length_avg_per_session": 63,
-          "prompt_length_median_per_session": 63,
+          "input_tokens": 20540,
+          "cached_input_tokens": 3450715,
+          "output_tokens": 6707,
+          "prompt_length_sum": 65,
+          "prompt_length_avg": 65,
+          "prompt_length_avg_per_session": 65,
+          "prompt_length_median_per_session": 65,
           "prompt_events": 1,
           "prompts_avg_per_session": 1,
           "prompts_median_per_session": 1,
           "sessions": 1,
-          "cost": 0.88011,
+          "cost": 0.906442,
           "models": [
-            {
-              "name": "Sonnet",
-              "lines": 3.0,
-              "cost": 0.80555
-            },
             {
               "name": "Opus",
               "lines": 0.0,
-              "cost": 0.07456
+              "cost": 0.906442
             }
           ],
-          "tokens": 1863255
+          "tokens": 3477962
+        },
+        {
+          "name": "system-service-tsms-v2",
+          "seconds": 302.97,
+          "ai_additions": 0,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 4115,
+          "cached_input_tokens": 1619413,
+          "output_tokens": 3736,
+          "prompt_length_sum": 201,
+          "prompt_length_avg": 50,
+          "prompt_length_avg_per_session": 50,
+          "prompt_length_median_per_session": 50,
+          "prompt_events": 4,
+          "prompts_avg_per_session": 4,
+          "prompts_median_per_session": 4,
+          "sessions": 1,
+          "cost": 0.369472,
+          "models": [
+            {
+              "name": "Sonnet",
+              "lines": 0.0,
+              "cost": 0.369472
+            }
+          ],
+          "tokens": 1627264
+        },
+        {
+          "name": "product-service-tsms",
+          "seconds": 154.724,
+          "ai_additions": 0,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 45900,
+          "cached_input_tokens": 6354980,
+          "output_tokens": 8864,
+          "prompt_length_sum": 8831,
+          "prompt_length_avg": 4416,
+          "prompt_length_avg_per_session": 4416,
+          "prompt_length_median_per_session": 4416,
+          "prompt_events": 2,
+          "prompts_avg_per_session": 1,
+          "prompts_median_per_session": 1,
+          "sessions": 2,
+          "cost": 1.631877,
+          "models": [
+            {
+              "name": "Opus",
+              "lines": 0.0,
+              "cost": 1.631877
+            }
+          ],
+          "tokens": 6409744
+        },
+        {
+          "name": "TSMS Logic",
+          "seconds": 11.561,
+          "ai_additions": 0,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 1828,
+          "cached_input_tokens": 320265,
+          "output_tokens": 805,
+          "prompt_length_sum": 0,
+          "prompt_length_avg": 0,
+          "prompt_length_avg_per_session": 0,
+          "prompt_length_median_per_session": 0,
+          "prompt_events": 0,
+          "prompts_avg_per_session": 0,
+          "prompts_median_per_session": 0,
+          "sessions": 1,
+          "cost": 0.087465,
+          "models": [
+            {
+              "name": "Opus",
+              "lines": 0.0,
+              "cost": 0.087465
+            }
+          ],
+          "tokens": 322898
         }
       ],
       "languages": [
         {
           "name": "Markdown",
-          "seconds": 2218.361
-        },
-        {
-          "name": "Dart",
-          "seconds": 1305.033
+          "seconds": 9415.042
         },
         {
           "name": "Other",
-          "seconds": 517.378
+          "seconds": 6163.538
         },
         {
-          "name": "PowerShell",
-          "seconds": 131.029
+          "name": "Dart",
+          "seconds": 3385.78
         },
         {
-          "name": "JavaScript",
-          "seconds": 63.367
+          "name": "SQL",
+          "seconds": 2269.422
         },
         {
           "name": "TypeScript",
-          "seconds": 11.013
+          "seconds": 1404.946
+        },
+        {
+          "name": "Java",
+          "seconds": 1372.567
+        },
+        {
+          "name": "JSON",
+          "seconds": 1343.751
+        },
+        {
+          "name": "CSS",
+          "seconds": 514.355
+        },
+        {
+          "name": "XML",
+          "seconds": 438.517
+        },
+        {
+          "name": "PowerShell",
+          "seconds": 194.444
+        },
+        {
+          "name": "Git Config",
+          "seconds": 118.587
+        },
+        {
+          "name": "JavaScript",
+          "seconds": 90.443
+        },
+        {
+          "name": "Image (svg)",
+          "seconds": 61.749
+        },
+        {
+          "name": "Java Properties",
+          "seconds": 22.965
         }
       ],
       "editors": [
         {
           "name": "Claude Code",
-          "seconds": 2780.386
+          "seconds": 21735.547
         },
         {
           "name": "Codex Vscode",
-          "seconds": 1356.876
+          "seconds": 2807.902
         },
         {
           "name": "VS Code",
-          "seconds": 108.919
+          "seconds": 2252.657
         }
       ],
       "operating_systems": [
         {
           "name": "Windows",
-          "seconds": 4246.181
+          "seconds": 26796.106
         }
       ],
       "machines": [
         {
           "name": "ALEXANDER-II",
-          "seconds": 4246.181
+          "seconds": 26796.106
         }
       ],
       "categories": [
         {
           "name": "AI Coding",
-          "seconds": 4200.629
+          "seconds": 25779.821
+        },
+        {
+          "name": "Coding",
+          "seconds": 979.032
         },
         {
           "name": "Writing Tests",
           "seconds": 31.702
-        },
-        {
-          "name": "Coding",
-          "seconds": 8.299
         },
         {
           "name": "Writing Docs",
@@ -292138,46 +292419,427 @@
       ],
       "dependencies": [
         {
+          "name": "springframework.stereotype",
+          "seconds": 878.826
+        },
+        {
+          "name": "vn.grs",
+          "seconds": 821.031
+        },
+        {
+          "name": "react",
+          "seconds": 617.627
+        },
+        {
+          "name": "springframework.beans",
+          "seconds": 612.809
+        },
+        {
+          "name": "springframework.http",
+          "seconds": 612.809
+        },
+        {
+          "name": "lotte.chamomile",
+          "seconds": 551.536
+        },
+        {
+          "name": "lombok.RequiredArgsConstructor",
+          "seconds": 551.536
+        },
+        {
+          "name": "Row",
+          "seconds": 512.681
+        },
+        {
+          "name": "moment",
+          "seconds": 512.681
+        },
+        {
+          "name": "antd",
+          "seconds": 512.681
+        },
+        {
+          "name": "TranslatorHook",
+          "seconds": 512.681
+        },
+        {
+          "name": "Button",
+          "seconds": 512.681
+        },
+        {
+          "name": "DatePicker",
+          "seconds": 490.208
+        },
+        {
+          "name": "Input",
+          "seconds": 490.208
+        },
+        {
+          "name": "Modal",
+          "seconds": 401.792
+        },
+        {
+          "name": "lombok.extern",
+          "seconds": 399.662
+        },
+        {
+          "name": "springframework.web",
+          "seconds": 391.641
+        },
+        {
+          "name": "settings-store",
+          "seconds": 390.195
+        },
+        {
+          "name": "link",
+          "seconds": 386.681
+        },
+        {
+          "name": "springframework.transaction",
+          "seconds": 381.99
+        },
+        {
+          "name": "root-params.d",
+          "seconds": 379.043
+        },
+        {
+          "name": "routes.d",
+          "seconds": 379.043
+        },
+        {
+          "name": "jakarta.validation",
+          "seconds": 337.21
+        },
+        {
+          "name": "springframework.util",
+          "seconds": 323.427
+        },
+        {
+          "name": "Col",
+          "seconds": 321.379
+        },
+        {
+          "name": "sweetAlert",
+          "seconds": 302.191
+        },
+        {
+          "name": "reduxes",
+          "seconds": 302.191
+        },
+        {
+          "name": "react-redux",
+          "seconds": 302.191
+        },
+        {
+          "name": "permissionModule",
+          "seconds": 302.191
+        },
+        {
+          "name": "posts-store",
+          "seconds": 301.218
+        },
+        {
+          "name": "common",
+          "seconds": 290.731
+        },
+        {
+          "name": "Spin",
+          "seconds": 279.718
+        },
+        {
+          "name": "FormWrapper",
+          "seconds": 279.718
+        },
+        {
+          "name": "CodeInput",
+          "seconds": 279.718
+        },
+        {
+          "name": "storeAccManagement",
+          "seconds": 279.718
+        },
+        {
+          "name": "stringUtils",
+          "seconds": 279.718
+        },
+        {
+          "name": "form",
+          "seconds": 279.718
+        },
+        {
+          "name": "EvdEvidenceSection",
+          "seconds": 279.718
+        },
+        {
+          "name": "storeDailyStockMaster",
+          "seconds": 279.718
+        },
+        {
+          "name": "StoreAccEditState",
+          "seconds": 279.718
+        },
+        {
+          "name": "AccountSlipConfirm.module",
+          "seconds": 279.718
+        },
+        {
+          "name": "StoreAccManagementContainer",
+          "seconds": 279.718
+        },
+        {
+          "name": "accountSlipConfirm",
+          "seconds": 279.718
+        },
+        {
+          "name": "uuid",
+          "seconds": 279.718
+        },
+        {
+          "name": "accountingFieldRules",
+          "seconds": 279.718
+        },
+        {
+          "name": "InvoiceInquiryModal",
+          "seconds": 279.718
+        },
+        {
+          "name": "InputNumber",
+          "seconds": 279.718
+        },
+        {
+          "name": "dynamic",
+          "seconds": 279.718
+        },
+        {
+          "name": "StoreAccBudget",
+          "seconds": 279.718
+        },
+        {
+          "name": "customHooks",
+          "seconds": 279.718
+        },
+        {
+          "name": "Select",
+          "seconds": 279.718
+        },
+        {
+          "name": "timeUtils",
+          "seconds": 279.718
+        },
+        {
+          "name": "FormField",
+          "seconds": 279.718
+        },
+        {
+          "name": "formUtils",
+          "seconds": 279.718
+        },
+        {
+          "name": "lodash",
+          "seconds": 279.718
+        },
+        {
+          "name": "io.swagger",
+          "seconds": 271.71
+        },
+        {
+          "name": "apache.ibatis",
+          "seconds": 222.031
+        },
+        {
+          "name": "Response",
+          "seconds": 213.775
+        },
+        {
+          "name": "Api",
+          "seconds": 210.49
+        },
+        {
+          "name": "Table",
+          "seconds": 210.49
+        },
+        {
+          "name": "io.micrometer",
+          "seconds": 203.496
+        },
+        {
+          "name": "springframework.data",
+          "seconds": 203.496
+        },
+        {
+          "name": "springframework.dao",
+          "seconds": 203.496
+        },
+        {
+          "name": "accountingInvoiceTax",
+          "seconds": 191.302
+        },
+        {
+          "name": "fasterxml.jackson",
+          "seconds": 159.626
+        },
+        {
+          "name": "site-footer",
+          "seconds": 92.605
+        },
+        {
+          "name": "seo",
+          "seconds": 92.605
+        },
+        {
+          "name": "site-header",
+          "seconds": 92.605
+        },
+        {
+          "name": "Form",
+          "seconds": 88.416
+        },
+        {
+          "name": "icons",
+          "seconds": 88.416
+        },
+        {
+          "name": "lucide-react",
+          "seconds": 62.644
+        },
+        {
+          "name": "types",
+          "seconds": 62.51
+        },
+        {
+          "name": "post-card",
+          "seconds": 58.712
+        },
+        {
+          "name": "blog-scopes",
+          "seconds": 58.358
+        },
+        {
+          "name": "blog-integrations",
+          "seconds": 58.358
+        },
+        {
+          "name": "post-cover",
+          "seconds": 26.25
+        },
+        {
+          "name": "json-ld",
+          "seconds": 22.81
+        },
+        {
+          "name": "queries",
+          "seconds": 22.81
+        },
+        {
+          "name": "slug",
+          "seconds": 22.81
+        },
+        {
+          "name": "StoreMaster.module",
+          "seconds": 22.473
+        },
+        {
+          "name": "fadux",
+          "seconds": 22.473
+        },
+        {
+          "name": "FormItemDatePicker",
+          "seconds": 22.473
+        },
+        {
+          "name": "DatePickerRangeCustom",
+          "seconds": 22.473
+        },
+        {
+          "name": "Card",
+          "seconds": 22.473
+        },
+        {
+          "name": "navigation",
+          "seconds": 19.54
+        },
+        {
+          "name": "table-of-contents",
+          "seconds": 19.182
+        },
+        {
+          "name": "breadcrumbs",
+          "seconds": 19.182
+        },
+        {
+          "name": "toc",
+          "seconds": 19.182
+        },
+        {
+          "name": "post-views",
+          "seconds": 19.182
+        },
+        {
+          "name": "social-share",
+          "seconds": 19.182
+        },
+        {
+          "name": "extract-steps",
+          "seconds": 19.182
+        },
+        {
           "name": "sweetalert2",
           "seconds": 11.013
         },
         {
-          "name": "common",
-          "seconds": 11.013
+          "name": "theme-toggle",
+          "seconds": 0.358
+        },
+        {
+          "name": "next",
+          "seconds": 0.358
+        },
+        {
+          "name": "date-format",
+          "seconds": 0.134
+        },
+        {
+          "name": "dashboard-store",
+          "seconds": 0.134
         }
       ],
       "ai": {
-        "ai_additions": 114,
-        "ai_deletions": 8,
-        "human_additions": 0,
+        "ai_additions": 2161,
+        "ai_deletions": 11,
+        "human_additions": 1,
         "human_deletions": 0,
-        "input_tokens": 2620115,
-        "cached_input_tokens": 43803131,
-        "output_tokens": 149911,
-        "prompt_length_sum": 9889,
-        "prompt_length_avg": 283,
-        "prompt_length_avg_per_session": 562,
-        "prompt_length_median_per_session": 54,
-        "prompt_events": 35,
-        "prompts_avg_per_session": 4,
-        "prompts_median_per_session": 3,
-        "sessions": 9,
-        "cost": 14.926886,
+        "input_tokens": 6851201,
+        "cached_input_tokens": 245194120,
+        "output_tokens": 670144,
+        "prompt_length_sum": 160367,
+        "prompt_length_avg": 960,
+        "prompt_length_avg_per_session": 960,
+        "prompt_length_median_per_session": 78,
+        "prompt_events": 167,
+        "prompts_avg_per_session": 9,
+        "prompts_median_per_session": 8,
+        "sessions": 19,
+        "cost": 90.890686,
         "models": [
           {
-            "name": "GPT",
-            "lines": 91.0,
-            "cost": 0.149804
+            "name": "Opus",
+            "lines": 2047.0,
+            "cost": 62.174675
           },
           {
-            "name": "Opus",
-            "lines": 21.0,
-            "cost": 8.190455
+            "name": "GPT",
+            "lines": 100.0,
+            "cost": 16.985569
           },
           {
             "name": "Sonnet",
-            "lines": 10.0,
-            "cost": 6.586627
+            "lines": 25.0,
+            "cost": 11.730442
+          },
+          {
+            "name": "Codex-Vscode",
+            "lines": 0.0,
+            "cost": 0.0
           }
         ]
       },
@@ -292276,7 +292938,7 @@
           {
             "name": "Lotte",
             "start_minute": 108.217,
-            "duration_seconds": 207.707,
+            "duration_seconds": 127.863,
             "ai_additions": 0,
             "ai_deletions": 0,
             "human_additions": 0,
@@ -292284,8 +292946,8 @@
           },
           {
             "name": "pm-mobile",
-            "start_minute": 111.683,
-            "duration_seconds": 351.14,
+            "start_minute": 110.35,
+            "duration_seconds": 430.984,
             "ai_additions": 0,
             "ai_deletions": 0,
             "human_additions": 0,
@@ -292304,6 +292966,1302 @@
             "name": "pm-mobile",
             "start_minute": 118.617,
             "duration_seconds": 43.373,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 146.683,
+            "duration_seconds": 11.72,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 538.817,
+            "duration_seconds": 78.921,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 540.133,
+            "duration_seconds": 2.151,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 540.167,
+            "duration_seconds": 14.286,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 540.4,
+            "duration_seconds": 666.065,
+            "ai_additions": 15,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 551.5,
+            "duration_seconds": 119.383,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 553.483,
+            "duration_seconds": 2.649,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "product-service-tsms",
+            "start_minute": 553.533,
+            "duration_seconds": 7.483,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "purchase-portal-be",
+            "start_minute": 553.667,
+            "duration_seconds": 10.83,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 553.833,
+            "duration_seconds": 11.937,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 554.033,
+            "duration_seconds": 3.577,
+            "ai_additions": 47,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 554.1,
+            "duration_seconds": 319.374,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 559.417,
+            "duration_seconds": 688.513,
+            "ai_additions": 6,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 570.9,
+            "duration_seconds": 59.048,
+            "ai_additions": 11,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "schedule-service-tsms",
+            "start_minute": 571.883,
+            "duration_seconds": 97.323,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 573.5,
+            "duration_seconds": 108.931,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 575.317,
+            "duration_seconds": 585.05,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 585.067,
+            "duration_seconds": 194.739,
+            "ai_additions": 5,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 588.317,
+            "duration_seconds": 12.254,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 588.517,
+            "duration_seconds": 0.134,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 588.517,
+            "duration_seconds": 65.001,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 589.6,
+            "duration_seconds": 150.269,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 592.117,
+            "duration_seconds": 8.172,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 592.25,
+            "duration_seconds": 21.426,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 592.6,
+            "duration_seconds": 9.859,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "product-service-tsms",
+            "start_minute": 592.767,
+            "duration_seconds": 0.499,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 592.783,
+            "duration_seconds": 74.504,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 594.017,
+            "duration_seconds": 144.926,
+            "ai_additions": 104,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 596.433,
+            "duration_seconds": 41.461,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 597.117,
+            "duration_seconds": 353.133,
+            "ai_additions": 69,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 603.017,
+            "duration_seconds": 18.195,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 603.317,
+            "duration_seconds": 30.687,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 603.817,
+            "duration_seconds": 7.55,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 603.95,
+            "duration_seconds": 80.707,
+            "ai_additions": 9,
+            "ai_deletions": 1,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 605.3,
+            "duration_seconds": 26.813,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 605.75,
+            "duration_seconds": 12.77,
+            "ai_additions": 64,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 605.95,
+            "duration_seconds": 1382.883,
+            "ai_additions": 19,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "schedule-service-tsms",
+            "start_minute": 629.0,
+            "duration_seconds": 187.684,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 632.133,
+            "duration_seconds": 126.604,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "schedule-service-tsms",
+            "start_minute": 634.233,
+            "duration_seconds": 64.593,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 635.317,
+            "duration_seconds": 35.764,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "schedule-service-tsms",
+            "start_minute": 635.917,
+            "duration_seconds": 26.852,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 636.367,
+            "duration_seconds": 51.869,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "schedule-service-tsms",
+            "start_minute": 637.233,
+            "duration_seconds": 10.253,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 637.4,
+            "duration_seconds": 240.831,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 641.417,
+            "duration_seconds": 428.362,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 648.55,
+            "duration_seconds": 23.212,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 648.933,
+            "duration_seconds": 9.515,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 649.1,
+            "duration_seconds": 279.709,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "purchase-portal-be",
+            "start_minute": 653.75,
+            "duration_seconds": 337.21,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 659.383,
+            "duration_seconds": 53.425,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 660.267,
+            "duration_seconds": 220.516,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 663.95,
+            "duration_seconds": 415.711,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 670.867,
+            "duration_seconds": 723.602,
+            "ai_additions": 749,
+            "ai_deletions": 2,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 682.933,
+            "duration_seconds": 5.45,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 683.017,
+            "duration_seconds": 2.299,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 683.067,
+            "duration_seconds": 3.579,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 683.117,
+            "duration_seconds": 43.401,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 683.85,
+            "duration_seconds": 656.271,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 694.783,
+            "duration_seconds": 10.417,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 694.95,
+            "duration_seconds": 41.051,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 695.633,
+            "duration_seconds": 179.27,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "purchase-portal-be",
+            "start_minute": 698.633,
+            "duration_seconds": 203.496,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "schedule-service-tsms",
+            "start_minute": 702.017,
+            "duration_seconds": 186.47,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 705.133,
+            "duration_seconds": 96.395,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 706.733,
+            "duration_seconds": 155.765,
+            "ai_additions": 47,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 709.333,
+            "duration_seconds": 1.02,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 709.35,
+            "duration_seconds": 5.273,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 709.433,
+            "duration_seconds": 2.662,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 709.483,
+            "duration_seconds": 2.113,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 709.517,
+            "duration_seconds": 15.686,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 709.767,
+            "duration_seconds": 52.7,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 710.65,
+            "duration_seconds": 9.174,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 710.8,
+            "duration_seconds": 26.155,
+            "ai_additions": 100,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 711.25,
+            "duration_seconds": 3.03,
+            "ai_additions": 42,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 711.3,
+            "duration_seconds": 277.003,
+            "ai_additions": 9,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 715.917,
+            "duration_seconds": 29.131,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 716.4,
+            "duration_seconds": 65.136,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 717.483,
+            "duration_seconds": 2.084,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 717.517,
+            "duration_seconds": 183.472,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 720.567,
+            "duration_seconds": 186.065,
+            "ai_additions": 52,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 723.667,
+            "duration_seconds": 4.281,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 723.75,
+            "duration_seconds": 10.488,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 723.917,
+            "duration_seconds": 456.546,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 731.533,
+            "duration_seconds": 1206.837,
+            "ai_additions": 260,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 767.383,
+            "duration_seconds": 49.269,
+            "ai_additions": 44,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 783.733,
+            "duration_seconds": 319.565,
+            "ai_additions": 40,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 807.517,
+            "duration_seconds": 6.134,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ria-fe-tsms",
+            "start_minute": 807.617,
+            "duration_seconds": 237.864,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 811.583,
+            "duration_seconds": 73.891,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 812.817,
+            "duration_seconds": 13.226,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 813.033,
+            "duration_seconds": 10.467,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 813.2,
+            "duration_seconds": 164.219,
+            "ai_additions": 14,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 815.95,
+            "duration_seconds": 518.685,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 824.583,
+            "duration_seconds": 102.571,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 826.3,
+            "duration_seconds": 81.091,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "system-service-tsms-v2",
+            "start_minute": 827.65,
+            "duration_seconds": 218.612,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 831.3,
+            "duration_seconds": 348.792,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 837.1,
+            "duration_seconds": 439.825,
+            "ai_additions": 154,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 867.567,
+            "duration_seconds": 176.262,
+            "ai_additions": 23,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ria-fe-tsms",
+            "start_minute": 870.5,
+            "duration_seconds": 22.473,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 870.867,
+            "duration_seconds": 5.279,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 870.967,
+            "duration_seconds": 11.173,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 871.15,
+            "duration_seconds": 3.43,
+            "ai_additions": 16,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-docs",
+            "start_minute": 871.2,
+            "duration_seconds": 97.502,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 872.833,
+            "duration_seconds": 230.92,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "product-service-tsms",
+            "start_minute": 876.683,
+            "duration_seconds": 145.925,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-docs",
+            "start_minute": 879.117,
+            "duration_seconds": 196.35,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 882.383,
+            "duration_seconds": 5.771,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "product-service-tsms",
+            "start_minute": 882.483,
+            "duration_seconds": 0.817,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 882.5,
+            "duration_seconds": 60.163,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 883.5,
+            "duration_seconds": 1.3,
+            "ai_additions": 2,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 883.517,
+            "duration_seconds": 135.556,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 885.783,
+            "duration_seconds": 1.247,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 885.8,
+            "duration_seconds": 181.951,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 888.833,
+            "duration_seconds": 270.749,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 893.35,
+            "duration_seconds": 77.038,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 894.633,
+            "duration_seconds": 365.859,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 900.717,
+            "duration_seconds": 26.551,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 901.167,
+            "duration_seconds": 1150.61,
+            "ai_additions": 14,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 948.167,
+            "duration_seconds": 1691.577,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 0
+          },
+          {
+            "name": "ria-fe-tsms",
+            "start_minute": 976.35,
+            "duration_seconds": 237.566,
+            "ai_additions": 9,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 980.317,
+            "duration_seconds": 155.439,
+            "ai_additions": 17,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 982.9,
+            "duration_seconds": 164.944,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "schedule-service-tsms",
+            "start_minute": 985.65,
+            "duration_seconds": 142.896,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 988.033,
+            "duration_seconds": 61.884,
+            "ai_additions": 2,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 989.067,
+            "duration_seconds": 238.749,
+            "ai_additions": 17,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "schedule-service-tsms",
+            "start_minute": 993.05,
+            "duration_seconds": 32.356,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TSMS Logic",
+            "start_minute": 993.583,
+            "duration_seconds": 11.561,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "schedule-service-tsms",
+            "start_minute": 993.783,
+            "duration_seconds": 189.675,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 996.933,
+            "duration_seconds": 92.544,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ria-fe-tsms",
+            "start_minute": 998.483,
+            "duration_seconds": 191.302,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 1001.667,
+            "duration_seconds": 38.916,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "schedule-service-tsms",
+            "start_minute": 1002.317,
+            "duration_seconds": 95.282,
+            "ai_additions": 19,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ria-fe-tsms",
+            "start_minute": 1003.9,
+            "duration_seconds": 88.416,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 1005.383,
+            "duration_seconds": 31.823,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-docs",
+            "start_minute": 1005.917,
+            "duration_seconds": 78.597,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "schedule-service-tsms",
+            "start_minute": 1007.217,
+            "duration_seconds": 31.647,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 1007.75,
+            "duration_seconds": 5.53,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-docs",
+            "start_minute": 1007.833,
+            "duration_seconds": 4.672,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "schedule-service-tsms",
+            "start_minute": 1007.917,
+            "duration_seconds": 38.733,
+            "ai_additions": 13,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 1008.567,
+            "duration_seconds": 57.884,
+            "ai_additions": 31,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "schedule-service-tsms",
+            "start_minute": 1009.533,
+            "duration_seconds": 229.136,
+            "ai_additions": 21,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 1036.35,
+            "duration_seconds": 106.004,
             "ai_additions": 0,
             "ai_deletions": 0,
             "human_additions": 0,
@@ -292476,7 +294434,16 @@
           {
             "name": "Other",
             "start_minute": 108.217,
-            "duration_seconds": 207.707,
+            "duration_seconds": 127.863,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 110.35,
+            "duration_seconds": 79.844,
             "ai_additions": 0,
             "ai_deletions": 0,
             "human_additions": 0,
@@ -292504,6 +294471,1410 @@
             "name": "Markdown",
             "start_minute": 118.617,
             "duration_seconds": 43.373,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 146.683,
+            "duration_seconds": 11.72,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 538.817,
+            "duration_seconds": 78.921,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 540.133,
+            "duration_seconds": 2.151,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 540.167,
+            "duration_seconds": 14.286,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 540.4,
+            "duration_seconds": 638.115,
+            "ai_additions": 15,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 551.033,
+            "duration_seconds": 149.982,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "XML",
+            "start_minute": 553.533,
+            "duration_seconds": 7.483,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 553.667,
+            "duration_seconds": 10.83,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 553.833,
+            "duration_seconds": 11.937,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "SQL",
+            "start_minute": 554.033,
+            "duration_seconds": 3.577,
+            "ai_additions": 47,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 554.1,
+            "duration_seconds": 319.374,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 559.417,
+            "duration_seconds": 719.358,
+            "ai_additions": 6,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "JSON",
+            "start_minute": 571.417,
+            "duration_seconds": 23.754,
+            "ai_additions": 6,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Git Config",
+            "start_minute": 571.8,
+            "duration_seconds": 4.449,
+            "ai_additions": 5,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "XML",
+            "start_minute": 571.883,
+            "duration_seconds": 97.323,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Git Config",
+            "start_minute": 573.5,
+            "duration_seconds": 108.931,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 575.317,
+            "duration_seconds": 585.05,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Git Config",
+            "start_minute": 585.067,
+            "duration_seconds": 5.207,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 585.15,
+            "duration_seconds": 18.374,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "CSS",
+            "start_minute": 585.467,
+            "duration_seconds": 171.158,
+            "ai_additions": 5,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 588.317,
+            "duration_seconds": 12.254,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 588.517,
+            "duration_seconds": 0.134,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 588.517,
+            "duration_seconds": 65.001,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 589.6,
+            "duration_seconds": 150.269,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 592.117,
+            "duration_seconds": 8.172,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 592.25,
+            "duration_seconds": 21.426,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 592.6,
+            "duration_seconds": 4.658,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "SQL",
+            "start_minute": 592.683,
+            "duration_seconds": 5.201,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "XML",
+            "start_minute": 592.767,
+            "duration_seconds": 0.499,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "SQL",
+            "start_minute": 592.783,
+            "duration_seconds": 74.504,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 594.017,
+            "duration_seconds": 78.669,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "CSS",
+            "start_minute": 595.333,
+            "duration_seconds": 41.348,
+            "ai_additions": 27,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 596.017,
+            "duration_seconds": 24.909,
+            "ai_additions": 54,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "SQL",
+            "start_minute": 596.433,
+            "duration_seconds": 41.461,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 597.117,
+            "duration_seconds": 353.133,
+            "ai_additions": 69,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 603.017,
+            "duration_seconds": 5.572,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "SQL",
+            "start_minute": 603.1,
+            "duration_seconds": 12.623,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 603.317,
+            "duration_seconds": 30.687,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "SQL",
+            "start_minute": 603.817,
+            "duration_seconds": 7.55,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "CSS",
+            "start_minute": 603.95,
+            "duration_seconds": 57.872,
+            "ai_additions": 7,
+            "ai_deletions": 1,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 604.917,
+            "duration_seconds": 22.835,
+            "ai_additions": 2,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "SQL",
+            "start_minute": 605.3,
+            "duration_seconds": 26.813,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 605.75,
+            "duration_seconds": 12.77,
+            "ai_additions": 64,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "SQL",
+            "start_minute": 605.95,
+            "duration_seconds": 78.482,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 607.267,
+            "duration_seconds": 335.455,
+            "ai_additions": 19,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 612.85,
+            "duration_seconds": 361.289,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "SQL",
+            "start_minute": 618.883,
+            "duration_seconds": 436.952,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 626.15,
+            "duration_seconds": 170.705,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 629.0,
+            "duration_seconds": 187.684,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "CSS",
+            "start_minute": 632.133,
+            "duration_seconds": 126.604,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 634.233,
+            "duration_seconds": 64.593,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "CSS",
+            "start_minute": 635.317,
+            "duration_seconds": 35.764,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 635.917,
+            "duration_seconds": 26.852,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 636.367,
+            "duration_seconds": 35.734,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "CSS",
+            "start_minute": 636.95,
+            "duration_seconds": 16.135,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 637.233,
+            "duration_seconds": 10.253,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "CSS",
+            "start_minute": 637.4,
+            "duration_seconds": 6.366,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 637.5,
+            "duration_seconds": 975.263,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 653.75,
+            "duration_seconds": 337.21,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 659.383,
+            "duration_seconds": 986.984,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Image (svg)",
+            "start_minute": 675.833,
+            "duration_seconds": 61.749,
+            "ai_additions": 14,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 676.85,
+            "duration_seconds": 147.326,
+            "ai_additions": 42,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 679.317,
+            "duration_seconds": 108.352,
+            "ai_additions": 611,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 681.117,
+            "duration_seconds": 76.876,
+            "ai_additions": 9,
+            "ai_deletions": 2,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 682.4,
+            "duration_seconds": 12.753,
+            "ai_additions": 50,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 682.617,
+            "duration_seconds": 19.214,
+            "ai_additions": 23,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 682.933,
+            "duration_seconds": 5.45,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 683.017,
+            "duration_seconds": 2.299,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 683.067,
+            "duration_seconds": 3.579,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 683.117,
+            "duration_seconds": 43.401,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 683.85,
+            "duration_seconds": 656.271,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 694.783,
+            "duration_seconds": 10.417,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 694.95,
+            "duration_seconds": 41.051,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 695.633,
+            "duration_seconds": 382.766,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "XML",
+            "start_minute": 702.017,
+            "duration_seconds": 186.47,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 705.133,
+            "duration_seconds": 96.395,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 706.733,
+            "duration_seconds": 155.765,
+            "ai_additions": 47,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 709.333,
+            "duration_seconds": 1.02,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 709.35,
+            "duration_seconds": 5.273,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 709.433,
+            "duration_seconds": 2.662,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 709.483,
+            "duration_seconds": 2.113,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 709.517,
+            "duration_seconds": 15.686,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 709.767,
+            "duration_seconds": 3.31,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "CSS",
+            "start_minute": 709.833,
+            "duration_seconds": 49.39,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 710.65,
+            "duration_seconds": 9.174,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "CSS",
+            "start_minute": 710.8,
+            "duration_seconds": 9.718,
+            "ai_additions": 100,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 710.967,
+            "duration_seconds": 16.437,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 711.25,
+            "duration_seconds": 3.03,
+            "ai_additions": 42,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 711.3,
+            "duration_seconds": 277.003,
+            "ai_additions": 9,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 715.917,
+            "duration_seconds": 29.131,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 716.4,
+            "duration_seconds": 65.136,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 717.483,
+            "duration_seconds": 2.084,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 717.517,
+            "duration_seconds": 183.472,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 720.567,
+            "duration_seconds": 4.794,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 720.65,
+            "duration_seconds": 32.874,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 721.2,
+            "duration_seconds": 84.982,
+            "ai_additions": 37,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "PowerShell",
+            "start_minute": 722.617,
+            "duration_seconds": 63.415,
+            "ai_additions": 15,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 723.667,
+            "duration_seconds": 4.281,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 723.75,
+            "duration_seconds": 10.488,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 723.917,
+            "duration_seconds": 456.546,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 731.533,
+            "duration_seconds": 1206.837,
+            "ai_additions": 260,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 767.383,
+            "duration_seconds": 49.269,
+            "ai_additions": 44,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 783.733,
+            "duration_seconds": 292.735,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 788.617,
+            "duration_seconds": 26.83,
+            "ai_additions": 40,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "SQL",
+            "start_minute": 807.517,
+            "duration_seconds": 6.134,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 807.617,
+            "duration_seconds": 311.755,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 812.817,
+            "duration_seconds": 13.226,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 813.033,
+            "duration_seconds": 10.467,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 813.2,
+            "duration_seconds": 164.219,
+            "ai_additions": 14,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "SQL",
+            "start_minute": 815.95,
+            "duration_seconds": 518.685,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 824.583,
+            "duration_seconds": 102.571,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "SQL",
+            "start_minute": 826.3,
+            "duration_seconds": 81.091,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 827.65,
+            "duration_seconds": 218.612,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 831.3,
+            "duration_seconds": 348.792,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "SQL",
+            "start_minute": 837.1,
+            "duration_seconds": 439.825,
+            "ai_additions": 154,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 867.567,
+            "duration_seconds": 176.262,
+            "ai_additions": 23,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 870.5,
+            "duration_seconds": 22.473,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 870.867,
+            "duration_seconds": 5.279,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 870.967,
+            "duration_seconds": 11.173,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 871.15,
+            "duration_seconds": 3.43,
+            "ai_additions": 16,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 871.2,
+            "duration_seconds": 97.502,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 872.833,
+            "duration_seconds": 230.92,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "XML",
+            "start_minute": 876.683,
+            "duration_seconds": 145.925,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 879.117,
+            "duration_seconds": 202.121,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "XML",
+            "start_minute": 882.483,
+            "duration_seconds": 0.817,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 882.5,
+            "duration_seconds": 60.163,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 883.5,
+            "duration_seconds": 1.3,
+            "ai_additions": 2,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 883.517,
+            "duration_seconds": 1466.486,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 907.967,
+            "duration_seconds": 743.075,
+            "ai_additions": 14,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "JSON",
+            "start_minute": 948.167,
+            "duration_seconds": 353.966,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "SQL",
+            "start_minute": 954.067,
+            "duration_seconds": 2.855,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "SQL",
+            "start_minute": 954.1,
+            "duration_seconds": 484.827,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "JSON",
+            "start_minute": 962.183,
+            "duration_seconds": 24.375,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 0
+          },
+          {
+            "name": "SQL",
+            "start_minute": 962.6,
+            "duration_seconds": 48.842,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "JSON",
+            "start_minute": 963.4,
+            "duration_seconds": 167.901,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "JSON",
+            "start_minute": 966.2,
+            "duration_seconds": 608.811,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 976.35,
+            "duration_seconds": 83.007,
+            "ai_additions": 2,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "JavaScript",
+            "start_minute": 977.733,
+            "duration_seconds": 27.076,
+            "ai_additions": 7,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 978.183,
+            "duration_seconds": 127.483,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 980.317,
+            "duration_seconds": 155.439,
+            "ai_additions": 17,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "JSON",
+            "start_minute": 982.9,
+            "duration_seconds": 164.944,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java Properties",
+            "start_minute": 985.65,
+            "duration_seconds": 22.965,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 986.033,
+            "duration_seconds": 119.931,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 988.033,
+            "duration_seconds": 300.633,
+            "ai_additions": 19,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 993.05,
+            "duration_seconds": 32.356,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 993.583,
+            "duration_seconds": 11.561,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 993.783,
+            "duration_seconds": 189.675,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 996.933,
+            "duration_seconds": 92.544,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 998.483,
+            "duration_seconds": 191.302,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1001.667,
+            "duration_seconds": 134.198,
+            "ai_additions": 19,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 1003.9,
+            "duration_seconds": 88.416,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 1005.383,
+            "duration_seconds": 31.823,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1005.917,
+            "duration_seconds": 110.244,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 1007.75,
+            "duration_seconds": 5.53,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1007.833,
+            "duration_seconds": 330.425,
+            "ai_additions": 65,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 1036.35,
+            "duration_seconds": 106.004,
             "ai_additions": 0,
             "ai_deletions": 0,
             "human_additions": 0,
@@ -292550,9 +295921,135 @@
           {
             "name": "AI Coding",
             "start_minute": 64.9,
-            "duration_seconds": 3265.572,
+            "duration_seconds": 2726.99,
             "ai_additions": 98,
             "ai_deletions": 8,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Coding",
+            "start_minute": 110.35,
+            "duration_seconds": 79.844,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 111.683,
+            "duration_seconds": 458.738,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 146.683,
+            "duration_seconds": 11.72,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 538.817,
+            "duration_seconds": 12769.935,
+            "ai_additions": 1611,
+            "ai_deletions": 3,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 767.383,
+            "duration_seconds": 49.269,
+            "ai_additions": 44,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 783.733,
+            "duration_seconds": 319.565,
+            "ai_additions": 40,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 807.517,
+            "duration_seconds": 2215.377,
+            "ai_additions": 168,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 867.567,
+            "duration_seconds": 3166.926,
+            "ai_additions": 55,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 948.167,
+            "duration_seconds": 356.821,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Coding",
+            "start_minute": 954.1,
+            "duration_seconds": 725.945,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 966.2,
+            "duration_seconds": 1001.816,
+            "ai_additions": 26,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Coding",
+            "start_minute": 982.9,
+            "duration_seconds": 164.944,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 985.65,
+            "duration_seconds": 1661.603,
+            "ai_additions": 103,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 1036.35,
+            "duration_seconds": 106.004,
+            "ai_additions": 0,
+            "ai_deletions": 0,
             "human_additions": 0,
             "human_deletions": 0
           }
@@ -292966,9 +296463,513 @@
           {
             "name": "Claude Code",
             "start_minute": 95.767,
-            "duration_seconds": 1413.986,
+            "duration_seconds": 875.404,
             "ai_additions": 0,
             "ai_deletions": 3,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 110.35,
+            "duration_seconds": 79.844,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 111.683,
+            "duration_seconds": 458.738,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 146.683,
+            "duration_seconds": 11.72,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 538.817,
+            "duration_seconds": 78.921,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 540.133,
+            "duration_seconds": 2.151,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 540.167,
+            "duration_seconds": 14.286,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 540.4,
+            "duration_seconds": 3805.422,
+            "ai_additions": 257,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 603.817,
+            "duration_seconds": 7.55,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 603.95,
+            "duration_seconds": 176.937,
+            "ai_additions": 73,
+            "ai_deletions": 1,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 606.9,
+            "duration_seconds": 21.835,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 607.267,
+            "duration_seconds": 696.744,
+            "ai_additions": 19,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 618.883,
+            "duration_seconds": 61.988,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 619.9,
+            "duration_seconds": 924.55,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 635.317,
+            "duration_seconds": 10.257,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 635.483,
+            "duration_seconds": 14.615,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 635.733,
+            "duration_seconds": 8.096,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 635.867,
+            "duration_seconds": 29.648,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 636.367,
+            "duration_seconds": 27.768,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 636.817,
+            "duration_seconds": 0.362,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 636.833,
+            "duration_seconds": 8.955,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 636.983,
+            "duration_seconds": 2648.287,
+            "ai_additions": 667,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 681.117,
+            "duration_seconds": 34.892,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 681.7,
+            "duration_seconds": 4196.671,
+            "ai_additions": 595,
+            "ai_deletions": 2,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 767.383,
+            "duration_seconds": 49.269,
+            "ai_additions": 44,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 783.733,
+            "duration_seconds": 319.565,
+            "ai_additions": 40,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 807.517,
+            "duration_seconds": 1707.565,
+            "ai_additions": 14,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 835.967,
+            "duration_seconds": 67.987,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 837.1,
+            "duration_seconds": 439.825,
+            "ai_additions": 154,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 867.567,
+            "duration_seconds": 889.314,
+            "ai_additions": 39,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 882.383,
+            "duration_seconds": 4.113,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 882.45,
+            "duration_seconds": 1.658,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 882.483,
+            "duration_seconds": 0.817,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 882.5,
+            "duration_seconds": 60.163,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 883.5,
+            "duration_seconds": 1.3,
+            "ai_additions": 2,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 883.517,
+            "duration_seconds": 135.556,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 885.783,
+            "duration_seconds": 1.247,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 885.8,
+            "duration_seconds": 181.951,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 888.833,
+            "duration_seconds": 270.749,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 893.35,
+            "duration_seconds": 77.038,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 894.633,
+            "duration_seconds": 1543.02,
+            "ai_additions": 14,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 948.167,
+            "duration_seconds": 356.821,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 954.1,
+            "duration_seconds": 725.945,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 966.2,
+            "duration_seconds": 846.377,
+            "ai_additions": 9,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 980.317,
+            "duration_seconds": 155.439,
+            "ai_additions": 17,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 982.9,
+            "duration_seconds": 164.944,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 985.65,
+            "duration_seconds": 142.896,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 988.033,
+            "duration_seconds": 344.55,
+            "ai_additions": 19,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 993.783,
+            "duration_seconds": 189.675,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 996.933,
+            "duration_seconds": 92.544,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 998.483,
+            "duration_seconds": 191.302,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 1001.667,
+            "duration_seconds": 134.198,
+            "ai_additions": 19,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 1003.9,
+            "duration_seconds": 88.416,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 1005.383,
+            "duration_seconds": 142.067,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 1007.75,
+            "duration_seconds": 5.53,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 1007.833,
+            "duration_seconds": 330.425,
+            "ai_additions": 65,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 1036.35,
+            "duration_seconds": 106.004,
+            "ai_additions": 0,
+            "ai_deletions": 0,
             "human_additions": 0,
             "human_deletions": 0
           }
@@ -292995,9 +296996,135 @@
           {
             "name": "Windows",
             "start_minute": 64.9,
-            "duration_seconds": 3265.572,
+            "duration_seconds": 2726.99,
             "ai_additions": 98,
             "ai_deletions": 8,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 110.35,
+            "duration_seconds": 79.844,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 111.683,
+            "duration_seconds": 458.738,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 146.683,
+            "duration_seconds": 11.72,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 538.817,
+            "duration_seconds": 12769.935,
+            "ai_additions": 1611,
+            "ai_deletions": 3,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 767.383,
+            "duration_seconds": 49.269,
+            "ai_additions": 44,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 783.733,
+            "duration_seconds": 319.565,
+            "ai_additions": 40,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 807.517,
+            "duration_seconds": 2215.377,
+            "ai_additions": 168,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 867.567,
+            "duration_seconds": 3166.926,
+            "ai_additions": 55,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 948.167,
+            "duration_seconds": 356.821,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 954.1,
+            "duration_seconds": 725.945,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 966.2,
+            "duration_seconds": 1001.816,
+            "ai_additions": 26,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 982.9,
+            "duration_seconds": 164.944,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 985.65,
+            "duration_seconds": 1661.603,
+            "ai_additions": 103,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 1036.35,
+            "duration_seconds": 106.004,
+            "ai_additions": 0,
+            "ai_deletions": 0,
             "human_additions": 0,
             "human_deletions": 0
           }
@@ -293020,8 +297147,118 @@
             "ai_deletions": 8,
             "human_additions": 0,
             "human_deletions": 0
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 146.683,
+            "duration_seconds": 11.72,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 538.817,
+            "duration_seconds": 12769.935,
+            "ai_additions": 1611,
+            "ai_deletions": 3,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 767.383,
+            "duration_seconds": 49.269,
+            "ai_additions": 44,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 783.733,
+            "duration_seconds": 319.565,
+            "ai_additions": 40,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 807.517,
+            "duration_seconds": 2215.377,
+            "ai_additions": 168,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 867.567,
+            "duration_seconds": 3166.926,
+            "ai_additions": 55,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 948.167,
+            "duration_seconds": 3911.129,
+            "ai_additions": 129,
+            "ai_deletions": 0,
+            "human_additions": 1,
+            "human_deletions": 0
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 1036.35,
+            "duration_seconds": 106.004,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
           }
         ]
+      }
+    },
+    {
+      "date": "2026-11-07",
+      "seconds": 0.0,
+      "projects": [],
+      "languages": [],
+      "editors": [],
+      "operating_systems": [],
+      "machines": [],
+      "categories": [],
+      "dependencies": [],
+      "ai": {
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "input_tokens": 0,
+        "cached_input_tokens": 0,
+        "output_tokens": 0,
+        "prompt_length_sum": 0,
+        "prompt_length_avg": 0,
+        "prompt_length_avg_per_session": 0,
+        "prompt_length_median_per_session": 0,
+        "prompt_events": 0,
+        "prompts_avg_per_session": 0,
+        "prompts_median_per_session": 0,
+        "sessions": 0,
+        "cost": 0.0,
+        "models": []
+      },
+      "timelines": {
+        "project": [],
+        "language": [],
+        "category": [],
+        "editor": [],
+        "os": [],
+        "machine": []
       }
     }
   ]
