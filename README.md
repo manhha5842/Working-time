@@ -2,42 +2,42 @@
 
 Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 
-> Last updated: **2026-11-08 05:39 ICT**
+> Last updated: **2026-11-09 05:47 ICT**
 
 ## Overview
 
 | Metric | Coding time |
 |---|---:|
 | Today | **0m** |
-| This week | **37h 16m** |
-| This month | **37h 16m** |
-| This year | **410h 31m** |
-| All archived time | **410h 31m** |
-| Daily average (active days) | **4h 50m** |
-| Active days | **85** |
+| This week | **0m** |
+| This month | **37h 19m** |
+| This year | **410h 34m** |
+| All archived time | **410h 34m** |
+| Daily average (active days) | **4h 46m** |
+| Active days | **86** |
 | Best day | **2026-10-19 (8h 38m)** |
 
 ## Last 7 Days
 
 | Day | Date | Coding time |
 |---|---|---:|
-| Mon | 2026-11-02 | 6h 36m |
 | Tue | 2026-11-03 | 7h 39m |
 | Wed | 2026-11-04 | 7h 24m |
 | Thu | 2026-11-05 | 7h 36m |
 | Fri | 2026-11-06 | 7h 27m |
 | Sat | 2026-11-07 | 35m |
-| Sun | 2026-11-08 | 0m |
+| Sun | 2026-11-08 | 3m |
+| Mon | 2026-11-09 | 0m |
 
 ## Top Languages
 
 | Language | Time | Share |
 |---|---:|---:|
-| Markdown | 98h 23m | 24.0% |
+| Markdown | 98h 24m | 24.0% |
 | TypeScript | 65h 52m | 16.0% |
-| Other | 63h 5m | 15.4% |
+| Other | 63h 7m | 15.4% |
 | Java | 52h 33m | 12.8% |
-| Dart | 37h 9m | 9.1% |
+| Dart | 37h 9m | 9.0% |
 | SQL | 18h 27m | 4.5% |
 | Python | 16h 27m | 4.0% |
 | Java Properties | 12h 24m | 3.0% |
@@ -67,7 +67,7 @@ Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 | pm-mobile | 28h 26m | 6.9% |
 | ria-fe-tsms | 15h 7m | 3.7% |
 | Lotte | 14h 58m | 3.6% |
-| Muahangre | 13h 35m | 3.3% |
+| Muahangre | 13h 37m | 3.3% |
 | system-service-tsms-v2 | 12h 27m | 3.0% |
 | Zerun-pro-max | 11h 16m | 2.7% |
 | shopee-seeding-bot-develop | 8h 7m | 2.0% |
@@ -106,7 +106,7 @@ Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 
 | Editor | Time | Share |
 |---|---:|---:|
-| Codex Vscode | 246h 7m | 60.0% |
+| Codex Vscode | 246h 10m | 60.0% |
 | VS Code | 139h 20m | 33.9% |
 | Claude Code | 15h 49m | 3.9% |
 | Opencode Cli | 6h 51m | 1.7% |
@@ -119,7 +119,7 @@ Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 
 | OS | Time | Share |
 |---|---:|---:|
-| Windows | 410h 31m | 100.0% |
+| Windows | 410h 34m | 100.0% |
 
 ## How it works
 
