@@ -3480,7 +3480,7 @@
       "ai_input_tokens": 0,
       "ai_cached_input_tokens": 0,
       "ai_output_tokens": 0,
-      "duration": 262.446,
+      "duration": 21.591,
       "ai_model_breakdown": [],
       "ai_additions": 0,
       "ai_model_line_changes": {},
@@ -3499,12 +3499,12 @@
       "ai_prompt_length_median_per_session": 0
     },
     {
-      "time": 1794212558.986,
+      "time": 1794212318.131,
       "project": "ria-fe-tsms",
       "ai_input_tokens": 13925,
       "ai_cached_input_tokens": 3736698,
       "ai_output_tokens": 7687,
-      "duration": 225.919,
+      "duration": 466.774,
       "ai_model_breakdown": [
         {
           "name": "Opus",
@@ -4340,18 +4340,16 @@
     {
       "time": 1794216695.078,
       "project": "pm-mobile",
-      "ai_input_tokens": 14996,
-      "ai_cached_input_tokens": 922453,
-      "ai_output_tokens": 3546,
-      "duration": 556.973,
+      "ai_input_tokens": 1014,
+      "ai_cached_input_tokens": 220310,
+      "ai_output_tokens": 446,
+      "duration": 24.444,
       "ai_model_breakdown": [
         {
           "name": "Sonnet",
-          "lines": 0,
-          "cost": 0.249943,
-          "input_tokens": 14996,
-          "output_tokens": 3546,
-          "cached_input_tokens": 922453
+          "input_tokens": 1014,
+          "output_tokens": 446,
+          "cached_input_tokens": 220310
         }
       ],
       "ai_additions": 0,
@@ -4360,7 +4358,71 @@
       "human_additions": 0,
       "human_deletions": 0,
       "ai_model_costs": {
-        "Sonnet": 0.249943
+        "Sonnet": 0.05055
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1794216719.522,
+      "project": "gems142-20261109",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 411.948,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 16862,
+      "ai_prompt_events_total": 1,
+      "color": null,
+      "ai_prompt_length_avg": 16862,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 16862,
+      "ai_prompt_length_median_per_session": 16862
+    },
+    {
+      "time": 1794217131.47,
+      "project": "pm-mobile",
+      "ai_input_tokens": 13982,
+      "ai_cached_input_tokens": 702143,
+      "ai_output_tokens": 3100,
+      "duration": 120.581,
+      "ai_model_breakdown": [
+        {
+          "name": "Sonnet",
+          "input_tokens": 13982,
+          "output_tokens": 3100,
+          "cached_input_tokens": 702143
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Sonnet": 0.199393
       },
       "ai_sessions": 1,
       "ai_prompt_length_sum": 156,

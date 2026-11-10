@@ -1054,58 +1054,162 @@
     {
       "time": 1794212558.986,
       "project": "ria-fe-tsms",
-      "ai_input_tokens": 738123,
-      "ai_cached_input_tokens": 41873731,
-      "ai_output_tokens": 138728,
+      "ai_input_tokens": 178373,
+      "ai_cached_input_tokens": 17737453,
+      "ai_output_tokens": 46446,
       "category": "AI Coding",
-      "duration": 9283.713,
+      "duration": 3250.556,
       "ai_model_breakdown": [
         {
           "name": "Opus",
-          "lines": 476,
-          "cost": 10.929462,
-          "input_tokens": 321295,
-          "output_tokens": 114889,
-          "cached_input_tokens": 36732524
+          "lines": 118,
+          "cost": 4.797992,
+          "input_tokens": 131603,
+          "output_tokens": 42545,
+          "cached_input_tokens": 17103409
         },
         {
           "name": "Sonnet",
-          "lines": 40,
-          "cost": 1.90565,
-          "input_tokens": 330280,
-          "output_tokens": 21685,
-          "cached_input_tokens": 5141207
+          "lines": 16,
+          "cost": 0.170564,
+          "input_tokens": 6233,
+          "output_tokens": 3129,
+          "cached_input_tokens": 634044
         },
         {
           "name": "Gemini",
           "lines": 0,
-          "cost": 0.198944,
-          "input_tokens": 86548,
-          "output_tokens": 2154,
+          "cost": 0.090338,
+          "input_tokens": 40537,
+          "output_tokens": 772,
           "cached_input_tokens": 0
         }
       ],
-      "ai_additions": 470,
+      "ai_additions": 134,
       "ai_model_line_changes": {
-        "Opus": 476,
-        "Sonnet": 40
+        "Opus": 118,
+        "Sonnet": 16
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 4.797992,
+        "Gemini": 0.090338,
+        "Sonnet": 0.170564
+      },
+      "ai_sessions": 8,
+      "ai_prompt_length_sum": 22760,
+      "ai_prompt_events_total": 21,
+      "ai_prompt_length_avg": 1084,
+      "ai_prompt_events_avg_per_session": 3,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 1449,
+      "ai_prompt_length_median_per_session": 1029
+    },
+    {
+      "time": 1794215809.542,
+      "project": "pm-mobile",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "category": "Writing Docs",
+      "duration": 25.092,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1794215834.634,
+      "project": "pm-mobile",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "category": "Coding",
+      "duration": 331.497,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1794216166.131,
+      "project": "purchase-portal-fe",
+      "ai_input_tokens": 559750,
+      "ai_cached_input_tokens": 24136278,
+      "ai_output_tokens": 92282,
+      "category": "AI Coding",
+      "duration": 5676.568,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 358,
+          "cost": 6.13147,
+          "input_tokens": 189692,
+          "output_tokens": 72344,
+          "cached_input_tokens": 19629115
+        },
+        {
+          "name": "Sonnet",
+          "lines": 24,
+          "cost": 1.735086,
+          "input_tokens": 324047,
+          "output_tokens": 18556,
+          "cached_input_tokens": 4507163
+        },
+        {
+          "name": "Gemini",
+          "lines": 0,
+          "cost": 0.108606,
+          "input_tokens": 46011,
+          "output_tokens": 1382,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 336,
+      "ai_model_line_changes": {
+        "Opus": 358,
+        "Sonnet": 24
       },
       "ai_deletions": 46,
       "human_additions": 0,
       "human_deletions": 0,
       "ai_model_costs": {
-        "Opus": 10.929462,
-        "Gemini": 0.198944,
-        "Sonnet": 1.90565
+        "Opus": 6.13147,
+        "Gemini": 0.108606,
+        "Sonnet": 1.735086
       },
-      "ai_sessions": 14,
-      "ai_prompt_length_sum": 40188,
-      "ai_prompt_events_total": 54,
-      "ai_prompt_length_avg": 744,
-      "ai_prompt_events_avg_per_session": 4,
-      "ai_prompt_events_median_per_session": 4,
-      "ai_prompt_length_avg_per_session": 1487,
-      "ai_prompt_length_median_per_session": 1042
+      "ai_sessions": 11,
+      "ai_prompt_length_sum": 34290,
+      "ai_prompt_events_total": 34,
+      "ai_prompt_length_avg": 1009,
+      "ai_prompt_events_avg_per_session": 3,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 2581,
+      "ai_prompt_length_median_per_session": 80
     },
     {
       "time": 1794223936.406,
