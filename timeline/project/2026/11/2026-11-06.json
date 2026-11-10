@@ -5215,18 +5215,16 @@
     {
       "time": 1793958323.208,
       "project": "pm-mobile",
-      "ai_input_tokens": 3368,
-      "ai_cached_input_tokens": 412153,
-      "ai_output_tokens": 1196,
-      "duration": 31.823,
+      "ai_input_tokens": 322,
+      "ai_cached_input_tokens": 102359,
+      "ai_output_tokens": 202,
+      "duration": 3.284,
       "ai_model_breakdown": [
         {
           "name": "Opus",
-          "lines": 0,
-          "cost": 0.119823,
-          "input_tokens": 3368,
-          "output_tokens": 1196,
-          "cached_input_tokens": 412153
+          "input_tokens": 322,
+          "output_tokens": 202,
+          "cached_input_tokens": 102359
         }
       ],
       "ai_additions": 0,
@@ -5235,7 +5233,7 @@
       "human_additions": 0,
       "human_deletions": 0,
       "ai_model_costs": {
-        "Opus": 0.119823
+        "Opus": 0.0258
       },
       "ai_sessions": 1,
       "ai_prompt_length_sum": 30,
@@ -5246,6 +5244,65 @@
       "ai_prompt_events_median_per_session": 1,
       "ai_prompt_length_avg_per_session": 30,
       "ai_prompt_length_median_per_session": 30
+    },
+    {
+      "time": 1793958326.492,
+      "project": "schedule-service-tsms",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 0.998,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1793958327.49,
+      "project": "pm-mobile",
+      "ai_input_tokens": 3046,
+      "ai_cached_input_tokens": 309794,
+      "ai_output_tokens": 994,
+      "duration": 27.541,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 0,
+          "cost": 0.094023,
+          "input_tokens": 3046,
+          "output_tokens": 994,
+          "cached_input_tokens": 309794
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.094023
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
     },
     {
       "time": 1793958355.031,
@@ -5515,6 +5572,37 @@
       "ai_prompt_events_median_per_session": 0,
       "ai_prompt_length_avg_per_session": 0,
       "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1793963644.398,
+      "project": "TSMS Logic",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 0.0,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 15771,
+      "ai_prompt_events_total": 1,
+      "color": null,
+      "ai_prompt_length_avg": 15771,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 15771,
+      "ai_prompt_length_median_per_session": 15771
     }
   ],
   "start": "2026-11-05T17:00:00Z",
