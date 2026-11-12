@@ -3,11 +3,11 @@
     {
       "time": 1794333141.629,
       "project": "pm-mobile",
-      "ai_input_tokens": 480891,
-      "ai_cached_input_tokens": 13987168,
-      "ai_output_tokens": 77096,
+      "ai_input_tokens": 483155,
+      "ai_cached_input_tokens": 14291680,
+      "ai_output_tokens": 78540,
       "machine_name_id": "82af568f-a04c-43d8-b3d2-697f524c7d84",
-      "duration": 1914.434,
+      "duration": 1943.967,
       "ai_model_breakdown": [
         {
           "name": "Opus",
@@ -28,10 +28,10 @@
         {
           "name": "GPT",
           "lines": 0,
-          "cost": 0.123269,
-          "input_tokens": 367541,
-          "output_tokens": 64225,
-          "cached_input_tokens": 5440384
+          "cost": 0.127263,
+          "input_tokens": 369805,
+          "output_tokens": 65669,
+          "cached_input_tokens": 5744896
         }
       ],
       "ai_additions": 65,
@@ -43,7 +43,7 @@
       "human_deletions": 0,
       "ai_model_costs": {
         "Opus": 2.010005,
-        "GPT": 0.123269,
+        "GPT": 0.127263,
         "Gemini": 0.208934
       },
       "ai_sessions": 3,
@@ -55,6 +55,331 @@
       "ai_prompt_events_median_per_session": 1,
       "ai_prompt_length_avg_per_session": 854,
       "ai_prompt_length_median_per_session": 854
+    },
+    {
+      "time": 1794362341.508,
+      "project": "Muahangre",
+      "ai_input_tokens": 3365294,
+      "ai_cached_input_tokens": 75114368,
+      "ai_output_tokens": 181182,
+      "machine_name_id": "917df22d-0616-4351-b7a6-841d05b5b026",
+      "duration": 11008.848,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 506,
+          "cost": 8.897271,
+          "input_tokens": 1960117,
+          "output_tokens": 90137,
+          "cached_input_tokens": 40756608
+        },
+        {
+          "name": "Opus",
+          "lines": 335,
+          "cost": 10.864182,
+          "input_tokens": 967901,
+          "output_tokens": 68189,
+          "cached_input_tokens": 28143984
+        },
+        {
+          "name": "Sonnet",
+          "lines": 4,
+          "cost": 2.154969,
+          "input_tokens": 365232,
+          "output_tokens": 18175,
+          "cached_input_tokens": 6213776
+        },
+        {
+          "name": "Gemini",
+          "lines": 0,
+          "cost": 0.20026,
+          "input_tokens": 72044,
+          "output_tokens": 4681,
+          "cached_input_tokens": 0
+        },
+        {
+          "name": "Opencode-Cli",
+          "lines": 0,
+          "cost": 0.0,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 700,
+      "ai_model_line_changes": {
+        "Opus": 335,
+        "GPT": 506,
+        "Sonnet": 4
+      },
+      "ai_deletions": 145,
+      "human_additions": 1,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 8.897271,
+        "Opus": 10.864182,
+        "Gemini": 0.20026,
+        "Sonnet": 2.154969
+      },
+      "ai_sessions": 21,
+      "ai_prompt_length_sum": 30386,
+      "ai_prompt_events_total": 44,
+      "machine": "ALEXANDER-II",
+      "ai_prompt_length_avg": 691,
+      "ai_prompt_events_avg_per_session": 2,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 1240,
+      "ai_prompt_length_median_per_session": 514
+    },
+    {
+      "time": 1794374274.218,
+      "project": "pm-mobile",
+      "ai_input_tokens": 600741,
+      "ai_cached_input_tokens": 20885992,
+      "ai_output_tokens": 86205,
+      "machine_name_id": "917df22d-0616-4351-b7a6-841d05b5b026",
+      "duration": 4431.849,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 191,
+          "cost": 5.141116,
+          "input_tokens": 129525,
+          "output_tokens": 76166,
+          "cached_input_tokens": 15498492
+        },
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 1.033575,
+          "input_tokens": 253485,
+          "output_tokens": 7036,
+          "cached_input_tokens": 4562432
+        },
+        {
+          "name": "Sonnet",
+          "lines": 0,
+          "cost": 0.630505,
+          "input_tokens": 217731,
+          "output_tokens": 3003,
+          "cached_input_tokens": 825068
+        },
+        {
+          "name": "Opencode-Cli",
+          "lines": 0,
+          "cost": 0.0,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        },
+        {
+          "name": "Vscode",
+          "lines": 0,
+          "cost": 0.0,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 191,
+      "ai_model_line_changes": {
+        "Opus": 191
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 1.033575,
+        "Opus": 5.141116,
+        "Sonnet": 0.630505
+      },
+      "ai_sessions": 4,
+      "ai_prompt_length_sum": 3133,
+      "ai_prompt_events_total": 8,
+      "machine": "ALEXANDER-II",
+      "ai_prompt_length_avg": 392,
+      "ai_prompt_events_avg_per_session": 2,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 527,
+      "ai_prompt_length_median_per_session": 258
+    },
+    {
+      "time": 1794380346.799,
+      "project": "pm-mobile",
+      "ai_input_tokens": 2502733,
+      "ai_cached_input_tokens": 101909417,
+      "ai_output_tokens": 168979,
+      "machine_name_id": "917df22d-0616-4351-b7a6-841d05b5b026",
+      "duration": 9805.241,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 120,
+          "cost": 12.929811,
+          "input_tokens": 1432435,
+          "output_tokens": 119505,
+          "cached_input_tokens": 88698880
+        },
+        {
+          "name": "Opus",
+          "lines": 72,
+          "cost": 5.350333,
+          "input_tokens": 560369,
+          "output_tokens": 35807,
+          "cached_input_tokens": 11963581
+        },
+        {
+          "name": "Gemini",
+          "lines": 0,
+          "cost": 0.828458,
+          "input_tokens": 351115,
+          "output_tokens": 10519,
+          "cached_input_tokens": 0
+        },
+        {
+          "name": "Sonnet",
+          "lines": 0,
+          "cost": 0.598498,
+          "input_tokens": 158814,
+          "output_tokens": 3148,
+          "cached_input_tokens": 1246956
+        },
+        {
+          "name": "Vscode",
+          "lines": 0,
+          "cost": 0.0,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        },
+        {
+          "name": "Opencode-Cli",
+          "lines": 0,
+          "cost": 0.0,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        },
+        {
+          "name": "Codex-Vscode",
+          "lines": 0,
+          "cost": 0.0,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 174,
+      "ai_model_line_changes": {
+        "GPT": 120,
+        "Opus": 72
+      },
+      "ai_deletions": 18,
+      "human_additions": 18,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Sonnet": 0.598498,
+        "GPT": 12.929811,
+        "Gemini": 0.828458,
+        "Opus": 5.350333
+      },
+      "ai_sessions": 33,
+      "ai_prompt_length_sum": 84748,
+      "ai_prompt_events_total": 70,
+      "machine": "ALEXANDER-II",
+      "ai_prompt_length_avg": 1211,
+      "ai_prompt_events_avg_per_session": 2,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 2188,
+      "ai_prompt_length_median_per_session": 1981
+    },
+    {
+      "time": 1794392586.789,
+      "project": "pm-mobile",
+      "ai_input_tokens": 64343,
+      "ai_cached_input_tokens": 2276224,
+      "ai_output_tokens": 4310,
+      "machine_name_id": "917df22d-0616-4351-b7a6-841d05b5b026",
+      "duration": 239.485,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.399411,
+          "input_tokens": 64343,
+          "output_tokens": 4310,
+          "cached_input_tokens": 2276224
+        },
+        {
+          "name": "Opencode-Cli",
+          "lines": 0,
+          "cost": 0.0,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.399411
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 104,
+      "ai_prompt_events_total": 2,
+      "machine": "ALEXANDER-II",
+      "ai_prompt_length_avg": 52,
+      "ai_prompt_events_avg_per_session": 2,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 52,
+      "ai_prompt_length_median_per_session": 52
+    },
+    {
+      "time": 1794406182.015,
+      "project": "pm-mobile",
+      "ai_input_tokens": 29570,
+      "ai_cached_input_tokens": 126464,
+      "ai_output_tokens": 707,
+      "machine_name_id": "917df22d-0616-4351-b7a6-841d05b5b026",
+      "duration": 40.799,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.078857,
+          "input_tokens": 29570,
+          "output_tokens": 707,
+          "cached_input_tokens": 126464
+        },
+        {
+          "name": "Codex-Vscode",
+          "lines": 0,
+          "cost": 0.0,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.078857
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 2150,
+      "ai_prompt_events_total": 2,
+      "machine": "ALEXANDER-II",
+      "ai_prompt_length_avg": 1075,
+      "ai_prompt_events_avg_per_session": 2,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 1075,
+      "ai_prompt_length_median_per_session": 1075
     }
   ],
   "start": "2026-11-10T17:00:00Z",
