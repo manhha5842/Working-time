@@ -3026,18 +3026,77 @@
     {
       "time": 1794303729.339,
       "project": "pm-mobile",
-      "ai_input_tokens": 42125,
-      "ai_cached_input_tokens": 4805248,
-      "ai_output_tokens": 9698,
-      "duration": 765.612,
+      "ai_input_tokens": 2171,
+      "ai_cached_input_tokens": 478080,
+      "ai_output_tokens": 1074,
+      "duration": 76.023,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.06289,
+          "input_tokens": 2171,
+          "output_tokens": 1074,
+          "cached_input_tokens": 478080
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.06289
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 34,
+      "ai_prompt_events_total": 1,
+      "color": null,
+      "ai_prompt_length_avg": 34,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 34,
+      "ai_prompt_length_median_per_session": 34
+    },
+    {
+      "time": 1794303805.362,
+      "project": "ria-fe-tsms",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 12.017,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1794303817.379,
+      "project": "pm-mobile",
+      "ai_input_tokens": 39954,
+      "ai_cached_input_tokens": 4327168,
+      "ai_output_tokens": 8624,
+      "duration": 677.572,
       "ai_model_breakdown": [
         {
           "name": "GPT",
           "lines": 43,
-          "cost": 0.661754,
-          "input_tokens": 42125,
-          "output_tokens": 9698,
-          "cached_input_tokens": 4805248
+          "cost": 0.598864,
+          "input_tokens": 39954,
+          "output_tokens": 8624,
+          "cached_input_tokens": 4327168
         },
         {
           "name": "Gemini",
@@ -3056,17 +3115,17 @@
       "human_additions": 0,
       "human_deletions": 0,
       "ai_model_costs": {
-        "GPT": 0.661754
+        "GPT": 0.598864
       },
       "ai_sessions": 2,
-      "ai_prompt_length_sum": 3982,
-      "ai_prompt_events_total": 4,
+      "ai_prompt_length_sum": 3948,
+      "ai_prompt_events_total": 3,
       "color": null,
-      "ai_prompt_length_avg": 996,
+      "ai_prompt_length_avg": 1316,
       "ai_prompt_events_avg_per_session": 2,
       "ai_prompt_events_median_per_session": 2,
-      "ai_prompt_length_avg_per_session": 1894,
-      "ai_prompt_length_median_per_session": 1894
+      "ai_prompt_length_avg_per_session": 1910,
+      "ai_prompt_length_median_per_session": 1910
     },
     {
       "time": 1794304494.951,
