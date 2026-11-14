@@ -6,12 +6,12 @@
       "ai_input_tokens": 0,
       "ai_cached_input_tokens": 0,
       "ai_output_tokens": 0,
-      "duration": 0.0,
+      "duration": 10.009,
       "ai_model_breakdown": [],
       "ai_additions": 0,
       "ai_model_line_changes": {},
       "ai_deletions": 0,
-      "human_additions": 0,
+      "human_additions": 524,
       "human_deletions": 0,
       "ai_model_costs": {},
       "ai_sessions": 0,
@@ -187,10 +187,10 @@
     {
       "time": 1794516468.311,
       "project": "pm-mobile",
-      "ai_input_tokens": 582194,
+      "ai_input_tokens": 600451,
       "ai_cached_input_tokens": 4614547,
-      "ai_output_tokens": 21109,
-      "duration": 430.689,
+      "ai_output_tokens": 21187,
+      "duration": 736.462613,
       "ai_model_breakdown": [
         {
           "name": "Haiku",
@@ -211,9 +211,9 @@
         {
           "name": "Gemini",
           "lines": 0,
-          "cost": 0.0,
-          "input_tokens": 0,
-          "output_tokens": 0,
+          "cost": 0.03745,
+          "input_tokens": 18257,
+          "output_tokens": 78,
           "cached_input_tokens": 0
         }
       ],
@@ -226,17 +226,2305 @@
       "human_deletions": 0,
       "ai_model_costs": {
         "Opus": 2.248565,
-        "Haiku": 0.477882
+        "Haiku": 0.477882,
+        "Gemini": 0.03745
       },
       "ai_sessions": 2,
-      "ai_prompt_length_sum": 10869,
-      "ai_prompt_events_total": 3,
+      "ai_prompt_length_sum": 14567,
+      "ai_prompt_events_total": 4,
       "color": null,
-      "ai_prompt_length_avg": 3623,
+      "ai_prompt_length_avg": 3642,
       "ai_prompt_events_avg_per_session": 2,
       "ai_prompt_events_median_per_session": 2,
       "ai_prompt_length_avg_per_session": 3642,
       "ai_prompt_length_median_per_session": 3642
+    },
+    {
+      "time": 1794519881.217,
+      "project": "pm-mobile",
+      "ai_input_tokens": 16457,
+      "ai_cached_input_tokens": 690863,
+      "ai_output_tokens": 4534,
+      "duration": 829.177269,
+      "ai_model_breakdown": [
+        {
+          "name": "Haiku",
+          "lines": 0,
+          "cost": 0.079692,
+          "input_tokens": 3436,
+          "output_tokens": 1434,
+          "cached_input_tokens": 690863
+        },
+        {
+          "name": "Gemini",
+          "lines": 0,
+          "cost": 0.063242,
+          "input_tokens": 13021,
+          "output_tokens": 3100,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Haiku": 0.079692,
+        "Gemini": 0.063242
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 7241,
+      "ai_prompt_events_total": 2,
+      "color": null,
+      "ai_prompt_length_avg": 3620,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 3620,
+      "ai_prompt_length_median_per_session": 3620
+    },
+    {
+      "time": 1794523301.591,
+      "project": "pm-mobile",
+      "ai_input_tokens": 1391,
+      "ai_cached_input_tokens": 478650,
+      "ai_output_tokens": 945,
+      "duration": 0.0,
+      "ai_model_breakdown": [
+        {
+          "name": "Haiku",
+          "input_tokens": 1391,
+          "output_tokens": 945,
+          "cached_input_tokens": 478650
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Haiku": 0.053981
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 3351,
+      "ai_prompt_events_total": 1,
+      "color": null,
+      "ai_prompt_length_avg": 3351,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 3351,
+      "ai_prompt_length_median_per_session": 3351
+    },
+    {
+      "time": 1794532839.885,
+      "project": "pm-mobile",
+      "ai_input_tokens": 262500,
+      "ai_cached_input_tokens": 538842,
+      "ai_output_tokens": 2448,
+      "duration": 89.747234,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 0,
+          "cost": 0.883676,
+          "input_tokens": 201311,
+          "output_tokens": 990,
+          "cached_input_tokens": 293160
+        },
+        {
+          "name": "Gemini",
+          "lines": 0,
+          "cost": 0.136006,
+          "input_tokens": 60689,
+          "output_tokens": 1219,
+          "cached_input_tokens": 0
+        },
+        {
+          "name": "Haiku",
+          "lines": 0,
+          "cost": 0.026263,
+          "input_tokens": 500,
+          "output_tokens": 239,
+          "cached_input_tokens": 245682
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Haiku": 0.026263,
+        "Opus": 0.883676,
+        "Gemini": 0.136006
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 5418,
+      "ai_prompt_events_total": 3,
+      "color": null,
+      "ai_prompt_length_avg": 1806,
+      "ai_prompt_events_avg_per_session": 2,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 2278,
+      "ai_prompt_length_median_per_session": 2278
+    },
+    {
+      "time": 1794532929.632234,
+      "project": "Lotte",
+      "ai_input_tokens": 22415,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 109,
+      "duration": 702.398766,
+      "ai_model_breakdown": [
+        {
+          "name": "Gemini",
+          "input_tokens": 22415,
+          "output_tokens": 109,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Gemini": 0.046138
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1794533632.031,
+      "project": "pm-mobile",
+      "ai_input_tokens": 16209,
+      "ai_cached_input_tokens": 1254236,
+      "ai_output_tokens": 19861,
+      "duration": 378.870848,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 0,
+          "cost": 0.36134,
+          "input_tokens": 9503,
+          "output_tokens": 3624,
+          "cached_input_tokens": 1254236
+        },
+        {
+          "name": "Gemini",
+          "lines": 0,
+          "cost": 0.208256,
+          "input_tokens": 6706,
+          "output_tokens": 16237,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.36134,
+        "Gemini": 0.208256
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 9301,
+      "ai_prompt_events_total": 3,
+      "color": null,
+      "ai_prompt_length_avg": 3100,
+      "ai_prompt_events_avg_per_session": 2,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 3250,
+      "ai_prompt_length_median_per_session": 3250
+    },
+    {
+      "time": 1794535039.198,
+      "project": "Muahangre",
+      "ai_input_tokens": 350073,
+      "ai_cached_input_tokens": 734080,
+      "ai_output_tokens": 1108,
+      "duration": 568.538,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.784634,
+          "input_tokens": 350073,
+          "output_tokens": 1108,
+          "cached_input_tokens": 734080
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.784634
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1794535607.736,
+      "project": "pm-mobile",
+      "ai_input_tokens": 134952,
+      "ai_cached_input_tokens": 6915058,
+      "ai_output_tokens": 30315,
+      "duration": 2551.193,
+      "ai_model_breakdown": [
+        {
+          "name": "Haiku",
+          "lines": 76,
+          "cost": 0.521338,
+          "input_tokens": 49770,
+          "output_tokens": 19705,
+          "cached_input_tokens": 3730444
+        },
+        {
+          "name": "Opus",
+          "lines": 12,
+          "cost": 0.862271,
+          "input_tokens": 19407,
+          "output_tokens": 7386,
+          "cached_input_tokens": 3184614
+        },
+        {
+          "name": "Gemini",
+          "lines": 0,
+          "cost": 0.170238,
+          "input_tokens": 65775,
+          "output_tokens": 3224,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 88,
+      "ai_model_line_changes": {
+        "Opus": 12,
+        "Haiku": 76
+      },
+      "ai_deletions": 0,
+      "human_additions": 1,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.862271,
+        "Gemini": 0.170238,
+        "Haiku": 0.521338
+      },
+      "ai_sessions": 3,
+      "ai_prompt_length_sum": 23716,
+      "ai_prompt_events_total": 13,
+      "color": null,
+      "ai_prompt_length_avg": 1824,
+      "ai_prompt_events_avg_per_session": 4,
+      "ai_prompt_events_median_per_session": 4,
+      "ai_prompt_length_avg_per_session": 2465,
+      "ai_prompt_length_median_per_session": 2390
+    },
+    {
+      "time": 1794538158.929,
+      "project": "Lotte",
+      "ai_input_tokens": 89805,
+      "ai_cached_input_tokens": 705254,
+      "ai_output_tokens": 5928,
+      "duration": 643.278,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 0,
+          "cost": 0.61883,
+          "input_tokens": 89805,
+          "output_tokens": 5928,
+          "cached_input_tokens": 705254
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.61883
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 161,
+      "ai_prompt_events_total": 4,
+      "color": null,
+      "ai_prompt_length_avg": 40,
+      "ai_prompt_events_avg_per_session": 4,
+      "ai_prompt_events_median_per_session": 4,
+      "ai_prompt_length_avg_per_session": 40,
+      "ai_prompt_length_median_per_session": 40
+    },
+    {
+      "time": 1794538802.207,
+      "project": "pm-mobile",
+      "ai_input_tokens": 42704,
+      "ai_cached_input_tokens": 4456836,
+      "ai_output_tokens": 17847,
+      "duration": 1233.403,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 56,
+          "cost": 1.348263,
+          "input_tokens": 38839,
+          "output_tokens": 15077,
+          "cached_input_tokens": 4456836
+        },
+        {
+          "name": "Gemini",
+          "lines": 0,
+          "cost": 0.04097,
+          "input_tokens": 3865,
+          "output_tokens": 2770,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 56,
+      "ai_model_line_changes": {
+        "Opus": 56
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 1.348263,
+        "Gemini": 0.04097
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 4859,
+      "ai_prompt_events_total": 2,
+      "color": null,
+      "ai_prompt_length_avg": 2430,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 2430,
+      "ai_prompt_length_median_per_session": 2430
+    },
+    {
+      "time": 1794540035.61,
+      "project": "Lotte",
+      "ai_input_tokens": 1224,
+      "ai_cached_input_tokens": 135241,
+      "ai_output_tokens": 1154,
+      "duration": 1.486,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "input_tokens": 1224,
+          "output_tokens": 1154,
+          "cached_input_tokens": 135241
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.055024
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 96,
+      "ai_prompt_events_total": 1,
+      "color": null,
+      "ai_prompt_length_avg": 96,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 96,
+      "ai_prompt_length_median_per_session": 96
+    },
+    {
+      "time": 1794540037.096,
+      "project": "pm-mobile",
+      "ai_input_tokens": 483,
+      "ai_cached_input_tokens": 315384,
+      "ai_output_tokens": 883,
+      "duration": 1.673,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 12,
+          "cost": 0.082669,
+          "input_tokens": 483,
+          "output_tokens": 883,
+          "cached_input_tokens": 315384
+        }
+      ],
+      "ai_additions": 6,
+      "ai_model_line_changes": {
+        "Opus": 12
+      },
+      "ai_deletions": 6,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.082669
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1794540038.769,
+      "project": "Lotte",
+      "ai_input_tokens": 1200,
+      "ai_cached_input_tokens": 136463,
+      "ai_output_tokens": 223,
+      "duration": 20.287,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "input_tokens": 1200,
+          "output_tokens": 223,
+          "cached_input_tokens": 136463
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.036553
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1794540059.056,
+      "project": "pm-mobile",
+      "ai_input_tokens": 18308,
+      "ai_cached_input_tokens": 3558334,
+      "ai_output_tokens": 8065,
+      "duration": 470.248,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 8,
+          "cost": 0.946199,
+          "input_tokens": 18308,
+          "output_tokens": 8065,
+          "cached_input_tokens": 3558334
+        }
+      ],
+      "ai_additions": 8,
+      "ai_model_line_changes": {
+        "Opus": 8
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.946199
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 43,
+      "ai_prompt_events_total": 1,
+      "color": null,
+      "ai_prompt_length_avg": 43,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 43,
+      "ai_prompt_length_median_per_session": 43
+    },
+    {
+      "time": 1794540529.304,
+      "project": "Muahangre",
+      "ai_input_tokens": 364976,
+      "ai_cached_input_tokens": 1141888,
+      "ai_output_tokens": 897,
+      "duration": 100.27,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.85311,
+          "input_tokens": 364976,
+          "output_tokens": 897,
+          "cached_input_tokens": 1141888
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.85311
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1794540629.574,
+      "project": "pm-mobile",
+      "ai_input_tokens": 35523,
+      "ai_cached_input_tokens": 2388875,
+      "ai_output_tokens": 8212,
+      "duration": 620.56,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 53,
+          "cost": 0.687167,
+          "input_tokens": 11993,
+          "output_tokens": 8071,
+          "cached_input_tokens": 2388875
+        },
+        {
+          "name": "Gemini",
+          "lines": 0,
+          "cost": 0.048752,
+          "input_tokens": 23530,
+          "output_tokens": 141,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 53,
+      "ai_model_line_changes": {
+        "Opus": 53
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.687167,
+        "Gemini": 0.048752
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 4390,
+      "ai_prompt_events_total": 2,
+      "color": null,
+      "ai_prompt_length_avg": 2195,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 2195,
+      "ai_prompt_length_median_per_session": 2195
+    },
+    {
+      "time": 1794541250.134,
+      "project": "Lotte",
+      "ai_input_tokens": 81138,
+      "ai_cached_input_tokens": 4110904,
+      "ai_output_tokens": 19710,
+      "duration": 499.148,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 53,
+          "cost": 1.461937,
+          "input_tokens": 80873,
+          "output_tokens": 18791,
+          "cached_input_tokens": 3813122
+        },
+        {
+          "name": "Fable",
+          "lines": 0,
+          "cost": 0.123046,
+          "input_tokens": 265,
+          "output_tokens": 919,
+          "cached_input_tokens": 297782
+        }
+      ],
+      "ai_additions": 53,
+      "ai_model_line_changes": {
+        "Opus": 53
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Fable": 0.123046,
+        "Opus": 1.461937
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 91,
+      "ai_prompt_events_total": 2,
+      "color": null,
+      "ai_prompt_length_avg": 46,
+      "ai_prompt_events_avg_per_session": 2,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 46,
+      "ai_prompt_length_median_per_session": 46
+    },
+    {
+      "time": 1794541749.282,
+      "project": "pm-mobile",
+      "ai_input_tokens": 5262,
+      "ai_cached_input_tokens": 1750514,
+      "ai_output_tokens": 2461,
+      "duration": 13.366,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "input_tokens": 5262,
+          "output_tokens": 2461,
+          "cached_input_tokens": 1750514
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.420371
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1794541762.648,
+      "project": "Lotte",
+      "ai_input_tokens": 3116,
+      "ai_cached_input_tokens": 383512,
+      "ai_output_tokens": 2564,
+      "duration": 31.806,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 3,
+          "cost": 0.140446,
+          "input_tokens": 3116,
+          "output_tokens": 2564,
+          "cached_input_tokens": 383512
+        }
+      ],
+      "ai_additions": 3,
+      "ai_model_line_changes": {
+        "Opus": 3
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.140446
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1794541794.454,
+      "project": "pm-mobile",
+      "ai_input_tokens": 2812,
+      "ai_cached_input_tokens": 707171,
+      "ai_output_tokens": 2342,
+      "duration": 20.327,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 37,
+          "cost": 0.199522,
+          "input_tokens": 2812,
+          "output_tokens": 2342,
+          "cached_input_tokens": 707171
+        },
+        {
+          "name": "Gemini",
+          "lines": 0,
+          "cost": 0.0,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 37,
+      "ai_model_line_changes": {
+        "Opus": 37
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.199522
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 3681,
+      "ai_prompt_events_total": 1,
+      "color": null,
+      "ai_prompt_length_avg": 3681,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 3681,
+      "ai_prompt_length_median_per_session": 3681
+    },
+    {
+      "time": 1794541814.781,
+      "project": "Lotte",
+      "ai_input_tokens": 2409,
+      "ai_cached_input_tokens": 392181,
+      "ai_output_tokens": 1328,
+      "duration": 80.197733,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 0,
+          "cost": 0.114632,
+          "input_tokens": 2409,
+          "output_tokens": 1328,
+          "cached_input_tokens": 392181
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.114632
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1794541894.978733,
+      "project": "pm-mobile",
+      "ai_input_tokens": 15299,
+      "ai_cached_input_tokens": 2519617,
+      "ai_output_tokens": 10563,
+      "duration": 586.034267,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 68,
+          "cost": 0.752375,
+          "input_tokens": 10633,
+          "output_tokens": 10296,
+          "cached_input_tokens": 2519617
+        },
+        {
+          "name": "Gemini",
+          "lines": 0,
+          "cost": 0.012536,
+          "input_tokens": 4666,
+          "output_tokens": 267,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 68,
+      "ai_model_line_changes": {
+        "Opus": 68
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Gemini": 0.012536,
+        "Opus": 0.752375
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 629,
+      "ai_prompt_events_total": 2,
+      "color": null,
+      "ai_prompt_length_avg": 314,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 314,
+      "ai_prompt_length_median_per_session": 314
+    },
+    {
+      "time": 1794542481.013,
+      "project": "Lotte",
+      "ai_input_tokens": 470,
+      "ai_cached_input_tokens": 132279,
+      "ai_output_tokens": 804,
+      "duration": 1.618,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 0,
+          "cost": 0.044416,
+          "input_tokens": 470,
+          "output_tokens": 804,
+          "cached_input_tokens": 132279
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.044416
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 12,
+      "ai_prompt_events_total": 2,
+      "color": null,
+      "ai_prompt_length_avg": 6,
+      "ai_prompt_events_avg_per_session": 2,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 6,
+      "ai_prompt_length_median_per_session": 6
+    },
+    {
+      "time": 1794542482.631,
+      "project": "pm-mobile",
+      "ai_input_tokens": 35653,
+      "ai_cached_input_tokens": 4126564,
+      "ai_output_tokens": 5899,
+      "duration": 158.138,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 6,
+          "cost": 0.98295,
+          "input_tokens": 13059,
+          "output_tokens": 5270,
+          "cached_input_tokens": 4126564
+        },
+        {
+          "name": "Gemini",
+          "lines": 0,
+          "cost": 0.052736,
+          "input_tokens": 22594,
+          "output_tokens": 629,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {
+        "Opus": 6
+      },
+      "ai_deletions": 6,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.98295,
+        "Gemini": 0.052736
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 3688,
+      "ai_prompt_events_total": 1,
+      "color": null,
+      "ai_prompt_length_avg": 3688,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 3688,
+      "ai_prompt_length_median_per_session": 3688
+    },
+    {
+      "time": 1794542640.769,
+      "project": "pm-docs",
+      "ai_input_tokens": 57127,
+      "ai_cached_input_tokens": 557582,
+      "ai_output_tokens": 4468,
+      "duration": 508.64,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 0,
+          "cost": 0.429384,
+          "input_tokens": 57127,
+          "output_tokens": 4468,
+          "cached_input_tokens": 557582
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.429384
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 105,
+      "ai_prompt_events_total": 2,
+      "color": null,
+      "ai_prompt_length_avg": 52,
+      "ai_prompt_events_avg_per_session": 2,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 52,
+      "ai_prompt_length_median_per_session": 52
+    },
+    {
+      "time": 1794543149.409,
+      "project": "pm-mobile",
+      "ai_input_tokens": 48842,
+      "ai_cached_input_tokens": 6392120,
+      "ai_output_tokens": 20340,
+      "duration": 1701.586,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 99,
+          "cost": 1.780073,
+          "input_tokens": 30302,
+          "output_tokens": 19022,
+          "cached_input_tokens": 6392120
+        },
+        {
+          "name": "Gemini",
+          "lines": 0,
+          "cost": 0.052896,
+          "input_tokens": 18540,
+          "output_tokens": 1318,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 99,
+      "ai_model_line_changes": {
+        "Opus": 99
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 1.780073,
+        "Gemini": 0.052896
+      },
+      "ai_sessions": 3,
+      "ai_prompt_length_sum": 3594,
+      "ai_prompt_events_total": 6,
+      "color": null,
+      "ai_prompt_length_avg": 599,
+      "ai_prompt_events_avg_per_session": 2,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 1068,
+      "ai_prompt_length_median_per_session": 130
+    },
+    {
+      "time": 1794544850.995,
+      "project": "Lotte",
+      "ai_input_tokens": 3503,
+      "ai_cached_input_tokens": 401328,
+      "ai_output_tokens": 1397,
+      "duration": 33.66,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "input_tokens": 3503,
+          "output_tokens": 1397,
+          "cached_input_tokens": 401328
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.122218
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 245,
+      "ai_prompt_events_total": 1,
+      "color": null,
+      "ai_prompt_length_avg": 245,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 245,
+      "ai_prompt_length_median_per_session": 245
+    },
+    {
+      "time": 1794544884.655,
+      "project": "pm-mobile",
+      "ai_input_tokens": 595,
+      "ai_cached_input_tokens": 409474,
+      "ai_output_tokens": 1115,
+      "duration": 15.265,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "input_tokens": 595,
+          "output_tokens": 1115,
+          "cached_input_tokens": 409474
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.106575
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 55,
+      "ai_prompt_events_total": 1,
+      "color": null,
+      "ai_prompt_length_avg": 55,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 55,
+      "ai_prompt_length_median_per_session": 55
+    },
+    {
+      "time": 1794544899.92,
+      "project": "Lotte",
+      "ai_input_tokens": 26567,
+      "ai_cached_input_tokens": 604791,
+      "ai_output_tokens": 3703,
+      "duration": 15.08,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "input_tokens": 26567,
+          "output_tokens": 3703,
+          "cached_input_tokens": 604791
+        }
+      ],
+      "ai_additions": 29,
+      "ai_model_line_changes": {
+        "Opus": 29
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.301286
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1794544915.0,
+      "project": "scratchpad",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 6.653704,
+      "ai_model_breakdown": [
+        {
+          "name": "Gemini",
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 3664,
+      "ai_prompt_events_total": 1,
+      "color": null,
+      "ai_prompt_length_avg": 3664,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 3664,
+      "ai_prompt_length_median_per_session": 3664
+    },
+    {
+      "time": 1794544921.653704,
+      "project": "pm-mobile",
+      "ai_input_tokens": 223313,
+      "ai_cached_input_tokens": 795480,
+      "ai_output_tokens": 4606,
+      "duration": 57.953296,
+      "ai_model_breakdown": [
+        {
+          "name": "Sonnet",
+          "lines": 3,
+          "cost": 0.62713,
+          "input_tokens": 212682,
+          "output_tokens": 4267,
+          "cached_input_tokens": 795480
+        },
+        {
+          "name": "Gemini",
+          "lines": 0,
+          "cost": 0.02533,
+          "input_tokens": 10631,
+          "output_tokens": 339,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {
+        "Sonnet": 3
+      },
+      "ai_deletions": 3,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Gemini": 0.02533,
+        "Sonnet": 0.62713
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 32,
+      "ai_prompt_events_total": 1,
+      "color": null,
+      "ai_prompt_length_avg": 32,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 32,
+      "ai_prompt_length_median_per_session": 32
+    },
+    {
+      "time": 1794544979.607,
+      "project": "Lotte",
+      "ai_input_tokens": 4204,
+      "ai_cached_input_tokens": 162801,
+      "ai_output_tokens": 654,
+      "duration": 8.385,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "input_tokens": 4204,
+          "output_tokens": 654,
+          "cached_input_tokens": 162801
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.062456
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1794544987.992,
+      "project": "pm-mobile",
+      "ai_input_tokens": 50232,
+      "ai_cached_input_tokens": 11016660,
+      "ai_output_tokens": 23218,
+      "duration": 1554.751,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 34,
+          "cost": 1.708614,
+          "input_tokens": 19230,
+          "output_tokens": 10023,
+          "cached_input_tokens": 7156167
+        },
+        {
+          "name": "Sonnet",
+          "lines": 24,
+          "cost": 0.966053,
+          "input_tokens": 31002,
+          "output_tokens": 13195,
+          "cached_input_tokens": 3860493
+        }
+      ],
+      "ai_additions": 35,
+      "ai_model_line_changes": {
+        "Sonnet": 24,
+        "Opus": 34
+      },
+      "ai_deletions": 23,
+      "human_additions": 7,
+      "human_deletions": 92,
+      "ai_model_costs": {
+        "Sonnet": 0.966053,
+        "Opus": 1.708614
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 171,
+      "ai_prompt_events_total": 3,
+      "color": null,
+      "ai_prompt_length_avg": 57,
+      "ai_prompt_events_avg_per_session": 2,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 57,
+      "ai_prompt_length_median_per_session": 57
+    },
+    {
+      "time": 1794546542.743,
+      "project": "Lotte",
+      "ai_input_tokens": 16044,
+      "ai_cached_input_tokens": 1029316,
+      "ai_output_tokens": 5093,
+      "duration": 795.759,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 35,
+          "cost": 0.3719,
+          "input_tokens": 16044,
+          "output_tokens": 5093,
+          "cached_input_tokens": 1029316
+        }
+      ],
+      "ai_additions": 35,
+      "ai_model_line_changes": {
+        "Opus": 35
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.3719
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1794547338.502,
+      "project": "pm-mobile",
+      "ai_input_tokens": 16064,
+      "ai_cached_input_tokens": 4818439,
+      "ai_output_tokens": 10528,
+      "duration": 638.064,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 93,
+          "cost": 1.238504,
+          "input_tokens": 16064,
+          "output_tokens": 10528,
+          "cached_input_tokens": 4818439
+        }
+      ],
+      "ai_additions": 93,
+      "ai_model_line_changes": {
+        "Opus": 93
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 1.238504
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 429,
+      "ai_prompt_events_total": 1,
+      "color": null,
+      "ai_prompt_length_avg": 429,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 429,
+      "ai_prompt_length_median_per_session": 429
+    },
+    {
+      "time": 1794548937.596,
+      "project": "Lotte",
+      "ai_input_tokens": 15412,
+      "ai_cached_input_tokens": 1690685,
+      "ai_output_tokens": 3906,
+      "duration": 55.439,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 26,
+          "cost": 0.477905,
+          "input_tokens": 15412,
+          "output_tokens": 3906,
+          "cached_input_tokens": 1690685
+        }
+      ],
+      "ai_additions": 26,
+      "ai_model_line_changes": {
+        "Opus": 26
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.477905
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1794550705.777,
+      "project": "Lotte",
+      "ai_input_tokens": 6979,
+      "ai_cached_input_tokens": 1207151,
+      "ai_output_tokens": 2907,
+      "duration": 830.457,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 11,
+          "cost": 0.327486,
+          "input_tokens": 6979,
+          "output_tokens": 2907,
+          "cached_input_tokens": 1207151
+        }
+      ],
+      "ai_additions": 11,
+      "ai_model_line_changes": {
+        "Opus": 11
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.327486
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1794551536.234,
+      "project": "pm-mobile",
+      "ai_input_tokens": 39844,
+      "ai_cached_input_tokens": 14442948,
+      "ai_output_tokens": 24849,
+      "duration": 1675.438,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 117,
+          "cost": 3.544946,
+          "input_tokens": 39844,
+          "output_tokens": 24849,
+          "cached_input_tokens": 14442948
+        }
+      ],
+      "ai_additions": 102,
+      "ai_model_line_changes": {
+        "Opus": 117
+      },
+      "ai_deletions": 15,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 3.544946
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 327,
+      "ai_prompt_events_total": 6,
+      "color": null,
+      "ai_prompt_length_avg": 54,
+      "ai_prompt_events_avg_per_session": 6,
+      "ai_prompt_events_median_per_session": 6,
+      "ai_prompt_length_avg_per_session": 54,
+      "ai_prompt_length_median_per_session": 54
+    },
+    {
+      "time": 1794553211.672,
+      "project": "Lotte",
+      "ai_input_tokens": 102972,
+      "ai_cached_input_tokens": 806663,
+      "ai_output_tokens": 2705,
+      "duration": 503.905,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 20,
+          "cost": 0.62732,
+          "input_tokens": 102972,
+          "output_tokens": 2705,
+          "cached_input_tokens": 806663
+        }
+      ],
+      "ai_additions": 20,
+      "ai_model_line_changes": {
+        "Opus": 20
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.62732
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 180,
+      "ai_prompt_events_total": 2,
+      "color": null,
+      "ai_prompt_length_avg": 90,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 90,
+      "ai_prompt_length_median_per_session": 90
+    },
+    {
+      "time": 1794553715.577,
+      "project": "pm-mobile",
+      "ai_input_tokens": 435609,
+      "ai_cached_input_tokens": 610388,
+      "ai_output_tokens": 1739,
+      "duration": 84.598,
+      "ai_model_breakdown": [
+        {
+          "name": "Sonnet",
+          "lines": 0,
+          "cost": 0.513709,
+          "input_tokens": 222051,
+          "output_tokens": 809,
+          "cached_input_tokens": 307585
+        },
+        {
+          "name": "Haiku",
+          "lines": 0,
+          "cost": 0.248488,
+          "input_tokens": 213558,
+          "output_tokens": 930,
+          "cached_input_tokens": 302803
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Sonnet": 0.513709,
+        "Haiku": 0.248488
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 154,
+      "ai_prompt_events_total": 2,
+      "color": null,
+      "ai_prompt_length_avg": 77,
+      "ai_prompt_events_avg_per_session": 2,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 77,
+      "ai_prompt_length_median_per_session": 77
+    },
+    {
+      "time": 1794553800.175,
+      "project": "Lotte",
+      "ai_input_tokens": 3142,
+      "ai_cached_input_tokens": 418604,
+      "ai_output_tokens": 652,
+      "duration": 4.722,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "input_tokens": 3142,
+          "output_tokens": 652,
+          "cached_input_tokens": 418604
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.109329
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1794553804.897,
+      "project": "pm-mobile",
+      "ai_input_tokens": 756,
+      "ai_cached_input_tokens": 258600,
+      "ai_output_tokens": 728,
+      "duration": 3.478,
+      "ai_model_breakdown": [
+        {
+          "name": "Haiku",
+          "input_tokens": 756,
+          "output_tokens": 728,
+          "cached_input_tokens": 258600
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Haiku": 0.030256
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1794553808.375,
+      "project": "Lotte",
+      "ai_input_tokens": 9824,
+      "ai_cached_input_tokens": 1578347,
+      "ai_output_tokens": 2671,
+      "duration": 52.992,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 0,
+          "cost": 0.408385,
+          "input_tokens": 9824,
+          "output_tokens": 2671,
+          "cached_input_tokens": 1578347
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.408385
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1794553861.367,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 1.74,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 0,
+          "cost": 0.0,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1794553863.107,
+      "project": "ria-fe-tsms",
+      "ai_input_tokens": 2633,
+      "ai_cached_input_tokens": 148858,
+      "ai_output_tokens": 1015,
+      "duration": 89.374,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "input_tokens": 2633,
+          "output_tokens": 1015,
+          "cached_input_tokens": 148858
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.060604
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1794553952.481,
+      "project": "pm-mobile",
+      "ai_input_tokens": 2964,
+      "ai_cached_input_tokens": 977131,
+      "ai_output_tokens": 6303,
+      "duration": 135.815,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 36,
+          "cost": 0.333342,
+          "input_tokens": 2964,
+          "output_tokens": 6303,
+          "cached_input_tokens": 977131
+        }
+      ],
+      "ai_additions": 36,
+      "ai_model_line_changes": {
+        "Opus": 36
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.333342
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 241,
+      "ai_prompt_events_total": 2,
+      "color": null,
+      "ai_prompt_length_avg": 120,
+      "ai_prompt_events_avg_per_session": 2,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 120,
+      "ai_prompt_length_median_per_session": 120
+    },
+    {
+      "time": 1794554088.296,
+      "project": "ria-fe-tsms",
+      "ai_input_tokens": 1202,
+      "ai_cached_input_tokens": 151489,
+      "ai_output_tokens": 1854,
+      "duration": 6.695,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "input_tokens": 1202,
+          "output_tokens": 1854,
+          "cached_input_tokens": 151489
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.072186
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 73,
+      "ai_prompt_events_total": 1,
+      "color": null,
+      "ai_prompt_length_avg": 73,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 73,
+      "ai_prompt_length_median_per_session": 73
+    },
+    {
+      "time": 1794554094.991,
+      "project": "system-service-tsms-v2",
+      "ai_input_tokens": 1890,
+      "ai_cached_input_tokens": 152689,
+      "ai_output_tokens": 541,
+      "duration": 647.972,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "input_tokens": 1890,
+          "output_tokens": 541,
+          "cached_input_tokens": 152689
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.048918
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1794554742.963,
+      "project": "pm-mobile",
+      "ai_input_tokens": 85519,
+      "ai_cached_input_tokens": 9711155,
+      "ai_output_tokens": 26696,
+      "duration": 1979.929,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 108,
+          "cost": 2.349347,
+          "input_tokens": 37424,
+          "output_tokens": 22875,
+          "cached_input_tokens": 8710755
+        },
+        {
+          "name": "Haiku",
+          "lines": 20,
+          "cost": 0.16724,
+          "input_tokens": 48095,
+          "output_tokens": 3821,
+          "cached_input_tokens": 1000400
+        }
+      ],
+      "ai_additions": 128,
+      "ai_model_line_changes": {
+        "Opus": 108,
+        "Haiku": 20
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 2.349347,
+        "Haiku": 0.16724
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 10060,
+      "ai_prompt_events_total": 8,
+      "color": null,
+      "ai_prompt_length_avg": 1258,
+      "ai_prompt_events_avg_per_session": 4,
+      "ai_prompt_events_median_per_session": 4,
+      "ai_prompt_length_avg_per_session": 2380,
+      "ai_prompt_length_median_per_session": 2380
+    },
+    {
+      "time": 1794556722.892,
+      "project": "system-service-tsms-v2",
+      "ai_input_tokens": 1191,
+      "ai_cached_input_tokens": 154575,
+      "ai_output_tokens": 976,
+      "duration": 668.819,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "input_tokens": 1191,
+          "output_tokens": 976,
+          "cached_input_tokens": 154575
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.055199
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 21,
+      "ai_prompt_events_total": 1,
+      "color": null,
+      "ai_prompt_length_avg": 21,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 21,
+      "ai_prompt_length_median_per_session": 21
+    },
+    {
+      "time": 1794557391.711,
+      "project": "pm-mobile",
+      "ai_input_tokens": 164823,
+      "ai_cached_input_tokens": 57135991,
+      "ai_output_tokens": 71042,
+      "duration": 4941.882,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 231,
+          "cost": 12.555668,
+          "input_tokens": 104438,
+          "output_tokens": 63279,
+          "cached_input_tokens": 54361684
+        },
+        {
+          "name": "Haiku",
+          "lines": 0,
+          "cost": 0.37663,
+          "input_tokens": 60385,
+          "output_tokens": 7763,
+          "cached_input_tokens": 2774307
+        }
+      ],
+      "ai_additions": 143,
+      "ai_model_line_changes": {
+        "Opus": 231
+      },
+      "ai_deletions": 88,
+      "human_additions": 173,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Haiku": 0.37663,
+        "Opus": 12.555668
+      },
+      "ai_sessions": 3,
+      "ai_prompt_length_sum": 115183,
+      "ai_prompt_events_total": 20,
+      "color": null,
+      "ai_prompt_length_avg": 5759,
+      "ai_prompt_events_avg_per_session": 7,
+      "ai_prompt_events_median_per_session": 5,
+      "ai_prompt_length_avg_per_session": 2796,
+      "ai_prompt_length_median_per_session": 140
+    },
+    {
+      "time": 1794562333.593,
+      "project": "pm-docs",
+      "ai_input_tokens": 2381,
+      "ai_cached_input_tokens": 194278,
+      "ai_output_tokens": 630,
+      "duration": 8.482,
+      "ai_model_breakdown": [
+        {
+          "name": "Haiku",
+          "input_tokens": 2381,
+          "output_tokens": 630,
+          "cached_input_tokens": 194278
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Haiku": 0.024959
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1794562342.075,
+      "project": "pm-mobile",
+      "ai_input_tokens": 19691,
+      "ai_cached_input_tokens": 4439097,
+      "ai_output_tokens": 10758,
+      "duration": 392.865,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 203,
+          "cost": 0.9143,
+          "input_tokens": 11177,
+          "output_tokens": 7393,
+          "cached_input_tokens": 3608656
+        },
+        {
+          "name": "Haiku",
+          "lines": 0,
+          "cost": 0.108384,
+          "input_tokens": 8514,
+          "output_tokens": 3365,
+          "cached_input_tokens": 830441
+        }
+      ],
+      "ai_additions": 203,
+      "ai_model_line_changes": {
+        "Opus": 203
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.9143,
+        "Haiku": 0.108384
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 227,
+      "ai_prompt_events_total": 2,
+      "color": null,
+      "ai_prompt_length_avg": 114,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 114,
+      "ai_prompt_length_median_per_session": 114
+    },
+    {
+      "time": 1794563812.828,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 173976,
+      "ai_cached_input_tokens": 576384,
+      "ai_output_tokens": 2164,
+      "duration": 453.789,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.427231,
+          "input_tokens": 173976,
+          "output_tokens": 2164,
+          "cached_input_tokens": 576384
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.427231
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1794564266.617,
+      "project": "pm-mobile",
+      "ai_input_tokens": 345279,
+      "ai_cached_input_tokens": 61140194,
+      "ai_output_tokens": 94462,
+      "duration": 5314.403,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 428,
+          "cost": 14.477735,
+          "input_tokens": 265318,
+          "output_tokens": 81066,
+          "cached_input_tokens": 58975714
+        },
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.510331,
+          "input_tokens": 79961,
+          "output_tokens": 13396,
+          "cached_input_tokens": 2164480
+        },
+        {
+          "name": "Vscode",
+          "lines": 0,
+          "cost": 0.0,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 392,
+      "ai_model_line_changes": {
+        "Opus": 428
+      },
+      "ai_deletions": 36,
+      "human_additions": 1,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 14.477735,
+        "GPT": 0.510331
+      },
+      "ai_sessions": 5,
+      "ai_prompt_length_sum": 20880,
+      "ai_prompt_events_total": 24,
+      "color": null,
+      "ai_prompt_length_avg": 870,
+      "ai_prompt_events_avg_per_session": 5,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 740,
+      "ai_prompt_length_median_per_session": 147
+    },
+    {
+      "time": 1794577649.247,
+      "project": "pm-mobile",
+      "ai_input_tokens": 973283,
+      "ai_cached_input_tokens": 10075254,
+      "ai_output_tokens": 11705,
+      "duration": 332.892,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 10,
+          "cost": 6.142285,
+          "input_tokens": 973283,
+          "output_tokens": 11705,
+          "cached_input_tokens": 10075254
+        }
+      ],
+      "ai_additions": 7,
+      "ai_model_line_changes": {
+        "Opus": 10
+      },
+      "ai_deletions": 3,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 6.142285
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 305,
+      "ai_prompt_events_total": 6,
+      "color": null,
+      "ai_prompt_length_avg": 51,
+      "ai_prompt_events_avg_per_session": 3,
+      "ai_prompt_events_median_per_session": 3,
+      "ai_prompt_length_avg_per_session": 51,
+      "ai_prompt_length_median_per_session": 51
+    },
+    {
+      "time": 1794580467.369,
+      "project": "pm-mobile",
+      "ai_input_tokens": 7341,
+      "ai_cached_input_tokens": 5566670,
+      "ai_output_tokens": 6185,
+      "duration": 55.403,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 28,
+          "cost": 1.266398,
+          "input_tokens": 7341,
+          "output_tokens": 6185,
+          "cached_input_tokens": 5566670
+        }
+      ],
+      "ai_additions": 28,
+      "ai_model_line_changes": {
+        "Opus": 28
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 1.266398
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1794581755.524,
+      "project": "pm-mobile",
+      "ai_input_tokens": 8121,
+      "ai_cached_input_tokens": 5625752,
+      "ai_output_tokens": 2789,
+      "duration": 0.0,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "input_tokens": 8121,
+          "output_tokens": 2789,
+          "cached_input_tokens": 5625752
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 1.213414
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1794587773.513,
+      "project": "pm-mobile",
+      "ai_input_tokens": 836859,
+      "ai_cached_input_tokens": 9751015,
+      "ai_output_tokens": 7275,
+      "duration": 294.325,
+      "ai_model_breakdown": [
+        {
+          "name": "Haiku",
+          "lines": 0,
+          "cost": 1.749406,
+          "input_tokens": 836245,
+          "output_tokens": 6429,
+          "cached_input_tokens": 8810173
+        },
+        {
+          "name": "Opus",
+          "lines": 0,
+          "cost": 0.207544,
+          "input_tokens": 614,
+          "output_tokens": 846,
+          "cached_input_tokens": 940842
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 125,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.207544,
+        "Haiku": 1.749406
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 12,
+      "ai_prompt_events_total": 1,
+      "color": null,
+      "ai_prompt_length_avg": 12,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 12,
+      "ai_prompt_length_median_per_session": 12
+    },
+    {
+      "time": 1794588973.628,
+      "project": "pm-mobile",
+      "ai_input_tokens": 916536,
+      "ai_cached_input_tokens": 2694102,
+      "ai_output_tokens": 2254,
+      "duration": 225.372,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 0,
+          "cost": 3.871392,
+          "input_tokens": 915383,
+          "output_tokens": 1200,
+          "cached_input_tokens": 929302
+        },
+        {
+          "name": "Haiku",
+          "lines": 0,
+          "cost": 0.182903,
+          "input_tokens": 1153,
+          "output_tokens": 1054,
+          "cached_input_tokens": 1764800
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Haiku": 0.182903,
+        "Opus": 3.871392
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 22,
+      "ai_prompt_events_total": 1,
+      "color": null,
+      "ai_prompt_length_avg": 22,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 22,
+      "ai_prompt_length_median_per_session": 22
     }
   ],
   "start": "2026-11-12T17:00:00Z",

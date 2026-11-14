@@ -1,0 +1,88 @@
+{
+  "data": [
+    {
+      "time": 1794589200.0,
+      "project": "pm-mobile",
+      "ai_input_tokens": 975283,
+      "ai_cached_input_tokens": 6987945,
+      "ai_output_tokens": 7951,
+      "duration": 2487.912,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 16,
+          "cost": 5.27103,
+          "input_tokens": 974556,
+          "output_tokens": 7587,
+          "cached_input_tokens": 6105333
+        },
+        {
+          "name": "Haiku",
+          "lines": 0,
+          "cost": 0.090808,
+          "input_tokens": 727,
+          "output_tokens": 364,
+          "cached_input_tokens": 882612
+        }
+      ],
+      "ai_additions": 16,
+      "ai_model_line_changes": {
+        "Opus": 16
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Haiku": 0.090808,
+        "Opus": 5.27103
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 11765,
+      "ai_prompt_events_total": 2,
+      "color": null,
+      "ai_prompt_length_avg": 5882,
+      "ai_prompt_events_avg_per_session": 2,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 5882,
+      "ai_prompt_length_median_per_session": 5882
+    },
+    {
+      "time": 1794593075.383,
+      "project": "pm-mobile",
+      "ai_input_tokens": 203337,
+      "ai_cached_input_tokens": 2949632,
+      "ai_output_tokens": 15257,
+      "duration": 295.397,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.05746,
+          "input_tokens": 203337,
+          "output_tokens": 15257,
+          "cached_input_tokens": 2949632
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.05746
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "color": null,
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    }
+  ],
+  "start": "2026-11-13T17:00:00Z",
+  "end": "2026-11-14T16:59:59Z",
+  "timezone": "Asia/Ho_Chi_Minh"
+}

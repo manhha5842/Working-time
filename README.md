@@ -2,80 +2,80 @@
 
 Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 
-> Last updated: **2026-11-13 07:09 ICT**
+> Last updated: **2026-11-14 07:17 ICT**
 
 ## Overview
 
 | Metric | Coding time |
 |---|---:|
-| Today | **35m** |
-| This week | **31h 30m** |
-| This month | **68h 49m** |
-| This year | **442h 4m** |
-| All archived time | **442h 4m** |
-| Daily average (active days) | **4h 51m** |
-| Active days | **91** |
-| Best day | **2026-10-19 (8h 38m)** |
+| Today | **46m** |
+| This week | **41h 43m** |
+| This month | **79h 3m** |
+| This year | **452h 17m** |
+| All archived time | **452h 17m** |
+| Daily average (active days) | **4h 55m** |
+| Active days | **92** |
+| Best day | **2026-11-13 (10h 2m)** |
 
 ## Last 7 Days
 
 | Day | Date | Coding time |
 |---|---|---:|
-| Sat | 2026-11-07 | 35m |
 | Sun | 2026-11-08 | 3m |
 | Mon | 2026-11-09 | 8h 13m |
 | Tue | 2026-11-10 | 6h 54m |
 | Wed | 2026-11-11 | 7h 38m |
 | Thu | 2026-11-12 | 8h 10m |
-| Fri | 2026-11-13 | 35m |
+| Fri | 2026-11-13 | 10h 2m |
+| Sat | 2026-11-14 | 46m |
 
 ## Top Languages
 
 | Language | Time | Share |
 |---|---:|---:|
-| Markdown | 111h 19m | 25.2% |
-| Other | 71h 12m | 16.1% |
-| TypeScript | 66h 13m | 15.0% |
-| Java | 52h 51m | 12.0% |
-| Dart | 44h 5m | 10.0% |
-| SQL | 18h 58m | 4.3% |
+| Markdown | 116h 51m | 25.8% |
+| Other | 73h 28m | 16.2% |
+| TypeScript | 66h 14m | 14.6% |
+| Java | 52h 51m | 11.7% |
+| Dart | 45h 44m | 10.1% |
+| SQL | 18h 58m | 4.2% |
 | Python | 16h 59m | 3.8% |
-| Java Properties | 12h 42m | 2.9% |
+| Java Properties | 12h 42m | 2.8% |
 
 ## Top Projects
 
 | Project | Time | Share |
 |---|---:|---:|
-| gems-service-tsms | 93h 52m | 21.2% |
-| purchase-portal-be | 67h 53m | 15.4% |
-| purchase-portal-fe | 52h 3m | 11.8% |
-| pm-mobile | 46h 25m | 10.5% |
-| hsafe-mobile | 44h 14m | 10.0% |
-| timesheet-claim | 30h 34m | 6.9% |
-| Lotte | 20h 30m | 4.6% |
-| ria-fe-tsms | 15h 45m | 3.6% |
+| gems-service-tsms | 94h | 20.8% |
+| purchase-portal-be | 67h 53m | 15.0% |
+| pm-mobile | 54h 36m | 12.1% |
+| purchase-portal-fe | 52h 3m | 11.5% |
+| hsafe-mobile | 44h 14m | 9.8% |
+| timesheet-claim | 30h 34m | 6.8% |
+| Lotte | 21h 41m | 4.8% |
+| ria-fe-tsms | 15h 46m | 3.5% |
 
 ## All Projects
 
 | Project | Time | Share |
 |---|---:|---:|
-| gems-service-tsms | 93h 52m | 21.2% |
-| purchase-portal-be | 67h 53m | 15.4% |
-| purchase-portal-fe | 52h 3m | 11.8% |
-| pm-mobile | 46h 25m | 10.5% |
-| hsafe-mobile | 44h 14m | 10.0% |
-| timesheet-claim | 30h 34m | 6.9% |
-| Lotte | 20h 30m | 4.6% |
-| ria-fe-tsms | 15h 45m | 3.6% |
-| Muahangre | 14h 18m | 3.2% |
-| system-service-tsms-v2 | 12h 39m | 2.9% |
+| gems-service-tsms | 94h | 20.8% |
+| purchase-portal-be | 67h 53m | 15.0% |
+| pm-mobile | 54h 36m | 12.1% |
+| purchase-portal-fe | 52h 3m | 11.5% |
+| hsafe-mobile | 44h 14m | 9.8% |
+| timesheet-claim | 30h 34m | 6.8% |
+| Lotte | 21h 41m | 4.8% |
+| ria-fe-tsms | 15h 46m | 3.5% |
+| Muahangre | 14h 30m | 3.2% |
+| system-service-tsms-v2 | 13h 1m | 2.9% |
 | Zerun-pro-max | 11h 16m | 2.5% |
 | shopee-seeding-bot-develop | 8h 7m | 1.8% |
 | schedule-service-tsms | 7h 8m | 1.6% |
 | 3D | 6h 24m | 1.4% |
 | website | 2h 52m | 0.6% |
 | product-service-tsms | 2h 3m | 0.5% |
-| pm-docs | 1h | 0.2% |
+| pm-docs | 1h 8m | 0.3% |
 | firstaid.hsafe.net | 57m | 0.2% |
 | common-service-tsms | 40m | 0.1% |
 | cleanup-test-orders-20261106 | 33m | 0.1% |
@@ -112,11 +112,11 @@ Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 
 | Editor | Time | Share |
 |---|---:|---:|
-| Codex Vscode | 252h 11m | 57.0% |
-| VS Code | 143h 58m | 32.6% |
-| Claude Code | 32h 15m | 7.3% |
+| Codex Vscode | 252h 38m | 55.9% |
+| VS Code | 144h 42m | 32.0% |
+| Claude Code | 40h 13m | 8.9% |
 | Opencode Cli | 9h 22m | 2.1% |
-| Antigravity CLI | 1h 41m | 0.4% |
+| Antigravity CLI | 2h 45m | 0.6% |
 | OpenCode | 56m | 0.2% |
 | Antigravity Desktop | 27m | 0.1% |
 | CLI | 21m | 0.1% |
@@ -125,7 +125,7 @@ Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 
 | OS | Time | Share |
 |---|---:|---:|
-| Windows | 442h 4m | 100.0% |
+| Windows | 452h 17m | 100.0% |
 
 ## How it works
 
