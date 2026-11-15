@@ -2,39 +2,39 @@
 
 Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 
-> Last updated: **2026-11-15 05:55 ICT**
+> Last updated: **2026-11-16 06:21 ICT**
 
 ## Overview
 
 | Metric | Coding time |
 |---|---:|
 | Today | **0m** |
-| This week | **41h 48m** |
-| This month | **79h 7m** |
-| This year | **452h 21m** |
-| All archived time | **452h 21m** |
-| Daily average (active days) | **4h 55m** |
-| Active days | **92** |
+| This week | **0m** |
+| This month | **79h 16m** |
+| This year | **452h 30m** |
+| All archived time | **452h 30m** |
+| Daily average (active days) | **4h 52m** |
+| Active days | **93** |
 | Best day | **2026-11-13 (10h 2m)** |
 
 ## Last 7 Days
 
 | Day | Date | Coding time |
 |---|---|---:|
-| Mon | 2026-11-09 | 8h 13m |
 | Tue | 2026-11-10 | 6h 54m |
 | Wed | 2026-11-11 | 7h 38m |
 | Thu | 2026-11-12 | 8h 10m |
 | Fri | 2026-11-13 | 10h 2m |
 | Sat | 2026-11-14 | 51m |
-| Sun | 2026-11-15 | 0m |
+| Sun | 2026-11-15 | 9m |
+| Mon | 2026-11-16 | 0m |
 
 ## Top Languages
 
 | Language | Time | Share |
 |---|---:|---:|
 | Markdown | 116h 51m | 25.8% |
-| Other | 73h 32m | 16.3% |
+| Other | 73h 40m | 16.3% |
 | TypeScript | 66h 14m | 14.6% |
 | Java | 52h 51m | 11.7% |
 | Dart | 45h 44m | 10.1% |
@@ -48,7 +48,7 @@ Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 |---|---:|---:|
 | gems-service-tsms | 94h 2m | 20.8% |
 | purchase-portal-be | 67h 53m | 15.0% |
-| pm-mobile | 54h 37m | 12.1% |
+| pm-mobile | 54h 44m | 12.1% |
 | purchase-portal-fe | 52h 3m | 11.5% |
 | hsafe-mobile | 44h 14m | 9.8% |
 | timesheet-claim | 30h 34m | 6.8% |
@@ -61,13 +61,13 @@ Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 |---|---:|---:|
 | gems-service-tsms | 94h 2m | 20.8% |
 | purchase-portal-be | 67h 53m | 15.0% |
-| pm-mobile | 54h 37m | 12.1% |
+| pm-mobile | 54h 44m | 12.1% |
 | purchase-portal-fe | 52h 3m | 11.5% |
 | hsafe-mobile | 44h 14m | 9.8% |
 | timesheet-claim | 30h 34m | 6.8% |
 | Lotte | 21h 41m | 4.8% |
 | ria-fe-tsms | 15h 46m | 3.5% |
-| Muahangre | 14h 31m | 3.2% |
+| Muahangre | 14h 32m | 3.2% |
 | system-service-tsms-v2 | 13h 1m | 2.9% |
 | Zerun-pro-max | 11h 16m | 2.5% |
 | shopee-seeding-bot-develop | 8h 7m | 1.8% |
@@ -112,7 +112,7 @@ Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 
 | Editor | Time | Share |
 |---|---:|---:|
-| Codex Vscode | 252h 41m | 55.9% |
+| Codex Vscode | 252h 50m | 55.9% |
 | VS Code | 144h 42m | 32.0% |
 | Claude Code | 40h 13m | 8.9% |
 | Opencode Cli | 9h 22m | 2.1% |
@@ -125,7 +125,7 @@ Personal coding-time archive powered by **WakaTime + GitHub Actions**.
 
 | OS | Time | Share |
 |---|---:|---:|
-| Windows | 452h 21m | 100.0% |
+| Windows | 452h 30m | 100.0% |
 
 ## How it works
 
