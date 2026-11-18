@@ -39,38 +39,310 @@
     {
       "time": 1794880785.036,
       "project": "Muahangre",
-      "ai_input_tokens": 185724,
-      "ai_cached_input_tokens": 5206912,
-      "ai_output_tokens": 9883,
+      "ai_input_tokens": 1229887,
+      "ai_cached_input_tokens": 20762569,
+      "ai_output_tokens": 66133,
       "machine_name_id": "88e26b19-1aee-493b-9953-7cde02d30f52",
-      "duration": 367.977,
+      "duration": 5730.56,
       "ai_model_breakdown": [
         {
+          "name": "Fable",
+          "lines": 266,
+          "cost": 5.479366,
+          "input_tokens": 150058,
+          "output_tokens": 35683,
+          "cached_input_tokens": 8778547
+        },
+        {
+          "name": "Opus",
+          "lines": 15,
+          "cost": 1.613226,
+          "input_tokens": 197228,
+          "output_tokens": 10173,
+          "cached_input_tokens": 3104278
+        },
+        {
           "name": "GPT",
-          "lines": 0,
-          "cost": 0.990968,
-          "input_tokens": 185724,
-          "output_tokens": 9883,
-          "cached_input_tokens": 5206912
+          "lines": 2,
+          "cost": 2.323375,
+          "input_tokens": 882601,
+          "output_tokens": 20277,
+          "cached_input_tokens": 8879744
         }
       ],
-      "ai_additions": 0,
-      "ai_model_line_changes": {},
-      "ai_deletions": 0,
+      "ai_additions": 202,
+      "ai_model_line_changes": {
+        "Fable": 266,
+        "Opus": 15,
+        "GPT": 2
+      },
+      "ai_deletions": 81,
       "human_additions": 0,
       "human_deletions": 0,
       "ai_model_costs": {
-        "GPT": 0.990968
+        "GPT": 2.323375,
+        "Fable": 5.479366,
+        "Opus": 1.613226
+      },
+      "ai_sessions": 6,
+      "ai_prompt_length_sum": 10887,
+      "ai_prompt_events_total": 13,
+      "machine": "ALEXANDER-II",
+      "ai_prompt_length_avg": 837,
+      "ai_prompt_events_avg_per_session": 2,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 387,
+      "ai_prompt_length_median_per_session": 260
+    },
+    {
+      "time": 1794888441.162,
+      "project": "system-service-tsms-v2",
+      "ai_input_tokens": 615218,
+      "ai_cached_input_tokens": 21186559,
+      "ai_output_tokens": 75176,
+      "machine_name_id": "88e26b19-1aee-493b-9953-7cde02d30f52",
+      "duration": 2663.545,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 49,
+          "cost": 3.464111,
+          "input_tokens": 272116,
+          "output_tokens": 33939,
+          "cached_input_tokens": 8484336
+        },
+        {
+          "name": "Haiku",
+          "lines": 35,
+          "cost": 0.211122,
+          "input_tokens": 76057,
+          "output_tokens": 4719,
+          "cached_input_tokens": 1114702
+        },
+        {
+          "name": "Sonnet",
+          "lines": 31,
+          "cost": 2.10909,
+          "input_tokens": 229694,
+          "output_tokens": 21661,
+          "cached_input_tokens": 7165459
+        },
+        {
+          "name": "Fable",
+          "lines": 10,
+          "cost": 2.221876,
+          "input_tokens": 37351,
+          "output_tokens": 14857,
+          "cached_input_tokens": 4422062
+        }
+      ],
+      "ai_additions": 115,
+      "ai_model_line_changes": {
+        "Opus": 49,
+        "Sonnet": 31,
+        "Haiku": 35,
+        "Fable": 10
+      },
+      "ai_deletions": 10,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 3.464111,
+        "Fable": 2.221876,
+        "Sonnet": 2.10909,
+        "Haiku": 0.211122
+      },
+      "ai_sessions": 5,
+      "ai_prompt_length_sum": 570,
+      "ai_prompt_events_total": 7,
+      "machine": "ALEXANDER-II",
+      "ai_prompt_length_avg": 81,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 93,
+      "ai_prompt_length_median_per_session": 78
+    },
+    {
+      "time": 1794892906.465,
+      "project": "pm-mobile",
+      "ai_input_tokens": 194060,
+      "ai_cached_input_tokens": 1500125,
+      "ai_output_tokens": 3589,
+      "machine_name_id": "88e26b19-1aee-493b-9953-7cde02d30f52",
+      "duration": 971.399,
+      "ai_model_breakdown": [
+        {
+          "name": "Fable",
+          "lines": 16,
+          "cost": 0.48012,
+          "input_tokens": 4519,
+          "output_tokens": 2599,
+          "cached_input_tokens": 1219919
+        },
+        {
+          "name": "Sonnet",
+          "lines": 1,
+          "cost": 0.445023,
+          "input_tokens": 189541,
+          "output_tokens": 990,
+          "cached_input_tokens": 280206
+        }
+      ],
+      "ai_additions": 1,
+      "ai_model_line_changes": {
+        "Fable": 16,
+        "Sonnet": 1
+      },
+      "ai_deletions": 16,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Fable": 0.48012,
+        "Sonnet": 0.445023
       },
       "ai_sessions": 1,
-      "ai_prompt_length_sum": 0,
-      "ai_prompt_events_total": 0,
+      "ai_prompt_length_sum": 117,
+      "ai_prompt_events_total": 2,
       "machine": "ALEXANDER-II",
-      "ai_prompt_length_avg": 0,
-      "ai_prompt_events_avg_per_session": 0,
-      "ai_prompt_events_median_per_session": 0,
-      "ai_prompt_length_avg_per_session": 0,
-      "ai_prompt_length_median_per_session": 0
+      "ai_prompt_length_avg": 58,
+      "ai_prompt_events_avg_per_session": 2,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 58,
+      "ai_prompt_length_median_per_session": 58
+    },
+    {
+      "time": 1794894781.322,
+      "project": "pm-mobile",
+      "ai_input_tokens": 318838,
+      "ai_cached_input_tokens": 18350060,
+      "ai_output_tokens": 46338,
+      "machine_name_id": "88e26b19-1aee-493b-9953-7cde02d30f52",
+      "duration": 1145.555,
+      "ai_model_breakdown": [
+        {
+          "name": "Sonnet",
+          "lines": 39,
+          "cost": 1.32458,
+          "input_tokens": 27813,
+          "output_tokens": 16381,
+          "cached_input_tokens": 5525725
+        },
+        {
+          "name": "Opus",
+          "lines": 6,
+          "cost": 2.496648,
+          "input_tokens": 50061,
+          "output_tokens": 23609,
+          "cached_input_tokens": 9121117
+        },
+        {
+          "name": "Haiku",
+          "lines": 2,
+          "cost": 0.643026,
+          "input_tokens": 240964,
+          "output_tokens": 6348,
+          "cached_input_tokens": 3703218
+        }
+      ],
+      "ai_additions": 45,
+      "ai_model_line_changes": {
+        "Opus": 6,
+        "Haiku": 2,
+        "Sonnet": 39
+      },
+      "ai_deletions": 2,
+      "human_additions": 10,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 2.496648,
+        "Sonnet": 1.32458,
+        "Haiku": 0.643026
+      },
+      "ai_sessions": 3,
+      "ai_prompt_length_sum": 18925,
+      "ai_prompt_events_total": 12,
+      "machine": "ALEXANDER-II",
+      "ai_prompt_length_avg": 1577,
+      "ai_prompt_events_avg_per_session": 4,
+      "ai_prompt_events_median_per_session": 5,
+      "ai_prompt_length_avg_per_session": 1269,
+      "ai_prompt_length_median_per_session": 154
+    },
+    {
+      "time": 1794896927.529,
+      "project": "pm-mobile",
+      "ai_input_tokens": 4153933,
+      "ai_cached_input_tokens": 94323725,
+      "ai_output_tokens": 257981,
+      "machine_name_id": "88e26b19-1aee-493b-9953-7cde02d30f52",
+      "duration": 16164.981,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 334,
+          "cost": 13.519251,
+          "input_tokens": 789047,
+          "output_tokens": 113416,
+          "cached_input_tokens": 40473736
+        },
+        {
+          "name": "Haiku",
+          "lines": 156,
+          "cost": 1.974081,
+          "input_tokens": 691363,
+          "output_tokens": 37500,
+          "cached_input_tokens": 10952184
+        },
+        {
+          "name": "Sonnet",
+          "lines": 112,
+          "cost": 12.232246,
+          "input_tokens": 1807673,
+          "output_tokens": 89893,
+          "cached_input_tokens": 38589837
+        },
+        {
+          "name": "GPT",
+          "lines": 2,
+          "cost": 1.219719,
+          "input_tokens": 865850,
+          "output_tokens": 17172,
+          "cached_input_tokens": 4307968
+        },
+        {
+          "name": "Codex-Vscode",
+          "lines": 0,
+          "cost": 0.0,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 597,
+      "ai_model_line_changes": {
+        "Haiku": 156,
+        "Sonnet": 112,
+        "Opus": 334,
+        "GPT": 2
+      },
+      "ai_deletions": 7,
+      "human_additions": 1,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Haiku": 1.974081,
+        "Opus": 13.519251,
+        "Sonnet": 12.232246,
+        "GPT": 1.219719
+      },
+      "ai_sessions": 12,
+      "ai_prompt_length_sum": 30251,
+      "ai_prompt_events_total": 72,
+      "machine": "ALEXANDER-II",
+      "ai_prompt_length_avg": 420,
+      "ai_prompt_events_avg_per_session": 6,
+      "ai_prompt_events_median_per_session": 4,
+      "ai_prompt_length_avg_per_session": 475,
+      "ai_prompt_length_median_per_session": 94
     }
   ],
   "start": "2026-11-16T17:00:00Z",
