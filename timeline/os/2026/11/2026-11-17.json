@@ -566,34 +566,114 @@
     {
       "time": 1794898264.783,
       "project": "pm-mobile",
-      "ai_input_tokens": 3837407,
-      "ai_cached_input_tokens": 91297885,
-      "ai_output_tokens": 242230,
-      "duration": 14827.727,
+      "ai_input_tokens": 470277,
+      "ai_cached_input_tokens": 19045487,
+      "ai_output_tokens": 64361,
+      "duration": 4480.349,
+      "ai_model_breakdown": [
+        {
+          "name": "Haiku",
+          "lines": 64,
+          "cost": 0.365953,
+          "input_tokens": 15499,
+          "output_tokens": 10460,
+          "cached_input_tokens": 2981528
+        },
+        {
+          "name": "Sonnet",
+          "lines": 63,
+          "cost": 3.099726,
+          "input_tokens": 280231,
+          "output_tokens": 34097,
+          "cached_input_tokens": 10991469
+        },
+        {
+          "name": "Opus",
+          "lines": 0,
+          "cost": 2.108766,
+          "input_tokens": 174547,
+          "output_tokens": 19804,
+          "cached_input_tokens": 5072490
+        }
+      ],
+      "ai_additions": 127,
+      "ai_model_line_changes": {
+        "Haiku": 64,
+        "Sonnet": 63
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Haiku": 0.365953,
+        "Sonnet": 3.099726,
+        "Opus": 2.108766
+      },
+      "ai_sessions": 4,
+      "ai_prompt_length_sum": 1831,
+      "ai_prompt_events_total": 22,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 4480.349,
+      "manual_coding_seconds": 0.0,
+      "os": "Windows",
+      "ai_prompt_length_avg": 83,
+      "ai_prompt_events_avg_per_session": 6,
+      "ai_prompt_events_median_per_session": 5,
+      "ai_prompt_length_avg_per_session": 80,
+      "ai_prompt_length_median_per_session": 84
+    },
+    {
+      "time": 1794902745.132,
+      "project": "pm-mobile",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 31.722,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": false,
+      "_is_manual_coding": true,
+      "ai_coding_seconds": 0.0,
+      "manual_coding_seconds": 31.722,
+      "os": "Windows",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1794902776.854,
+      "project": "pm-docs",
+      "ai_input_tokens": 3367130,
+      "ai_cached_input_tokens": 72252398,
+      "ai_output_tokens": 177869,
+      "duration": 10315.656,
       "ai_model_breakdown": [
         {
           "name": "Opus",
           "lines": 334,
-          "cost": 13.409047,
-          "input_tokens": 788462,
-          "output_tokens": 111482,
-          "cached_input_tokens": 40127813
+          "cost": 11.300281,
+          "input_tokens": 613915,
+          "output_tokens": 91678,
+          "cached_input_tokens": 35055323
         },
         {
           "name": "Sonnet",
-          "lines": 111,
-          "cost": 11.662453,
-          "input_tokens": 1598165,
-          "output_tokens": 85820,
-          "cached_input_tokens": 38039598
-        },
-        {
-          "name": "Haiku",
-          "lines": 64,
-          "cost": 1.605962,
-          "input_tokens": 584930,
-          "output_tokens": 27756,
-          "cached_input_tokens": 8822506
+          "lines": 48,
+          "cost": 8.562727,
+          "input_tokens": 1317934,
+          "output_tokens": 51723,
+          "cached_input_tokens": 27048129
         },
         {
           "name": "GPT",
@@ -604,6 +684,14 @@
           "cached_input_tokens": 4307968
         },
         {
+          "name": "Haiku",
+          "lines": 0,
+          "cost": 1.240009,
+          "input_tokens": 569431,
+          "output_tokens": 17296,
+          "cached_input_tokens": 5840978
+        },
+        {
           "name": "Codex-Vscode",
           "lines": 0,
           "cost": 0.0,
@@ -612,35 +700,34 @@
           "cached_input_tokens": 0
         }
       ],
-      "ai_additions": 504,
+      "ai_additions": 377,
       "ai_model_line_changes": {
-        "Haiku": 64,
-        "Sonnet": 111,
         "Opus": 334,
+        "Sonnet": 48,
         "GPT": 2
       },
       "ai_deletions": 7,
       "human_additions": 0,
       "human_deletions": 0,
       "ai_model_costs": {
-        "Haiku": 1.605962,
-        "Sonnet": 11.662453,
-        "Opus": 13.409047,
-        "GPT": 1.219719
+        "Opus": 11.300281,
+        "GPT": 1.219719,
+        "Sonnet": 8.562727,
+        "Haiku": 1.240009
       },
-      "ai_sessions": 11,
-      "ai_prompt_length_sum": 29552,
-      "ai_prompt_events_total": 67,
+      "ai_sessions": 10,
+      "ai_prompt_length_sum": 27721,
+      "ai_prompt_events_total": 45,
       "_is_ai_coding": true,
       "_is_manual_coding": false,
-      "ai_coding_seconds": 14827.727,
+      "ai_coding_seconds": 10315.656,
       "manual_coding_seconds": 0.0,
       "os": "Windows",
-      "ai_prompt_length_avg": 441,
-      "ai_prompt_events_avg_per_session": 6,
-      "ai_prompt_events_median_per_session": 5,
-      "ai_prompt_length_avg_per_session": 513,
-      "ai_prompt_length_median_per_session": 122
+      "ai_prompt_length_avg": 616,
+      "ai_prompt_events_avg_per_session": 4,
+      "ai_prompt_events_median_per_session": 4,
+      "ai_prompt_length_avg_per_session": 703,
+      "ai_prompt_length_median_per_session": 146
     }
   ],
   "start": "2026-11-16T17:00:00Z",
