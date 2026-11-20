@@ -72,10 +72,77 @@
     {
       "time": 1795022897.733,
       "project": "pm-mobile",
-      "ai_input_tokens": 342409,
-      "ai_cached_input_tokens": 4996858,
-      "ai_output_tokens": 12705,
-      "duration": 2150.394,
+      "ai_input_tokens": 70157,
+      "ai_cached_input_tokens": 1447567,
+      "ai_output_tokens": 5455,
+      "duration": 1198.772,
+      "ai_model_breakdown": [
+        {
+          "name": "Sonnet",
+          "lines": 0,
+          "cost": 0.484378,
+          "input_tokens": 70157,
+          "output_tokens": 5455,
+          "cached_input_tokens": 1447567
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Sonnet": 0.484378
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 113,
+      "ai_prompt_events_total": 1,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 1198.772,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 113,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 113,
+      "ai_prompt_length_median_per_session": 113
+    },
+    {
+      "time": 1795024096.505,
+      "project": "pm-mobile",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 32.828,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": false,
+      "_is_manual_coding": true,
+      "ai_coding_seconds": 0.0,
+      "manual_coding_seconds": 32.828,
+      "editor": "VS Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795024129.333,
+      "project": "pm-mobile",
+      "ai_input_tokens": 272252,
+      "ai_cached_input_tokens": 3549291,
+      "ai_output_tokens": 7250,
+      "duration": 918.794,
       "ai_model_breakdown": [
         {
           "name": "Opus",
@@ -84,14 +151,6 @@
           "input_tokens": 15134,
           "output_tokens": 6115,
           "cached_input_tokens": 2904743
-        },
-        {
-          "name": "Sonnet",
-          "lines": 0,
-          "cost": 0.484378,
-          "input_tokens": 70157,
-          "output_tokens": 5455,
-          "cached_input_tokens": 1447567
         },
         {
           "name": "Haiku",
@@ -110,23 +169,22 @@
       "human_additions": 0,
       "human_deletions": 0,
       "ai_model_costs": {
-        "Sonnet": 0.484378,
         "Opus": 0.763785,
         "Haiku": 0.327247
       },
-      "ai_sessions": 3,
-      "ai_prompt_length_sum": 207,
-      "ai_prompt_events_total": 3,
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 94,
+      "ai_prompt_events_total": 2,
       "_is_ai_coding": true,
       "_is_manual_coding": false,
-      "ai_coding_seconds": 2150.394,
+      "ai_coding_seconds": 918.794,
       "manual_coding_seconds": 0.0,
       "editor": "Claude Code",
-      "ai_prompt_length_avg": 69,
+      "ai_prompt_length_avg": 47,
       "ai_prompt_events_avg_per_session": 1,
       "ai_prompt_events_median_per_session": 1,
-      "ai_prompt_length_avg_per_session": 69,
-      "ai_prompt_length_median_per_session": 84
+      "ai_prompt_length_avg_per_session": 47,
+      "ai_prompt_length_median_per_session": 47
     },
     {
       "time": 1795025048.127,
@@ -289,18 +347,18 @@
     {
       "time": 1795027004.087,
       "project": "pm-mobile",
-      "ai_input_tokens": 9354,
-      "ai_cached_input_tokens": 2450981,
-      "ai_output_tokens": 7040,
-      "duration": 469.979,
+      "ai_input_tokens": 13287,
+      "ai_cached_input_tokens": 3711216,
+      "ai_output_tokens": 8030,
+      "duration": 788.832,
       "ai_model_breakdown": [
         {
           "name": "Opus",
           "lines": 20,
-          "cost": 0.49086,
-          "input_tokens": 8109,
-          "output_tokens": 4467,
-          "cached_input_tokens": 1845419
+          "cost": 0.778439,
+          "input_tokens": 12042,
+          "output_tokens": 5457,
+          "cached_input_tokens": 3105654
         },
         {
           "name": "Haiku",
@@ -320,14 +378,14 @@
       "human_deletions": 0,
       "ai_model_costs": {
         "Haiku": 0.074666,
-        "Opus": 0.49086
+        "Opus": 0.778439
       },
       "ai_sessions": 2,
       "ai_prompt_length_sum": 126,
       "ai_prompt_events_total": 2,
       "_is_ai_coding": true,
       "_is_manual_coding": false,
-      "ai_coding_seconds": 469.979,
+      "ai_coding_seconds": 788.832,
       "manual_coding_seconds": 0.0,
       "editor": "Claude Code",
       "ai_prompt_length_avg": 63,
@@ -335,6 +393,3603 @@
       "ai_prompt_events_median_per_session": 1,
       "ai_prompt_length_avg_per_session": 63,
       "ai_prompt_length_median_per_session": 63
+    },
+    {
+      "time": 1795031087.093,
+      "project": "pm-mobile",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 0.0,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 14227,
+      "ai_prompt_events_total": 1,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 0.0,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 14227,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 14227,
+      "ai_prompt_length_median_per_session": 14227
+    },
+    {
+      "time": 1795053486.509,
+      "project": "Muahangre",
+      "ai_input_tokens": 269918,
+      "ai_cached_input_tokens": 579968,
+      "ai_output_tokens": 940,
+      "duration": 73.428,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.607232,
+          "input_tokens": 269918,
+          "output_tokens": 940,
+          "cached_input_tokens": 579968
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.607232
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 73.428,
+      "manual_coding_seconds": 0.0,
+      "editor": "Codex Vscode",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795053559.937,
+      "project": "pm-mobile",
+      "ai_input_tokens": 55430,
+      "ai_cached_input_tokens": 556010,
+      "ai_output_tokens": 3976,
+      "duration": 35.084,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 29,
+          "cost": 0.412441,
+          "input_tokens": 55430,
+          "output_tokens": 3976,
+          "cached_input_tokens": 556010
+        }
+      ],
+      "ai_additions": 29,
+      "ai_model_line_changes": {
+        "Opus": 29
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.412441
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 10418,
+      "ai_prompt_events_total": 2,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 35.084,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 5209,
+      "ai_prompt_events_avg_per_session": 2,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 5209,
+      "ai_prompt_length_median_per_session": 5209
+    },
+    {
+      "time": 1795053595.021,
+      "project": "Muahangre",
+      "ai_input_tokens": 8226,
+      "ai_cached_input_tokens": 4643840,
+      "ai_output_tokens": 3779,
+      "duration": 342.703,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.518625,
+          "input_tokens": 8226,
+          "output_tokens": 3779,
+          "cached_input_tokens": 4643840
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.518625
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 342.703,
+      "manual_coding_seconds": 0.0,
+      "editor": "Codex Vscode",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795053937.724,
+      "project": "pm-mobile",
+      "ai_input_tokens": 10426,
+      "ai_cached_input_tokens": 517568,
+      "ai_output_tokens": 1447,
+      "duration": 5.085,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "input_tokens": 10426,
+          "output_tokens": 1447,
+          "cached_input_tokens": 517568
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.174158
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 5.085,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795053942.809,
+      "project": "Muahangre",
+      "ai_input_tokens": 2503,
+      "ai_cached_input_tokens": 1784704,
+      "ai_output_tokens": 2590,
+      "duration": 248.534,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.209377,
+          "input_tokens": 2503,
+          "output_tokens": 2590,
+          "cached_input_tokens": 1784704
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.209377
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 248.534,
+      "manual_coding_seconds": 0.0,
+      "editor": "Codex Vscode",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795054191.343,
+      "project": "pm-mobile",
+      "ai_input_tokens": 23797,
+      "ai_cached_input_tokens": 1694042,
+      "ai_output_tokens": 8305,
+      "duration": 698.63,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 35,
+          "cost": 0.600095,
+          "input_tokens": 23797,
+          "output_tokens": 8305,
+          "cached_input_tokens": 1694042
+        }
+      ],
+      "ai_additions": 24,
+      "ai_model_line_changes": {
+        "Opus": 35
+      },
+      "ai_deletions": 11,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.600095
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 67,
+      "ai_prompt_events_total": 1,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 698.63,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 67,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 67,
+      "ai_prompt_length_median_per_session": 67
+    },
+    {
+      "time": 1795054889.973,
+      "project": "pm-mobile",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 254.069,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 254.069,
+      "manual_coding_seconds": 0.0,
+      "editor": "VS Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795055144.042,
+      "project": "pm-mobile",
+      "ai_input_tokens": 393637,
+      "ai_cached_input_tokens": 9406747,
+      "ai_output_tokens": 48138,
+      "duration": 1437.689,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 198,
+          "cost": 3.452086,
+          "input_tokens": 299495,
+          "output_tokens": 38563,
+          "cached_input_tokens": 7414221
+        },
+        {
+          "name": "Sonnet",
+          "lines": 0,
+          "cost": 0.682537,
+          "input_tokens": 94142,
+          "output_tokens": 9575,
+          "cached_input_tokens": 1992526
+        }
+      ],
+      "ai_additions": 197,
+      "ai_model_line_changes": {
+        "Opus": 198
+      },
+      "ai_deletions": 1,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 3.452086,
+        "Sonnet": 0.682537
+      },
+      "ai_sessions": 3,
+      "ai_prompt_length_sum": 1199,
+      "ai_prompt_events_total": 11,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 1437.689,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 109,
+      "ai_prompt_events_avg_per_session": 4,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 114,
+      "ai_prompt_length_median_per_session": 104
+    },
+    {
+      "time": 1795056581.731,
+      "project": "pm-mobile",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 509.062,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 509.062,
+      "manual_coding_seconds": 0.0,
+      "editor": "VS Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795057090.793,
+      "project": "pm-mobile",
+      "ai_input_tokens": 2217,
+      "ai_cached_input_tokens": 545627,
+      "ai_output_tokens": 2312,
+      "duration": 41.934,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 0,
+          "cost": 0.164234,
+          "input_tokens": 2217,
+          "output_tokens": 2312,
+          "cached_input_tokens": 545627
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.164234
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 44,
+      "ai_prompt_events_total": 1,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 41.934,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 44,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 44,
+      "ai_prompt_length_median_per_session": 44
+    },
+    {
+      "time": 1795057132.727,
+      "project": "pm-mobile",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 253.574,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 5,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": false,
+      "_is_manual_coding": true,
+      "ai_coding_seconds": 0.0,
+      "manual_coding_seconds": 253.574,
+      "editor": "VS Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795057386.301,
+      "project": "pm-mobile",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 34.539,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 2,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 34.539,
+      "manual_coding_seconds": 0.0,
+      "editor": "VS Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795057420.84,
+      "project": "pm-mobile",
+      "ai_input_tokens": 6417,
+      "ai_cached_input_tokens": 937539,
+      "ai_output_tokens": 2068,
+      "duration": 230.891,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 0,
+          "cost": 0.254535,
+          "input_tokens": 6417,
+          "output_tokens": 2068,
+          "cached_input_tokens": 937539
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.254535
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 230.891,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795057651.731,
+      "project": "pm-mobile",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 282.651,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 282.651,
+      "manual_coding_seconds": 0.0,
+      "editor": "VS Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795057934.382,
+      "project": "pm-mobile",
+      "ai_input_tokens": 23824,
+      "ai_cached_input_tokens": 3708383,
+      "ai_output_tokens": 6262,
+      "duration": 489.718,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 0,
+          "cost": 0.962214,
+          "input_tokens": 23824,
+          "output_tokens": 6262,
+          "cached_input_tokens": 3708383
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.962214
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 489.718,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795058424.1,
+      "project": "pm-mobile",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 22.731,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 26,
+      "ai_prompt_events_total": 1,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 22.731,
+      "manual_coding_seconds": 0.0,
+      "editor": "Codex Vscode",
+      "ai_prompt_length_avg": 26,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 26,
+      "ai_prompt_length_median_per_session": 26
+    },
+    {
+      "time": 1795058446.831,
+      "project": "pm-mobile",
+      "ai_input_tokens": 82545,
+      "ai_cached_input_tokens": 291460,
+      "ai_output_tokens": 1993,
+      "duration": 15.512,
+      "ai_model_breakdown": [
+        {
+          "name": "Sonnet",
+          "lines": 0,
+          "cost": 0.243312,
+          "input_tokens": 82545,
+          "output_tokens": 1993,
+          "cached_input_tokens": 291460
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Sonnet": 0.243312
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 41,
+      "ai_prompt_events_total": 1,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 15.512,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 41,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 41,
+      "ai_prompt_length_median_per_session": 41
+    },
+    {
+      "time": 1795058462.343,
+      "project": "pm-mobile",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 5.539,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 5.539,
+      "manual_coding_seconds": 0.0,
+      "editor": "Codex Vscode",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795058467.882,
+      "project": "pm-mobile",
+      "ai_input_tokens": 9997,
+      "ai_cached_input_tokens": 126214,
+      "ai_output_tokens": 710,
+      "duration": 3.362,
+      "ai_model_breakdown": [
+        {
+          "name": "Sonnet",
+          "input_tokens": 9997,
+          "output_tokens": 710,
+          "cached_input_tokens": 126214
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Sonnet": 0.052337
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 3.362,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795058471.244,
+      "project": "pm-mobile",
+      "ai_input_tokens": 201985,
+      "ai_cached_input_tokens": 7040,
+      "ai_output_tokens": 2205,
+      "duration": 53.209,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 201985,
+          "output_tokens": 2205,
+          "cached_input_tokens": 7040
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.021371
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 53.209,
+      "manual_coding_seconds": 0.0,
+      "editor": "Codex Vscode",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795058524.453,
+      "project": "pm-mobile",
+      "ai_input_tokens": 420806,
+      "ai_cached_input_tokens": 459776,
+      "ai_output_tokens": 2960,
+      "duration": 240.43,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 6,
+          "cost": 0.048158,
+          "input_tokens": 420806,
+          "output_tokens": 2960,
+          "cached_input_tokens": 459776
+        }
+      ],
+      "ai_additions": 6,
+      "ai_model_line_changes": {
+        "GPT": 6
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.048158
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 240.43,
+      "manual_coding_seconds": 0.0,
+      "editor": "VS Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795058764.883,
+      "project": "pm-mobile",
+      "ai_input_tokens": 5056,
+      "ai_cached_input_tokens": 275170,
+      "ai_output_tokens": 3749,
+      "duration": 80.242,
+      "ai_model_breakdown": [
+        {
+          "name": "Sonnet",
+          "lines": 0,
+          "cost": 0.102636,
+          "input_tokens": 5056,
+          "output_tokens": 3749,
+          "cached_input_tokens": 275170
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Sonnet": 0.102636
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 10651,
+      "ai_prompt_events_total": 3,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 80.242,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 3550,
+      "ai_prompt_events_avg_per_session": 3,
+      "ai_prompt_events_median_per_session": 3,
+      "ai_prompt_length_avg_per_session": 3550,
+      "ai_prompt_length_median_per_session": 3550
+    },
+    {
+      "time": 1795058845.125,
+      "project": "pm-mobile",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 12.742,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": false,
+      "_is_manual_coding": true,
+      "ai_coding_seconds": 0.0,
+      "manual_coding_seconds": 12.742,
+      "editor": "VS Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795058857.867,
+      "project": "Muahangre",
+      "ai_input_tokens": 14010,
+      "ai_cached_input_tokens": 1558656,
+      "ai_output_tokens": 1200,
+      "duration": 62.346,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.195885,
+          "input_tokens": 14010,
+          "output_tokens": 1200,
+          "cached_input_tokens": 1558656
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.195885
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 62.346,
+      "manual_coding_seconds": 0.0,
+      "editor": "Codex Vscode",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795058920.213,
+      "project": "purchase-portal-fe",
+      "ai_input_tokens": 7056,
+      "ai_cached_input_tokens": 1041903,
+      "ai_output_tokens": 2221,
+      "duration": 0.184,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "input_tokens": 7056,
+          "output_tokens": 2221,
+          "cached_input_tokens": 1041903
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.281025
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 0.184,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795058920.397,
+      "project": "Muahangre",
+      "ai_input_tokens": 1342,
+      "ai_cached_input_tokens": 951296,
+      "ai_output_tokens": 691,
+      "duration": 33.056,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.104724,
+          "input_tokens": 1342,
+          "output_tokens": 691,
+          "cached_input_tokens": 951296
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.104724
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 33.056,
+      "manual_coding_seconds": 0.0,
+      "editor": "Codex Vscode",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795058953.453,
+      "project": "purchase-portal-fe",
+      "ai_input_tokens": 2724,
+      "ai_cached_input_tokens": 643807,
+      "ai_output_tokens": 1402,
+      "duration": 15.258,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 6,
+          "cost": 0.167697,
+          "input_tokens": 2724,
+          "output_tokens": 1402,
+          "cached_input_tokens": 643807
+        }
+      ],
+      "ai_additions": 6,
+      "ai_model_line_changes": {
+        "Opus": 6
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.167697
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 15.258,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795058968.711,
+      "project": "Muahangre",
+      "ai_input_tokens": 6569,
+      "ai_cached_input_tokens": 959744,
+      "ai_output_tokens": 1842,
+      "duration": 22.25,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 6569,
+          "output_tokens": 1842,
+          "cached_input_tokens": 959744
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.127532
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 22.25,
+      "manual_coding_seconds": 0.0,
+      "editor": "Codex Vscode",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795058990.961,
+      "project": "purchase-portal-fe",
+      "ai_input_tokens": 2326,
+      "ai_cached_input_tokens": 434860,
+      "ai_output_tokens": 2648,
+      "duration": 48.113,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 14,
+          "cost": 0.149236,
+          "input_tokens": 2326,
+          "output_tokens": 2648,
+          "cached_input_tokens": 434860
+        }
+      ],
+      "ai_additions": 14,
+      "ai_model_line_changes": {
+        "Opus": 14
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.149236
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 48.113,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795059039.074,
+      "project": "Muahangre",
+      "ai_input_tokens": 14686,
+      "ai_cached_input_tokens": 13134208,
+      "ai_output_tokens": 8001,
+      "duration": 516.368,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 3,
+          "cost": 1.422802,
+          "input_tokens": 14686,
+          "output_tokens": 8001,
+          "cached_input_tokens": 13134208
+        }
+      ],
+      "ai_additions": 3,
+      "ai_model_line_changes": {
+        "GPT": 3
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 1.422802
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 516.368,
+      "manual_coding_seconds": 0.0,
+      "editor": "Codex Vscode",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795059555.442,
+      "project": "pm-mobile",
+      "ai_input_tokens": 848,
+      "ai_cached_input_tokens": 328815,
+      "ai_output_tokens": 1540,
+      "duration": 10.981,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 0,
+          "cost": 0.099955,
+          "input_tokens": 848,
+          "output_tokens": 1540,
+          "cached_input_tokens": 328815
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.099955
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 256,
+      "ai_prompt_events_total": 1,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 10.981,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 256,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 256,
+      "ai_prompt_length_median_per_session": 256
+    },
+    {
+      "time": 1795059566.423,
+      "project": "Muahangre",
+      "ai_input_tokens": 364,
+      "ai_cached_input_tokens": 692480,
+      "ai_output_tokens": 114,
+      "duration": 4.33,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 364,
+          "output_tokens": 114,
+          "cached_input_tokens": 692480
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.071116
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 4.33,
+      "manual_coding_seconds": 0.0,
+      "editor": "Codex Vscode",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795059570.753,
+      "project": "pm-mobile",
+      "ai_input_tokens": 8689,
+      "ai_cached_input_tokens": 504004,
+      "ai_output_tokens": 3833,
+      "duration": 45.053,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 0,
+          "cost": 0.212217,
+          "input_tokens": 8689,
+          "output_tokens": 3833,
+          "cached_input_tokens": 504004
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.212217
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 45.053,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795059615.806,
+      "project": "Muahangre",
+      "ai_input_tokens": 2187,
+      "ai_cached_input_tokens": 3136640,
+      "ai_output_tokens": 1590,
+      "duration": 0.066,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.333938,
+          "input_tokens": 2187,
+          "output_tokens": 1590,
+          "cached_input_tokens": 3136640
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.333938
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 0.066,
+      "manual_coding_seconds": 0.0,
+      "editor": "Codex Vscode",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795059615.872,
+      "project": "pm-mobile",
+      "ai_input_tokens": 6000,
+      "ai_cached_input_tokens": 614259,
+      "ai_output_tokens": 7958,
+      "duration": 61.814,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 48,
+          "cost": 0.306013,
+          "input_tokens": 6000,
+          "output_tokens": 7958,
+          "cached_input_tokens": 614259
+        }
+      ],
+      "ai_additions": 48,
+      "ai_model_line_changes": {
+        "Opus": 48
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.306013
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 61.814,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795059677.686,
+      "project": "Muahangre",
+      "ai_input_tokens": 797,
+      "ai_cached_input_tokens": 1752192,
+      "ai_output_tokens": 934,
+      "duration": 3.023,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 797,
+          "output_tokens": 934,
+          "cached_input_tokens": 1752192
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.186153
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 3.023,
+      "manual_coding_seconds": 0.0,
+      "editor": "Codex Vscode",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795059680.709,
+      "project": "pm-mobile",
+      "ai_input_tokens": 14733,
+      "ai_cached_input_tokens": 1058253,
+      "ai_output_tokens": 1815,
+      "duration": 62.036,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 20,
+          "cost": 0.259821,
+          "input_tokens": 12014,
+          "output_tokens": 1438,
+          "cached_input_tokens": 915024
+        },
+        {
+          "name": "Sonnet",
+          "lines": 0,
+          "cost": 0.037854,
+          "input_tokens": 2719,
+          "output_tokens": 377,
+          "cached_input_tokens": 143229
+        }
+      ],
+      "ai_additions": 20,
+      "ai_model_line_changes": {
+        "Opus": 20
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Sonnet": 0.037854,
+        "Opus": 0.259821
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 47,
+      "ai_prompt_events_total": 1,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 62.036,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 47,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 47,
+      "ai_prompt_length_median_per_session": 47
+    },
+    {
+      "time": 1795059742.745,
+      "project": "Muahangre",
+      "ai_input_tokens": 1466,
+      "ai_cached_input_tokens": 2462976,
+      "ai_output_tokens": 899,
+      "duration": 30.444,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 1466,
+          "output_tokens": 899,
+          "cached_input_tokens": 2462976
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.25822
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 30.444,
+      "manual_coding_seconds": 0.0,
+      "editor": "Codex Vscode",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795059773.189,
+      "project": "pm-mobile",
+      "ai_input_tokens": 27,
+      "ai_cached_input_tokens": 146323,
+      "ai_output_tokens": 1193,
+      "duration": 33.003,
+      "ai_model_breakdown": [
+        {
+          "name": "Sonnet",
+          "input_tokens": 27,
+          "output_tokens": 1193,
+          "cached_input_tokens": 146323
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Sonnet": 0.041249
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 42,
+      "ai_prompt_events_total": 1,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 33.003,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 42,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 42,
+      "ai_prompt_length_median_per_session": 42
+    },
+    {
+      "time": 1795059806.192,
+      "project": "Muahangre",
+      "ai_input_tokens": 481,
+      "ai_cached_input_tokens": 353024,
+      "ai_output_tokens": 189,
+      "duration": 21.83,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 481,
+          "output_tokens": 189,
+          "cached_input_tokens": 353024
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.038154
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 21.83,
+      "manual_coding_seconds": 0.0,
+      "editor": "Codex Vscode",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795059828.022,
+      "project": "pm-mobile",
+      "ai_input_tokens": 32,
+      "ai_cached_input_tokens": 147541,
+      "ai_output_tokens": 806,
+      "duration": 2.179,
+      "ai_model_breakdown": [
+        {
+          "name": "Sonnet",
+          "input_tokens": 32,
+          "output_tokens": 806,
+          "cached_input_tokens": 147541
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Sonnet": 0.037632
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 65,
+      "ai_prompt_events_total": 1,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 2.179,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 65,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 65,
+      "ai_prompt_length_median_per_session": 65
+    },
+    {
+      "time": 1795059830.201,
+      "project": "Muahangre",
+      "ai_input_tokens": 2420,
+      "ai_cached_input_tokens": 2127488,
+      "ai_output_tokens": 492,
+      "duration": 71.401,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.222509,
+          "input_tokens": 2420,
+          "output_tokens": 492,
+          "cached_input_tokens": 2127488
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.222509
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 71.401,
+      "manual_coding_seconds": 0.0,
+      "editor": "Codex Vscode",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795059901.602,
+      "project": "pm-mobile",
+      "ai_input_tokens": 39,
+      "ai_cached_input_tokens": 148377,
+      "ai_output_tokens": 772,
+      "duration": 12.264,
+      "ai_model_breakdown": [
+        {
+          "name": "Sonnet",
+          "input_tokens": 39,
+          "output_tokens": 772,
+          "cached_input_tokens": 148377
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Sonnet": 0.037473
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 10,
+      "ai_prompt_events_total": 1,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 12.264,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 10,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 10,
+      "ai_prompt_length_median_per_session": 10
+    },
+    {
+      "time": 1795059913.866,
+      "project": "Muahangre",
+      "ai_input_tokens": 2180,
+      "ai_cached_input_tokens": 1787776,
+      "ai_output_tokens": 832,
+      "duration": 43.928,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.191456,
+          "input_tokens": 2180,
+          "output_tokens": 832,
+          "cached_input_tokens": 1787776
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.191456
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 43.928,
+      "manual_coding_seconds": 0.0,
+      "editor": "Codex Vscode",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795059957.794,
+      "project": "pm-mobile",
+      "ai_input_tokens": 329184,
+      "ai_cached_input_tokens": 414221,
+      "ai_output_tokens": 894,
+      "duration": 1.67,
+      "ai_model_breakdown": [
+        {
+          "name": "Sonnet",
+          "input_tokens": 329184,
+          "output_tokens": 894,
+          "cached_input_tokens": 414221
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Sonnet": 0.750152
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 38,
+      "ai_prompt_events_total": 1,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 1.67,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 38,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 38,
+      "ai_prompt_length_median_per_session": 38
+    },
+    {
+      "time": 1795059959.464,
+      "project": "Muahangre",
+      "ai_input_tokens": 511,
+      "ai_cached_input_tokens": 1795840,
+      "ai_output_tokens": 746,
+      "duration": 99.216,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.188066,
+          "input_tokens": 511,
+          "output_tokens": 746,
+          "cached_input_tokens": 1795840
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.188066
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 99.216,
+      "manual_coding_seconds": 0.0,
+      "editor": "Codex Vscode",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795060058.68,
+      "project": "pm-mobile",
+      "ai_input_tokens": 3685,
+      "ai_cached_input_tokens": 1502831,
+      "ai_output_tokens": 4045,
+      "duration": 30.376,
+      "ai_model_breakdown": [
+        {
+          "name": "Sonnet",
+          "lines": 16,
+          "cost": 0.348386,
+          "input_tokens": 3685,
+          "output_tokens": 4045,
+          "cached_input_tokens": 1502831
+        }
+      ],
+      "ai_additions": 16,
+      "ai_model_line_changes": {
+        "Sonnet": 16
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Sonnet": 0.348386
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 42,
+      "ai_prompt_events_total": 1,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 30.376,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 42,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 42,
+      "ai_prompt_length_median_per_session": 42
+    },
+    {
+      "time": 1795060089.056,
+      "project": "Muahangre",
+      "ai_input_tokens": 2420,
+      "ai_cached_input_tokens": 4333440,
+      "ai_output_tokens": 1898,
+      "duration": 877.779,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.457165,
+          "input_tokens": 2420,
+          "output_tokens": 1898,
+          "cached_input_tokens": 4333440
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.457165
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 877.779,
+      "manual_coding_seconds": 0.0,
+      "editor": "Codex Vscode",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795060966.835,
+      "project": "pm-mobile",
+      "ai_input_tokens": 33099,
+      "ai_cached_input_tokens": 4566759,
+      "ai_output_tokens": 12810,
+      "duration": 2696.169,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 52,
+          "cost": 1.062487,
+          "input_tokens": 27235,
+          "output_tokens": 11089,
+          "cached_input_tokens": 3658838
+        },
+        {
+          "name": "Sonnet",
+          "lines": 0,
+          "cost": 0.210522,
+          "input_tokens": 5864,
+          "output_tokens": 1721,
+          "cached_input_tokens": 907921
+        }
+      ],
+      "ai_additions": 52,
+      "ai_model_line_changes": {
+        "Opus": 52
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 1.062487,
+        "Sonnet": 0.210522
+      },
+      "ai_sessions": 5,
+      "ai_prompt_length_sum": 226,
+      "ai_prompt_events_total": 4,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 2696.169,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 56,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 56,
+      "ai_prompt_length_median_per_session": 56
+    },
+    {
+      "time": 1795065286.699,
+      "project": "purchase-portal-fe",
+      "ai_input_tokens": 208372,
+      "ai_cached_input_tokens": 12496145,
+      "ai_output_tokens": 27986,
+      "duration": 2484.641,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 77,
+          "cost": 3.892437,
+          "input_tokens": 208372,
+          "output_tokens": 27986,
+          "cached_input_tokens": 12496145
+        }
+      ],
+      "ai_additions": 77,
+      "ai_model_line_changes": {
+        "Opus": 77
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 3.892437
+      },
+      "ai_sessions": 3,
+      "ai_prompt_length_sum": 190,
+      "ai_prompt_events_total": 2,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 2484.641,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 95,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 95,
+      "ai_prompt_length_median_per_session": 95
+    },
+    {
+      "time": 1795069755.897,
+      "project": "pm-mobile",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 16.938,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 16.938,
+      "manual_coding_seconds": 0.0,
+      "editor": "VS Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795069772.835,
+      "project": "pm-mobile",
+      "ai_input_tokens": 1928,
+      "ai_cached_input_tokens": 885030,
+      "ai_output_tokens": 2040,
+      "duration": 2.691,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "input_tokens": 1928,
+          "output_tokens": 2040,
+          "cached_input_tokens": 885030
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.225518
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 11,
+      "ai_prompt_events_total": 1,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 2.691,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 11,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 11,
+      "ai_prompt_length_median_per_session": 11
+    },
+    {
+      "time": 1795069775.526,
+      "project": "pm-mobile",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 70.499,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 70.499,
+      "manual_coding_seconds": 0.0,
+      "editor": "VS Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795069846.025,
+      "project": "pm-mobile",
+      "ai_input_tokens": 1874,
+      "ai_cached_input_tokens": 671416,
+      "ai_output_tokens": 1039,
+      "duration": 109.044,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "input_tokens": 1874,
+          "output_tokens": 1039,
+          "cached_input_tokens": 671416
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {
+        "Opus": 10
+      },
+      "ai_deletions": 10,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.162559
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 109.044,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795069955.069,
+      "project": "pm-mobile",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 12.849,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 12.849,
+      "manual_coding_seconds": 0.0,
+      "editor": "VS Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795069967.918,
+      "project": "pm-mobile",
+      "ai_input_tokens": 15524,
+      "ai_cached_input_tokens": 2316738,
+      "ai_output_tokens": 5670,
+      "duration": 43.544,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 22,
+          "cost": 0.638843,
+          "input_tokens": 15524,
+          "output_tokens": 5670,
+          "cached_input_tokens": 2316738
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {
+        "Opus": 22
+      },
+      "ai_deletions": 22,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.638843
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 11,
+      "ai_prompt_events_total": 1,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 43.544,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 11,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 11,
+      "ai_prompt_length_median_per_session": 11
+    },
+    {
+      "time": 1795070011.462,
+      "project": "pm-mobile",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 22.518,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 22.518,
+      "manual_coding_seconds": 0.0,
+      "editor": "VS Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795070033.98,
+      "project": "pm-mobile",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 1.697,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {
+        "Opus": 177
+      },
+      "ai_deletions": 177,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 1.697,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795070035.677,
+      "project": "pm-mobile",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 124.18,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 124.18,
+      "manual_coding_seconds": 0.0,
+      "editor": "VS Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795070159.857,
+      "project": "Lotte",
+      "ai_input_tokens": 77699,
+      "ai_cached_input_tokens": 6970902,
+      "ai_output_tokens": 25431,
+      "duration": 1181.18,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 235,
+          "cost": 2.213597,
+          "input_tokens": 77699,
+          "output_tokens": 25431,
+          "cached_input_tokens": 6970902
+        }
+      ],
+      "ai_additions": 235,
+      "ai_model_line_changes": {
+        "Opus": 235
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 2.213597
+      },
+      "ai_sessions": 3,
+      "ai_prompt_length_sum": 7574,
+      "ai_prompt_events_total": 4,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 1181.18,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 1894,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 1894,
+      "ai_prompt_length_median_per_session": 1894
+    },
+    {
+      "time": 1795072386.265,
+      "project": "pm-mobile",
+      "ai_input_tokens": 210009,
+      "ai_cached_input_tokens": 7464738,
+      "ai_output_tokens": 29890,
+      "duration": 1637.048,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 60,
+          "cost": 2.27642,
+          "input_tokens": 93606,
+          "output_tokens": 27301,
+          "cached_input_tokens": 6779877
+        },
+        {
+          "name": "Sonnet",
+          "lines": 0,
+          "cost": 0.395668,
+          "input_tokens": 116403,
+          "output_tokens": 2589,
+          "cached_input_tokens": 684861
+        }
+      ],
+      "ai_additions": 60,
+      "ai_model_line_changes": {
+        "Opus": 60
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 2.27642,
+        "Sonnet": 0.395668
+      },
+      "ai_sessions": 5,
+      "ai_prompt_length_sum": 6483,
+      "ai_prompt_events_total": 8,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 1637.048,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 810,
+      "ai_prompt_events_avg_per_session": 2,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 550,
+      "ai_prompt_length_median_per_session": 38
+    },
+    {
+      "time": 1795074023.313,
+      "project": "pm-mobile",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 150.592,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 1,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": false,
+      "_is_manual_coding": true,
+      "ai_coding_seconds": 0.0,
+      "manual_coding_seconds": 150.592,
+      "editor": "VS Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795074173.905,
+      "project": "pm-mobile",
+      "ai_input_tokens": 6958,
+      "ai_cached_input_tokens": 1918960,
+      "ai_output_tokens": 2526,
+      "duration": 1420.282,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 0,
+          "cost": 0.462145,
+          "input_tokens": 6958,
+          "output_tokens": 2526,
+          "cached_input_tokens": 1918960
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.462145
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 1420.282,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795075594.187,
+      "project": "pm-mobile",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 353.397,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 1,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": false,
+      "_is_manual_coding": true,
+      "ai_coding_seconds": 0.0,
+      "manual_coding_seconds": 353.397,
+      "editor": "VS Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795075947.584,
+      "project": "pm-mobile",
+      "ai_input_tokens": 12337,
+      "ai_cached_input_tokens": 4798878,
+      "ai_output_tokens": 7139,
+      "duration": 578.107,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 22,
+          "cost": 1.151904,
+          "input_tokens": 12337,
+          "output_tokens": 7139,
+          "cached_input_tokens": 4798878
+        }
+      ],
+      "ai_additions": 22,
+      "ai_model_line_changes": {
+        "Opus": 22
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 1.151904
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 580,
+      "ai_prompt_events_total": 3,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 578.107,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 193,
+      "ai_prompt_events_avg_per_session": 3,
+      "ai_prompt_events_median_per_session": 3,
+      "ai_prompt_length_avg_per_session": 193,
+      "ai_prompt_length_median_per_session": 193
+    },
+    {
+      "time": 1795076525.691,
+      "project": "pm-mobile",
+      "ai_input_tokens": 447193,
+      "ai_cached_input_tokens": 247040,
+      "ai_output_tokens": 2395,
+      "duration": 205.399,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.048388,
+          "input_tokens": 447193,
+          "output_tokens": 2395,
+          "cached_input_tokens": 247040
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.048388
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 143,
+      "ai_prompt_events_total": 4,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 205.399,
+      "manual_coding_seconds": 0.0,
+      "editor": "Codex Vscode",
+      "ai_prompt_length_avg": 36,
+      "ai_prompt_events_avg_per_session": 4,
+      "ai_prompt_events_median_per_session": 4,
+      "ai_prompt_length_avg_per_session": 36,
+      "ai_prompt_length_median_per_session": 36
+    },
+    {
+      "time": 1795076731.09,
+      "project": "pm-mobile",
+      "ai_input_tokens": 712,
+      "ai_cached_input_tokens": 233984,
+      "ai_output_tokens": 297,
+      "duration": 90.948,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.00256,
+          "input_tokens": 712,
+          "output_tokens": 297,
+          "cached_input_tokens": 233984
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.00256
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 90.948,
+      "manual_coding_seconds": 0.0,
+      "editor": "VS Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795076822.038,
+      "project": "pm-mobile",
+      "ai_input_tokens": 120558,
+      "ai_cached_input_tokens": 209960,
+      "ai_output_tokens": 645,
+      "duration": 17.88,
+      "ai_model_breakdown": [
+        {
+          "name": "Sonnet",
+          "lines": 0,
+          "cost": 0.289558,
+          "input_tokens": 120558,
+          "output_tokens": 645,
+          "cached_input_tokens": 209960
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Sonnet": 0.289558
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 65,
+      "ai_prompt_events_total": 1,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 17.88,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 65,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 65,
+      "ai_prompt_length_median_per_session": 65
+    },
+    {
+      "time": 1795076839.918,
+      "project": "pm-docs",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 156.955,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 156.955,
+      "manual_coding_seconds": 0.0,
+      "editor": "VS Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795076996.873,
+      "project": "pm-mobile",
+      "ai_input_tokens": 28703,
+      "ai_cached_input_tokens": 12865719,
+      "ai_output_tokens": 17777,
+      "duration": 1708.627,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 53,
+          "cost": 3.043496,
+          "input_tokens": 28703,
+          "output_tokens": 17777,
+          "cached_input_tokens": 12865719
+        }
+      ],
+      "ai_additions": 50,
+      "ai_model_line_changes": {
+        "Opus": 53
+      },
+      "ai_deletions": 3,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 3.043496
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 457,
+      "ai_prompt_events_total": 5,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 1708.627,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 91,
+      "ai_prompt_events_avg_per_session": 5,
+      "ai_prompt_events_median_per_session": 5,
+      "ai_prompt_length_avg_per_session": 91,
+      "ai_prompt_length_median_per_session": 91
+    },
+    {
+      "time": 1795078705.5,
+      "project": "pm-mobile",
+      "ai_input_tokens": 9476,
+      "ai_cached_input_tokens": 712192,
+      "ai_output_tokens": 2458,
+      "duration": 92.54,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.009298,
+          "input_tokens": 9476,
+          "output_tokens": 2458,
+          "cached_input_tokens": 712192
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.009298
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 13,
+      "ai_prompt_events_total": 1,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 92.54,
+      "manual_coding_seconds": 0.0,
+      "editor": "VS Code",
+      "ai_prompt_length_avg": 13,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 13,
+      "ai_prompt_length_median_per_session": 13
+    },
+    {
+      "time": 1795078798.04,
+      "project": "pm-mobile",
+      "ai_input_tokens": 39398,
+      "ai_cached_input_tokens": 305536,
+      "ai_output_tokens": 1195,
+      "duration": 65.212,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.007593,
+          "input_tokens": 39398,
+          "output_tokens": 1195,
+          "cached_input_tokens": 305536
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.007593
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 65.212,
+      "manual_coding_seconds": 0.0,
+      "editor": "Codex Vscode",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795078863.252,
+      "project": "pm-mobile",
+      "ai_input_tokens": 3246,
+      "ai_cached_input_tokens": 1160414,
+      "ai_output_tokens": 1268,
+      "duration": 6.639,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 0,
+          "cost": 0.270427,
+          "input_tokens": 3246,
+          "output_tokens": 1268,
+          "cached_input_tokens": 1160414
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.270427
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 6.639,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795078869.891,
+      "project": "pm-mobile",
+      "ai_input_tokens": 56773,
+      "ai_cached_input_tokens": 964224,
+      "ai_output_tokens": 6386,
+      "duration": 275.689,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.018513,
+          "input_tokens": 56773,
+          "output_tokens": 6386,
+          "cached_input_tokens": 964224
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.018513
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 275.689,
+      "manual_coding_seconds": 0.0,
+      "editor": "Codex Vscode",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795079145.58,
+      "project": "pm-mobile",
+      "ai_input_tokens": 1616,
+      "ai_cached_input_tokens": 106496,
+      "ai_output_tokens": 1458,
+      "duration": 25.212,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 1616,
+          "output_tokens": 1458,
+          "cached_input_tokens": 106496
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.001956
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 25.212,
+      "manual_coding_seconds": 0.0,
+      "editor": "VS Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795079170.792,
+      "project": "pm-mobile",
+      "ai_input_tokens": 7953,
+      "ai_cached_input_tokens": 1454709,
+      "ai_output_tokens": 2042,
+      "duration": 36.528,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 0,
+          "cost": 0.16661,
+          "input_tokens": 520,
+          "output_tokens": 443,
+          "cached_input_tokens": 778352
+        },
+        {
+          "name": "Sonnet",
+          "lines": 0,
+          "cost": 0.166128,
+          "input_tokens": 7433,
+          "output_tokens": 1599,
+          "cached_input_tokens": 676357
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.16661,
+        "Sonnet": 0.166128
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 37,
+      "ai_prompt_events_total": 1,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 36.528,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 37,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 37,
+      "ai_prompt_length_median_per_session": 37
+    },
+    {
+      "time": 1795079207.32,
+      "project": "pm-mobile",
+      "ai_input_tokens": 9185,
+      "ai_cached_input_tokens": 222208,
+      "ai_output_tokens": 3850,
+      "duration": 4.801,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 9185,
+          "output_tokens": 3850,
+          "cached_input_tokens": 222208
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.005066
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 4.801,
+      "manual_coding_seconds": 0.0,
+      "editor": "VS Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795079212.121,
+      "project": "pm-mobile",
+      "ai_input_tokens": 2905,
+      "ai_cached_input_tokens": 954775,
+      "ai_output_tokens": 2604,
+      "duration": 67.162,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 0,
+          "cost": 0.176375,
+          "input_tokens": 1368,
+          "output_tokens": 739,
+          "cached_input_tokens": 780613
+        },
+        {
+          "name": "Sonnet",
+          "lines": 0,
+          "cost": 0.056556,
+          "input_tokens": 1537,
+          "output_tokens": 1865,
+          "cached_input_tokens": 174162
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.176375,
+        "Sonnet": 0.056556
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 67.162,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795079279.283,
+      "project": "pm-mobile",
+      "ai_input_tokens": 28457,
+      "ai_cached_input_tokens": 1541376,
+      "ai_output_tokens": 17863,
+      "duration": 368.661,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 55,
+          "cost": 0.02719,
+          "input_tokens": 28457,
+          "output_tokens": 17863,
+          "cached_input_tokens": 1541376
+        }
+      ],
+      "ai_additions": 55,
+      "ai_model_line_changes": {
+        "GPT": 55
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.02719
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 368.661,
+      "manual_coding_seconds": 0.0,
+      "editor": "VS Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795079647.944,
+      "project": "pm-mobile",
+      "ai_input_tokens": 1885,
+      "ai_cached_input_tokens": 1175584,
+      "ai_output_tokens": 1129,
+      "duration": 67.99,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 0,
+          "cost": 0.265237,
+          "input_tokens": 1885,
+          "output_tokens": 1129,
+          "cached_input_tokens": 1175584
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.265237
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 67.99,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795079715.934,
+      "project": "pm-mobile",
+      "ai_input_tokens": 5719,
+      "ai_cached_input_tokens": 733440,
+      "ai_output_tokens": 4418,
+      "duration": 100.279,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 7,
+          "cost": 0.010115,
+          "input_tokens": 5719,
+          "output_tokens": 4418,
+          "cached_input_tokens": 733440
+        }
+      ],
+      "ai_additions": 7,
+      "ai_model_line_changes": {
+        "GPT": 7
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.010115
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 100.279,
+      "manual_coding_seconds": 0.0,
+      "editor": "VS Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795079816.213,
+      "project": "pm-mobile",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 40.928,
+      "ai_model_breakdown": [
+        {
+          "name": "Sonnet",
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 40.928,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795079857.141,
+      "project": "pm-mobile",
+      "ai_input_tokens": 7008,
+      "ai_cached_input_tokens": 761344,
+      "ai_output_tokens": 4724,
+      "duration": 129.067,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 18,
+          "cost": 0.010676,
+          "input_tokens": 7008,
+          "output_tokens": 4724,
+          "cached_input_tokens": 761344
+        }
+      ],
+      "ai_additions": 18,
+      "ai_model_line_changes": {
+        "GPT": 18
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.010676
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 129.067,
+      "manual_coding_seconds": 0.0,
+      "editor": "VS Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795079986.208,
+      "project": "pm-mobile",
+      "ai_input_tokens": 5559,
+      "ai_cached_input_tokens": 1110016,
+      "ai_output_tokens": 4614,
+      "duration": 70.118,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.013963,
+          "input_tokens": 5559,
+          "output_tokens": 4614,
+          "cached_input_tokens": 1110016
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.013963
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 70.118,
+      "manual_coding_seconds": 0.0,
+      "editor": "Codex Vscode",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795080056.326,
+      "project": "pm-mobile",
+      "ai_input_tokens": 19678,
+      "ai_cached_input_tokens": 7839087,
+      "ai_output_tokens": 11437,
+      "duration": 1666.769,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 42,
+          "cost": 1.817558,
+          "input_tokens": 17510,
+          "output_tokens": 10742,
+          "cached_input_tokens": 7663390
+        },
+        {
+          "name": "Sonnet",
+          "lines": 0,
+          "cost": 0.046425,
+          "input_tokens": 2168,
+          "output_tokens": 695,
+          "cached_input_tokens": 175697
+        }
+      ],
+      "ai_additions": 42,
+      "ai_model_line_changes": {
+        "Opus": 42
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 1.817558,
+        "Sonnet": 0.046425
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 464,
+      "ai_prompt_events_total": 3,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 1666.769,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 155,
+      "ai_prompt_events_avg_per_session": 2,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 137,
+      "ai_prompt_length_median_per_session": 138
+    },
+    {
+      "time": 1795082673.314,
+      "project": "pm-mobile",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 34.185,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": false,
+      "_is_manual_coding": true,
+      "ai_coding_seconds": 0.0,
+      "manual_coding_seconds": 34.185,
+      "editor": "VS Code",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795082707.499,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 105469,
+      "ai_cached_input_tokens": 13312,
+      "ai_output_tokens": 117,
+      "duration": 4.063,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 105469,
+          "output_tokens": 117,
+          "cached_input_tokens": 13312
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.213439
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 4.063,
+      "manual_coding_seconds": 0.0,
+      "editor": "Codex Vscode",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795082711.562,
+      "project": "pm-mobile",
+      "ai_input_tokens": 4994,
+      "ai_cached_input_tokens": 717010,
+      "ai_output_tokens": 1605,
+      "duration": 22.279,
+      "ai_model_breakdown": [
+        {
+          "name": "Sonnet",
+          "lines": 0,
+          "cost": 0.169441,
+          "input_tokens": 4994,
+          "output_tokens": 1605,
+          "cached_input_tokens": 717010
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Sonnet": 0.169441
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 26,
+      "ai_prompt_events_total": 1,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 22.279,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 26,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 26,
+      "ai_prompt_length_median_per_session": 26
+    },
+    {
+      "time": 1795082733.841,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 4864,
+      "ai_cached_input_tokens": 365824,
+      "ai_output_tokens": 818,
+      "duration": 16.577,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.054491,
+          "input_tokens": 4864,
+          "output_tokens": 818,
+          "cached_input_tokens": 365824
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.054491
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 16.577,
+      "manual_coding_seconds": 0.0,
+      "editor": "Codex Vscode",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795082750.418,
+      "project": "pm-mobile",
+      "ai_input_tokens": 787,
+      "ai_cached_input_tokens": 184037,
+      "ai_output_tokens": 489,
+      "duration": 0.843,
+      "ai_model_breakdown": [
+        {
+          "name": "Sonnet",
+          "input_tokens": 787,
+          "output_tokens": 489,
+          "cached_input_tokens": 184037
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Sonnet": 0.043271
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 44,
+      "ai_prompt_events_total": 1,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 0.843,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 44,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 44,
+      "ai_prompt_length_median_per_session": 44
+    },
+    {
+      "time": 1795082751.261,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 4.704,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 4.704,
+      "manual_coding_seconds": 0.0,
+      "editor": "Codex Vscode",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795082755.965,
+      "project": "pm-mobile",
+      "ai_input_tokens": 422226,
+      "ai_cached_input_tokens": 10188606,
+      "ai_output_tokens": 22069,
+      "duration": 3249.588,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 46,
+          "cost": 2.111977,
+          "input_tokens": 75339,
+          "output_tokens": 15629,
+          "cached_input_tokens": 7490206
+        },
+        {
+          "name": "Sonnet",
+          "lines": 9,
+          "cost": 1.297854,
+          "input_tokens": 346887,
+          "output_tokens": 6440,
+          "cached_input_tokens": 2698400
+        }
+      ],
+      "ai_additions": 55,
+      "ai_model_line_changes": {
+        "Sonnet": 9,
+        "Opus": 46
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Sonnet": 1.297854,
+        "Opus": 2.111977
+      },
+      "ai_sessions": 4,
+      "ai_prompt_length_sum": 12282,
+      "ai_prompt_events_total": 6,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 3249.588,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 2047,
+      "ai_prompt_events_avg_per_session": 2,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 1395,
+      "ai_prompt_length_median_per_session": 126
+    },
+    {
+      "time": 1795089319.044,
+      "project": "pm-mobile",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 0.0,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 16848,
+      "ai_prompt_events_total": 1,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 0.0,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 16848,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 16848,
+      "ai_prompt_length_median_per_session": 16848
+    },
+    {
+      "time": 1795106429.329,
+      "project": "pm-mobile",
+      "ai_input_tokens": 119172,
+      "ai_cached_input_tokens": 2085061,
+      "ai_output_tokens": 9475,
+      "duration": 1169.671,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 42,
+          "cost": 1.0832,
+          "input_tokens": 119172,
+          "output_tokens": 9475,
+          "cached_input_tokens": 2085061
+        }
+      ],
+      "ai_additions": 42,
+      "ai_model_line_changes": {
+        "Opus": 42
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 1.0832
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 176,
+      "ai_prompt_events_total": 3,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 1169.671,
+      "manual_coding_seconds": 0.0,
+      "editor": "Claude Code",
+      "ai_prompt_length_avg": 59,
+      "ai_prompt_events_avg_per_session": 3,
+      "ai_prompt_events_median_per_session": 3,
+      "ai_prompt_length_avg_per_session": 59,
+      "ai_prompt_length_median_per_session": 59
     }
   ],
   "start": "2026-11-18T17:00:00Z",

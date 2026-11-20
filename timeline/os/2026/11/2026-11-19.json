@@ -3,10 +3,88 @@
     {
       "time": 1795021200.0,
       "project": "pm-mobile",
-      "ai_input_tokens": 844313,
-      "ai_cached_input_tokens": 15769309,
-      "ai_output_tokens": 75200,
-      "duration": 4855.087,
+      "ai_input_tokens": 85939,
+      "ai_cached_input_tokens": 5327537,
+      "ai_output_tokens": 14002,
+      "duration": 2896.505,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 59,
+          "cost": 1.010062,
+          "input_tokens": 15782,
+          "output_tokens": 8547,
+          "cached_input_tokens": 3879970
+        },
+        {
+          "name": "Sonnet",
+          "lines": 0,
+          "cost": 0.484378,
+          "input_tokens": 70157,
+          "output_tokens": 5455,
+          "cached_input_tokens": 1447567
+        }
+      ],
+      "ai_additions": 59,
+      "ai_model_line_changes": {
+        "Opus": 59
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 1.010062,
+        "Sonnet": 0.484378
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 210,
+      "ai_prompt_events_total": 2,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 2896.505,
+      "manual_coding_seconds": 0.0,
+      "os": "Windows",
+      "ai_prompt_length_avg": 105,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 105,
+      "ai_prompt_length_median_per_session": 105
+    },
+    {
+      "time": 1795024096.505,
+      "project": "pm-mobile",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 32.828,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": false,
+      "_is_manual_coding": true,
+      "ai_coding_seconds": 0.0,
+      "manual_coding_seconds": 32.828,
+      "os": "Windows",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795024129.333,
+      "project": "pm-mobile",
+      "ai_input_tokens": 758374,
+      "ai_cached_input_tokens": 10441772,
+      "ai_output_tokens": 61198,
+      "duration": 1925.754,
       "ai_model_breakdown": [
         {
           "name": "GPT",
@@ -18,19 +96,11 @@
         },
         {
           "name": "Opus",
-          "lines": 78,
-          "cost": 2.051178,
-          "input_tokens": 34082,
-          "output_tokens": 15791,
-          "cached_input_tokens": 7995146
-        },
-        {
-          "name": "Sonnet",
-          "lines": 0,
-          "cost": 0.484378,
-          "input_tokens": 70157,
-          "output_tokens": 5455,
-          "cached_input_tokens": 1447567
+          "lines": 19,
+          "cost": 1.041116,
+          "input_tokens": 18300,
+          "output_tokens": 7244,
+          "cached_input_tokens": 4115176
         },
         {
           "name": "Haiku",
@@ -41,49 +111,48 @@
           "cached_input_tokens": 644548
         }
       ],
-      "ai_additions": 164,
+      "ai_additions": 105,
       "ai_model_line_changes": {
-        "Opus": 78,
+        "Opus": 19,
         "GPT": 86
       },
       "ai_deletions": 0,
       "human_additions": 0,
       "human_deletions": 0,
       "ai_model_costs": {
-        "Opus": 2.051178,
-        "Sonnet": 0.484378,
+        "Opus": 1.041116,
         "Haiku": 0.327247,
         "GPT": 0.131527
       },
-      "ai_sessions": 4,
-      "ai_prompt_length_sum": 304,
-      "ai_prompt_events_total": 4,
+      "ai_sessions": 3,
+      "ai_prompt_length_sum": 94,
+      "ai_prompt_events_total": 2,
       "_is_ai_coding": true,
       "_is_manual_coding": false,
-      "ai_coding_seconds": 4855.087,
+      "ai_coding_seconds": 1925.754,
       "manual_coding_seconds": 0.0,
       "os": "Windows",
-      "ai_prompt_length_avg": 76,
+      "ai_prompt_length_avg": 47,
       "ai_prompt_events_avg_per_session": 1,
       "ai_prompt_events_median_per_session": 1,
-      "ai_prompt_length_avg_per_session": 84,
-      "ai_prompt_length_median_per_session": 84
+      "ai_prompt_length_avg_per_session": 47,
+      "ai_prompt_length_median_per_session": 47
     },
     {
       "time": 1795027004.087,
       "project": "pm-mobile",
-      "ai_input_tokens": 9354,
-      "ai_cached_input_tokens": 2450981,
-      "ai_output_tokens": 7040,
-      "duration": 469.979,
+      "ai_input_tokens": 13287,
+      "ai_cached_input_tokens": 3711216,
+      "ai_output_tokens": 8030,
+      "duration": 788.832,
       "ai_model_breakdown": [
         {
           "name": "Opus",
           "lines": 20,
-          "cost": 0.49086,
-          "input_tokens": 8109,
-          "output_tokens": 4467,
-          "cached_input_tokens": 1845419
+          "cost": 0.778439,
+          "input_tokens": 12042,
+          "output_tokens": 5457,
+          "cached_input_tokens": 3105654
         },
         {
           "name": "Haiku",
@@ -103,14 +172,14 @@
       "human_deletions": 0,
       "ai_model_costs": {
         "Haiku": 0.074666,
-        "Opus": 0.49086
+        "Opus": 0.778439
       },
       "ai_sessions": 2,
       "ai_prompt_length_sum": 126,
       "ai_prompt_events_total": 2,
       "_is_ai_coding": true,
       "_is_manual_coding": false,
-      "ai_coding_seconds": 469.979,
+      "ai_coding_seconds": 788.832,
       "manual_coding_seconds": 0.0,
       "os": "Windows",
       "ai_prompt_length_avg": 63,
@@ -118,6 +187,727 @@
       "ai_prompt_events_median_per_session": 1,
       "ai_prompt_length_avg_per_session": 63,
       "ai_prompt_length_median_per_session": 63
+    },
+    {
+      "time": 1795031087.093,
+      "project": "pm-mobile",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 0.0,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 14227,
+      "ai_prompt_events_total": 1,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 0.0,
+      "manual_coding_seconds": 0.0,
+      "os": "Windows",
+      "ai_prompt_length_avg": 14227,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 14227,
+      "ai_prompt_length_median_per_session": 14227
+    },
+    {
+      "time": 1795053486.509,
+      "project": "Muahangre",
+      "ai_input_tokens": 766154,
+      "ai_cached_input_tokens": 19728506,
+      "ai_output_tokens": 71487,
+      "duration": 3646.218,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 262,
+          "cost": 4.803014,
+          "input_tokens": 391365,
+          "output_tokens": 54603,
+          "cached_input_tokens": 10727468
+        },
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 1.335234,
+          "input_tokens": 280647,
+          "output_tokens": 7309,
+          "cached_input_tokens": 7008512
+        },
+        {
+          "name": "Sonnet",
+          "lines": 0,
+          "cost": 0.682537,
+          "input_tokens": 94142,
+          "output_tokens": 9575,
+          "cached_input_tokens": 1992526
+        }
+      ],
+      "ai_additions": 250,
+      "ai_model_line_changes": {
+        "Opus": 262
+      },
+      "ai_deletions": 12,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 1.335234,
+        "Opus": 4.803014,
+        "Sonnet": 0.682537
+      },
+      "ai_sessions": 4,
+      "ai_prompt_length_sum": 11728,
+      "ai_prompt_events_total": 15,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 3646.218,
+      "manual_coding_seconds": 0.0,
+      "os": "Windows",
+      "ai_prompt_length_avg": 782,
+      "ai_prompt_events_avg_per_session": 4,
+      "ai_prompt_events_median_per_session": 4,
+      "ai_prompt_length_avg_per_session": 678,
+      "ai_prompt_length_median_per_session": 146
+    },
+    {
+      "time": 1795057132.727,
+      "project": "pm-mobile",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 253.574,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 5,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": false,
+      "_is_manual_coding": true,
+      "ai_coding_seconds": 0.0,
+      "manual_coding_seconds": 253.574,
+      "os": "Windows",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795057386.301,
+      "project": "pm-mobile",
+      "ai_input_tokens": 750630,
+      "ai_cached_input_tokens": 5805582,
+      "ai_output_tokens": 19947,
+      "duration": 1458.824,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 6,
+          "cost": 0.069529,
+          "input_tokens": 622791,
+          "output_tokens": 5165,
+          "cached_input_tokens": 466816
+        },
+        {
+          "name": "Opus",
+          "lines": 0,
+          "cost": 1.216749,
+          "input_tokens": 30241,
+          "output_tokens": 8330,
+          "cached_input_tokens": 4645922
+        },
+        {
+          "name": "Sonnet",
+          "lines": 0,
+          "cost": 0.398285,
+          "input_tokens": 97598,
+          "output_tokens": 6452,
+          "cached_input_tokens": 692844
+        }
+      ],
+      "ai_additions": 6,
+      "ai_model_line_changes": {
+        "GPT": 6
+      },
+      "ai_deletions": 0,
+      "human_additions": 2,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 1.216749,
+        "Sonnet": 0.398285,
+        "GPT": 0.069529
+      },
+      "ai_sessions": 4,
+      "ai_prompt_length_sum": 10718,
+      "ai_prompt_events_total": 5,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 1458.824,
+      "manual_coding_seconds": 0.0,
+      "os": "Windows",
+      "ai_prompt_length_avg": 2144,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 1350,
+      "ai_prompt_length_median_per_session": 1350
+    },
+    {
+      "time": 1795058845.125,
+      "project": "pm-mobile",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 12.742,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": false,
+      "_is_manual_coding": true,
+      "ai_coding_seconds": 0.0,
+      "manual_coding_seconds": 12.742,
+      "os": "Windows",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795058857.867,
+      "project": "Muahangre",
+      "ai_input_tokens": 457875,
+      "ai_cached_input_tokens": 46597713,
+      "ai_output_tokens": 61365,
+      "duration": 4805.137,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 140,
+          "cost": 2.538451,
+          "input_tokens": 66892,
+          "output_tokens": 32129,
+          "cached_input_tokens": 8141510
+        },
+        {
+          "name": "Sonnet",
+          "lines": 16,
+          "cost": 1.463268,
+          "input_tokens": 341550,
+          "output_tokens": 9808,
+          "cached_input_tokens": 3410443
+        },
+        {
+          "name": "GPT",
+          "lines": 3,
+          "cost": 3.79772,
+          "input_tokens": 49433,
+          "output_tokens": 19428,
+          "cached_input_tokens": 35045760
+        }
+      ],
+      "ai_additions": 159,
+      "ai_model_line_changes": {
+        "Opus": 140,
+        "GPT": 3,
+        "Sonnet": 16
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 3.79772,
+        "Opus": 2.538451,
+        "Sonnet": 1.463268
+      },
+      "ai_sessions": 7,
+      "ai_prompt_length_sum": 726,
+      "ai_prompt_events_total": 11,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 4805.137,
+      "manual_coding_seconds": 0.0,
+      "os": "Windows",
+      "ai_prompt_length_avg": 66,
+      "ai_prompt_events_avg_per_session": 2,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 90,
+      "ai_prompt_length_median_per_session": 41
+    },
+    {
+      "time": 1795065286.699,
+      "project": "purchase-portal-fe",
+      "ai_input_tokens": 208372,
+      "ai_cached_input_tokens": 12496145,
+      "ai_output_tokens": 27986,
+      "duration": 2484.641,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 77,
+          "cost": 3.892437,
+          "input_tokens": 208372,
+          "output_tokens": 27986,
+          "cached_input_tokens": 12496145
+        }
+      ],
+      "ai_additions": 77,
+      "ai_model_line_changes": {
+        "Opus": 77
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 3.892437
+      },
+      "ai_sessions": 3,
+      "ai_prompt_length_sum": 190,
+      "ai_prompt_events_total": 2,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 2484.641,
+      "manual_coding_seconds": 0.0,
+      "os": "Windows",
+      "ai_prompt_length_avg": 95,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 95,
+      "ai_prompt_length_median_per_session": 95
+    },
+    {
+      "time": 1795069755.897,
+      "project": "pm-mobile",
+      "ai_input_tokens": 97025,
+      "ai_cached_input_tokens": 10844086,
+      "ai_output_tokens": 34180,
+      "duration": 1585.14,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 444,
+          "cost": 3.240517,
+          "input_tokens": 97025,
+          "output_tokens": 34180,
+          "cached_input_tokens": 10844086
+        }
+      ],
+      "ai_additions": 235,
+      "ai_model_line_changes": {
+        "Opus": 444
+      },
+      "ai_deletions": 209,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 3.240517
+      },
+      "ai_sessions": 3,
+      "ai_prompt_length_sum": 7596,
+      "ai_prompt_events_total": 6,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 1585.14,
+      "manual_coding_seconds": 0.0,
+      "os": "Windows",
+      "ai_prompt_length_avg": 1266,
+      "ai_prompt_events_avg_per_session": 2,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 1266,
+      "ai_prompt_length_median_per_session": 26
+    },
+    {
+      "time": 1795072386.265,
+      "project": "pm-mobile",
+      "ai_input_tokens": 210009,
+      "ai_cached_input_tokens": 7464738,
+      "ai_output_tokens": 29890,
+      "duration": 1637.048,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 60,
+          "cost": 2.27642,
+          "input_tokens": 93606,
+          "output_tokens": 27301,
+          "cached_input_tokens": 6779877
+        },
+        {
+          "name": "Sonnet",
+          "lines": 0,
+          "cost": 0.395668,
+          "input_tokens": 116403,
+          "output_tokens": 2589,
+          "cached_input_tokens": 684861
+        }
+      ],
+      "ai_additions": 60,
+      "ai_model_line_changes": {
+        "Opus": 60
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 2.27642,
+        "Sonnet": 0.395668
+      },
+      "ai_sessions": 5,
+      "ai_prompt_length_sum": 6483,
+      "ai_prompt_events_total": 8,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 1637.048,
+      "manual_coding_seconds": 0.0,
+      "os": "Windows",
+      "ai_prompt_length_avg": 810,
+      "ai_prompt_events_avg_per_session": 2,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 550,
+      "ai_prompt_length_median_per_session": 38
+    },
+    {
+      "time": 1795074023.313,
+      "project": "pm-mobile",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 150.592,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 1,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": false,
+      "_is_manual_coding": true,
+      "ai_coding_seconds": 0.0,
+      "manual_coding_seconds": 150.592,
+      "os": "Windows",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795074173.905,
+      "project": "pm-mobile",
+      "ai_input_tokens": 6958,
+      "ai_cached_input_tokens": 1918960,
+      "ai_output_tokens": 2526,
+      "duration": 1420.282,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 0,
+          "cost": 0.462145,
+          "input_tokens": 6958,
+          "output_tokens": 2526,
+          "cached_input_tokens": 1918960
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 0.462145
+      },
+      "ai_sessions": 2,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 1420.282,
+      "manual_coding_seconds": 0.0,
+      "os": "Windows",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795075594.187,
+      "project": "pm-mobile",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 353.397,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 1,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": false,
+      "_is_manual_coding": true,
+      "ai_coding_seconds": 0.0,
+      "manual_coding_seconds": 353.397,
+      "os": "Windows",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795075947.584,
+      "project": "pm-mobile",
+      "ai_input_tokens": 808361,
+      "ai_cached_input_tokens": 37396982,
+      "ai_output_tokens": 93699,
+      "duration": 5775.511,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 117,
+          "cost": 6.891607,
+          "input_tokens": 65569,
+          "output_tokens": 39237,
+          "cached_input_tokens": 29222950
+        },
+        {
+          "name": "GPT",
+          "lines": 80,
+          "cost": 0.155318,
+          "input_tokens": 611096,
+          "output_tokens": 49658,
+          "cached_input_tokens": 6937856
+        },
+        {
+          "name": "Sonnet",
+          "lines": 0,
+          "cost": 0.558667,
+          "input_tokens": 131696,
+          "output_tokens": 4804,
+          "cached_input_tokens": 1236176
+        }
+      ],
+      "ai_additions": 194,
+      "ai_model_line_changes": {
+        "Opus": 117,
+        "GPT": 80
+      },
+      "ai_deletions": 3,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 6.891607,
+        "GPT": 0.155318,
+        "Sonnet": 0.558667
+      },
+      "ai_sessions": 3,
+      "ai_prompt_length_sum": 1759,
+      "ai_prompt_events_total": 18,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 5775.511,
+      "manual_coding_seconds": 0.0,
+      "os": "Windows",
+      "ai_prompt_length_avg": 98,
+      "ai_prompt_events_avg_per_session": 6,
+      "ai_prompt_events_median_per_session": 5,
+      "ai_prompt_length_avg_per_session": 78,
+      "ai_prompt_length_median_per_session": 62
+    },
+    {
+      "time": 1795082673.314,
+      "project": "pm-mobile",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 34.185,
+      "ai_model_breakdown": [],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 0,
+      "ai_prompt_length_sum": 0,
+      "ai_prompt_events_total": 0,
+      "_is_ai_coding": false,
+      "_is_manual_coding": true,
+      "ai_coding_seconds": 0.0,
+      "manual_coding_seconds": 34.185,
+      "os": "Windows",
+      "ai_prompt_length_avg": 0,
+      "ai_prompt_events_avg_per_session": 0,
+      "ai_prompt_events_median_per_session": 0,
+      "ai_prompt_length_avg_per_session": 0,
+      "ai_prompt_length_median_per_session": 0
+    },
+    {
+      "time": 1795082707.499,
+      "project": "gems-service-tsms",
+      "ai_input_tokens": 538340,
+      "ai_cached_input_tokens": 11468789,
+      "ai_output_tokens": 25098,
+      "duration": 3298.054,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 46,
+          "cost": 2.111977,
+          "input_tokens": 75339,
+          "output_tokens": 15629,
+          "cached_input_tokens": 7490206
+        },
+        {
+          "name": "Sonnet",
+          "lines": 9,
+          "cost": 1.510566,
+          "input_tokens": 352668,
+          "output_tokens": 8534,
+          "cached_input_tokens": 3599447
+        },
+        {
+          "name": "GPT",
+          "lines": 0,
+          "cost": 0.26793,
+          "input_tokens": 110333,
+          "output_tokens": 935,
+          "cached_input_tokens": 379136
+        }
+      ],
+      "ai_additions": 55,
+      "ai_model_line_changes": {
+        "Sonnet": 9,
+        "Opus": 46
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 0.26793,
+        "Sonnet": 1.510566,
+        "Opus": 2.111977
+      },
+      "ai_sessions": 5,
+      "ai_prompt_length_sum": 12352,
+      "ai_prompt_events_total": 8,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 3298.054,
+      "manual_coding_seconds": 0.0,
+      "os": "Windows",
+      "ai_prompt_length_avg": 1544,
+      "ai_prompt_events_avg_per_session": 2,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 1055,
+      "ai_prompt_length_median_per_session": 80
+    },
+    {
+      "time": 1795089319.044,
+      "project": "pm-mobile",
+      "ai_input_tokens": 0,
+      "ai_cached_input_tokens": 0,
+      "ai_output_tokens": 0,
+      "duration": 0.0,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 0,
+      "ai_model_line_changes": {},
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {},
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 16848,
+      "ai_prompt_events_total": 1,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 0.0,
+      "manual_coding_seconds": 0.0,
+      "os": "Windows",
+      "ai_prompt_length_avg": 16848,
+      "ai_prompt_events_avg_per_session": 1,
+      "ai_prompt_events_median_per_session": 1,
+      "ai_prompt_length_avg_per_session": 16848,
+      "ai_prompt_length_median_per_session": 16848
+    },
+    {
+      "time": 1795106429.329,
+      "project": "pm-mobile",
+      "ai_input_tokens": 119172,
+      "ai_cached_input_tokens": 2085061,
+      "ai_output_tokens": 9475,
+      "duration": 1169.671,
+      "ai_model_breakdown": [
+        {
+          "name": "Opus",
+          "lines": 42,
+          "cost": 1.0832,
+          "input_tokens": 119172,
+          "output_tokens": 9475,
+          "cached_input_tokens": 2085061
+        }
+      ],
+      "ai_additions": 42,
+      "ai_model_line_changes": {
+        "Opus": 42
+      },
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "Opus": 1.0832
+      },
+      "ai_sessions": 1,
+      "ai_prompt_length_sum": 176,
+      "ai_prompt_events_total": 3,
+      "_is_ai_coding": true,
+      "_is_manual_coding": false,
+      "ai_coding_seconds": 1169.671,
+      "manual_coding_seconds": 0.0,
+      "os": "Windows",
+      "ai_prompt_length_avg": 59,
+      "ai_prompt_events_avg_per_session": 3,
+      "ai_prompt_events_median_per_session": 3,
+      "ai_prompt_length_avg_per_session": 59,
+      "ai_prompt_length_median_per_session": 59
     }
   ],
   "start": "2026-11-18T17:00:00Z",
