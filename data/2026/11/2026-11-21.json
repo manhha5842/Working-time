@@ -1,6 +1,19 @@
 {
   "data": [
     {
+      "languages": [
+        {
+          "name": "Other",
+          "total_seconds": 0.0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        }
+      ],
       "grand_total": {
         "hours": 0,
         "minutes": 0,
@@ -39,85 +52,6 @@
         "ai_prompt_length_avg_per_session": 0,
         "ai_prompt_length_median_per_session": 0
       },
-      "range": {
-        "start": "2026-11-20T17:00:00Z",
-        "end": "2026-11-21T16:59:59Z",
-        "date": "2026-11-21",
-        "text": "Sat Nov 21st 2026",
-        "timezone": "Asia/Ho_Chi_Minh"
-      },
-      "projects": [
-        {
-          "name": "pm-mobile",
-          "total_seconds": 0.0,
-          "ai_additions": 0,
-          "ai_deletions": 0,
-          "human_additions": 0,
-          "human_deletions": 0,
-          "ai_model_line_changes": {},
-          "ai_input_tokens": 67801,
-          "ai_cached_input_tokens": 157818,
-          "ai_output_tokens": 861,
-          "ai_prompt_length_sum": 0,
-          "ai_prompt_events_total": 0,
-          "color": null,
-          "ai_model_costs": {
-            "Opus": 0.319988
-          },
-          "ai_model_breakdown": [
-            {
-              "name": "Opus",
-              "lines": 0,
-              "cost": 0.319988,
-              "input_tokens": 67801,
-              "output_tokens": 861,
-              "cached_input_tokens": 157818
-            }
-          ],
-          "ai_model_total_cost": 0.319988,
-          "ai_prompt_length_avg": 0,
-          "ai_prompt_length_avg_per_session": 0,
-          "ai_prompt_length_median_per_session": 0,
-          "ai_prompt_events_avg_per_session": 0,
-          "ai_prompt_events_median_per_session": 0,
-          "ai_sessions": 1,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
-        }
-      ],
-      "languages": [
-        {
-          "name": "Other",
-          "total_seconds": 0.0,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
-        }
-      ],
-      "dependencies": [],
-      "machines": [
-        {
-          "name": "ALEXANDER-II",
-          "total_seconds": 0.0,
-          "machine_name_id": "47bd0d17-e151-4baf-a9ee-d1d0f3cda015",
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
-        }
-      ],
       "editors": [
         {
           "name": "Claude Code",
@@ -186,7 +120,73 @@
           "seconds": 0,
           "percent": 0
         }
-      ]
+      ],
+      "dependencies": [],
+      "machines": [
+        {
+          "name": "ALEXANDER-II",
+          "total_seconds": 0.0,
+          "machine_name_id": "47bd0d17-e151-4baf-a9ee-d1d0f3cda015",
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        }
+      ],
+      "projects": [
+        {
+          "name": "pm-mobile",
+          "total_seconds": 0.0,
+          "ai_additions": 0,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "ai_model_line_changes": {},
+          "ai_input_tokens": 67801,
+          "ai_cached_input_tokens": 157818,
+          "ai_output_tokens": 861,
+          "ai_prompt_length_sum": 0,
+          "ai_prompt_events_total": 0,
+          "color": null,
+          "ai_model_costs": {
+            "Opus": 0.319988
+          },
+          "ai_model_breakdown": [
+            {
+              "name": "Opus",
+              "lines": 0,
+              "cost": 0.319988,
+              "input_tokens": 67801,
+              "output_tokens": 861,
+              "cached_input_tokens": 157818
+            }
+          ],
+          "ai_model_total_cost": 0.319988,
+          "ai_prompt_length_avg": 0,
+          "ai_prompt_length_avg_per_session": 0,
+          "ai_prompt_length_median_per_session": 0,
+          "ai_prompt_events_avg_per_session": 0,
+          "ai_prompt_events_median_per_session": 0,
+          "ai_sessions": 1,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        }
+      ],
+      "range": {
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2026-11-21T16:59:59Z",
+        "date": "2026-11-21",
+        "text": "Sat Nov 21st 2026",
+        "timezone": "Asia/Ho_Chi_Minh"
+      }
     }
   ],
   "start": "2026-11-20T17:00:00Z",

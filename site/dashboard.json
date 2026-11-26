@@ -1,21 +1,21 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-11-25T09:59:47.248773+07:00",
+  "generated_at": "2026-11-26T09:07:57.640252+07:00",
   "timezone": "Asia/Ho_Chi_Minh",
   "archive": {
     "first_date": "2026-07-30",
-    "last_date": "2026-11-25",
-    "archived_days": 119,
-    "active_days": 101
+    "last_date": "2026-11-26",
+    "archived_days": 120,
+    "active_days": 102
   },
   "overview": {
-    "today_seconds": 1398.698,
-    "week_seconds": 1430.278,
-    "month_seconds": 423159.543,
-    "year_seconds": 1766833.203,
-    "all_archived_seconds": 1766833.203,
-    "daily_average_seconds": 17493.398,
-    "active_days": 101,
+    "today_seconds": 5311.897,
+    "week_seconds": 23520.795,
+    "month_seconds": 445250.06,
+    "year_seconds": 1788923.72,
+    "all_archived_seconds": 1788923.72,
+    "daily_average_seconds": 17538.468,
+    "active_days": 102,
     "best_day": {
       "date": "2026-11-13",
       "seconds": 36109.652
@@ -343409,63 +343409,529 @@
     },
     {
       "date": "2026-11-25",
-      "seconds": 1398.698,
+      "seconds": 18177.318,
       "projects": [
         {
-          "name": "Muahangre",
-          "seconds": 738.788,
-          "ai_additions": 0,
+          "name": "pm-mobile",
+          "seconds": 6343.692,
+          "ai_additions": 713,
           "ai_deletions": 0,
           "human_additions": 0,
-          "human_deletions": 0,
-          "input_tokens": 387908,
-          "cached_input_tokens": 4824704,
-          "output_tokens": 6062,
-          "prompt_length_sum": 0,
-          "prompt_length_avg": 0,
-          "prompt_length_avg_per_session": 0,
-          "prompt_length_median_per_session": 0,
-          "prompt_events": 0,
-          "prompts_avg_per_session": 0,
-          "prompts_median_per_session": 0,
-          "sessions": 1,
-          "cost": 1.318905,
+          "human_deletions": 1,
+          "input_tokens": 2143038,
+          "cached_input_tokens": 91171558,
+          "output_tokens": 184707,
+          "prompt_length_sum": 20793,
+          "prompt_length_avg": 1155,
+          "prompt_length_avg_per_session": 636,
+          "prompt_length_median_per_session": 120,
+          "prompt_events": 18,
+          "prompts_avg_per_session": 3,
+          "prompts_median_per_session": 2,
+          "sessions": 6,
+          "cost": 24.717741,
           "models": [
             {
-              "name": "GPT",
-              "lines": 0.0,
-              "cost": 1.318905
-            }
-          ],
-          "tokens": 5218674
-        },
-        {
-          "name": "pm-mobile",
-          "seconds": 648.496,
-          "ai_additions": 58,
-          "ai_deletions": 0,
-          "human_additions": 0,
-          "human_deletions": 0,
-          "input_tokens": 337943,
-          "cached_input_tokens": 3928320,
-          "output_tokens": 30782,
-          "prompt_length_sum": 0,
-          "prompt_length_avg": 0,
-          "prompt_length_avg_per_session": 0,
-          "prompt_length_median_per_session": 0,
-          "prompt_events": 0,
-          "prompts_avg_per_session": 0,
-          "prompts_median_per_session": 0,
-          "sessions": 1,
-          "cost": 0.088467,
-          "models": [
+              "name": "Opus",
+              "lines": 653.0,
+              "cost": 21.572745
+            },
             {
               "name": "GPT",
               "lines": 58.0,
               "cost": 0.088467
+            },
+            {
+              "name": "Sonnet",
+              "lines": 2.0,
+              "cost": 3.053385
+            },
+            {
+              "name": "Haiku",
+              "lines": 0.0,
+              "cost": 0.003144
             }
           ],
-          "tokens": 4297045
+          "tokens": 93499303
+        },
+        {
+          "name": "remotion",
+          "seconds": 2859.531,
+          "ai_additions": 292,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 125926,
+          "cached_input_tokens": 24412991,
+          "output_tokens": 60895,
+          "prompt_length_sum": 887,
+          "prompt_length_avg": 177,
+          "prompt_length_avg_per_session": 177,
+          "prompt_length_median_per_session": 177,
+          "prompt_events": 5,
+          "prompts_avg_per_session": 5,
+          "prompts_median_per_session": 5,
+          "sessions": 1,
+          "cost": 6.604202,
+          "models": [
+            {
+              "name": "Opus",
+              "lines": 292.0,
+              "cost": 6.604202
+            }
+          ],
+          "tokens": 24599812
+        },
+        {
+          "name": "Video",
+          "seconds": 2735.986,
+          "ai_additions": 525,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 213691,
+          "cached_input_tokens": 19844637,
+          "output_tokens": 79051,
+          "prompt_length_sum": 40577,
+          "prompt_length_avg": 3381,
+          "prompt_length_avg_per_session": 2284,
+          "prompt_length_median_per_session": 2284,
+          "prompt_events": 12,
+          "prompts_avg_per_session": 6,
+          "prompts_median_per_session": 6,
+          "sessions": 2,
+          "cost": 6.404713,
+          "models": [
+            {
+              "name": "Opus",
+              "lines": 525.0,
+              "cost": 6.404713
+            }
+          ],
+          "tokens": 20137379
+        },
+        {
+          "name": "purchase-portal-be",
+          "seconds": 1566.485,
+          "ai_additions": 37,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 37611,
+          "cached_input_tokens": 9492513,
+          "output_tokens": 17513,
+          "prompt_length_sum": 155,
+          "prompt_length_avg": 155,
+          "prompt_length_avg_per_session": 155,
+          "prompt_length_median_per_session": 155,
+          "prompt_events": 1,
+          "prompts_avg_per_session": 1,
+          "prompts_median_per_session": 1,
+          "sessions": 1,
+          "cost": 2.322476,
+          "models": [
+            {
+              "name": "Opus",
+              "lines": 37.0,
+              "cost": 2.245746
+            },
+            {
+              "name": "Sonnet",
+              "lines": 0.0,
+              "cost": 0.07673
+            }
+          ],
+          "tokens": 9547637
+        },
+        {
+          "name": "scripts",
+          "seconds": 1437.709,
+          "ai_additions": 79,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 54054,
+          "cached_input_tokens": 7240745,
+          "output_tokens": 20355,
+          "prompt_length_sum": 0,
+          "prompt_length_avg": 0,
+          "prompt_length_avg_per_session": 0,
+          "prompt_length_median_per_session": 0,
+          "prompt_events": 0,
+          "prompts_avg_per_session": 0,
+          "prompts_median_per_session": 0,
+          "sessions": 2,
+          "cost": 2.071464,
+          "models": [
+            {
+              "name": "Opus",
+              "lines": 79.0,
+              "cost": 2.071464
+            }
+          ],
+          "tokens": 7315154
+        },
+        {
+          "name": "purchase-portal-fe",
+          "seconds": 800.85,
+          "ai_additions": 4,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 373832,
+          "cached_input_tokens": 10975149,
+          "output_tokens": 17836,
+          "prompt_length_sum": 25184,
+          "prompt_length_avg": 4197,
+          "prompt_length_avg_per_session": 4197,
+          "prompt_length_median_per_session": 4197,
+          "prompt_events": 6,
+          "prompts_avg_per_session": 6,
+          "prompts_median_per_session": 6,
+          "sessions": 1,
+          "cost": 3.573493,
+          "models": [
+            {
+              "name": "Sonnet",
+              "lines": 4.0,
+              "cost": 0.473584
+            },
+            {
+              "name": "Opus",
+              "lines": 0.0,
+              "cost": 3.099909
+            }
+          ],
+          "tokens": 11366817
+        },
+        {
+          "name": "Muahangre",
+          "seconds": 798.477,
+          "ai_additions": 0,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 394868,
+          "cached_input_tokens": 7301760,
+          "output_tokens": 7756,
+          "prompt_length_sum": 0,
+          "prompt_length_avg": 0,
+          "prompt_length_avg_per_session": 0,
+          "prompt_length_median_per_session": 0,
+          "prompt_events": 0,
+          "prompts_avg_per_session": 0,
+          "prompts_median_per_session": 0,
+          "sessions": 1,
+          "cost": 1.597471,
+          "models": [
+            {
+              "name": "GPT",
+              "lines": 0.0,
+              "cost": 1.597471
+            }
+          ],
+          "tokens": 7704384
+        },
+        {
+          "name": "public",
+          "seconds": 285.034,
+          "ai_additions": 92,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 33342,
+          "cached_input_tokens": 7111561,
+          "output_tokens": 14907,
+          "prompt_length_sum": 6575,
+          "prompt_length_avg": 3288,
+          "prompt_length_avg_per_session": 3288,
+          "prompt_length_median_per_session": 3288,
+          "prompt_events": 2,
+          "prompts_avg_per_session": 2,
+          "prompts_median_per_session": 2,
+          "sessions": 1,
+          "cost": 1.853822,
+          "models": [
+            {
+              "name": "Opus",
+              "lines": 92.0,
+              "cost": 1.853822
+            }
+          ],
+          "tokens": 7159810
+        },
+        {
+          "name": "src",
+          "seconds": 276.449,
+          "ai_additions": 80,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 14318,
+          "cached_input_tokens": 3053312,
+          "output_tokens": 11774,
+          "prompt_length_sum": 0,
+          "prompt_length_avg": 0,
+          "prompt_length_avg_per_session": 0,
+          "prompt_length_median_per_session": 0,
+          "prompt_events": 0,
+          "prompts_avg_per_session": 0,
+          "prompts_median_per_session": 0,
+          "sessions": 1,
+          "cost": 0.903414,
+          "models": [
+            {
+              "name": "Opus",
+              "lines": 80.0,
+              "cost": 0.903414
+            }
+          ],
+          "tokens": 3079404
+        },
+        {
+          "name": "product-service-tsms",
+          "seconds": 236.878,
+          "ai_additions": 0,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 0,
+          "cached_input_tokens": 0,
+          "output_tokens": 0,
+          "prompt_length_sum": 0,
+          "prompt_length_avg": 0,
+          "prompt_length_avg_per_session": 0,
+          "prompt_length_median_per_session": 0,
+          "prompt_events": 0,
+          "prompts_avg_per_session": 0,
+          "prompts_median_per_session": 0,
+          "sessions": 0,
+          "cost": 0.0,
+          "models": [],
+          "tokens": 0
+        },
+        {
+          "name": "Lotte",
+          "seconds": 203.055,
+          "ai_additions": 22,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 242053,
+          "cached_input_tokens": 1761409,
+          "output_tokens": 5684,
+          "prompt_length_sum": 1118,
+          "prompt_length_avg": 1118,
+          "prompt_length_avg_per_session": 1118,
+          "prompt_length_median_per_session": 1118,
+          "prompt_events": 1,
+          "prompts_avg_per_session": 1,
+          "prompts_median_per_session": 1,
+          "sessions": 1,
+          "cost": 0.946173,
+          "models": [
+            {
+              "name": "Opus",
+              "lines": 22.0,
+              "cost": 0.458173
+            },
+            {
+              "name": "Sonnet",
+              "lines": 0.0,
+              "cost": 0.488
+            }
+          ],
+          "tokens": 2009146
+        },
+        {
+          "name": "out",
+          "seconds": 160.792,
+          "ai_additions": 0,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 15155,
+          "cached_input_tokens": 2213099,
+          "output_tokens": 7831,
+          "prompt_length_sum": 107,
+          "prompt_length_avg": 107,
+          "prompt_length_avg_per_session": 107,
+          "prompt_length_median_per_session": 107,
+          "prompt_events": 1,
+          "prompts_avg_per_session": 1,
+          "prompts_median_per_session": 1,
+          "sessions": 1,
+          "cost": 0.65986,
+          "models": [
+            {
+              "name": "Opus",
+              "lines": 0.0,
+              "cost": 0.65986
+            }
+          ],
+          "tokens": 2236085
+        },
+        {
+          "name": "timesheet-claim",
+          "seconds": 129.767,
+          "ai_additions": 0,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 0,
+          "cached_input_tokens": 0,
+          "output_tokens": 0,
+          "prompt_length_sum": 0,
+          "prompt_length_avg": 0,
+          "prompt_length_avg_per_session": 0,
+          "prompt_length_median_per_session": 0,
+          "prompt_events": 0,
+          "prompts_avg_per_session": 0,
+          "prompts_median_per_session": 0,
+          "sessions": 0,
+          "cost": 0.0,
+          "models": [],
+          "tokens": 0
+        },
+        {
+          "name": "photos",
+          "seconds": 120.892,
+          "ai_additions": 53,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 8980,
+          "cached_input_tokens": 1365894,
+          "output_tokens": 5834,
+          "prompt_length_sum": 0,
+          "prompt_length_avg": 0,
+          "prompt_length_avg_per_session": 0,
+          "prompt_length_median_per_session": 0,
+          "prompt_events": 0,
+          "prompts_avg_per_session": 0,
+          "prompts_median_per_session": 0,
+          "sessions": 1,
+          "cost": 0.42578,
+          "models": [
+            {
+              "name": "Opus",
+              "lines": 53.0,
+              "cost": 0.42578
+            }
+          ],
+          "tokens": 1380708
+        },
+        {
+          "name": "gems-service-tsms",
+          "seconds": 75.427,
+          "ai_additions": 0,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 140940,
+          "cached_input_tokens": 471296,
+          "output_tokens": 903,
+          "prompt_length_sum": 0,
+          "prompt_length_avg": 0,
+          "prompt_length_avg_per_session": 0,
+          "prompt_length_median_per_session": 0,
+          "prompt_events": 0,
+          "prompts_avg_per_session": 0,
+          "prompts_median_per_session": 0,
+          "sessions": 1,
+          "cost": 0.33804,
+          "models": [
+            {
+              "name": "GPT",
+              "lines": 0.0,
+              "cost": 0.33804
+            }
+          ],
+          "tokens": 613139
+        },
+        {
+          "name": "gen",
+          "seconds": 67.069,
+          "ai_additions": 0,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 560,
+          "cached_input_tokens": 470225,
+          "output_tokens": 540,
+          "prompt_length_sum": 0,
+          "prompt_length_avg": 0,
+          "prompt_length_avg_per_session": 0,
+          "prompt_length_median_per_session": 0,
+          "prompt_events": 0,
+          "prompts_avg_per_session": 0,
+          "prompts_median_per_session": 0,
+          "sessions": 1,
+          "cost": 0.107085,
+          "models": [
+            {
+              "name": "Opus",
+              "lines": 0.0,
+              "cost": 0.107085
+            }
+          ],
+          "tokens": 471325
+        },
+        {
+          "name": "preview",
+          "seconds": 47.886,
+          "ai_additions": 0,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 5199,
+          "cached_input_tokens": 1075954,
+          "output_tokens": 3951,
+          "prompt_length_sum": 20,
+          "prompt_length_avg": 20,
+          "prompt_length_avg_per_session": 20,
+          "prompt_length_median_per_session": 20,
+          "prompt_events": 1,
+          "prompts_avg_per_session": 1,
+          "prompts_median_per_session": 1,
+          "sessions": 1,
+          "cost": 0.315007,
+          "models": [
+            {
+              "name": "Opus",
+              "lines": 0.0,
+              "cost": 0.315007
+            }
+          ],
+          "tokens": 1085104
+        },
+        {
+          "name": "hsafe-mobile",
+          "seconds": 19.925,
+          "ai_additions": 0,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 0,
+          "cached_input_tokens": 0,
+          "output_tokens": 0,
+          "prompt_length_sum": 0,
+          "prompt_length_avg": 0,
+          "prompt_length_avg_per_session": 0,
+          "prompt_length_median_per_session": 0,
+          "prompt_events": 0,
+          "prompts_avg_per_session": 0,
+          "prompts_median_per_session": 0,
+          "sessions": 0,
+          "cost": 0.0,
+          "models": [
+            {
+              "name": "Androidstudio",
+              "lines": 0.0,
+              "cost": 0.0
+            }
+          ],
+          "tokens": 0
         },
         {
           "name": "pm-docs",
@@ -343492,69 +343958,378 @@
       ],
       "languages": [
         {
-          "name": "Other",
-          "seconds": 738.788
+          "name": "Markdown",
+          "seconds": 8510.305
         },
         {
-          "name": "Markdown",
-          "seconds": 504.667
+          "name": "Dart",
+          "seconds": 3407.923
+        },
+        {
+          "name": "Other",
+          "seconds": 1699.672
+        },
+        {
+          "name": "Python",
+          "seconds": 1666.532
+        },
+        {
+          "name": "TypeScript",
+          "seconds": 1007.913
+        },
+        {
+          "name": "PowerShell",
+          "seconds": 542.36
+        },
+        {
+          "name": "Java Properties",
+          "seconds": 476.186
+        },
+        {
+          "name": "CSS",
+          "seconds": 473.001
+        },
+        {
+          "name": "Java",
+          "seconds": 236.878
         },
         {
           "name": "JSON",
           "seconds": 155.243
+        },
+        {
+          "name": "Prolog",
+          "seconds": 1.305
         }
       ],
       "editors": [
+        {
+          "name": "Claude Code",
+          "seconds": 15465.771
+        },
         {
           "name": "Codex Vscode",
           "seconds": 1358.641
         },
         {
           "name": "VS Code",
-          "seconds": 40.057
+          "seconds": 1332.981
+        },
+        {
+          "name": "Android Studio",
+          "seconds": 19.925
         }
       ],
       "operating_systems": [
         {
           "name": "Windows",
-          "seconds": 1398.698
+          "seconds": 18177.318
         }
       ],
       "machines": [
         {
           "name": "ALEXANDER-II",
-          "seconds": 1398.698
+          "seconds": 18047.551
+        },
+        {
+          "name": "Alexander",
+          "seconds": 129.767
         }
       ],
       "categories": [
         {
           "name": "AI Coding",
-          "seconds": 1398.698
+          "seconds": 17296.514
+        },
+        {
+          "name": "Coding",
+          "seconds": 880.804
         }
       ],
-      "dependencies": [],
+      "dependencies": [
+        {
+          "name": "numpy",
+          "seconds": 1341.045
+        },
+        {
+          "name": "json",
+          "seconds": 1328.382
+        },
+        {
+          "name": "time",
+          "seconds": 1116.641
+        },
+        {
+          "name": "react",
+          "seconds": 808.684
+        },
+        {
+          "name": "soundfile",
+          "seconds": 792.312
+        },
+        {
+          "name": "urllib",
+          "seconds": 765.568
+        },
+        {
+          "name": "pathlib",
+          "seconds": 644.084
+        },
+        {
+          "name": "timing",
+          "seconds": 635.34
+        },
+        {
+          "name": "scipy",
+          "seconds": 587.48
+        },
+        {
+          "name": "argparse",
+          "seconds": 548.733
+        },
+        {
+          "name": "base64",
+          "seconds": 548.733
+        },
+        {
+          "name": "PIL",
+          "seconds": 548.733
+        },
+        {
+          "name": "io",
+          "seconds": 548.733
+        },
+        {
+          "name": "remotion",
+          "seconds": 480.261
+        },
+        {
+          "name": "types",
+          "seconds": 372.573
+        },
+        {
+          "name": "math",
+          "seconds": 351.073
+        },
+        {
+          "name": "faster_whisper",
+          "seconds": 351.073
+        },
+        {
+          "name": "seg_starts",
+          "seconds": 327.279
+        },
+        {
+          "name": "theme",
+          "seconds": 327.279
+        },
+        {
+          "name": "re",
+          "seconds": 312.186
+        },
+        {
+          "name": "BgTrack",
+          "seconds": 263.911
+        },
+        {
+          "name": "react-i18next",
+          "seconds": 242.806
+        },
+        {
+          "name": "MessageBoard",
+          "seconds": 242.806
+        },
+        {
+          "name": "purPermissions",
+          "seconds": 242.806
+        },
+        {
+          "name": "purAuthorizationStore",
+          "seconds": 242.806
+        },
+        {
+          "name": "model",
+          "seconds": 242.806
+        },
+        {
+          "name": "react-router",
+          "seconds": 242.806
+        },
+        {
+          "name": "ui",
+          "seconds": 242.806
+        },
+        {
+          "name": "NotificationPanel",
+          "seconds": 242.806
+        },
+        {
+          "name": "ReturnMonitorTable",
+          "seconds": 242.806
+        },
+        {
+          "name": "api",
+          "seconds": 242.806
+        },
+        {
+          "name": "pedalboard",
+          "seconds": 236.407
+        },
+        {
+          "name": "noisereduce",
+          "seconds": 236.407
+        },
+        {
+          "name": "pyloudnorm",
+          "seconds": 204.832
+        },
+        {
+          "name": "Subtitles",
+          "seconds": 152.982
+        },
+        {
+          "name": "subtitle_fixes",
+          "seconds": 152.982
+        },
+        {
+          "name": "ChapterCard",
+          "seconds": 152.982
+        },
+        {
+          "name": "Hook",
+          "seconds": 152.982
+        },
+        {
+          "name": "Sfx",
+          "seconds": 152.982
+        },
+        {
+          "name": "Ki1",
+          "seconds": 152.982
+        },
+        {
+          "name": "MusicBed",
+          "seconds": 152.982
+        },
+        {
+          "name": "lucide-react",
+          "seconds": 129.767
+        },
+        {
+          "name": "textarea",
+          "seconds": 129.767
+        },
+        {
+          "name": "button",
+          "seconds": 129.767
+        },
+        {
+          "name": "LanguageContext",
+          "seconds": 129.767
+        },
+        {
+          "name": "shared-utils",
+          "seconds": 129.767
+        },
+        {
+          "name": "table",
+          "seconds": 129.767
+        },
+        {
+          "name": "input",
+          "seconds": 129.767
+        },
+        {
+          "name": "date-picker",
+          "seconds": 129.767
+        },
+        {
+          "name": "Ki5",
+          "seconds": 108.832
+        },
+        {
+          "name": "pauses",
+          "seconds": 108.832
+        },
+        {
+          "name": "Ki6",
+          "seconds": 108.832
+        },
+        {
+          "name": "Ki2a",
+          "seconds": 108.832
+        },
+        {
+          "name": "Ki3",
+          "seconds": 108.832
+        },
+        {
+          "name": "Ki2",
+          "seconds": 108.832
+        },
+        {
+          "name": "Ki4",
+          "seconds": 108.832
+        },
+        {
+          "name": "Ki7",
+          "seconds": 108.832
+        },
+        {
+          "name": "Ki2b",
+          "seconds": 108.832
+        },
+        {
+          "name": "Ket",
+          "seconds": 108.832
+        },
+        {
+          "name": "html",
+          "seconds": 88.442
+        }
+      ],
       "ai": {
-        "ai_additions": 58,
+        "ai_additions": 1897,
         "ai_deletions": 0,
         "human_additions": 0,
-        "human_deletions": 0,
-        "input_tokens": 725851,
-        "cached_input_tokens": 8753024,
-        "output_tokens": 36844,
-        "prompt_length_sum": 0,
-        "prompt_length_avg": 0,
-        "prompt_length_avg_per_session": 0,
-        "prompt_length_median_per_session": 0,
-        "prompt_events": 0,
-        "prompts_avg_per_session": 0,
-        "prompts_median_per_session": 0,
-        "sessions": 2,
-        "cost": 1.407372,
+        "human_deletions": 1,
+        "input_tokens": 3803567,
+        "cached_input_tokens": 187962103,
+        "output_tokens": 439537,
+        "prompt_length_sum": 95416,
+        "prompt_length_avg": 2030,
+        "prompt_length_avg_per_session": 1229,
+        "prompt_length_median_per_session": 133,
+        "prompt_events": 47,
+        "prompts_avg_per_session": 4,
+        "prompts_median_per_session": 6,
+        "sessions": 11,
+        "cost": 52.840741,
         "models": [
+          {
+            "name": "Opus",
+            "lines": 1833.0,
+            "cost": 46.72192
+          },
           {
             "name": "GPT",
             "lines": 58.0,
-            "cost": 1.407372
+            "cost": 2.023978
+          },
+          {
+            "name": "Sonnet",
+            "lines": 6.0,
+            "cost": 4.091699
+          },
+          {
+            "name": "Haiku",
+            "lines": 0.0,
+            "cost": 0.003144
+          },
+          {
+            "name": "Androidstudio",
+            "lines": 0.0,
+            "cost": 0.0
           }
         ]
       },
@@ -343592,6 +344367,726 @@
             "start_minute": 537.567,
             "duration_seconds": 738.788,
             "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 630.017,
+            "duration_seconds": 59.689,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "product-service-tsms",
+            "start_minute": 665.517,
+            "duration_seconds": 236.878,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 669.467,
+            "duration_seconds": 20.975,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "purchase-portal-be",
+            "start_minute": 669.817,
+            "duration_seconds": 798.388,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 683.117,
+            "duration_seconds": 10.261,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "purchase-portal-fe",
+            "start_minute": 703.617,
+            "duration_seconds": 242.806,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 707.667,
+            "duration_seconds": 16.204,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "purchase-portal-be",
+            "start_minute": 707.933,
+            "duration_seconds": 37.378,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 708.567,
+            "duration_seconds": 182.08,
+            "ai_additions": 22,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 730.9,
+            "duration_seconds": 459.982,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "purchase-portal-fe",
+            "start_minute": 767.567,
+            "duration_seconds": 85.043,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "purchase-portal-be",
+            "start_minute": 768.983,
+            "duration_seconds": 656.69,
+            "ai_additions": 37,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "scripts",
+            "start_minute": 779.933,
+            "duration_seconds": 581.425,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "purchase-portal-be",
+            "start_minute": 789.617,
+            "duration_seconds": 74.029,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "purchase-portal-fe",
+            "start_minute": 846.167,
+            "duration_seconds": 432.965,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 853.383,
+            "duration_seconds": 2.763,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 1
+          },
+          {
+            "name": "purchase-portal-fe",
+            "start_minute": 880.567,
+            "duration_seconds": 40.036,
+            "ai_additions": 4,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 915.05,
+            "duration_seconds": 255.18,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 945.95,
+            "duration_seconds": 117.898,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Video",
+            "start_minute": 973.117,
+            "duration_seconds": 1113.177,
+            "ai_additions": 131,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 991.667,
+            "duration_seconds": 32.2,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Video",
+            "start_minute": 992.217,
+            "duration_seconds": 910.78,
+            "ai_additions": 317,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 1007.383,
+            "duration_seconds": 92.551,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Video",
+            "start_minute": 1008.933,
+            "duration_seconds": 252.322,
+            "ai_additions": 15,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 1013.133,
+            "duration_seconds": 134.302,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Video",
+            "start_minute": 1015.383,
+            "duration_seconds": 11.375,
+            "ai_additions": 29,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 1015.567,
+            "duration_seconds": 181.731,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Video",
+            "start_minute": 1018.6,
+            "duration_seconds": 19.887,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 1018.933,
+            "duration_seconds": 21.25,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Video",
+            "start_minute": 1019.283,
+            "duration_seconds": 11.349,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 1019.467,
+            "duration_seconds": 75.427,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 1020.733,
+            "duration_seconds": 21.256,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "preview",
+            "start_minute": 1021.083,
+            "duration_seconds": 47.886,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 1021.883,
+            "duration_seconds": 18.043,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 1022.183,
+            "duration_seconds": 61.338,
+            "ai_additions": 95,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 1023.2,
+            "duration_seconds": 58.661,
+            "ai_additions": 2,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Video",
+            "start_minute": 1024.183,
+            "duration_seconds": 43.222,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 1024.9,
+            "duration_seconds": 14.566,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "scripts",
+            "start_minute": 1025.15,
+            "duration_seconds": 315.659,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gen",
+            "start_minute": 1030.4,
+            "duration_seconds": 67.069,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 1031.517,
+            "duration_seconds": 167.337,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 1034.317,
+            "duration_seconds": 19.888,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 1034.65,
+            "duration_seconds": 31.643,
+            "ai_additions": 52,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 1035.167,
+            "duration_seconds": 208.026,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 1038.633,
+            "duration_seconds": 42.723,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Video",
+            "start_minute": 1039.35,
+            "duration_seconds": 78.326,
+            "ai_additions": 33,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "public",
+            "start_minute": 1040.65,
+            "duration_seconds": 241.984,
+            "ai_additions": 18,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 1044.683,
+            "duration_seconds": 12.431,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "public",
+            "start_minute": 1044.9,
+            "duration_seconds": 15.146,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 1045.15,
+            "duration_seconds": 1.305,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "public",
+            "start_minute": 1045.167,
+            "duration_seconds": 1.429,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 1045.2,
+            "duration_seconds": 11.686,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "public",
+            "start_minute": 1045.383,
+            "duration_seconds": 2.11,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 1045.417,
+            "duration_seconds": 63.601,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "public",
+            "start_minute": 1046.483,
+            "duration_seconds": 24.365,
+            "ai_additions": 74,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "scripts",
+            "start_minute": 1046.883,
+            "duration_seconds": 166.15,
+            "ai_additions": 10,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "photos",
+            "start_minute": 1049.667,
+            "duration_seconds": 120.892,
+            "ai_additions": 53,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 1051.667,
+            "duration_seconds": 95.161,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 1053.267,
+            "duration_seconds": 62.671,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 1054.3,
+            "duration_seconds": 33.481,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "hsafe-mobile",
+            "start_minute": 1054.867,
+            "duration_seconds": 19.925,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 1055.2,
+            "duration_seconds": 361.074,
+            "ai_additions": 159,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Video",
+            "start_minute": 1061.217,
+            "duration_seconds": 9.691,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 1061.367,
+            "duration_seconds": 449.099,
+            "ai_additions": 63,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 1068.867,
+            "duration_seconds": 127.192,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Video",
+            "start_minute": 1070.983,
+            "duration_seconds": 190.396,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 1095.65,
+            "duration_seconds": 2088.171,
+            "ai_additions": 241,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "timesheet-claim",
+            "start_minute": 1211.133,
+            "duration_seconds": 129.767,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 1213.3,
+            "duration_seconds": 44.15,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 1325.45,
+            "duration_seconds": 434.125,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "scripts",
+            "start_minute": 1332.683,
+            "duration_seconds": 374.475,
+            "ai_additions": 69,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 1338.933,
+            "duration_seconds": 1559.579,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Video",
+            "start_minute": 1364.917,
+            "duration_seconds": 95.461,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "out",
+            "start_minute": 1366.517,
+            "duration_seconds": 75.183,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "out",
+            "start_minute": 1413.217,
+            "duration_seconds": 85.609,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "src",
+            "start_minute": 1414.65,
+            "duration_seconds": 89.536,
+            "ai_additions": 46,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 1416.133,
+            "duration_seconds": 88.766,
+            "ai_additions": 52,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "src",
+            "start_minute": 1417.617,
+            "duration_seconds": 186.913,
+            "ai_additions": 34,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 1420.733,
+            "duration_seconds": 914.425,
+            "ai_additions": 189,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 1435.967,
+            "duration_seconds": 240.007,
+            "ai_additions": 93,
             "ai_deletions": 0,
             "human_additions": 0,
             "human_deletions": 0
@@ -343642,6 +345137,654 @@
             "ai_deletions": 0,
             "human_additions": 0,
             "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 630.017,
+            "duration_seconds": 59.689,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 665.517,
+            "duration_seconds": 236.878,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 669.467,
+            "duration_seconds": 819.363,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 683.117,
+            "duration_seconds": 10.261,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 703.617,
+            "duration_seconds": 242.806,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java Properties",
+            "start_minute": 707.667,
+            "duration_seconds": 16.204,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 707.933,
+            "duration_seconds": 219.458,
+            "ai_additions": 22,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java Properties",
+            "start_minute": 730.9,
+            "duration_seconds": 456.985,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java Properties",
+            "start_minute": 738.517,
+            "duration_seconds": 2.997,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 767.567,
+            "duration_seconds": 1397.187,
+            "ai_additions": 37,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "CSS",
+            "start_minute": 846.167,
+            "duration_seconds": 432.965,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 853.383,
+            "duration_seconds": 2.763,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 1
+          },
+          {
+            "name": "CSS",
+            "start_minute": 880.567,
+            "duration_seconds": 35.118,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "CSS",
+            "start_minute": 881.15,
+            "duration_seconds": 4.918,
+            "ai_additions": 4,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 915.05,
+            "duration_seconds": 255.18,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 945.95,
+            "duration_seconds": 117.898,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 973.117,
+            "duration_seconds": 1453.556,
+            "ai_additions": 203,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Python",
+            "start_minute": 997.35,
+            "duration_seconds": 122.109,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 999.383,
+            "duration_seconds": 12.766,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Python",
+            "start_minute": 999.6,
+            "duration_seconds": 467.726,
+            "ai_additions": 245,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "PowerShell",
+            "start_minute": 1007.383,
+            "duration_seconds": 92.551,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Python",
+            "start_minute": 1008.933,
+            "duration_seconds": 143.242,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1011.317,
+            "duration_seconds": 109.08,
+            "ai_additions": 15,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "PowerShell",
+            "start_minute": 1013.133,
+            "duration_seconds": 134.302,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1015.383,
+            "duration_seconds": 11.375,
+            "ai_additions": 29,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "PowerShell",
+            "start_minute": 1015.567,
+            "duration_seconds": 181.731,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1018.6,
+            "duration_seconds": 19.887,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "PowerShell",
+            "start_minute": 1018.933,
+            "duration_seconds": 21.25,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Python",
+            "start_minute": 1019.283,
+            "duration_seconds": 11.349,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 1019.467,
+            "duration_seconds": 75.427,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "PowerShell",
+            "start_minute": 1020.733,
+            "duration_seconds": 21.256,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Python",
+            "start_minute": 1021.083,
+            "duration_seconds": 47.886,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "PowerShell",
+            "start_minute": 1021.883,
+            "duration_seconds": 18.043,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1022.183,
+            "duration_seconds": 61.338,
+            "ai_additions": 95,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "PowerShell",
+            "start_minute": 1023.2,
+            "duration_seconds": 58.661,
+            "ai_additions": 2,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1024.183,
+            "duration_seconds": 43.222,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "PowerShell",
+            "start_minute": 1024.9,
+            "duration_seconds": 14.566,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1025.15,
+            "duration_seconds": 1.332,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Python",
+            "start_minute": 1025.167,
+            "duration_seconds": 548.733,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 1034.317,
+            "duration_seconds": 19.888,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1034.65,
+            "duration_seconds": 31.643,
+            "ai_additions": 52,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 1035.167,
+            "duration_seconds": 208.026,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1038.633,
+            "duration_seconds": 42.723,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Python",
+            "start_minute": 1039.35,
+            "duration_seconds": 88.442,
+            "ai_additions": 33,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1040.817,
+            "duration_seconds": 231.868,
+            "ai_additions": 18,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 1044.683,
+            "duration_seconds": 12.431,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1044.9,
+            "duration_seconds": 15.146,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Prolog",
+            "start_minute": 1045.15,
+            "duration_seconds": 1.305,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Python",
+            "start_minute": 1045.167,
+            "duration_seconds": 1.429,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 1045.2,
+            "duration_seconds": 2.267,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 1045.233,
+            "duration_seconds": 6.405,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 1045.333,
+            "duration_seconds": 3.014,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Python",
+            "start_minute": 1045.383,
+            "duration_seconds": 2.11,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 1045.417,
+            "duration_seconds": 63.601,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Python",
+            "start_minute": 1046.483,
+            "duration_seconds": 124.854,
+            "ai_additions": 84,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1048.567,
+            "duration_seconds": 620.54,
+            "ai_additions": 137,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 1058.9,
+            "duration_seconds": 61.292,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1059.933,
+            "duration_seconds": 41.948,
+            "ai_additions": 75,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 1060.633,
+            "duration_seconds": 35.085,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 1061.217,
+            "duration_seconds": 9.691,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1061.367,
+            "duration_seconds": 449.099,
+            "ai_additions": 63,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 1068.867,
+            "duration_seconds": 317.588,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 1095.65,
+            "duration_seconds": 2088.171,
+            "ai_additions": 241,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 1211.133,
+            "duration_seconds": 173.917,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1325.45,
+            "duration_seconds": 2538.823,
+            "ai_additions": 69,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 1413.217,
+            "duration_seconds": 263.911,
+            "ai_additions": 98,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1417.617,
+            "duration_seconds": 186.913,
+            "ai_additions": 34,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 1420.733,
+            "duration_seconds": 320.084,
+            "ai_additions": 50,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Python",
+            "start_minute": 1426.067,
+            "duration_seconds": 13.301,
+            "ai_additions": 59,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 1426.283,
+            "duration_seconds": 581.04,
+            "ai_additions": 80,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Python",
+            "start_minute": 1435.967,
+            "duration_seconds": 95.351,
+            "ai_additions": 71,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1437.567,
+            "duration_seconds": 144.656,
+            "ai_additions": 22,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
           }
         ],
         "category": [
@@ -343659,6 +345802,168 @@
             "start_minute": 537.567,
             "duration_seconds": 738.788,
             "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 630.017,
+            "duration_seconds": 59.689,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Coding",
+            "start_minute": 665.517,
+            "duration_seconds": 236.878,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 669.467,
+            "duration_seconds": 819.363,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Coding",
+            "start_minute": 683.117,
+            "duration_seconds": 10.261,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 703.617,
+            "duration_seconds": 478.468,
+            "ai_additions": 22,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Coding",
+            "start_minute": 730.9,
+            "duration_seconds": 456.985,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 738.517,
+            "duration_seconds": 2.997,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 767.567,
+            "duration_seconds": 1397.187,
+            "ai_additions": 37,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 846.167,
+            "duration_seconds": 432.965,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Coding",
+            "start_minute": 853.383,
+            "duration_seconds": 2.763,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 880.567,
+            "duration_seconds": 40.036,
+            "ai_additions": 4,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 915.05,
+            "duration_seconds": 255.18,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 945.95,
+            "duration_seconds": 117.898,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 973.117,
+            "duration_seconds": 6061.783,
+            "ai_additions": 1052,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 1095.65,
+            "duration_seconds": 2088.171,
+            "ai_additions": 241,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Coding",
+            "start_minute": 1211.133,
+            "duration_seconds": 173.917,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 1325.45,
+            "duration_seconds": 2538.823,
+            "ai_additions": 69,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 1413.217,
+            "duration_seconds": 1605.256,
+            "ai_additions": 414,
             "ai_deletions": 0,
             "human_additions": 0,
             "human_deletions": 0
@@ -343691,6 +345996,348 @@
             "ai_deletions": 0,
             "human_additions": 0,
             "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 630.017,
+            "duration_seconds": 59.689,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 665.517,
+            "duration_seconds": 236.878,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 669.467,
+            "duration_seconds": 819.363,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 683.117,
+            "duration_seconds": 10.261,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 703.617,
+            "duration_seconds": 242.806,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 707.667,
+            "duration_seconds": 16.204,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 707.933,
+            "duration_seconds": 219.458,
+            "ai_additions": 22,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 730.9,
+            "duration_seconds": 456.985,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 738.517,
+            "duration_seconds": 2.997,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 767.567,
+            "duration_seconds": 1397.187,
+            "ai_additions": 37,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 846.167,
+            "duration_seconds": 432.965,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 853.383,
+            "duration_seconds": 2.763,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 1
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 880.567,
+            "duration_seconds": 40.036,
+            "ai_additions": 4,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 915.05,
+            "duration_seconds": 255.18,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 945.95,
+            "duration_seconds": 117.898,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 973.117,
+            "duration_seconds": 1113.177,
+            "ai_additions": 131,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 991.667,
+            "duration_seconds": 32.2,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 992.217,
+            "duration_seconds": 1635.547,
+            "ai_additions": 361,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 1019.467,
+            "duration_seconds": 75.427,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 1020.733,
+            "duration_seconds": 1437.627,
+            "ai_additions": 201,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 1044.683,
+            "duration_seconds": 12.431,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 1044.9,
+            "duration_seconds": 15.146,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 1045.15,
+            "duration_seconds": 1.305,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 1045.167,
+            "duration_seconds": 1.429,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 1045.2,
+            "duration_seconds": 11.686,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 1045.383,
+            "duration_seconds": 2.11,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 1045.417,
+            "duration_seconds": 63.601,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 1046.483,
+            "duration_seconds": 502.72,
+            "ai_additions": 137,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Android Studio",
+            "start_minute": 1054.867,
+            "duration_seconds": 19.925,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 1055.2,
+            "duration_seconds": 1137.452,
+            "ai_additions": 222,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 1095.65,
+            "duration_seconds": 2088.171,
+            "ai_additions": 241,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 1211.133,
+            "duration_seconds": 173.917,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 1325.45,
+            "duration_seconds": 2538.823,
+            "ai_additions": 69,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 1413.217,
+            "duration_seconds": 450.824,
+            "ai_additions": 132,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 1420.733,
+            "duration_seconds": 131.812,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 1422.933,
+            "duration_seconds": 71.434,
+            "ai_additions": 48,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 1424.117,
+            "duration_seconds": 4.768,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 1424.2,
+            "duration_seconds": 946.418,
+            "ai_additions": 234,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
           }
         ],
         "os": [
@@ -343711,6 +346358,168 @@
             "ai_deletions": 0,
             "human_additions": 0,
             "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 630.017,
+            "duration_seconds": 59.689,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 665.517,
+            "duration_seconds": 236.878,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 669.467,
+            "duration_seconds": 819.363,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 683.117,
+            "duration_seconds": 10.261,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 703.617,
+            "duration_seconds": 478.468,
+            "ai_additions": 22,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 730.9,
+            "duration_seconds": 456.985,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 738.517,
+            "duration_seconds": 2.997,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 767.567,
+            "duration_seconds": 1397.187,
+            "ai_additions": 37,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 846.167,
+            "duration_seconds": 432.965,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 853.383,
+            "duration_seconds": 2.763,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 1
+          },
+          {
+            "name": "Windows",
+            "start_minute": 880.567,
+            "duration_seconds": 40.036,
+            "ai_additions": 4,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 915.05,
+            "duration_seconds": 255.18,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 945.95,
+            "duration_seconds": 117.898,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 973.117,
+            "duration_seconds": 6061.783,
+            "ai_additions": 1052,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 1095.65,
+            "duration_seconds": 2088.171,
+            "ai_additions": 241,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 1211.133,
+            "duration_seconds": 173.917,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 1325.45,
+            "duration_seconds": 2538.823,
+            "ai_additions": 69,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 1413.217,
+            "duration_seconds": 1605.256,
+            "ai_additions": 414,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
           }
         ],
         "machine": [
@@ -343727,6 +346536,1138 @@
             "name": "ALEXANDER-II",
             "start_minute": 537.567,
             "duration_seconds": 738.788,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 630.017,
+            "duration_seconds": 59.689,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 665.517,
+            "duration_seconds": 1066.502,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 703.617,
+            "duration_seconds": 478.468,
+            "ai_additions": 22,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 730.9,
+            "duration_seconds": 459.982,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 767.567,
+            "duration_seconds": 1397.187,
+            "ai_additions": 37,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 846.167,
+            "duration_seconds": 435.728,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 1
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 880.567,
+            "duration_seconds": 40.036,
+            "ai_additions": 4,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 915.05,
+            "duration_seconds": 255.18,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 945.95,
+            "duration_seconds": 117.898,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 973.117,
+            "duration_seconds": 6061.783,
+            "ai_additions": 1052,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 1095.65,
+            "duration_seconds": 2088.171,
+            "ai_additions": 241,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Alexander",
+            "start_minute": 1211.133,
+            "duration_seconds": 129.767,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 1213.3,
+            "duration_seconds": 44.15,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 1325.45,
+            "duration_seconds": 2538.823,
+            "ai_additions": 69,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 1413.217,
+            "duration_seconds": 1605.256,
+            "ai_additions": 414,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          }
+        ]
+      }
+    },
+    {
+      "date": "2026-11-26",
+      "seconds": 5311.897,
+      "projects": [
+        {
+          "name": "pm-mobile",
+          "seconds": 2994.997,
+          "ai_additions": 208,
+          "ai_deletions": 21,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 101273,
+          "cached_input_tokens": 47550134,
+          "output_tokens": 45237,
+          "prompt_length_sum": 2725,
+          "prompt_length_avg": 454,
+          "prompt_length_avg_per_session": 454,
+          "prompt_length_median_per_session": 454,
+          "prompt_events": 6,
+          "prompts_avg_per_session": 6,
+          "prompts_median_per_session": 6,
+          "sessions": 1,
+          "cost": 10.81986,
+          "models": [
+            {
+              "name": "Opus",
+              "lines": 229.0,
+              "cost": 10.81986
+            }
+          ],
+          "tokens": 47696644
+        },
+        {
+          "name": "remotion",
+          "seconds": 963.484,
+          "ai_additions": 67,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 35333,
+          "cached_input_tokens": 15280978,
+          "output_tokens": 16481,
+          "prompt_length_sum": 4,
+          "prompt_length_avg": 4,
+          "prompt_length_avg_per_session": 4,
+          "prompt_length_median_per_session": 4,
+          "prompt_events": 1,
+          "prompts_avg_per_session": 1,
+          "prompts_median_per_session": 1,
+          "sessions": 1,
+          "cost": 3.527149,
+          "models": [
+            {
+              "name": "Opus",
+              "lines": 67.0,
+              "cost": 3.527149
+            }
+          ],
+          "tokens": 15332792
+        },
+        {
+          "name": "Video",
+          "seconds": 780.437,
+          "ai_additions": 71,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 29814,
+          "cached_input_tokens": 8169325,
+          "output_tokens": 23025,
+          "prompt_length_sum": 91,
+          "prompt_length_avg": 91,
+          "prompt_length_avg_per_session": 91,
+          "prompt_length_median_per_session": 91,
+          "prompt_events": 1,
+          "prompts_avg_per_session": 1,
+          "prompts_median_per_session": 1,
+          "sessions": 1,
+          "cost": 2.21362,
+          "models": [
+            {
+              "name": "Opus",
+              "lines": 71.0,
+              "cost": 2.21362
+            }
+          ],
+          "tokens": 8222164
+        },
+        {
+          "name": "Muahangre",
+          "seconds": 447.28,
+          "ai_additions": 0,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 429276,
+          "cached_input_tokens": 6193280,
+          "output_tokens": 3474,
+          "prompt_length_sum": 0,
+          "prompt_length_avg": 0,
+          "prompt_length_avg_per_session": 0,
+          "prompt_length_median_per_session": 0,
+          "prompt_events": 0,
+          "prompts_avg_per_session": 0,
+          "prompts_median_per_session": 0,
+          "sessions": 1,
+          "cost": 1.512621,
+          "models": [
+            {
+              "name": "GPT",
+              "lines": 0.0,
+              "cost": 1.512621
+            }
+          ],
+          "tokens": 6626030
+        },
+        {
+          "name": "scripts",
+          "seconds": 64.568,
+          "ai_additions": 0,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 383286,
+          "cached_input_tokens": 46523,
+          "output_tokens": 547,
+          "prompt_length_sum": 0,
+          "prompt_length_avg": 0,
+          "prompt_length_avg_per_session": 0,
+          "prompt_length_median_per_session": 0,
+          "prompt_events": 0,
+          "prompts_avg_per_session": 0,
+          "prompts_median_per_session": 0,
+          "sessions": 1,
+          "cost": 1.553389,
+          "models": [
+            {
+              "name": "Opus",
+              "lines": 0.0,
+              "cost": 1.553389
+            }
+          ],
+          "tokens": 430356
+        },
+        {
+          "name": "src",
+          "seconds": 61.131,
+          "ai_additions": 24,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 1751,
+          "cached_input_tokens": 403325,
+          "output_tokens": 1049,
+          "prompt_length_sum": 0,
+          "prompt_length_avg": 0,
+          "prompt_length_avg_per_session": 0,
+          "prompt_length_median_per_session": 0,
+          "prompt_events": 0,
+          "prompts_avg_per_session": 0,
+          "prompts_median_per_session": 0,
+          "sessions": 1,
+          "cost": 0.108649,
+          "models": [
+            {
+              "name": "Opus",
+              "lines": 24.0,
+              "cost": 0.108649
+            }
+          ],
+          "tokens": 406125
+        }
+      ],
+      "languages": [
+        {
+          "name": "Dart",
+          "seconds": 1492.048
+        },
+        {
+          "name": "Bash",
+          "seconds": 1196.37
+        },
+        {
+          "name": "TypeScript",
+          "seconds": 1121.446
+        },
+        {
+          "name": "Markdown",
+          "seconds": 730.744
+        },
+        {
+          "name": "Other",
+          "seconds": 447.28
+        },
+        {
+          "name": "Python",
+          "seconds": 324.009
+        }
+      ],
+      "editors": [
+        {
+          "name": "Claude Code",
+          "seconds": 4496.801
+        },
+        {
+          "name": "Codex Vscode",
+          "seconds": 447.28
+        },
+        {
+          "name": "VS Code",
+          "seconds": 367.816
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "Windows",
+          "seconds": 5311.897
+        }
+      ],
+      "machines": [
+        {
+          "name": "ALEXANDER-II",
+          "seconds": 5311.897
+        }
+      ],
+      "categories": [
+        {
+          "name": "AI Coding",
+          "seconds": 5311.897
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "timing",
+          "seconds": 1121.446
+        },
+        {
+          "name": "remotion",
+          "seconds": 1121.446
+        },
+        {
+          "name": "Hook",
+          "seconds": 1121.446
+        },
+        {
+          "name": "react",
+          "seconds": 1121.446
+        },
+        {
+          "name": "Caption",
+          "seconds": 1046.807
+        },
+        {
+          "name": "layout",
+          "seconds": 1046.807
+        },
+        {
+          "name": "ArrowDraw",
+          "seconds": 1046.807
+        },
+        {
+          "name": "ThoughtBubble",
+          "seconds": 1046.807
+        },
+        {
+          "name": "theme",
+          "seconds": 1046.807
+        },
+        {
+          "name": "Sfx",
+          "seconds": 1046.807
+        },
+        {
+          "name": "Counter",
+          "seconds": 1046.807
+        },
+        {
+          "name": "HighlightLabel",
+          "seconds": 1046.807
+        },
+        {
+          "name": "BgTrack",
+          "seconds": 1046.807
+        },
+        {
+          "name": "Ferret",
+          "seconds": 1046.807
+        },
+        {
+          "name": "Stamp",
+          "seconds": 1046.807
+        },
+        {
+          "name": "pathlib",
+          "seconds": 324.009
+        },
+        {
+          "name": "json",
+          "seconds": 244.145
+        },
+        {
+          "name": "collections",
+          "seconds": 244.145
+        },
+        {
+          "name": "re",
+          "seconds": 244.145
+        },
+        {
+          "name": "PIL",
+          "seconds": 79.864
+        },
+        {
+          "name": "Ki3",
+          "seconds": 74.639
+        },
+        {
+          "name": "Ki5",
+          "seconds": 74.639
+        },
+        {
+          "name": "dwell",
+          "seconds": 74.639
+        },
+        {
+          "name": "Ket",
+          "seconds": 74.639
+        },
+        {
+          "name": "Ki2",
+          "seconds": 74.639
+        },
+        {
+          "name": "Ki4",
+          "seconds": 74.639
+        },
+        {
+          "name": "Ki6",
+          "seconds": 74.639
+        },
+        {
+          "name": "Ki7",
+          "seconds": 74.639
+        },
+        {
+          "name": "Ki1",
+          "seconds": 74.639
+        }
+      ],
+      "ai": {
+        "ai_additions": 370,
+        "ai_deletions": 21,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "input_tokens": 980733,
+        "cached_input_tokens": 77643565,
+        "output_tokens": 89813,
+        "prompt_length_sum": 2820,
+        "prompt_length_avg": 352,
+        "prompt_length_avg_per_session": 251,
+        "prompt_length_median_per_session": 251,
+        "prompt_events": 8,
+        "prompts_avg_per_session": 3,
+        "prompts_median_per_session": 4,
+        "sessions": 3,
+        "cost": 19.735288,
+        "models": [
+          {
+            "name": "Opus",
+            "lines": 391.0,
+            "cost": 18.222667
+          },
+          {
+            "name": "GPT",
+            "lines": 0.0,
+            "cost": 1.512621
+          }
+        ]
+      },
+      "timelines": {
+        "project": [
+          {
+            "name": "remotion",
+            "start_minute": 0.0,
+            "duration_seconds": 5.798,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Video",
+            "start_minute": 0.083,
+            "duration_seconds": 51.096,
+            "ai_additions": 47,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 0.933,
+            "duration_seconds": 37.422,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Video",
+            "start_minute": 1.567,
+            "duration_seconds": 291.83,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 6.433,
+            "duration_seconds": 280.684,
+            "ai_additions": 45,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Video",
+            "start_minute": 11.1,
+            "duration_seconds": 50.938,
+            "ai_additions": 24,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 11.95,
+            "duration_seconds": 23.869,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "src",
+            "start_minute": 12.35,
+            "duration_seconds": 61.131,
+            "ai_additions": 24,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 13.367,
+            "duration_seconds": 17.883,
+            "ai_additions": 67,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 13.667,
+            "duration_seconds": 610.652,
+            "ai_additions": 38,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 23.85,
+            "duration_seconds": 13.299,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Video",
+            "start_minute": 24.067,
+            "duration_seconds": 104.367,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 25.8,
+            "duration_seconds": 589.302,
+            "ai_additions": 50,
+            "ai_deletions": 21,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 35.633,
+            "duration_seconds": 182.981,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 38.683,
+            "duration_seconds": 323.807,
+            "ai_additions": 44,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 44.083,
+            "duration_seconds": 43.49,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Video",
+            "start_minute": 44.8,
+            "duration_seconds": 55.322,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 45.717,
+            "duration_seconds": 567.369,
+            "ai_additions": 31,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 55.183,
+            "duration_seconds": 119.527,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 57.167,
+            "duration_seconds": 561.892,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 66.533,
+            "duration_seconds": 55.462,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "scripts",
+            "start_minute": 165.3,
+            "duration_seconds": 64.568,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Video",
+            "start_minute": 166.383,
+            "duration_seconds": 226.884,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 170.167,
+            "duration_seconds": 525.044,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Muahangre",
+            "start_minute": 537.433,
+            "duration_seconds": 447.28,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          }
+        ],
+        "language": [
+          {
+            "name": "Markdown",
+            "start_minute": 0.0,
+            "duration_seconds": 56.894,
+            "ai_additions": 47,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 0.933,
+            "duration_seconds": 37.422,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1.567,
+            "duration_seconds": 291.83,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 6.433,
+            "duration_seconds": 132.037,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Python",
+            "start_minute": 8.633,
+            "duration_seconds": 79.864,
+            "ai_additions": 38,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 9.967,
+            "duration_seconds": 68.783,
+            "ai_additions": 7,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 11.1,
+            "duration_seconds": 50.938,
+            "ai_additions": 24,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 11.95,
+            "duration_seconds": 23.869,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 12.35,
+            "duration_seconds": 74.639,
+            "ai_additions": 24,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Python",
+            "start_minute": 13.6,
+            "duration_seconds": 4.375,
+            "ai_additions": 67,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 13.667,
+            "duration_seconds": 383.937,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 20.067,
+            "duration_seconds": 226.715,
+            "ai_additions": 38,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Python",
+            "start_minute": 23.85,
+            "duration_seconds": 13.299,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 24.067,
+            "duration_seconds": 104.367,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 25.8,
+            "duration_seconds": 589.302,
+            "ai_additions": 50,
+            "ai_deletions": 21,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Python",
+            "start_minute": 35.633,
+            "duration_seconds": 182.981,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 38.683,
+            "duration_seconds": 256.698,
+            "ai_additions": 6,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Bash",
+            "start_minute": 42.95,
+            "duration_seconds": 67.109,
+            "ai_additions": 38,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Python",
+            "start_minute": 44.083,
+            "duration_seconds": 43.49,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 44.8,
+            "duration_seconds": 55.322,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Bash",
+            "start_minute": 45.717,
+            "duration_seconds": 567.369,
+            "ai_additions": 31,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 55.183,
+            "duration_seconds": 119.527,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Bash",
+            "start_minute": 57.167,
+            "duration_seconds": 561.892,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 66.533,
+            "duration_seconds": 55.462,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 165.3,
+            "duration_seconds": 816.496,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 537.433,
+            "duration_seconds": 447.28,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          }
+        ],
+        "category": [
+          {
+            "name": "AI Coding",
+            "start_minute": 0.0,
+            "duration_seconds": 4048.121,
+            "ai_additions": 370,
+            "ai_deletions": 21,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 165.3,
+            "duration_seconds": 816.496,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 537.433,
+            "duration_seconds": 447.28,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          }
+        ],
+        "editor": [
+          {
+            "name": "Claude Code",
+            "start_minute": 0.0,
+            "duration_seconds": 455.216,
+            "ai_additions": 47,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 7.583,
+            "duration_seconds": 62.967,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 8.633,
+            "duration_seconds": 381.556,
+            "ai_additions": 160,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 14.983,
+            "duration_seconds": 304.849,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 20.067,
+            "duration_seconds": 2843.533,
+            "ai_additions": 163,
+            "ai_deletions": 21,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 165.3,
+            "duration_seconds": 816.496,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 537.433,
+            "duration_seconds": 447.28,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          }
+        ],
+        "os": [
+          {
+            "name": "Windows",
+            "start_minute": 0.0,
+            "duration_seconds": 4048.121,
+            "ai_additions": 370,
+            "ai_deletions": 21,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 165.3,
+            "duration_seconds": 816.496,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 537.433,
+            "duration_seconds": 447.28,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          }
+        ],
+        "machine": [
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 0.0,
+            "duration_seconds": 4048.121,
+            "ai_additions": 370,
+            "ai_deletions": 21,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 165.3,
+            "duration_seconds": 816.496,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 537.433,
+            "duration_seconds": 447.28,
             "ai_additions": 0,
             "ai_deletions": 0,
             "human_additions": 0,

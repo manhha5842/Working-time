@@ -1,6 +1,63 @@
 {
   "data": [
     {
+      "languages": [
+        {
+          "name": "Dart",
+          "total_seconds": 7271.587,
+          "digital": "2:01:11",
+          "decimal": "2.02",
+          "text": "2 hrs 1 min",
+          "hours": 2,
+          "minutes": 1,
+          "seconds": 11,
+          "percent": 42.04
+        },
+        {
+          "name": "Markdown",
+          "total_seconds": 7170.06,
+          "digital": "1:59:30",
+          "decimal": "1.98",
+          "text": "1 hr 59 mins",
+          "hours": 1,
+          "minutes": 59,
+          "seconds": 30,
+          "percent": 41.45
+        },
+        {
+          "name": "PowerShell",
+          "total_seconds": 1603.728,
+          "digital": "0:26:43",
+          "decimal": "0.43",
+          "text": "26 mins",
+          "hours": 0,
+          "minutes": 26,
+          "seconds": 43,
+          "percent": 9.27
+        },
+        {
+          "name": "Other",
+          "total_seconds": 1190.143,
+          "digital": "0:19:50",
+          "decimal": "0.32",
+          "text": "19 mins",
+          "hours": 0,
+          "minutes": 19,
+          "seconds": 50,
+          "percent": 6.88
+        },
+        {
+          "name": "JSON",
+          "total_seconds": 62.57,
+          "digital": "0:01:02",
+          "decimal": "0.02",
+          "text": "1 min",
+          "hours": 0,
+          "minutes": 1,
+          "seconds": 2,
+          "percent": 0.36
+        }
+      ],
       "grand_total": {
         "hours": 4,
         "minutes": 48,
@@ -61,235 +118,6 @@
         "ai_prompt_length_avg_per_session": 271,
         "ai_prompt_length_median_per_session": 74
       },
-      "range": {
-        "start": "2026-11-19T17:00:00Z",
-        "end": "2026-11-20T16:59:59Z",
-        "date": "2026-11-20",
-        "text": "Fri Nov 20th 2026",
-        "timezone": "Asia/Ho_Chi_Minh"
-      },
-      "projects": [
-        {
-          "name": "pm-mobile",
-          "total_seconds": 16592.512,
-          "ai_additions": 591,
-          "ai_deletions": 234,
-          "human_additions": 40,
-          "human_deletions": 1,
-          "ai_model_line_changes": {
-            "Opus": 693,
-            "GPT": 72,
-            "Sonnet": 60
-          },
-          "ai_input_tokens": 1199881,
-          "ai_cached_input_tokens": 82768382,
-          "ai_output_tokens": 234191,
-          "ai_prompt_length_sum": 36812,
-          "ai_prompt_events_total": 47,
-          "color": null,
-          "ai_model_costs": {
-            "Opus": 19.782962,
-            "GPT": 0.078784,
-            "Sonnet": 2.908336
-          },
-          "ai_model_breakdown": [
-            {
-              "name": "Opus",
-              "lines": 693,
-              "cost": 19.782962,
-              "input_tokens": 598678,
-              "output_tokens": 177429,
-              "cached_input_tokens": 69198388
-            },
-            {
-              "name": "GPT",
-              "lines": 72,
-              "cost": 0.078784,
-              "input_tokens": 219547,
-              "output_tokens": 25813,
-              "cached_input_tokens": 4392320
-            },
-            {
-              "name": "Sonnet",
-              "lines": 60,
-              "cost": 2.908336,
-              "input_tokens": 381656,
-              "output_tokens": 30949,
-              "cached_input_tokens": 9177674
-            }
-          ],
-          "ai_model_total_cost": 22.770082000000002,
-          "ai_prompt_length_avg": 783,
-          "ai_prompt_length_avg_per_session": 271,
-          "ai_prompt_length_median_per_session": 74,
-          "ai_prompt_events_avg_per_session": 9,
-          "ai_prompt_events_median_per_session": 3,
-          "ai_sessions": 5,
-          "digital": "4:36:32",
-          "decimal": "4.60",
-          "text": "4 hrs 36 mins",
-          "hours": 4,
-          "minutes": 36,
-          "seconds": 32,
-          "percent": 95.92
-        },
-        {
-          "name": "Muahangre",
-          "total_seconds": 593.759,
-          "ai_additions": 0,
-          "ai_deletions": 0,
-          "human_additions": 0,
-          "human_deletions": 0,
-          "ai_model_line_changes": {},
-          "ai_input_tokens": 738648,
-          "ai_cached_input_tokens": 10961792,
-          "ai_output_tokens": 8270,
-          "ai_prompt_length_sum": 0,
-          "ai_prompt_events_total": 0,
-          "color": null,
-          "ai_model_costs": {
-            "GPT": 2.656177
-          },
-          "ai_model_breakdown": [
-            {
-              "name": "GPT",
-              "lines": 0,
-              "cost": 2.656177,
-              "input_tokens": 738648,
-              "output_tokens": 8270,
-              "cached_input_tokens": 10961792
-            }
-          ],
-          "ai_model_total_cost": 2.656177,
-          "ai_prompt_length_avg": 0,
-          "ai_prompt_length_avg_per_session": 0,
-          "ai_prompt_length_median_per_session": 0,
-          "ai_prompt_events_avg_per_session": 0,
-          "ai_prompt_events_median_per_session": 0,
-          "ai_sessions": 1,
-          "digital": "0:09:53",
-          "decimal": "0.15",
-          "text": "9 mins",
-          "hours": 0,
-          "minutes": 9,
-          "seconds": 53,
-          "percent": 3.43
-        },
-        {
-          "name": "pm-docs",
-          "total_seconds": 111.817,
-          "ai_additions": 0,
-          "ai_deletions": 0,
-          "human_additions": 0,
-          "human_deletions": 0,
-          "ai_model_line_changes": {},
-          "ai_input_tokens": 147910,
-          "ai_cached_input_tokens": 45882,
-          "ai_output_tokens": 248,
-          "ai_prompt_length_sum": 0,
-          "ai_prompt_events_total": 0,
-          "color": null,
-          "ai_model_costs": {
-            "Sonnet": 0.307476
-          },
-          "ai_model_breakdown": [
-            {
-              "name": "Sonnet",
-              "lines": 0,
-              "cost": 0.307476,
-              "input_tokens": 147910,
-              "output_tokens": 248,
-              "cached_input_tokens": 45882
-            }
-          ],
-          "ai_model_total_cost": 0.307476,
-          "ai_prompt_length_avg": 0,
-          "ai_prompt_length_avg_per_session": 0,
-          "ai_prompt_length_median_per_session": 0,
-          "ai_prompt_events_avg_per_session": 0,
-          "ai_prompt_events_median_per_session": 0,
-          "ai_sessions": 1,
-          "digital": "0:01:51",
-          "decimal": "0.02",
-          "text": "1 min",
-          "hours": 0,
-          "minutes": 1,
-          "seconds": 51,
-          "percent": 0.65
-        }
-      ],
-      "languages": [
-        {
-          "name": "Dart",
-          "total_seconds": 7271.587,
-          "digital": "2:01:11",
-          "decimal": "2.02",
-          "text": "2 hrs 1 min",
-          "hours": 2,
-          "minutes": 1,
-          "seconds": 11,
-          "percent": 42.04
-        },
-        {
-          "name": "Markdown",
-          "total_seconds": 7170.06,
-          "digital": "1:59:30",
-          "decimal": "1.98",
-          "text": "1 hr 59 mins",
-          "hours": 1,
-          "minutes": 59,
-          "seconds": 30,
-          "percent": 41.45
-        },
-        {
-          "name": "PowerShell",
-          "total_seconds": 1603.728,
-          "digital": "0:26:43",
-          "decimal": "0.43",
-          "text": "26 mins",
-          "hours": 0,
-          "minutes": 26,
-          "seconds": 43,
-          "percent": 9.27
-        },
-        {
-          "name": "Other",
-          "total_seconds": 1190.143,
-          "digital": "0:19:50",
-          "decimal": "0.32",
-          "text": "19 mins",
-          "hours": 0,
-          "minutes": 19,
-          "seconds": 50,
-          "percent": 6.88
-        },
-        {
-          "name": "JSON",
-          "total_seconds": 62.57,
-          "digital": "0:01:02",
-          "decimal": "0.02",
-          "text": "1 min",
-          "hours": 0,
-          "minutes": 1,
-          "seconds": 2,
-          "percent": 0.36
-        }
-      ],
-      "dependencies": [],
-      "machines": [
-        {
-          "name": "ALEXANDER-II",
-          "total_seconds": 17298.088,
-          "machine_name_id": "ed6a0d9e-17b3-4acc-a72a-d38c7883bb54",
-          "digital": "4:48:18",
-          "decimal": "4.80",
-          "text": "4 hrs 48 mins",
-          "hours": 4,
-          "minutes": 48,
-          "seconds": 18,
-          "percent": 100.0
-        }
-      ],
       "editors": [
         {
           "name": "Claude Code",
@@ -487,7 +315,179 @@
           "seconds": 7,
           "percent": 0.04
         }
-      ]
+      ],
+      "dependencies": [],
+      "machines": [
+        {
+          "name": "ALEXANDER-II",
+          "total_seconds": 17298.088,
+          "machine_name_id": "ed6a0d9e-17b3-4acc-a72a-d38c7883bb54",
+          "digital": "4:48:18",
+          "decimal": "4.80",
+          "text": "4 hrs 48 mins",
+          "hours": 4,
+          "minutes": 48,
+          "seconds": 18,
+          "percent": 100.0
+        }
+      ],
+      "projects": [
+        {
+          "name": "pm-mobile",
+          "total_seconds": 16592.512,
+          "ai_additions": 591,
+          "ai_deletions": 234,
+          "human_additions": 40,
+          "human_deletions": 1,
+          "ai_model_line_changes": {
+            "Opus": 693,
+            "GPT": 72,
+            "Sonnet": 60
+          },
+          "ai_input_tokens": 1199881,
+          "ai_cached_input_tokens": 82768382,
+          "ai_output_tokens": 234191,
+          "ai_prompt_length_sum": 36812,
+          "ai_prompt_events_total": 47,
+          "color": null,
+          "ai_model_costs": {
+            "Opus": 19.782962,
+            "GPT": 0.078784,
+            "Sonnet": 2.908336
+          },
+          "ai_model_breakdown": [
+            {
+              "name": "Opus",
+              "lines": 693,
+              "cost": 19.782962,
+              "input_tokens": 598678,
+              "output_tokens": 177429,
+              "cached_input_tokens": 69198388
+            },
+            {
+              "name": "GPT",
+              "lines": 72,
+              "cost": 0.078784,
+              "input_tokens": 219547,
+              "output_tokens": 25813,
+              "cached_input_tokens": 4392320
+            },
+            {
+              "name": "Sonnet",
+              "lines": 60,
+              "cost": 2.908336,
+              "input_tokens": 381656,
+              "output_tokens": 30949,
+              "cached_input_tokens": 9177674
+            }
+          ],
+          "ai_model_total_cost": 22.770082000000002,
+          "ai_prompt_length_avg": 783,
+          "ai_prompt_length_avg_per_session": 271,
+          "ai_prompt_length_median_per_session": 74,
+          "ai_prompt_events_avg_per_session": 9,
+          "ai_prompt_events_median_per_session": 3,
+          "ai_sessions": 5,
+          "digital": "4:36:32",
+          "decimal": "4.60",
+          "text": "4 hrs 36 mins",
+          "hours": 4,
+          "minutes": 36,
+          "seconds": 32,
+          "percent": 95.92
+        },
+        {
+          "name": "Muahangre",
+          "total_seconds": 593.759,
+          "ai_additions": 0,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "ai_model_line_changes": {},
+          "ai_input_tokens": 738648,
+          "ai_cached_input_tokens": 10961792,
+          "ai_output_tokens": 8270,
+          "ai_prompt_length_sum": 0,
+          "ai_prompt_events_total": 0,
+          "color": null,
+          "ai_model_costs": {
+            "GPT": 2.656177
+          },
+          "ai_model_breakdown": [
+            {
+              "name": "GPT",
+              "lines": 0,
+              "cost": 2.656177,
+              "input_tokens": 738648,
+              "output_tokens": 8270,
+              "cached_input_tokens": 10961792
+            }
+          ],
+          "ai_model_total_cost": 2.656177,
+          "ai_prompt_length_avg": 0,
+          "ai_prompt_length_avg_per_session": 0,
+          "ai_prompt_length_median_per_session": 0,
+          "ai_prompt_events_avg_per_session": 0,
+          "ai_prompt_events_median_per_session": 0,
+          "ai_sessions": 1,
+          "digital": "0:09:53",
+          "decimal": "0.15",
+          "text": "9 mins",
+          "hours": 0,
+          "minutes": 9,
+          "seconds": 53,
+          "percent": 3.43
+        },
+        {
+          "name": "pm-docs",
+          "total_seconds": 111.817,
+          "ai_additions": 0,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "ai_model_line_changes": {},
+          "ai_input_tokens": 147910,
+          "ai_cached_input_tokens": 45882,
+          "ai_output_tokens": 248,
+          "ai_prompt_length_sum": 0,
+          "ai_prompt_events_total": 0,
+          "color": null,
+          "ai_model_costs": {
+            "Sonnet": 0.307476
+          },
+          "ai_model_breakdown": [
+            {
+              "name": "Sonnet",
+              "lines": 0,
+              "cost": 0.307476,
+              "input_tokens": 147910,
+              "output_tokens": 248,
+              "cached_input_tokens": 45882
+            }
+          ],
+          "ai_model_total_cost": 0.307476,
+          "ai_prompt_length_avg": 0,
+          "ai_prompt_length_avg_per_session": 0,
+          "ai_prompt_length_median_per_session": 0,
+          "ai_prompt_events_avg_per_session": 0,
+          "ai_prompt_events_median_per_session": 0,
+          "ai_sessions": 1,
+          "digital": "0:01:51",
+          "decimal": "0.02",
+          "text": "1 min",
+          "hours": 0,
+          "minutes": 1,
+          "seconds": 51,
+          "percent": 0.65
+        }
+      ],
+      "range": {
+        "start": "2026-11-19T17:00:00Z",
+        "end": "2026-11-20T16:59:59Z",
+        "date": "2026-11-20",
+        "text": "Fri Nov 20th 2026",
+        "timezone": "Asia/Ho_Chi_Minh"
+      }
     }
   ],
   "start": "2026-11-19T17:00:00Z",
