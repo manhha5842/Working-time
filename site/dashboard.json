@@ -1,20 +1,20 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-11-26T09:07:57.640252+07:00",
+  "generated_at": "2026-11-27T09:08:06.999455+07:00",
   "timezone": "Asia/Ho_Chi_Minh",
   "archive": {
     "first_date": "2026-07-30",
-    "last_date": "2026-11-26",
-    "archived_days": 120,
+    "last_date": "2026-11-27",
+    "archived_days": 121,
     "active_days": 102
   },
   "overview": {
-    "today_seconds": 5311.897,
-    "week_seconds": 23520.795,
-    "month_seconds": 445250.06,
-    "year_seconds": 1788923.72,
-    "all_archived_seconds": 1788923.72,
-    "daily_average_seconds": 17538.468,
+    "today_seconds": 0.0,
+    "week_seconds": 49428.357,
+    "month_seconds": 471157.622,
+    "year_seconds": 1814831.282,
+    "all_archived_seconds": 1814831.282,
+    "daily_average_seconds": 17792.464,
     "active_days": 102,
     "best_day": {
       "date": "2026-11-13",
@@ -346681,95 +346681,105 @@
     },
     {
       "date": "2026-11-26",
-      "seconds": 5311.897,
+      "seconds": 31219.459,
       "projects": [
         {
           "name": "pm-mobile",
-          "seconds": 2994.997,
-          "ai_additions": 208,
-          "ai_deletions": 21,
+          "seconds": 23715.362,
+          "ai_additions": 1588,
+          "ai_deletions": 197,
           "human_additions": 0,
-          "human_deletions": 0,
-          "input_tokens": 101273,
-          "cached_input_tokens": 47550134,
-          "output_tokens": 45237,
-          "prompt_length_sum": 2725,
-          "prompt_length_avg": 454,
-          "prompt_length_avg_per_session": 454,
-          "prompt_length_median_per_session": 454,
-          "prompt_events": 6,
-          "prompts_avg_per_session": 6,
-          "prompts_median_per_session": 6,
-          "sessions": 1,
-          "cost": 10.81986,
+          "human_deletions": 20,
+          "input_tokens": 1985421,
+          "cached_input_tokens": 211507911,
+          "output_tokens": 405053,
+          "prompt_length_sum": 64262,
+          "prompt_length_avg": 945,
+          "prompt_length_avg_per_session": 541,
+          "prompt_length_median_per_session": 198,
+          "prompt_events": 68,
+          "prompts_avg_per_session": 10,
+          "prompts_median_per_session": 8,
+          "sessions": 7,
+          "cost": 48.451783,
           "models": [
             {
               "name": "Opus",
-              "lines": 229.0,
-              "cost": 10.81986
+              "lines": 1311.0,
+              "cost": 38.559225
+            },
+            {
+              "name": "GPT",
+              "lines": 474.0,
+              "cost": 9.892558
+            },
+            {
+              "name": "Codex-Vscode",
+              "lines": 0.0,
+              "cost": 0.0
             }
           ],
-          "tokens": 47696644
+          "tokens": 213898385
         },
         {
           "name": "remotion",
-          "seconds": 963.484,
+          "seconds": 3233.606,
           "ai_additions": 67,
           "ai_deletions": 0,
           "human_additions": 0,
           "human_deletions": 0,
-          "input_tokens": 35333,
-          "cached_input_tokens": 15280978,
-          "output_tokens": 16481,
-          "prompt_length_sum": 4,
-          "prompt_length_avg": 4,
-          "prompt_length_avg_per_session": 4,
-          "prompt_length_median_per_session": 4,
-          "prompt_events": 1,
-          "prompts_avg_per_session": 1,
-          "prompts_median_per_session": 1,
+          "input_tokens": 287535,
+          "cached_input_tokens": 27286465,
+          "output_tokens": 70598,
+          "prompt_length_sum": 30426,
+          "prompt_length_avg": 6085,
+          "prompt_length_avg_per_session": 6085,
+          "prompt_length_median_per_session": 6085,
+          "prompt_events": 5,
+          "prompts_avg_per_session": 5,
+          "prompts_median_per_session": 5,
           "sessions": 1,
-          "cost": 3.527149,
+          "cost": 8.019397,
           "models": [
             {
               "name": "Opus",
               "lines": 67.0,
-              "cost": 3.527149
+              "cost": 8.019397
             }
           ],
-          "tokens": 15332792
+          "tokens": 27644598
         },
         {
           "name": "Video",
-          "seconds": 780.437,
-          "ai_additions": 71,
+          "seconds": 2083.301,
+          "ai_additions": 92,
           "ai_deletions": 0,
           "human_additions": 0,
           "human_deletions": 0,
-          "input_tokens": 29814,
-          "cached_input_tokens": 8169325,
-          "output_tokens": 23025,
-          "prompt_length_sum": 91,
-          "prompt_length_avg": 91,
-          "prompt_length_avg_per_session": 91,
-          "prompt_length_median_per_session": 91,
-          "prompt_events": 1,
-          "prompts_avg_per_session": 1,
-          "prompts_median_per_session": 1,
+          "input_tokens": 239477,
+          "cached_input_tokens": 17580821,
+          "output_tokens": 61428,
+          "prompt_length_sum": 1079,
+          "prompt_length_avg": 98,
+          "prompt_length_avg_per_session": 98,
+          "prompt_length_median_per_session": 98,
+          "prompt_events": 11,
+          "prompts_avg_per_session": 11,
+          "prompts_median_per_session": 11,
           "sessions": 1,
-          "cost": 2.21362,
+          "cost": 5.617691,
           "models": [
             {
               "name": "Opus",
-              "lines": 71.0,
-              "cost": 2.21362
+              "lines": 92.0,
+              "cost": 5.617691
             }
           ],
-          "tokens": 8222164
+          "tokens": 17881726
         },
         {
           "name": "Muahangre",
-          "seconds": 447.28,
+          "seconds": 652.071,
           "ai_additions": 0,
           "ai_deletions": 0,
           "human_additions": 0,
@@ -346794,6 +346804,151 @@
             }
           ],
           "tokens": 6626030
+        },
+        {
+          "name": "Lotte",
+          "seconds": 589.935,
+          "ai_additions": 0,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 583257,
+          "cached_input_tokens": 10075047,
+          "output_tokens": 19615,
+          "prompt_length_sum": 915,
+          "prompt_length_avg": 229,
+          "prompt_length_avg_per_session": 229,
+          "prompt_length_median_per_session": 229,
+          "prompt_events": 4,
+          "prompts_avg_per_session": 4,
+          "prompts_median_per_session": 4,
+          "sessions": 1,
+          "cost": 4.613885,
+          "models": [
+            {
+              "name": "Opus",
+              "lines": 0.0,
+              "cost": 4.613885
+            }
+          ],
+          "tokens": 10677919
+        },
+        {
+          "name": "gems-service-tsms",
+          "seconds": 298.582,
+          "ai_additions": 1,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 164335,
+          "cached_input_tokens": 6470890,
+          "output_tokens": 5547,
+          "prompt_length_sum": 0,
+          "prompt_length_avg": 0,
+          "prompt_length_avg_per_session": 0,
+          "prompt_length_median_per_session": 0,
+          "prompt_events": 0,
+          "prompts_avg_per_session": 0,
+          "prompts_median_per_session": 0,
+          "sessions": 2,
+          "cost": 1.708507,
+          "models": [
+            {
+              "name": "Opus",
+              "lines": 1.0,
+              "cost": 1.354556
+            },
+            {
+              "name": "GPT",
+              "lines": 0.0,
+              "cost": 0.353951
+            }
+          ],
+          "tokens": 6640772
+        },
+        {
+          "name": "src",
+          "seconds": 219.742,
+          "ai_additions": 29,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 24707,
+          "cached_input_tokens": 2167641,
+          "output_tokens": 8657,
+          "prompt_length_sum": 0,
+          "prompt_length_avg": 0,
+          "prompt_length_avg_per_session": 0,
+          "prompt_length_median_per_session": 0,
+          "prompt_events": 0,
+          "prompts_avg_per_session": 0,
+          "prompts_median_per_session": 0,
+          "sessions": 1,
+          "cost": 0.705496,
+          "models": [
+            {
+              "name": "Opus",
+              "lines": 29.0,
+              "cost": 0.705496
+            }
+          ],
+          "tokens": 2201005
+        },
+        {
+          "name": "gen",
+          "seconds": 142.649,
+          "ai_additions": 1,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 3881,
+          "cached_input_tokens": 774476,
+          "output_tokens": 1876,
+          "prompt_length_sum": 0,
+          "prompt_length_avg": 0,
+          "prompt_length_avg_per_session": 0,
+          "prompt_length_median_per_session": 0,
+          "prompt_events": 0,
+          "prompts_avg_per_session": 0,
+          "prompts_median_per_session": 0,
+          "sessions": 1,
+          "cost": 0.207939,
+          "models": [
+            {
+              "name": "Opus",
+              "lines": 1.0,
+              "cost": 0.207939
+            }
+          ],
+          "tokens": 780233
+        },
+        {
+          "name": "purchase-portal-be-delivery-result",
+          "seconds": 74.695,
+          "ai_additions": 77,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 3180,
+          "cached_input_tokens": 1705473,
+          "output_tokens": 8576,
+          "prompt_length_sum": 0,
+          "prompt_length_avg": 0,
+          "prompt_length_avg_per_session": 0,
+          "prompt_length_median_per_session": 0,
+          "prompt_events": 0,
+          "prompts_avg_per_session": 0,
+          "prompts_median_per_session": 0,
+          "sessions": 1,
+          "cost": 0.525335,
+          "models": [
+            {
+              "name": "Opus",
+              "lines": 77.0,
+              "cost": 0.525335
+            }
+          ],
+          "tokens": 1717229
         },
         {
           "name": "scripts",
@@ -346824,15 +346979,43 @@
           "tokens": 430356
         },
         {
-          "name": "src",
-          "seconds": 61.131,
-          "ai_additions": 24,
+          "name": "timesheet-claim",
+          "seconds": 58.752,
+          "ai_additions": 0,
           "ai_deletions": 0,
           "human_additions": 0,
           "human_deletions": 0,
-          "input_tokens": 1751,
-          "cached_input_tokens": 403325,
-          "output_tokens": 1049,
+          "input_tokens": 48918,
+          "cached_input_tokens": 320684,
+          "output_tokens": 2211,
+          "prompt_length_sum": 76,
+          "prompt_length_avg": 76,
+          "prompt_length_avg_per_session": 76,
+          "prompt_length_median_per_session": 76,
+          "prompt_events": 1,
+          "prompts_avg_per_session": 1,
+          "prompts_median_per_session": 1,
+          "sessions": 1,
+          "cost": 0.304029,
+          "models": [
+            {
+              "name": "Opus",
+              "lines": 0.0,
+              "cost": 0.304029
+            }
+          ],
+          "tokens": 371813
+        },
+        {
+          "name": "purchase-portal-be",
+          "seconds": 46.497,
+          "ai_additions": 0,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 26913,
+          "cached_input_tokens": 1652922,
+          "output_tokens": 2761,
           "prompt_length_sum": 0,
           "prompt_length_avg": 0,
           "prompt_length_avg_per_session": 0,
@@ -346841,99 +347024,171 @@
           "prompts_avg_per_session": 0,
           "prompts_median_per_session": 0,
           "sessions": 1,
-          "cost": 0.108649,
+          "cost": 0.493456,
           "models": [
             {
               "name": "Opus",
-              "lines": 24.0,
-              "cost": 0.108649
+              "lines": 0.0,
+              "cost": 0.493456
             }
           ],
-          "tokens": 406125
+          "tokens": 1682596
+        },
+        {
+          "name": "purchase-portal-fe",
+          "seconds": 39.699,
+          "ai_additions": 0,
+          "ai_deletions": 0,
+          "human_additions": 0,
+          "human_deletions": 0,
+          "input_tokens": 70731,
+          "cached_input_tokens": 270615,
+          "output_tokens": 1144,
+          "prompt_length_sum": 45,
+          "prompt_length_avg": 45,
+          "prompt_length_avg_per_session": 45,
+          "prompt_length_median_per_session": 45,
+          "prompt_events": 1,
+          "prompts_avg_per_session": 1,
+          "prompts_median_per_session": 1,
+          "sessions": 1,
+          "cost": 0.179963,
+          "models": [
+            {
+              "name": "Sonnet",
+              "lines": 0.0,
+              "cost": 0.179963
+            }
+          ],
+          "tokens": 342490
         }
       ],
       "languages": [
         {
           "name": "Dart",
-          "seconds": 1492.048
-        },
-        {
-          "name": "Bash",
-          "seconds": 1196.37
-        },
-        {
-          "name": "TypeScript",
-          "seconds": 1121.446
+          "seconds": 15519.225
         },
         {
           "name": "Markdown",
-          "seconds": 730.744
+          "seconds": 8115.001
         },
         {
           "name": "Other",
-          "seconds": 447.28
+          "seconds": 2521.173
+        },
+        {
+          "name": "TypeScript",
+          "seconds": 1625.234
+        },
+        {
+          "name": "Bash",
+          "seconds": 1539.04
+        },
+        {
+          "name": "YAML",
+          "seconds": 909.515
         },
         {
           "name": "Python",
-          "seconds": 324.009
+          "seconds": 422.755
+        },
+        {
+          "name": "PowerShell",
+          "seconds": 352.757
+        },
+        {
+          "name": "Java",
+          "seconds": 193.746
+        },
+        {
+          "name": "SQL",
+          "seconds": 21.013
         }
       ],
       "editors": [
         {
           "name": "Claude Code",
-          "seconds": 4496.801
+          "seconds": 20301.618
         },
         {
           "name": "Codex Vscode",
-          "seconds": 447.28
+          "seconds": 6728.634
         },
         {
           "name": "VS Code",
-          "seconds": 367.816
+          "seconds": 4189.207
         }
       ],
       "operating_systems": [
         {
           "name": "Windows",
-          "seconds": 5311.897
+          "seconds": 31219.459
         }
       ],
       "machines": [
         {
           "name": "ALEXANDER-II",
-          "seconds": 5311.897
+          "seconds": 31219.459
         }
       ],
       "categories": [
         {
           "name": "AI Coding",
-          "seconds": 5311.897
+          "seconds": 29743.442
+        },
+        {
+          "name": "Coding",
+          "seconds": 1351.768
+        },
+        {
+          "name": "Writing Tests",
+          "seconds": 113.57
+        },
+        {
+          "name": "Debugging",
+          "seconds": 10.679
         }
       ],
       "dependencies": [
         {
           "name": "timing",
-          "seconds": 1121.446
+          "seconds": 1625.234
         },
         {
-          "name": "remotion",
-          "seconds": 1121.446
-        },
-        {
-          "name": "Hook",
-          "seconds": 1121.446
+          "name": "BgTrack",
+          "seconds": 1550.595
         },
         {
           "name": "react",
-          "seconds": 1121.446
+          "seconds": 1408.482
+        },
+        {
+          "name": "remotion",
+          "seconds": 1408.482
+        },
+        {
+          "name": "Sfx",
+          "seconds": 1333.843
+        },
+        {
+          "name": "Hook",
+          "seconds": 1292.762
         },
         {
           "name": "Caption",
-          "seconds": 1046.807
+          "seconds": 1162.527
+        },
+        {
+          "name": "HighlightLabel",
+          "seconds": 1162.527
         },
         {
           "name": "layout",
-          "seconds": 1046.807
+          "seconds": 1162.527
+        },
+        {
+          "name": "theme",
+          "seconds": 1162.527
         },
         {
           "name": "ArrowDraw",
@@ -346941,26 +347196,6 @@
         },
         {
           "name": "ThoughtBubble",
-          "seconds": 1046.807
-        },
-        {
-          "name": "theme",
-          "seconds": 1046.807
-        },
-        {
-          "name": "Sfx",
-          "seconds": 1046.807
-        },
-        {
-          "name": "Counter",
-          "seconds": 1046.807
-        },
-        {
-          "name": "HighlightLabel",
-          "seconds": 1046.807
-        },
-        {
-          "name": "BgTrack",
           "seconds": 1046.807
         },
         {
@@ -346972,89 +347207,179 @@
           "seconds": 1046.807
         },
         {
+          "name": "Counter",
+          "seconds": 1046.807
+        },
+        {
           "name": "pathlib",
           "seconds": 324.009
         },
         {
-          "name": "json",
-          "seconds": 244.145
+          "name": "collections",
+          "seconds": 314.501
         },
         {
-          "name": "collections",
-          "seconds": 244.145
+          "name": "json",
+          "seconds": 314.501
+        },
+        {
+          "name": "Ki2",
+          "seconds": 245.955
+        },
+        {
+          "name": "Ki1",
+          "seconds": 245.955
+        },
+        {
+          "name": "Ki7",
+          "seconds": 245.955
+        },
+        {
+          "name": "Ki4",
+          "seconds": 245.955
+        },
+        {
+          "name": "Ket",
+          "seconds": 245.955
+        },
+        {
+          "name": "Ki5",
+          "seconds": 245.955
+        },
+        {
+          "name": "Ki6",
+          "seconds": 245.955
+        },
+        {
+          "name": "Ki3",
+          "seconds": 245.955
         },
         {
           "name": "re",
           "seconds": 244.145
         },
         {
+          "name": "vn.grs",
+          "seconds": 193.746
+        },
+        {
+          "name": "mybatis.spring",
+          "seconds": 174.911
+        },
+        {
+          "name": "springframework.transaction",
+          "seconds": 174.911
+        },
+        {
+          "name": "springframework.context",
+          "seconds": 174.911
+        },
+        {
+          "name": "zaxxer.hikari",
+          "seconds": 174.911
+        },
+        {
+          "name": "springframework.boot",
+          "seconds": 174.911
+        },
+        {
+          "name": "junit.jupiter",
+          "seconds": 174.911
+        },
+        {
+          "name": "springframework.jdbc",
+          "seconds": 174.911
+        },
+        {
+          "name": "apache.ibatis",
+          "seconds": 174.911
+        },
+        {
+          "name": "ChapterCard",
+          "seconds": 171.316
+        },
+        {
+          "name": "Ki2a",
+          "seconds": 171.316
+        },
+        {
+          "name": "pauses",
+          "seconds": 171.316
+        },
+        {
+          "name": "Ki2b",
+          "seconds": 171.316
+        },
+        {
+          "name": "MusicBed",
+          "seconds": 171.316
+        },
+        {
+          "name": "SlideIn",
+          "seconds": 115.72
+        },
+        {
+          "name": "Cutout",
+          "seconds": 115.72
+        },
+        {
+          "name": "PopIn",
+          "seconds": 115.72
+        },
+        {
           "name": "PIL",
           "seconds": 79.864
-        },
-        {
-          "name": "Ki3",
-          "seconds": 74.639
-        },
-        {
-          "name": "Ki5",
-          "seconds": 74.639
         },
         {
           "name": "dwell",
           "seconds": 74.639
         },
         {
-          "name": "Ket",
-          "seconds": 74.639
+          "name": "springframework.stereotype",
+          "seconds": 18.835
         },
         {
-          "name": "Ki2",
-          "seconds": 74.639
-        },
-        {
-          "name": "Ki4",
-          "seconds": 74.639
-        },
-        {
-          "name": "Ki6",
-          "seconds": 74.639
-        },
-        {
-          "name": "Ki7",
-          "seconds": 74.639
-        },
-        {
-          "name": "Ki1",
-          "seconds": 74.639
+          "name": "fasterxml.jackson",
+          "seconds": 5.757
         }
       ],
       "ai": {
-        "ai_additions": 370,
-        "ai_deletions": 21,
+        "ai_additions": 1855,
+        "ai_deletions": 197,
         "human_additions": 0,
-        "human_deletions": 0,
-        "input_tokens": 980733,
-        "cached_input_tokens": 77643565,
-        "output_tokens": 89813,
-        "prompt_length_sum": 2820,
-        "prompt_length_avg": 352,
-        "prompt_length_avg_per_session": 251,
-        "prompt_length_median_per_session": 251,
-        "prompt_events": 8,
-        "prompts_avg_per_session": 3,
+        "human_deletions": 20,
+        "input_tokens": 4250917,
+        "cached_input_tokens": 286052748,
+        "output_tokens": 591487,
+        "prompt_length_sum": 96803,
+        "prompt_length_avg": 1076,
+        "prompt_length_avg_per_session": 555,
+        "prompt_length_median_per_session": 198,
+        "prompt_events": 90,
+        "prompts_avg_per_session": 7,
         "prompts_median_per_session": 4,
-        "sessions": 3,
-        "cost": 19.735288,
+        "sessions": 13,
+        "cost": 73.893491,
         "models": [
           {
             "name": "Opus",
-            "lines": 391.0,
-            "cost": 18.222667
+            "lines": 1578.0,
+            "cost": 61.954398
           },
           {
             "name": "GPT",
+            "lines": 474.0,
+            "cost": 11.75913
+          },
+          {
+            "name": "Sonnet",
             "lines": 0.0,
-            "cost": 1.512621
+            "cost": 0.179963
+          },
+          {
+            "name": "Codex-Vscode",
+            "lines": 0.0,
+            "cost": 0.0
           }
         ]
       },
@@ -347279,7 +347604,862 @@
           {
             "name": "Muahangre",
             "start_minute": 537.433,
-            "duration_seconds": 447.28,
+            "duration_seconds": 652.071,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 548.3,
+            "duration_seconds": 3044.663,
+            "ai_additions": 364,
+            "ai_deletions": 49,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 599.05,
+            "duration_seconds": 461.509,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 606.733,
+            "duration_seconds": 69.481,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "src",
+            "start_minute": 607.9,
+            "duration_seconds": 77.474,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 609.183,
+            "duration_seconds": 38.246,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "src",
+            "start_minute": 609.833,
+            "duration_seconds": 81.137,
+            "ai_additions": 5,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 611.183,
+            "duration_seconds": 41.454,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Video",
+            "start_minute": 611.867,
+            "duration_seconds": 66.803,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 612.983,
+            "duration_seconds": 57.161,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 613.933,
+            "duration_seconds": 15.381,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 614.183,
+            "duration_seconds": 12.661,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 614.4,
+            "duration_seconds": 10.27,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 614.567,
+            "duration_seconds": 52.753,
+            "ai_additions": 22,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 615.45,
+            "duration_seconds": 61.762,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Video",
+            "start_minute": 616.483,
+            "duration_seconds": 24.416,
+            "ai_additions": 21,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 616.883,
+            "duration_seconds": 52.996,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 617.767,
+            "duration_seconds": 810.82,
+            "ai_additions": 0,
+            "ai_deletions": 118,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 631.283,
+            "duration_seconds": 55.634,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "purchase-portal-be",
+            "start_minute": 632.217,
+            "duration_seconds": 7.149,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 632.333,
+            "duration_seconds": 3.95,
+            "ai_additions": 5,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "timesheet-claim",
+            "start_minute": 632.4,
+            "duration_seconds": 58.752,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "purchase-portal-be-delivery-result",
+            "start_minute": 633.383,
+            "duration_seconds": 0.723,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 633.383,
+            "duration_seconds": 51.476,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "purchase-portal-be-delivery-result",
+            "start_minute": 634.25,
+            "duration_seconds": 11.764,
+            "ai_additions": 52,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 634.45,
+            "duration_seconds": 0.77,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "purchase-portal-be-delivery-result",
+            "start_minute": 634.45,
+            "duration_seconds": 62.208,
+            "ai_additions": 25,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 635.5,
+            "duration_seconds": 2809.047,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 19
+          },
+          {
+            "name": "Video",
+            "start_minute": 682.317,
+            "duration_seconds": 54.801,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 683.217,
+            "duration_seconds": 2064.985,
+            "ai_additions": 234,
+            "ai_deletions": 1,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 734.017,
+            "duration_seconds": 64.109,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 769.767,
+            "duration_seconds": 1591.139,
+            "ai_additions": 3,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 1
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 811.55,
+            "duration_seconds": 1947.278,
+            "ai_additions": 192,
+            "ai_deletions": 2,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Lotte",
+            "start_minute": 844.0,
+            "duration_seconds": 7.135,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Video",
+            "start_minute": 844.133,
+            "duration_seconds": 8.647,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 844.267,
+            "duration_seconds": 8.612,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Video",
+            "start_minute": 844.417,
+            "duration_seconds": 53.322,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 845.3,
+            "duration_seconds": 12.401,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 845.517,
+            "duration_seconds": 27.655,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Video",
+            "start_minute": 845.967,
+            "duration_seconds": 1.962,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 846.0,
+            "duration_seconds": 12.293,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Video",
+            "start_minute": 846.2,
+            "duration_seconds": 7.333,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 846.333,
+            "duration_seconds": 162.618,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 849.033,
+            "duration_seconds": 934.091,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 864.6,
+            "duration_seconds": 969.915,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 880.767,
+            "duration_seconds": 4.184,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 880.85,
+            "duration_seconds": 0.98,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 880.867,
+            "duration_seconds": 3.862,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 880.917,
+            "duration_seconds": 7.317,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 881.05,
+            "duration_seconds": 69.538,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 882.2,
+            "duration_seconds": 18.835,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "purchase-portal-be",
+            "start_minute": 882.517,
+            "duration_seconds": 39.348,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 883.167,
+            "duration_seconds": 23.579,
+            "ai_additions": 34,
+            "ai_deletions": 5,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "purchase-portal-fe",
+            "start_minute": 883.567,
+            "duration_seconds": 27.514,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 884.033,
+            "duration_seconds": 3.246,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "purchase-portal-fe",
+            "start_minute": 884.083,
+            "duration_seconds": 12.185,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 884.283,
+            "duration_seconds": 958.296,
+            "ai_additions": 3,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 900.25,
+            "duration_seconds": 41.654,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 900.95,
+            "duration_seconds": 46.166,
+            "ai_additions": 56,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 901.717,
+            "duration_seconds": 186.983,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 904.833,
+            "duration_seconds": 2.39,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 904.867,
+            "duration_seconds": 5.706,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 904.967,
+            "duration_seconds": 434.864,
+            "ai_additions": 33,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 930.533,
+            "duration_seconds": 1751.523,
+            "ai_additions": 27,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 959.717,
+            "duration_seconds": 3.065,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 959.767,
+            "duration_seconds": 2304.399,
+            "ai_additions": 365,
+            "ai_deletions": 1,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 998.183,
+            "duration_seconds": 17.21,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 998.467,
+            "duration_seconds": 4.209,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 998.533,
+            "duration_seconds": 11.592,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 998.733,
+            "duration_seconds": 33.614,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Video",
+            "start_minute": 999.283,
+            "duration_seconds": 72.28,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 1000.5,
+            "duration_seconds": 135.184,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Video",
+            "start_minute": 1002.75,
+            "duration_seconds": 92.771,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 1004.3,
+            "duration_seconds": 322.277,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Video",
+            "start_minute": 1009.667,
+            "duration_seconds": 33.875,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 1010.233,
+            "duration_seconds": 18.923,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gen",
+            "start_minute": 1010.55,
+            "duration_seconds": 60.555,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Video",
+            "start_minute": 1011.55,
+            "duration_seconds": 73.002,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 1012.767,
+            "duration_seconds": 5.203,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Video",
+            "start_minute": 1012.85,
+            "duration_seconds": 23.888,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 1013.25,
+            "duration_seconds": 90.022,
+            "ai_additions": 21,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Video",
+            "start_minute": 1014.75,
+            "duration_seconds": 19.056,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gen",
+            "start_minute": 1015.067,
+            "duration_seconds": 82.094,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 1016.433,
+            "duration_seconds": 418.952,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "gems-service-tsms",
+            "start_minute": 1023.417,
+            "duration_seconds": 83.823,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 1024.817,
+            "duration_seconds": 191.261,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Video",
+            "start_minute": 1028.0,
+            "duration_seconds": 514.44,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 1036.583,
+            "duration_seconds": 161.388,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 1039.267,
+            "duration_seconds": 60.543,
+            "ai_additions": 21,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Video",
+            "start_minute": 1040.283,
+            "duration_seconds": 20.494,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "remotion",
+            "start_minute": 1040.617,
+            "duration_seconds": 81.899,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Video",
+            "start_minute": 1041.983,
+            "duration_seconds": 190.75,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 1045.167,
+            "duration_seconds": 437.62,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Video",
+            "start_minute": 1052.467,
+            "duration_seconds": 40.311,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "pm-mobile",
+            "start_minute": 1053.133,
+            "duration_seconds": 486.432,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Video",
+            "start_minute": 1061.233,
+            "duration_seconds": 4.713,
             "ai_additions": 0,
             "ai_deletions": 0,
             "human_additions": 0,
@@ -347515,7 +348695,1006 @@
           {
             "name": "Other",
             "start_minute": 537.433,
-            "duration_seconds": 447.28,
+            "duration_seconds": 652.071,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 548.3,
+            "duration_seconds": 93.415,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 549.867,
+            "duration_seconds": 35.698,
+            "ai_additions": 42,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 550.45,
+            "duration_seconds": 654.376,
+            "ai_additions": 195,
+            "ai_deletions": 1,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Python",
+            "start_minute": 561.367,
+            "duration_seconds": 28.39,
+            "ai_additions": 76,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 561.833,
+            "duration_seconds": 126.932,
+            "ai_additions": 18,
+            "ai_deletions": 20,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 563.95,
+            "duration_seconds": 697.601,
+            "ai_additions": 27,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 575.583,
+            "duration_seconds": 1408.251,
+            "ai_additions": 2,
+            "ai_deletions": 28,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 599.05,
+            "duration_seconds": 8.912,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 599.2,
+            "duration_seconds": 452.597,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 606.733,
+            "duration_seconds": 431.756,
+            "ai_additions": 5,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Bash",
+            "start_minute": 613.933,
+            "duration_seconds": 15.381,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 614.183,
+            "duration_seconds": 12.661,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 614.4,
+            "duration_seconds": 10.27,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Bash",
+            "start_minute": 614.567,
+            "duration_seconds": 52.753,
+            "ai_additions": 22,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "TypeScript",
+            "start_minute": 615.45,
+            "duration_seconds": 61.762,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 616.483,
+            "duration_seconds": 77.412,
+            "ai_additions": 21,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Bash",
+            "start_minute": 617.767,
+            "duration_seconds": 274.536,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 622.35,
+            "duration_seconds": 486.793,
+            "ai_additions": 0,
+            "ai_deletions": 26,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 630.467,
+            "duration_seconds": 49.491,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 631.283,
+            "duration_seconds": 62.783,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 632.333,
+            "duration_seconds": 62.702,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 633.383,
+            "duration_seconds": 0.723,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 633.383,
+            "duration_seconds": 51.476,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 634.25,
+            "duration_seconds": 11.764,
+            "ai_additions": 52,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 634.45,
+            "duration_seconds": 0.77,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 634.45,
+            "duration_seconds": 62.208,
+            "ai_additions": 25,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 635.5,
+            "duration_seconds": 1185.604,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 655.25,
+            "duration_seconds": 1446.244,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 19
+          },
+          {
+            "name": "Dart",
+            "start_minute": 679.35,
+            "duration_seconds": 177.199,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 682.317,
+            "duration_seconds": 54.801,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 683.217,
+            "duration_seconds": 72.858,
+            "ai_additions": 90,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "YAML",
+            "start_minute": 684.433,
+            "duration_seconds": 74.925,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 685.683,
+            "duration_seconds": 236.047,
+            "ai_additions": 17,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 689.617,
+            "duration_seconds": 33.146,
+            "ai_additions": 7,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 690.167,
+            "duration_seconds": 45.17,
+            "ai_additions": 0,
+            "ai_deletions": 1,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 690.933,
+            "duration_seconds": 152.578,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 693.467,
+            "duration_seconds": 28.211,
+            "ai_additions": 12,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 693.933,
+            "duration_seconds": 162.541,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 696.65,
+            "duration_seconds": 195.837,
+            "ai_additions": 12,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 699.917,
+            "duration_seconds": 126.01,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 702.017,
+            "duration_seconds": 937.662,
+            "ai_additions": 92,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 734.017,
+            "duration_seconds": 64.109,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 769.767,
+            "duration_seconds": 746.627,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 782.217,
+            "duration_seconds": 2.152,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "YAML",
+            "start_minute": 782.25,
+            "duration_seconds": 16.942,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 1
+          },
+          {
+            "name": "YAML",
+            "start_minute": 782.533,
+            "duration_seconds": 230.918,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 786.383,
+            "duration_seconds": 594.5,
+            "ai_additions": 2,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "YAML",
+            "start_minute": 811.55,
+            "duration_seconds": 6.416,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 811.667,
+            "duration_seconds": 328.224,
+            "ai_additions": 22,
+            "ai_deletions": 2,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 817.133,
+            "duration_seconds": 2.678,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 817.167,
+            "duration_seconds": 311.556,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 822.367,
+            "duration_seconds": 255.88,
+            "ai_additions": 5,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 826.633,
+            "duration_seconds": 136.556,
+            "ai_additions": 6,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 828.9,
+            "duration_seconds": 276.242,
+            "ai_additions": 46,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 833.517,
+            "duration_seconds": 256.455,
+            "ai_additions": 99,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 837.783,
+            "duration_seconds": 10.679,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 837.967,
+            "duration_seconds": 362.592,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 844.0,
+            "duration_seconds": 15.782,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "SQL",
+            "start_minute": 844.267,
+            "duration_seconds": 8.612,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 844.417,
+            "duration_seconds": 53.322,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "SQL",
+            "start_minute": 845.3,
+            "duration_seconds": 12.401,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 845.517,
+            "duration_seconds": 29.617,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 846.0,
+            "duration_seconds": 12.293,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 846.2,
+            "duration_seconds": 7.333,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 846.333,
+            "duration_seconds": 162.618,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 849.033,
+            "duration_seconds": 934.091,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 864.6,
+            "duration_seconds": 969.915,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 880.767,
+            "duration_seconds": 4.184,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 880.85,
+            "duration_seconds": 0.98,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 880.867,
+            "duration_seconds": 3.862,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 880.917,
+            "duration_seconds": 7.317,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 881.05,
+            "duration_seconds": 69.538,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Java",
+            "start_minute": 882.2,
+            "duration_seconds": 18.835,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "PowerShell",
+            "start_minute": 882.517,
+            "duration_seconds": 39.348,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 883.167,
+            "duration_seconds": 23.579,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 883.567,
+            "duration_seconds": 27.514,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 884.033,
+            "duration_seconds": 3.246,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 884.083,
+            "duration_seconds": 12.185,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 884.283,
+            "duration_seconds": 46.519,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 885.067,
+            "duration_seconds": 720.209,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 897.067,
+            "duration_seconds": 62.751,
+            "ai_additions": 2,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 898.1,
+            "duration_seconds": 69.794,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 899.267,
+            "duration_seconds": 34.833,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Python",
+            "start_minute": 899.85,
+            "duration_seconds": 24.19,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 900.25,
+            "duration_seconds": 41.654,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Python",
+            "start_minute": 900.95,
+            "duration_seconds": 46.166,
+            "ai_additions": 56,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 901.717,
+            "duration_seconds": 186.983,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 904.833,
+            "duration_seconds": 2.39,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 904.867,
+            "duration_seconds": 5.706,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 904.967,
+            "duration_seconds": 434.864,
+            "ai_additions": 33,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 930.533,
+            "duration_seconds": 1571.41,
+            "ai_additions": 27,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 956.717,
+            "duration_seconds": 180.113,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 959.717,
+            "duration_seconds": 3.065,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 959.767,
+            "duration_seconds": 1937.766,
+            "ai_additions": 322,
+            "ai_deletions": 1,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "PowerShell",
+            "start_minute": 992.067,
+            "duration_seconds": 313.409,
+            "ai_additions": 43,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 997.283,
+            "duration_seconds": 53.224,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 998.183,
+            "duration_seconds": 17.21,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Dart",
+            "start_minute": 998.467,
+            "duration_seconds": 4.209,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 998.533,
+            "duration_seconds": 11.592,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "YAML",
+            "start_minute": 998.733,
+            "duration_seconds": 33.614,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 999.283,
+            "duration_seconds": 1448.082,
+            "ai_additions": 22,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 1023.417,
+            "duration_seconds": 83.823,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1024.817,
+            "duration_seconds": 705.701,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 1036.583,
+            "duration_seconds": 161.388,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1039.267,
+            "duration_seconds": 81.037,
+            "ai_additions": 21,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 1040.617,
+            "duration_seconds": 81.899,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1041.983,
+            "duration_seconds": 568.102,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "YAML",
+            "start_minute": 1051.45,
+            "duration_seconds": 60.268,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Markdown",
+            "start_minute": 1052.467,
+            "duration_seconds": 40.311,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "YAML",
+            "start_minute": 1053.133,
+            "duration_seconds": 486.432,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Other",
+            "start_minute": 1061.233,
+            "duration_seconds": 4.713,
             "ai_additions": 0,
             "ai_deletions": 0,
             "human_additions": 0,
@@ -347544,9 +349723,117 @@
           {
             "name": "AI Coding",
             "start_minute": 537.433,
-            "duration_seconds": 447.28,
+            "duration_seconds": 7069.088,
+            "ai_additions": 494,
+            "ai_deletions": 167,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Coding",
+            "start_minute": 655.25,
+            "duration_seconds": 611.788,
             "ai_additions": 0,
             "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Writing Tests",
+            "start_minute": 665.45,
+            "duration_seconds": 113.57,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Coding",
+            "start_minute": 667.35,
+            "duration_seconds": 720.886,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 19
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 679.35,
+            "duration_seconds": 2296.985,
+            "ai_additions": 234,
+            "ai_deletions": 1,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 734.017,
+            "duration_seconds": 64.109,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 769.767,
+            "duration_seconds": 746.627,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Coding",
+            "start_minute": 782.217,
+            "duration_seconds": 19.094,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 1
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 782.533,
+            "duration_seconds": 825.418,
+            "ai_additions": 2,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 811.55,
+            "duration_seconds": 1574.007,
+            "ai_additions": 192,
+            "ai_deletions": 2,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Debugging",
+            "start_minute": 837.783,
+            "duration_seconds": 10.679,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 837.967,
+            "duration_seconds": 4455.223,
+            "ai_additions": 127,
+            "ai_deletions": 5,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "AI Coding",
+            "start_minute": 930.533,
+            "duration_seconds": 7847.368,
+            "ai_additions": 435,
+            "ai_deletions": 1,
             "human_additions": 0,
             "human_deletions": 0
           }
@@ -347609,7 +349896,511 @@
           {
             "name": "Codex Vscode",
             "start_minute": 537.433,
-            "duration_seconds": 447.28,
+            "duration_seconds": 652.071,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 548.3,
+            "duration_seconds": 5441.191,
+            "ai_additions": 494,
+            "ai_deletions": 167,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 638.983,
+            "duration_seconds": 288.795,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 643.8,
+            "duration_seconds": 687.031,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 655.25,
+            "duration_seconds": 1446.244,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 19
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 679.35,
+            "duration_seconds": 0.155,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 679.367,
+            "duration_seconds": 177.044,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 682.317,
+            "duration_seconds": 54.801,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 683.217,
+            "duration_seconds": 2064.985,
+            "ai_additions": 234,
+            "ai_deletions": 1,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 734.017,
+            "duration_seconds": 64.109,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 769.767,
+            "duration_seconds": 715.933,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 781.7,
+            "duration_seconds": 30.694,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 782.217,
+            "duration_seconds": 19.094,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 1
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 782.533,
+            "duration_seconds": 825.418,
+            "ai_additions": 2,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 811.55,
+            "duration_seconds": 67.148,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 812.667,
+            "duration_seconds": 104.809,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 814.417,
+            "duration_seconds": 343.477,
+            "ai_additions": 22,
+            "ai_deletions": 2,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 820.15,
+            "duration_seconds": 260.327,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 824.483,
+            "duration_seconds": 326.692,
+            "ai_additions": 25,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 829.933,
+            "duration_seconds": 215.099,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 833.517,
+            "duration_seconds": 256.455,
+            "ai_additions": 145,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 837.783,
+            "duration_seconds": 10.679,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 837.967,
+            "duration_seconds": 362.592,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 844.0,
+            "duration_seconds": 301.978,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 849.033,
+            "duration_seconds": 934.091,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 864.6,
+            "duration_seconds": 969.915,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 880.767,
+            "duration_seconds": 4.184,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 880.85,
+            "duration_seconds": 0.98,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 880.867,
+            "duration_seconds": 3.862,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 880.917,
+            "duration_seconds": 7.317,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 881.05,
+            "duration_seconds": 133.071,
+            "ai_additions": 34,
+            "ai_deletions": 5,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 883.267,
+            "duration_seconds": 18.229,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 883.567,
+            "duration_seconds": 27.514,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 884.033,
+            "duration_seconds": 3.246,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 884.083,
+            "duration_seconds": 12.185,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 884.283,
+            "duration_seconds": 99.326,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 885.933,
+            "duration_seconds": 128.749,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 888.083,
+            "duration_seconds": 147.532,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 890.55,
+            "duration_seconds": 558.499,
+            "ai_additions": 3,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 899.85,
+            "duration_seconds": 741.953,
+            "ai_additions": 89,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 930.533,
+            "duration_seconds": 2538.279,
+            "ai_additions": 190,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 972.833,
+            "duration_seconds": 7.56,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 972.95,
+            "duration_seconds": 9.281,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 973.117,
+            "duration_seconds": 50.853,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 973.967,
+            "duration_seconds": 919.905,
+            "ai_additions": 156,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 989.3,
+            "duration_seconds": 43.303,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 990.017,
+            "duration_seconds": 436.582,
+            "ai_additions": 46,
+            "ai_deletions": 1,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 997.283,
+            "duration_seconds": 3.786,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 997.35,
+            "duration_seconds": 66.648,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 998.467,
+            "duration_seconds": 4.209,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 998.533,
+            "duration_seconds": 11.592,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 998.733,
+            "duration_seconds": 33.614,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 999.283,
+            "duration_seconds": 1448.082,
+            "ai_additions": 22,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Codex Vscode",
+            "start_minute": 1023.417,
+            "duration_seconds": 83.823,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 1024.817,
+            "duration_seconds": 1598.127,
+            "ai_additions": 21,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "VS Code",
+            "start_minute": 1051.45,
+            "duration_seconds": 60.268,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Claude Code",
+            "start_minute": 1052.467,
+            "duration_seconds": 531.456,
             "ai_additions": 0,
             "ai_deletions": 0,
             "human_additions": 0,
@@ -347638,9 +350429,99 @@
           {
             "name": "Windows",
             "start_minute": 537.433,
-            "duration_seconds": 447.28,
+            "duration_seconds": 7069.088,
+            "ai_additions": 494,
+            "ai_deletions": 167,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 655.25,
+            "duration_seconds": 1446.244,
             "ai_additions": 0,
             "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 19
+          },
+          {
+            "name": "Windows",
+            "start_minute": 679.35,
+            "duration_seconds": 2296.985,
+            "ai_additions": 234,
+            "ai_deletions": 1,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 734.017,
+            "duration_seconds": 64.109,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 769.767,
+            "duration_seconds": 746.627,
+            "ai_additions": 1,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 782.217,
+            "duration_seconds": 19.094,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 1
+          },
+          {
+            "name": "Windows",
+            "start_minute": 782.533,
+            "duration_seconds": 825.418,
+            "ai_additions": 2,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 811.55,
+            "duration_seconds": 1574.007,
+            "ai_additions": 192,
+            "ai_deletions": 2,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 837.783,
+            "duration_seconds": 10.679,
+            "ai_additions": 0,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 837.967,
+            "duration_seconds": 4455.223,
+            "ai_additions": 127,
+            "ai_deletions": 5,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "Windows",
+            "start_minute": 930.533,
+            "duration_seconds": 7847.368,
+            "ai_additions": 435,
+            "ai_deletions": 1,
             "human_additions": 0,
             "human_deletions": 0
           }
@@ -347667,13 +350548,87 @@
           {
             "name": "ALEXANDER-II",
             "start_minute": 537.433,
-            "duration_seconds": 447.28,
+            "duration_seconds": 10812.317,
+            "ai_additions": 728,
+            "ai_deletions": 168,
+            "human_additions": 0,
+            "human_deletions": 19
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 734.017,
+            "duration_seconds": 64.109,
             "ai_additions": 0,
             "ai_deletions": 0,
             "human_additions": 0,
             "human_deletions": 0
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 769.767,
+            "duration_seconds": 1591.139,
+            "ai_additions": 3,
+            "ai_deletions": 0,
+            "human_additions": 0,
+            "human_deletions": 1
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 811.55,
+            "duration_seconds": 6039.909,
+            "ai_additions": 319,
+            "ai_deletions": 7,
+            "human_additions": 0,
+            "human_deletions": 0
+          },
+          {
+            "name": "ALEXANDER-II",
+            "start_minute": 930.533,
+            "duration_seconds": 7847.368,
+            "ai_additions": 435,
+            "ai_deletions": 1,
+            "human_additions": 0,
+            "human_deletions": 0
           }
         ]
+      }
+    },
+    {
+      "date": "2026-11-27",
+      "seconds": 0.0,
+      "projects": [],
+      "languages": [],
+      "editors": [],
+      "operating_systems": [],
+      "machines": [],
+      "categories": [],
+      "dependencies": [],
+      "ai": {
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "input_tokens": 0,
+        "cached_input_tokens": 0,
+        "output_tokens": 0,
+        "prompt_length_sum": 0,
+        "prompt_length_avg": 0,
+        "prompt_length_avg_per_session": 0,
+        "prompt_length_median_per_session": 0,
+        "prompt_events": 0,
+        "prompts_avg_per_session": 0,
+        "prompts_median_per_session": 0,
+        "sessions": 0,
+        "cost": 0.0,
+        "models": []
+      },
+      "timelines": {
+        "project": [],
+        "language": [],
+        "category": [],
+        "editor": [],
+        "os": [],
+        "machine": []
       }
     }
   ]
