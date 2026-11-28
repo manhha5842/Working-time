@@ -1,0 +1,63 @@
+{
+  "data": [
+    {
+      "time": 1795802261.054,
+      "project": "pm-mobile",
+      "ai_input_tokens": 17265290,
+      "ai_cached_input_tokens": 448757183,
+      "ai_output_tokens": 1356332,
+      "machine_name_id": "870a5193-d4e3-408a-948d-b6cbc8ec22f2",
+      "duration": 6596.872,
+      "ai_model_breakdown": [
+        {
+          "name": "GPT",
+          "lines": 1351,
+          "cost": 90.791256,
+          "input_tokens": 17177495,
+          "output_tokens": 1341822,
+          "cached_input_tokens": 444469376
+        },
+        {
+          "name": "Opus",
+          "lines": 25,
+          "cost": 1.498942,
+          "input_tokens": 87795,
+          "output_tokens": 14510,
+          "cached_input_tokens": 4287807
+        },
+        {
+          "name": "Codex-Exec",
+          "lines": 0,
+          "cost": 0.0,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cached_input_tokens": 0
+        }
+      ],
+      "ai_additions": 1370,
+      "ai_model_line_changes": {
+        "GPT": 1351,
+        "Opus": 25
+      },
+      "ai_deletions": 6,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_model_costs": {
+        "GPT": 90.791256,
+        "Opus": 1.498942
+      },
+      "ai_sessions": 6,
+      "ai_prompt_length_sum": 4387,
+      "ai_prompt_events_total": 20,
+      "machine": "ALEXANDER-II",
+      "ai_prompt_length_avg": 219,
+      "ai_prompt_events_avg_per_session": 3,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 404,
+      "ai_prompt_length_median_per_session": 160
+    }
+  ],
+  "start": "2026-11-27T17:00:00Z",
+  "end": "2026-11-28T16:59:59Z",
+  "timezone": "Asia/Ho_Chi_Minh"
+}
